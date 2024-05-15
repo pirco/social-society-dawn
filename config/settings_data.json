@@ -143,9 +143,9 @@
       },
       "scheme-2": {
         "settings": {
-          "background": "#f3f3f3",
+          "background": "#bfa3de",
           "background_gradient": "",
-          "text": "#121212",
+          "text": "#000000",
           "button": "#121212",
           "button_label": "#f3f3f3",
           "secondary_button_label": "#121212",
@@ -165,7 +165,7 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "#121212",
+          "background": "{{ shop.brand.colors.primary[0].background }}",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
@@ -182,6 +182,17 @@
           "button": "#ffffff",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-b11a9078-1eab-432c-bc3b-661732673918": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#121212",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }
