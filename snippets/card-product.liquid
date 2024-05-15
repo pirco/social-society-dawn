@@ -58,7 +58,7 @@
       >
         {%- if card_product.featured_media -%}
           <div class="card__media{% if image_shape and image_shape != 'default' %} shape--{{ image_shape }} color-{{ settings.card_color_scheme }} gradient{% endif %}">
-            <div class="media media--transparent media--hover-effect">
+            <div class="media media--transparent media--hover-effect media--square">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
                 srcset="
@@ -416,7 +416,10 @@
                   {%- render 'loading-spinner' -%}
                 </button>
               </modal-opener>
-              <modal-dialog id="QuickAddBulk-{{ card_product.id }}" class="quick-add-modal color-{{ section.settings.color_scheme }}">
+              <modal-dialog
+                id="QuickAddBulk-{{ card_product.id }}"
+                class="quick-add-modal color-{{ section.settings.color_scheme }}"
+              >
                 <div
                   role="dialog"
                   aria-label="{{ 'products.product.choose_product_options' | t: product_name: card_product.title | escape }}"

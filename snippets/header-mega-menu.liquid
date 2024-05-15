@@ -36,7 +36,7 @@
                     role="list"
                   >
                     {%- for childlink in link.links -%}
-                      <li>
+                      <li class="mega-menu__child {% if childlink.current %} mega-menu__child--active{% endif %} {% if forloop.first %} hover-active {% endif %}">
                         <a
                           id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
                           href="{{ childlink.url }}"
@@ -47,20 +47,79 @@
                         >
                           {{ childlink.title | escape }}
                         </a>
-                        {%- if childlink.links != blank -%}
+
+                        {% liquid
+                          assign grandchildlinks = '' | split: ','
+
+                          if childlink.links != blank
+                            assign grandchildlinks = childlink.links
+                          else
+                            if childlink.type == 'collection_link'
+                              assign grandchildlinks = childlink.object.products
+                            endif
+                          endif
+                        %}
+
+                        {%- if grandchildlinks != blank -%}
                           <ul class="list-unstyled" role="list">
-                            {%- for grandchildlink in childlink.links -%}
+                            {%- for grandchildlink in grandchildlinks limit: 2 -%}
                               <li>
-                                <a
-                                  id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
-                                  href="{{ grandchildlink.url }}"
-                                  class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
-                                  {% if grandchildlink.current %}
-                                    aria-current="page"
+                                {% if grandchildlink.type == 'product_link' or grandchildlink.price %}
+                                  {% if grandchildlink.type == 'product_link' %}
+                                    {% assign product = grandchildlink.object %}
+                                  {% else %}
+                                    {% assign product = grandchildlink %}
                                   {% endif %}
-                                >
-                                  {{ grandchildlink.title | escape }}
-                                </a>
+
+                                  {% render 'card-product', card_product: product %}
+
+                                {% else %}
+                                  <a
+                                    id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                    href="{{ grandchildlink.url }}"
+                                    class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
+                                    {% if grandchildlink.current %}
+                                      aria-current="page"
+                                    {% endif %}
+                                  >
+                                    {%- if grandchildlink.type == 'collection_link' -%}
+                                      {% assign linkCollection = grandchildlink.object %}
+                                      <div class="mega-menu--collection">
+                                        <img
+                                          src="{{linkCollection.featured_image.src | product_img_url: '280x'}}"
+                                          alt="{{grandchildlink.title}}"
+                                          loading="lazy"
+                                        >
+
+                                        <div class="mega-menu--collection--title">
+                                          {{ grandchildlink.title | escape }}
+                                        </div>
+                                      </div>
+
+                                    {% elsif grandchildlink.type == 'page_link' %}
+                                      {% assign page_handle = grandchildlink.object.handle %}
+                                      {% assign thumb = pages[page_handle].metafields.custom.mega_menu_callout_image %}
+
+                                      <div class="mega-menu--page">
+                                        <div
+                                          class="media media--transparent media--square"
+                                        >
+                                          <img
+                                            src="{{ thumb | image_url:width: 240, height: 240 }}"
+                                            alt="{{grandchildlink.title}} _ {{ page_handle }}"
+                                            width="240"
+                                            height="240"
+                                            loading="lazy"
+                                          >
+                                        </div>
+
+                                        <div class="mega-menu--page--title">
+                                          {{ grandchildlink.title | escape }}
+                                        </div>
+                                      </div>
+                                    {%- endif -%}
+                                  </a>
+                                {% endif %}
                               </li>
                             {%- endfor -%}
                           </ul>
