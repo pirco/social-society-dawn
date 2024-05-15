@@ -44,11 +44,60 @@
     %}
 
     {% style %}
-      {{ settings.type_body_font | font_face: font_display: 'swap' }}
-      {{ body_font_bold | font_face: font_display: 'swap' }}
-      {{ body_font_italic | font_face: font_display: 'swap' }}
-      {{ body_font_bold_italic | font_face: font_display: 'swap' }}
-      {{ settings.type_header_font | font_face: font_display: 'swap' }}
+      @font-face {
+        font-family: 'Figtree';
+        src: url("{{ 'fonts/Figtree-Regular.ttf' | asset_url }}") format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Figtree';
+        src: url("{{ 'fonts/Figtree-Medium.ttf' | asset_url }}") format('truetype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Figtree';
+        src: url("{{ 'fonts/Figtree-Bold.ttf' | asset_url }}") format('truetype');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'ABCROMCompressed-Heavy';
+        src: url("{{ 'fonts/ABCROMCompressed-Heavy.otf' | asset_url }}") format('otf'),
+          url("{{ 'fonts/ABCROMCompressed-Heavy.woff2' | asset_url }}") format('woff2'),
+          url("{{ 'fonts/ABCROMCompressed-Heavy.woff' | asset_url }}") format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'EdwardianScript';
+        src: url("{{ 'fonts/EdwardianScript.woff2' | asset_url }}") format('woff2'),
+          url("{{ 'fonts/EdwardianScript.woff' | asset_url }}") format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Picaresk-Bold';
+        src: url("{{ 'fonts/Picaresk-Bold.woff2' | asset_url }}") format('woff2'),
+          url("{{ 'fonts/Picaresk-Bold.woff' | asset_url }}") format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Picaresk-Medium';
+        src: url("{{ 'fonts/Picaresk-Medium.woff2' | asset_url }}") format('woff2'),
+          url("{{ 'fonts/Picaresk-Medium.woff' | asset_url }}") format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
 
       {% for scheme in settings.color_schemes -%}
         {% assign scheme_classes = scheme_classes | append: ', .color-' | append: scheme.id %}
