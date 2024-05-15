@@ -83,7 +83,7 @@
         font-display: swap;
       }
       @font-face {
-        font-family: 'Picaresk-Bold';
+        font-family: 'Picaresk';
         src: url("{{ 'Picaresk-Bold.woff2' | asset_url }}") format('woff2'),
           url("{{ 'Picaresk-Bold.woff' | asset_url }}") format('woff');
         font-weight: bold;
@@ -91,7 +91,7 @@
         font-display: swap;
       }
       @font-face {
-        font-family: 'Picaresk-Medium';
+        font-family: 'Picaresk';
         src: url("{{ 'Picaresk-Medium.woff2' | asset_url }}") format('woff2'),
           url("{{ 'Picaresk-Medium.woff' | asset_url }}") format('woff');
         font-weight: 500;
@@ -301,6 +301,7 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       {% comment %}theme-check-disable AssetPreload{% endcomment %}
