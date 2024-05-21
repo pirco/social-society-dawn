@@ -108,6 +108,7 @@ header-drawer {
 
 /* Mega menu */
 .mega-menu__content {
+  display: flex;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   border-bottom: 2px solid var(--color-dark);
@@ -115,14 +116,15 @@ header-drawer {
 
   .mega-menu__list {
     display: flex !important;
+    justify-content: flex-start !important;
     flex-wrap: wrap;
     list-style: none;
     max-width: 700px;
     margin-left: 0;
-    margin-right: auto;
     padding: 0;
     gap: 0 !important;
     background-color: white;
+    border-right: 2px solid var(--color-dark);
 
     .mega-menu__link {
       font-family: Picaresk;
@@ -135,26 +137,10 @@ header-drawer {
       padding: 0 30px;
       transition: padding .3s;
       width: 50% !important;
-      border-right: 2px solid var(--color-dark);
 
-      > ul {
-        display: none;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 10px;
 
-        > li {
-          max-height: 100%;
-          min-width: 220px;
-
-          .card__inner {
-            max-width: 250px;
-          }
-        }
-
-        > * {
-          background-color: var(--color-primary);
-        }
+      &:nth-child(odd) {
+        border-right: 2px solid var(--color-dark);
       }
 
       > a {
@@ -166,20 +152,27 @@ header-drawer {
       &.hover-active {
         background-color: var(--bg-color);
         padding-left: 20px;
+      }
+    }
+  }
 
-        > ul {
-          position: absolute;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-evenly;
-          align-items: center;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 700px;
-          right: 0;
-          padding-bottom: 20px;
-        }
+  .mega-menu--featured {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+    background-color: var(--bg-color);
+
+    > li {
+      max-height: 100%;
+      min-width: 220px;
+
+      .card__inner,
+      .mega-menu--collection img {
+        max-width: 250px;
       }
     }
   }
