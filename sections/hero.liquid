@@ -1,0 +1,64 @@
+<div class="grid grid--gapless grid-col-2--tablet grid-col-1">
+  {%- for block in section.blocks -%}
+    <div class="grid__item">
+      {%- case block.type -%}
+        {%- when 'image' -%}
+          <img
+            src="{{ block.settings.image.src | image_url: width: 700 }}"
+            width="{{ block.settings.image.width }}"
+            height="{{ block.settings.image.height }}"
+            alt="{{ block.settings.image.alt }}"
+          >
+
+        {%- when 'content' -%}
+          <div class="section-hero--subtitle">{{ block.settings.subtitle }}</div>
+          <div class="section-hero--headline">{{ block.settings.headline }}</div>
+          <div class="section-hero--description">{{ block.settings.description }}</div>
+      {% endcase %}
+    </div>
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Hero",
+  "tag": "section",
+  "class": "section-hero",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "name": "Content",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "subtitle",
+          "label": "Subtitle"
+        },
+        {
+          "type": "richtext",
+          "id": "headline",
+          "label": "Headline"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        }
+      ]
+    }
+  ],
+  "presets": []
+}
+{% endschema %}
