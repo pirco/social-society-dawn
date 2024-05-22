@@ -1,5 +1,6 @@
 :root {
   --color-primary: #BFA3DE;
+  --color-violet: #BFA3DE;
   --color-dark: #141417;
   --color-blue: #A6C4EB;
   --color-pink: #FFBFE1;
@@ -240,5 +241,27 @@ footer {
 
   .footer__content-bottom {
     display: none;
+  }
+}
+
+/* Section Hero */
+.section-hero {
+  .page-width {
+    padding: 30px;
+
+    .section-hero--image {
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .section-hero--content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 30px;
+      text-align: center;
+    }
   }
 }

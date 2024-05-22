@@ -1,21 +1,29 @@
-<div class="grid grid--gapless grid-col-2--tablet grid-col-1">
+<div class="page-width grid grid--gapless grid-col-2--tablet grid-col-1">
   {%- for block in section.blocks -%}
-    <div class="grid__item">
-      {%- case block.type -%}
-        {%- when 'image' -%}
+    {%- case block.type -%}
+      {%- when 'image' -%}
+        <div class="grid__item section-hero--image">
           <img
             src="{{ block.settings.image.src | image_url: width: 700 }}"
             width="{{ block.settings.image.width }}"
             height="{{ block.settings.image.height }}"
             alt="{{ block.settings.image.alt }}"
           >
+        </div>
 
-        {%- when 'content' -%}
-          <div class="section-hero--subtitle">{{ block.settings.subtitle }}</div>
-          <div class="section-hero--headline">{{ block.settings.headline }}</div>
+      {%- when 'content' -%}
+        <div
+          class="grid__item section-hero--content"
+          style="background-color: var(--color-{{ section.settings.color }});"
+        >
+          <div class="section-hero--titles">
+            <div class="section-hero--subtitle">{{ block.settings.subtitle }}</div>
+            <h2 class="section-hero--headline">{{ block.settings.headline }}</h2>
+          </div>
+
           <div class="section-hero--description">{{ block.settings.description }}</div>
-      {% endcase %}
-    </div>
+        </div>
+    {% endcase %}
   {%- endfor -%}
 </div>
 
@@ -24,7 +32,39 @@
   "name": "Hero",
   "tag": "section",
   "class": "section section-hero",
-  "settings": [],
+  "settings": [
+    {
+      "type": "select",
+      "id": "color",
+      "label": "Color",
+      "options": [
+        {
+          "value": "violet",
+          "label": "Violet"
+        },
+        {
+          "value": "dark",
+          "label": "Dark"
+        },
+        {
+          "value": "blue",
+          "label": "Blue"
+        },
+        {
+          "value": "pink",
+          "label": "Pink"
+        },
+        {
+          "value": "green",
+          "label": "Green"
+        },
+        {
+          "value": "red",
+          "label": "Red"
+        }
+      ]
+    }
+  ],
   "blocks": [
     {
       "type": "image",
