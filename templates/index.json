@@ -1,5 +1,30 @@
 {
   "sections": {
+    "hero_Necbeg": {
+      "type": "hero",
+      "blocks": {
+        "image_y3DRXL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/headline.jpg"
+          }
+        },
+        "content_wBFytM": {
+          "type": "content",
+          "settings": {
+            "subtitle": "<p>Subtitle<\/p>",
+            "headline": "<p>Homepage Headline<\/p>",
+            "description": "<p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit,  eiusmod tempor incididunt ut labore et dolore aliqua.<\/p><p><a href=\"\/collections\" title=\"All collections\">Shop Now<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_y3DRXL",
+        "content_wBFytM"
+      ],
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -214,6 +239,7 @@
     }
   },
   "order": [
+    "hero_Necbeg",
     "image_banner",
     "rich_text",
     "featured_collection",
