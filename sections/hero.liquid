@@ -1,4 +1,4 @@
-<div class="page-width grid grid--gapless grid-col-2--tablet grid-col-1">
+<div class="page-width grid grid--gapless grid--2-col-tablet grid--1-col">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when 'image' -%}
@@ -16,12 +16,12 @@
           class="grid__item section-hero--content"
           style="background-color: var(--color-{{ section.settings.color }});"
         >
-          <div class="section-hero--titles">
-            <div class="section-hero--subtitle">{{ block.settings.subtitle }}</div>
-            <h2 class="section-hero--headline">{{ block.settings.headline }}</h2>
+          <div class="titles">
+            <div class="subtitle">{{ block.settings.subtitle }}</div>
+            <h2 class="headline">{{ block.settings.headline }}</h2>
           </div>
 
-          <div class="section-hero--description">{{ block.settings.description }}</div>
+          <div class="description">{{ block.settings.description }}</div>
         </div>
     {% endcase %}
   {%- endfor -%}
