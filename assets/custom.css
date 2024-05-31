@@ -1,11 +1,18 @@
 :root {
   --color-primary: #BFA3DE;
+  --color-primary-rgb: 191, 163, 222;
   --color-violet: #BFA3DE;
+  --color-primary-rgb: 191, 163, 222;
   --color-dark: #141417;
+  --color-dark-rgb: 20, 20, 23;
   --color-blue: #A6C4EB;
+  --color-blue-rgb: 166, 196, 235;
   --color-pink: #FFBFE1;
+  --color-pink-rgb: 255, 191, 225;
   --color-green: #D6F254;
+  --color-green-rgb: 214, 242, 84;
   --color-red: #F5420D;
+  --color-red-rgb: 245, 66, 13;
 }
 
 /* Announcement bar */
@@ -364,39 +371,80 @@ svg.clips {
 }
 
 [class*="__featured_collection"] {
-  .product-card-wrapper.hovered {
+  .collection__title {
+    text-align: center;
+    font-family: 'freight'
+  }
 
-    &.product-collection-balloons .card__media {
-      clip-path: url(#clip-balloon);
+  .grid__item {
+    text-align: center;
+
+    .card-wrapper {
+      height: auto;
+
+      .card__content {
+        --color-foreground: var(--color-dark-rgb);
+        text-align: center;
+
+        .price {
+          display: none;
+        }
+      }
     }
 
-    &.product-collection-cake-toppers .card__media {
-      clip-path: url(#clip-cake);
-    }
+    .product-card-wrapper.hovered {
 
-    &.product-collection-garlands-banners .card__media,
-    &.product-collection-birthday-candles-sparklers .card__media,
-    &.product-collection-table-covers .card__media,
-    &.product-collection-cutlery .card__media,
-    &.product-collection-straws .card__media {
-      clip-path: url(#clip-bag);
-    }
+      &.product-collection-balloons .card__media {
+        clip-path: url(#clip-balloon);
+      }
 
-    &.product-collection-confetti .card__media {
-      clip-path: url(#clip-hat);
-    }
+      &.product-collection-cake-toppers .card__media {
+        clip-path: url(#clip-cake);
+      }
 
-    &.product-collection-plates .card__media {
-      clip-path: url(#clip-heart);
-    }
+      &.product-collection-garlands-banners .card__media,
+      &.product-collection-birthday-candles-sparklers .card__media,
+      &.product-collection-table-covers .card__media,
+      &.product-collection-cutlery .card__media,
+      &.product-collection-straws .card__media {
+        clip-path: url(#clip-bag);
+      }
 
-    &.product-collection-cups .card__media {
-      clip-path: url(#clip-cup);
-    }
+      &.product-collection-confetti .card__media {
+        clip-path: url(#clip-hat);
+      }
 
-    &.product-collection-napkins .card__media {
-      clip-path: url(#clip-card);
+      &.product-collection-plates .card__media {
+        clip-path: url(#clip-heart);
+      }
+
+      &.product-collection-cups .card__media {
+        clip-path: url(#clip-cup);
+      }
+
+      &.product-collection-napkins .card__media {
+        clip-path: url(#clip-card);
+      }
     }
+  }
+}
+
+/* Buttons */
+.button {
+  border-radius: 20px;
+  background-color: rgb(var(--color-red-rgb));
+  color: white;
+  border-image-width: 0;
+  font-size: 10px;
+  min-height: unset;
+  padding: 10px 10px;
+
+  &:before {
+    display: none;
+  }
+
+  &:after {
+    display: none;
   }
 }
 
