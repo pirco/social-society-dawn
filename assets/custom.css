@@ -256,7 +256,8 @@ main {
 /* Section Hero */
 .section-hero {
   .page-width {
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
     .section-hero--image {
       position: relative;
@@ -309,5 +310,17 @@ main {
         }
       }
     }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .page-width {
+    padding: 0 1.5rem;
+  }
+}
+
+@media screen and (min-width: 749px) and (max-width: 990px) {
+  slider-component.page-width {
+    padding: 0 1.5rem;
   }
 }
