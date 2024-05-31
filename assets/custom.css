@@ -363,13 +363,40 @@ svg.clips {
   height: 0;
 }
 
-.product-card-wrapper {
-  .card__media {
-    clip-path: url(#clip-balloon-static);
-  }
+[class*="__featured_collection"] {
+  .product-card-wrapper.hovered {
 
-  &.hovered .card__media {
-    clip-path: url(#clip-balloon-animation);
+    &.product-collection-balloons .card__media {
+      clip-path: url(#clip-balloon);
+    }
+
+    &.product-collection-cake-toppers .card__media {
+      clip-path: url(#clip-cake);
+    }
+
+    &.product-collection-garlands-banners .card__media,
+    &.product-collection-birthday-candles-sparklers .card__media,
+    &.product-collection-table-covers .card__media,
+    &.product-collection-cutlery .card__media,
+    &.product-collection-straws .card__media {
+      clip-path: url(#clip-bag);
+    }
+
+    &.product-collection-confetti .card__media {
+      clip-path: url(#clip-hat);
+    }
+
+    &.product-collection-plates .card__media {
+      clip-path: url(#clip-heart);
+    }
+
+    &.product-collection-cups .card__media {
+      clip-path: url(#clip-cup);
+    }
+
+    &.product-collection-napkins .card__media {
+      clip-path: url(#clip-card);
+    }
   }
 }
 

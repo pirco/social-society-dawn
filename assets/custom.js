@@ -12,14 +12,20 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  const mediaElements = document.querySelectorAll('.product-card-wrapper');
+  const mediaElements = document.querySelectorAll('[class*="__featured_collection"] .product-card-wrapper');
   mediaElements.forEach(function (element) {
     element.addEventListener('mouseenter', function () {
+      var hovered = document.querySelector('.hovered');
+      if (hovered)
+        hovered.classList.remove('hovered');
       element.classList.add('hovered');
-      document.querySelector('#clip-balloon-animation path animate').beginElement();
+      document.querySelector('.animate-forward').beginElement();
     });
     element.addEventListener('mouseleave', function () {
-      element.classList.remove('hovered');
+      document.querySelector('.animate-reverse').beginElement();
+      setTimeout(function () {
+        element.classList.remove('hovered');
+      }, 500);
     });
   });
 });
