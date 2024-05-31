@@ -457,6 +457,12 @@ svg.clips {
 
   .image-with-text__text-item {
     width: 60% !important;
+
+    .image-with-text__content {
+      padding-top: 10rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
   }
 }
 
