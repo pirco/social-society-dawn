@@ -167,7 +167,7 @@
         "settings": {
           "background": "{{ shop.brand.colors.primary[0].background }}",
           "background_gradient": "",
-          "text": "#ffffff",
+          "text": "#141417",
           "button": "#ffffff",
           "button_label": "#121212",
           "secondary_button_label": "#ffffff",
