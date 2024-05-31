@@ -76,13 +76,6 @@
     "rich_text": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "BEST SELLERS",
-            "heading_size": "h1"
-          }
-        },
         "text": {
           "type": "text",
           "disabled": true,
@@ -92,7 +85,6 @@
         }
       },
       "block_order": [
-        "heading",
         "text"
       ],
       "settings": {
@@ -107,8 +99,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
-        "heading_size": "h2",
+        "title": "Best Sellers",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -119,7 +111,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
