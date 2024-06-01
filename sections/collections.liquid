@@ -1,0 +1,39 @@
+<div class="page-width page-width-full">
+  <div class="collections">
+    {% for block in section.blocks %}
+      <a href="{{ block.settings.collection.url }}" class="collection">
+        <div class="media media--circle">
+          <img src="{{ block.settings.collection.featured_image | image_url: width: 150 }}">
+        </div>
+
+        <div class="title">{{ block.settings.collection.name }}</div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collections",
+  "class": "section-collections",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collections"
+    }
+  ]
+}
+{% endschema %}
