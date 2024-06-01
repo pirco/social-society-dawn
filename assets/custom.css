@@ -564,6 +564,21 @@ svg.clips {
   }
 }
 
+/* Blog section */
+
+[class*="__featured_blog"] {
+  --grid-desktop-horizontal-spacing: 30px;
+
+  .title-wrapper-with-link {
+    justify-content: center;
+  }
+
+  .card__content {
+    background-color: #FCFAF5;
+    color: var(--color-dark);
+  }
+}
+
 /* Responsive */
 
 .page-width-full {
