@@ -573,9 +573,10 @@ svg.clips {
     justify-content: center;
   }
 
-  .card__content {
+  .card {
     background-color: #FCFAF5;
     color: var(--color-dark);
+    --color-foreground: var(--color-dark-rgb);
   }
 }
 
