@@ -68,6 +68,7 @@
         },
         "interjection_AdJ3fQ": {
           "type": "interjection",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-ae5b6179-5aa6-465f-b9f4-b4ca822ef228",
             "text_first": false,
