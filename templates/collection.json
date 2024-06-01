@@ -42,6 +42,22 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "blocks": {
+        "interjection_ETpP8j": {
+          "type": "interjection",
+          "settings": {
+            "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
+            "text_first": false,
+            "image": "shopify:\/\/shop_images\/Rectangle_77.png",
+            "preheader": "<p>Milestone Birthdays!<\/p>",
+            "header": "<p>CELEBRATE YOUR SPECIAL DAY WITH US<\/p>",
+            "icon": "shopify:\/\/shop_images\/SocialSociety_BrandIcons_Cheers-CMYK_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "interjection_ETpP8j"
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
