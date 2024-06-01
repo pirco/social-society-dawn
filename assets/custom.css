@@ -654,6 +654,16 @@ svg.clips {
       max-height: 80px;
     }
   }
+
+  &.collection-interjection--reverse {
+    .text {
+      order: 1;
+    }
+
+    .image {
+      order: 2;
+    }
+  }
 }
 
 @media (max-width: 749px) {
