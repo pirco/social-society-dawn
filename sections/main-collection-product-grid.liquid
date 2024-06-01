@@ -183,14 +183,14 @@
 
                 {% if forloop.index == interjection_pos %}
                   <div class="collection-interjection {% if interjection.settings.text_first %}collection-interjection--reverse{% endif %} color-{{ interjection.settings.color_scheme }}">
-                    <div class="grid grid--1-col grid--2-col-tablet">
+                    <div class="grid grid--gapless grid--1-col grid--2-col-tablet">
                       <div class="image grid__item">
                         <img src="{{ interjection.settings.image.src | image_url: width: 700 }}">
                       </div>
                       <div class="text grid__item">
                         <div class="preheading">{{ interjection.settings.preheading }}</div>
                         <div class="heading">{{ interjection.settings.heading }}</div>
-                        <img class="icon" src="{{ interjection.settings.icon | image_url: width: 50 }}">
+                        <img class="icon" src="{{ interjection.settings.icon | image_url: width: 100 }}">
                       </div>
                     </div>
                   </div>
