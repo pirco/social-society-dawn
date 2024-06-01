@@ -45,6 +45,7 @@
       "blocks": {
         "interjection_ETpP8j": {
           "type": "interjection",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
             "text_first": false,
