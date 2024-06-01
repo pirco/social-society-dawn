@@ -612,6 +612,38 @@ svg.clips {
   }
 }
 
+.collection-interjection {
+  width: 100%;
+
+  .image {
+    padding: 30px 0 30px 60px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 60px;
+
+    .preheading {
+      font-family: EdwardianScript;
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    .heading {
+      text-align: center;
+      font-family: ABCROMCompressed-Heavy, sans-serif;
+      font-size: 100px;
+    }
+  }
+}
+
 /* Responsive */
 
 .page-width-full {
