@@ -588,6 +588,30 @@ svg.clips {
   }
 }
 
+/* Collection page */
+.collection-hero {
+  text-align: center;
+  padding-top: 40px !important;
+
+  .collection-hero__pretitle {
+    font-family: EdwardianScript;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .collection-hero__text-wrapper {
+    padding: 60px 0;
+
+    .collection-hero__title {
+      text-transform: uppercase;
+      font-size: 100px;
+      line-height: 80px;
+      margin-top: 15px;
+      margin-bottom: 0;
+    }
+  }
+}
+
 /* Responsive */
 
 .page-width-full {
