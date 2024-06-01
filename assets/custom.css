@@ -567,7 +567,7 @@ svg.clips {
 /* Blog section */
 
 [class*="__featured_blog"] {
-  --grid-desktop-horizontal-spacing: 30px;
+  --grid-desktop-horizontal-spacing: 60px;
 
   .title-wrapper-with-link {
     justify-content: center;
@@ -577,6 +577,14 @@ svg.clips {
     background-color: #FCFAF5;
     color: var(--color-dark);
     --color-foreground: var(--color-dark-rgb);
+
+    .card__heading {
+      font-family: Picaresk;
+    }
+  }
+
+  .read-more {
+    font-size: 11px;
   }
 }
 

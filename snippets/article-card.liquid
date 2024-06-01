@@ -142,6 +142,8 @@
                 <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
               {%- endif -%}
             </div>
+
+            <a href="{{ article.url }}" class="read-more">READ MORE</a>
           {%- endif -%}
         </div>
         {%- if show_badge -%}
