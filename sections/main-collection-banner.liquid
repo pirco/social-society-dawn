@@ -9,12 +9,13 @@
   }
 {%- endstyle -%}
 
-{% assign random_items = '8,9,10,11' | split: ',' %}
-{% assign random_index = 'now' | date: '%s' | modulo: random_items.size %}
-{% assign random_number = random_items[random_index] %}
+{% assign blocks = section.blocks %}
+{% assign total_blocks = blocks.size %}
+{% assign random_index = 'now' | date: '%s' | modulo: total_blocks %}
+{% assign selected_block = blocks[random_index] %}
 
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} gradient">
-  <div class="collection-hero__inner page-width color-scheme-{{ random_number }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+  <div class="collection-hero__inner page-width color-{{ selected_block.settings.color_scheme }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
     <div class="collection-hero__text-wrapper">
       <div class="collection-hero__pretitle">Shop All!</div>
 
