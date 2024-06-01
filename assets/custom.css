@@ -13,6 +13,7 @@
   --color-green-rgb: 214, 242, 84;
   --color-red: #F5420D;
   --color-red-rgb: 245, 66, 13;
+  --gradient-background: #FCFAF5;
 }
 
 /* Announcement bar */
@@ -462,6 +463,79 @@ svg.clips {
       padding-top: 10rem;
       padding-left: 10rem;
       padding-right: 10rem;
+    }
+  }
+}
+
+/* Section Product compilation */
+
+.section-product-compilation {
+  overflow: hidden;
+
+  .heading {
+    text-align: center;
+
+    > * {
+      font-size: 40px;
+      margin-bottom: 0;
+    }
+  }
+
+  .subheading {
+    p {
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  .products {
+    margin-top: 25px;
+    padding: 0px 60px;
+
+    .media {
+      background-color: transparent;
+
+      img {
+        object-fit: contain;
+      }
+    }
+  }
+
+  .link {
+    display: block;
+    text-align: center;
+    margin: 0 auto 20px;
+  }
+}
+
+@media (max-width: 749px) {
+  .section-product-compilation {
+    .products {
+      padding: 0px 20px;
+    }
+
+    .image img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+  }
+}
+
+@media (min-width: 750px) {
+  .section-product-compilation {
+    .content {
+      width: 60%;
+    }
+
+    .image {
+      width: 40%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
     }
   }
 }

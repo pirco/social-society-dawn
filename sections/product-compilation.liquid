@@ -4,16 +4,18 @@
       <div class="heading">{{ section.settings.heading }}</div>
       <div class="subheading">{{ section.settings.subheading }}</div>
 
-      <div class="products grid grid--2-col grid--3-col-tablet">
-        {% for block in section.blocks %}
-          <div class="grid__item">
-            <a href="{{ block.settings.product.url }}" class="product">
-              <div class="media media--portrait">
-                <img src="{{ block.settings.product.featured_image | image_url: width: 150 }}">
-              </div>
-            </a>
-          </div>
-        {% endfor %}
+      <div class="products">
+        <div class="grid grid--3-col">
+          {% for block in section.blocks %}
+            <div class="grid__item">
+              <a href="{{ block.settings.product.url }}" class="product">
+                <div class="media media--portrait">
+                  <img src="{{ block.settings.product.featured_image | image_url: width: 150 }}">
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
       </div>
 
       <a href="{{ section.settings.url }}" class="link">SHOP NOW</a>
