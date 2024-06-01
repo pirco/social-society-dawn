@@ -1,12 +1,12 @@
 <div class="page-width page-width-full">
-  <div class="collections">
+  <div class="collections grid grid--3-col grid--5-col-tablet grid--5-col-desktop ">
     {% for block in section.blocks %}
-      <a href="{{ block.settings.collection.url }}" class="collection">
+      <a href="{{ block.settings.collection.url }}" class="collection grid__item">
         <div class="media media--circle">
           <img src="{{ block.settings.collection.featured_image | image_url: width: 150 }}">
         </div>
 
-        <div class="title">{{ block.settings.collection.name }}</div>
+        <div class="collection-title">{{ block.settings.collection.title }}</div>
       </a>
     {% endfor %}
   </div>

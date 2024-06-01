@@ -540,6 +540,30 @@ svg.clips {
   }
 }
 
+/* Section collections */
+
+.section-collections {
+  background-color: var(--color-green);
+  padding: 40px 20px 20px;
+
+  .collections {
+    justify-content: space-between;
+
+    .collection {
+      text-decoration: none;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 12px;
+      max-width: 180px;
+      margin-bottom: 25px;
+
+      .collection-title {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
 /* Responsive */
 
 .page-width-full {
