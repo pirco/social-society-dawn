@@ -150,6 +150,12 @@
                 {% if section.settings.quick_add == 'bulk' %} collection-quick-add-bulk{% endif %}
               "
             >
+              {% assign blocks = section.blocks %}
+              {% assign total_blocks = blocks.size %}
+              {% assign random_index = 'now' | date: '%s' | modulo: total_blocks %}
+              {% assign interjection = blocks[random_index] %}
+              {% assign interjection_pos = collection.products.size | divided_by: 2 | divided_by: 4 | times: 4 %}
+
               {%- for product in collection.products -%}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
@@ -174,6 +180,21 @@
                     section_id: section.id
                   %}
                 </li>
+
+                {% if forloop.index == interjection_pos %}
+                  <div class="collection-interjection {% if interjection.settings.text_first %}collection-interjection--reverse{% endif %} color-{{ interjection.settings.color_scheme }}">
+                    <div class="grid grid--1-col grid--2-col-tablet">
+                      <div class="image grid__item">
+                        <img src="{{ interjection.settings.image.src | image_url: width: 700 }}">
+                      </div>
+                      <div class="text grid__item">
+                        <div class="preheader">{{ interjection.settings.preheader }}</div>
+                        <div class="header">{{ interjection.settings.header }}</div>
+                        <img class="icon" src="{{ interjection.settings.icon | image_url: width: 50 }}">
+                      </div>
+                    </div>
+                  </div>
+                {% endif %}
               {%- endfor -%}
             </ul>
 
@@ -406,6 +427,44 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "interjection",
+      "name": "Interjection",
+      "settings": [
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "Color Scheme"
+        },
+        {
+          "type": "checkbox",
+          "id": "text_first",
+          "label": "Text First"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "richtext",
+          "id": "preheader",
+          "label": "Pre-Header"
+        },
+        {
+          "type": "richtext",
+          "id": "header",
+          "label": "Header"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        }
+      ]
     }
   ]
 }
