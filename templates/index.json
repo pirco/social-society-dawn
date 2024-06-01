@@ -54,6 +54,61 @@
         "padding_bottom": 36
       }
     },
+    "product_compilation_9BKDzm": {
+      "type": "product-compilation",
+      "blocks": {
+        "product_xRe9eA": {
+          "type": "product",
+          "settings": {
+            "product": "16-inch-ombre-orbz-blue-and-green-foil-balloon"
+          }
+        },
+        "product_bb8UGV": {
+          "type": "product",
+          "settings": {
+            "product": "16-inch-ombre-orbz-red-and-pink-foil-balloon"
+          }
+        },
+        "product_TE8KRL": {
+          "type": "product",
+          "settings": {
+            "product": "16-inch-ombre-orbz-pastel-foil-balloon"
+          }
+        },
+        "product_y49VTW": {
+          "type": "product",
+          "settings": {
+            "product": "16-inch-orbz-gold-foil-balloon"
+          }
+        },
+        "product_EPLYx7": {
+          "type": "product",
+          "settings": {
+            "product": "16-inch-orbz-silver-foil-balloon"
+          }
+        },
+        "product_mCPjXp": {
+          "type": "product",
+          "settings": {
+            "product": "18-inch-heart-black-foil-balloon"
+          }
+        }
+      },
+      "block_order": [
+        "product_xRe9eA",
+        "product_bb8UGV",
+        "product_TE8KRL",
+        "product_y49VTW",
+        "product_EPLYx7",
+        "product_mCPjXp"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SS1355_46999527-0816-4a1e-8009-e7d71cda63e4.webp",
+        "heading": "<h2>THEME TITLE<\/h2>",
+        "subheading": "<p><strong>Copy about theme and product compilation<\/strong><\/p>",
+        "url": ""
+      }
+    },
     "image_with_text_yRzPPG": {
       "type": "image-with-text",
       "blocks": {
@@ -95,6 +150,7 @@
   "order": [
     "hero_Necbeg",
     "featured_collection",
+    "product_compilation_9BKDzm",
     "image_with_text_yRzPPG"
   ]
 }
