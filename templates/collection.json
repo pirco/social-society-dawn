@@ -57,6 +57,7 @@
         },
         "interjection_W8CPnq": {
           "type": "interjection",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-5",
             "text_first": true,
@@ -77,12 +78,24 @@
             "heading": "<p>CELEBRATE YOUR SPECIAL DAY WITH US<\/p>",
             "icon": "shopify:\/\/shop_images\/SocialSociety_BrandIcons_Cheers-CMYK_1_3dde503b-64be-4030-b85b-b059b66e51e3.png"
           }
+        },
+        "interjection_tXQ7mJ": {
+          "type": "interjection",
+          "settings": {
+            "color_scheme": "scheme-baf667b2-e410-4c52-8737-8d80dc8a1f13",
+            "text_first": false,
+            "image": "shopify:\/\/shop_images\/IMG_4437_1.png",
+            "preheading": "",
+            "heading": "<p>EVERY DAY \u2028IS A REASON \u2028TO CELEBRATE<\/p>",
+            "icon": "shopify:\/\/shop_images\/Group_41487_34085a96-f556-4331-8cb5-22e2d79dfaec.png"
+          }
         }
       },
       "block_order": [
         "interjection_ETpP8j",
         "interjection_W8CPnq",
-        "interjection_AdJ3fQ"
+        "interjection_AdJ3fQ",
+        "interjection_tXQ7mJ"
       ],
       "settings": {
         "products_per_page": 16,
