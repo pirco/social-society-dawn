@@ -304,9 +304,9 @@ main {
 
 /* Section Hero */
 .section-hero {
-  .page-width {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  .page-width:not(.page-width-desktop):not(.page-width-full) {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
 
     .section-hero--image {
       position: relative;
