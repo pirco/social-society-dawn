@@ -669,6 +669,10 @@ svg.clips {
   }
 }
 
+.facets__form {
+  border-bottom: 1px solid var(--color-dark);
+}
+
 .facets__form,
 .facets__form h2,
 .facets__form .facets__summary,
