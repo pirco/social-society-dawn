@@ -160,7 +160,6 @@ header-drawer {
       &:hover,
       &.hover-active {
         background-color: var(--bg-color);
-        padding-left: 20px;
       }
     }
   }
@@ -372,6 +371,8 @@ svg.clips {
 }
 
 [class*="__featured_collection"] {
+  --grid-desktop-horizontal-spacing: 40px;
+
   .collection__title {
     text-align: center;
     font-family: 'freight'
@@ -491,6 +492,7 @@ svg.clips {
   .products {
     margin-top: 25px;
     padding: 0px 60px;
+    --grid-desktop-horizontal-spacing: 25px;
 
     .media {
       background-color: transparent;
