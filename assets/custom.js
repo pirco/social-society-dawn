@@ -16,16 +16,16 @@ document.addEventListener('DOMContentLoaded', function () {
   mediaElements.forEach(function (element) {
     element.addEventListener('mouseenter', function () {
       var hovered = document.querySelector('.hovered');
-      if (hovered)
-        hovered.classList.remove('hovered');
-      element.classList.add('hovered');
-      document.querySelector('.animate-forward').beginElement();
+      if (!hovered) {
+        element.classList.add('hovered');
+        document.querySelector('.animate-forward').beginElement();
+      }
     });
     element.addEventListener('mouseleave', function () {
       document.querySelector('.animate-reverse').beginElement();
       setTimeout(function () {
         element.classList.remove('hovered');
-      }, 500);
+      }, 100);
     });
   });
 });
