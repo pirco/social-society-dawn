@@ -252,6 +252,18 @@ footer {
   .footer__content-bottom {
     display: none;
   }
+
+  .credits {
+    margin-top: 20px;
+    cursor: pointer;
+    line-height: 20px;
+
+    span:first-child {}
+
+    span:last-child {
+      display: none;
+    }
+  }
 }
 
 @media (max-width: 749px) {
@@ -287,6 +299,11 @@ footer {
             }
           }
         }
+      }
+
+      .credits {
+        text-align: left;
+        max-width: 50vw;
       }
     }
   }

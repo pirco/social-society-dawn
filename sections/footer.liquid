@@ -67,6 +67,7 @@
             {% endif %}
           >
             {%- for block in section.blocks -%}
+              {% assign blocks_loop = forloop %}
               <div
                 class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
@@ -112,6 +113,16 @@
                                 {%- endfor -%}
                               </ul>
                             {%- endif -%}
+
+                            {% if forloop.index == 1 and blocks_loop.index == 3 %}
+                              <div class="credits">
+                                <span>See Credits</span
+                                ><span
+                                  >design by <a href="http://greetingsfrom.studio/">Greetings From Studio</a> and built
+                                  by <a href="https://piroc.com/">piroc media</a></span
+                                >
+                              </div>
+                            {% endif %}
                           </li>
                         {%- endfor -%}
                       </ul>
