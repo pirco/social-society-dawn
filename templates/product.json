@@ -163,12 +163,40 @@
           "settings": {
             "text": "<p>Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.<\/p><p><a href=\"\/pages\/contact\" title=\"Contact\">LEARN MORE<\/a><\/p>"
           }
+        },
+        "color_scheme_VTp4TL": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272"
+          }
+        },
+        "color_scheme_4KRKib": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-baf667b2-e410-4c52-8737-8d80dc8a1f13"
+          }
+        },
+        "color_scheme_GCxPg9": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6"
+          }
+        },
+        "color_scheme_3wcxKx": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac"
+          }
         }
       },
       "block_order": [
         "text_7ambqb",
         "spacer_MVBw9D",
-        "text_4AeVUy"
+        "text_4AeVUy",
+        "color_scheme_VTp4TL",
+        "color_scheme_4KRKib",
+        "color_scheme_GCxPg9",
+        "color_scheme_3wcxKx"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_104.png"
