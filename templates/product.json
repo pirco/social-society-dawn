@@ -125,43 +125,6 @@
         "padding_bottom": 12
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -179,11 +142,17 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_rnd_rjGh8U": {
+      "type": "image-with-text-rnd",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_104.png"
+      }
     }
   },
   "order": [
     "main",
-    "image-with-text",
-    "related-products"
+    "related-products",
+    "image_with_text_rnd_rjGh8U"
   ]
 }
