@@ -713,6 +713,59 @@ svg.clips {
   }
 }
 
+/* Section image with text random color scheme */
+.section-image-with-text-rnd {
+  overflow: hidden;
+
+  .page-width {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    .grid {
+      .text {
+        padding-top: 20px;
+        padding-right: 30px;
+
+        h2 {
+          font-family: Picaresk;
+          font-size: 45px;
+        }
+      }
+
+      .image {}
+    }
+  }
+
+  svg {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+
+    path {
+      fill: rgb(var(--color-foreground));
+    }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .section-image-with-text-rnd {
+    .page-width {
+      .grid {
+        .text {
+          width: 60%;
+          max-width: 60%;
+        }
+
+        .image {
+          width: 40%;
+          max-width: 40%;
+        }
+      }
+    }
+  }
+}
+
 /* Responsive */
 
 .page-width-full {
@@ -722,7 +775,8 @@ svg.clips {
 
 @media screen and (min-width: 750px) {
   .page-width:not(.page-width-desktop):not(.page-width-full) {
-    padding: 0 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .page-width-full {
