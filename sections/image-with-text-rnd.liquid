@@ -36,6 +36,54 @@
 
 {% schema %}
 {
-  "name": "Image and Text"
+  "name": "Image+Text (random color)",
+  "class": "section section-image-with-text-random-color",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": [
+        {
+          "type": "number",
+          "id": "height",
+          "label": "Height"
+        }
+      ]
+    },
+    {
+      "type": "color_scheme",
+      "name": "Color Scheme",
+      "settings": [
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "Color Scheme"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default"
+    }
+  ]
 }
 {% endschema %}
