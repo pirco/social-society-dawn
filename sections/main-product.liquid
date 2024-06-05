@@ -447,7 +447,7 @@
               {%- when 'share' -%}
                 {% liquid
                   assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin
-                  render 'share-button', block: block, share_link: share_url
+                  render 'share-buttons', block: block, share_link: share_url, text: product.title
                 %}
 
               {%- when 'variant_picker' -%}
@@ -560,9 +560,9 @@
                                   -%}
                                     <li>
                                       {%- if block.settings.enable_quick_add -%}
-                                        {% assign quick_add = "standard" %}
+                                        {% assign quick_add = 'standard' %}
                                       {%- else -%}
-                                        {% assign quick_add = "none" %}
+                                        {% assign quick_add = 'none' %}
                                       {%- endif -%}
                                       {% render 'card-product',
                                         card_product: product,

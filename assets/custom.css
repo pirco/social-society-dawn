@@ -692,6 +692,27 @@ svg.clips {
   }
 }
 
+/* Product page */
+
+.product {
+  .thumbnail-slider {
+    .thumbnail {
+      border-radius: 50%;
+    }
+  }
+}
+
+.share-buttons {
+  .share-button--title {
+    margin: 10px 0;
+  }
+
+  a {
+    text-decoration: none;
+    margin-right: 10px;
+  }
+}
+
 /* Responsive */
 
 .page-width-full {
