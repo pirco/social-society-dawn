@@ -731,6 +731,11 @@ svg.clips {
           font-family: Picaresk;
           font-size: 45px;
         }
+
+        a {
+          color: rgb(var(--color-foreground));
+          text-decoration: none;
+        }
       }
 
       .image {}
