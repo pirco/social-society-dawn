@@ -56,7 +56,7 @@
           "settings": {
             "heading": "{{ product.metafields.custom.collapsible_tab_1_heading.value }}",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.collapsible_tab_1_content | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.collapsible_tab_1_content.value }}<\/p>",
             "page": ""
           }
         },
