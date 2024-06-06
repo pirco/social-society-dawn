@@ -65,7 +65,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "",
+            "content": "<p>shipping info for 12\" deluxe sparklers<\/p>",
             "page": ""
           }
         },
