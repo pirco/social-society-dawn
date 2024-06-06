@@ -18,17 +18,22 @@
 
     <div class="grid grid--gapless grid--1-col grid--2-col-tablet">
       <div class="text grid__item">
-        {% for block in section.blocks %}
-          {% if block.type == 'text' %}
-            {{ block.settings.text }}
-          {% elsif block.type == 'spacer' %}
-            <div class="spacer" style="height: {{ block.settings.height }}px"></div>
-          {% endif %}
-        {% endfor %}
+        {% if product.metafields.custom.teaser_heading or product.metafields.custom.teaser_content %}
+          <div class="teaser-heading">{{ product.metafields.custom.teaser_heading | metafield_tag }}</div>
+          <div class="teaser-content">{{ product.metafields.custom.teaser_content | metafield_tag }}</div>
+        {% else %}
+          {% for block in section.blocks %}
+            {% if block.type == 'text' %}
+              {{ block.settings.text }}
+            {% elsif block.type == 'spacer' %}
+              <div class="spacer" style="height: {{ block.settings.height }}px"></div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
       </div>
 
       <div class="image grid__item">
-        <img src="{{ section.settings.image.src | image_url: width: 500 }}">
+        <img src="{% if product.metafields.custom.teaser_image %}{{ product.metafields.custom.teaser_image | image_url: width: 500 }}{% else %}{{ section.settings.image.src | image_url: width: 500 }}{% endif %}">
       </div>
     </div>
   </div>
