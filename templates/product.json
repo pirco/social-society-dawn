@@ -72,18 +72,9 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "heading": "{{ product.metafields.custom.collapsible_tab_3_heading.value }}",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.collapsible_tab_3_content | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -106,7 +97,6 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3",
         "share"
       ],
       "settings": {
