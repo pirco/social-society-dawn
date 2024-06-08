@@ -822,6 +822,22 @@ svg.clips {
       padding-top: 80px;
       padding-bottom: 30px;
       --color-shadow: 0, 0, 0;
+      --font-body-family: Picaresk;
+      font-family: Picaresk;
+
+      .contact__fields {
+        display: block;
+      }
+
+      label {
+        font-size: 11px;
+        /* top: 1.5rem; */
+      }
+
+      .button {
+        padding: 15px 100px;
+        border-radius: 21px;
+      }
     }
   }
 
