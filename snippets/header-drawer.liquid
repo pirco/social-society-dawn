@@ -44,7 +44,9 @@
                             {{ link.title | escape }}
                           </button>
                           <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
-                            {%- for childlink in link.links -%}
+                            {%- assign total_items = link.links.size -%}
+                            {%- assign limit_items = total_items | minus: 2 -%}
+                            {%- for childlink in link.links limit: limit_items -%}
                               <li>
                                 {%- if childlink.links == blank -%}
                                   <a

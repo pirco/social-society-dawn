@@ -124,11 +124,9 @@ header-drawer {
   background-color: var(--bg-color) !important;
 
   .mega-menu__list {
-    display: flex !important;
-    justify-content: flex-start !important;
-    flex-wrap: wrap;
     list-style: none;
-    max-width: 700px;
+    width: 50%;
+    max-width: 300px;
     margin-left: 0;
     padding: 0;
     gap: 0 !important;
@@ -145,12 +143,7 @@ header-drawer {
     > li {
       padding: 0 30px;
       transition: padding .3s;
-      width: 50% !important;
-
-
-      &:nth-child(odd) {
-        border-right: 2px solid var(--color-dark);
-      }
+      width: 100% !important;
 
       > a {
         text-transform: uppercase;

@@ -31,27 +31,41 @@
                   class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
                   tabindex="-1"
                 >
-                  <ul
-                    class="mega-menu__list {% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
-                    role="list"
-                  >
-                    {%- assign total_items = link.links.size -%}
-                    {%- assign limit_items = total_items | minus: 2 -%}
-                    {%- for childlink in link.links limit: limit_items -%}
-                      <li class="mega-menu__child {% if childlink.current %} mega-menu__child--active{% endif %} {% if forloop.first %} hover-active {% endif %}">
-                        <a
-                          id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
-                          href="{{ childlink.url }}"
-                          class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
-                          {% if childlink.current %}
-                            aria-current="page"
-                          {% endif %}
-                        >
-                          {{ childlink.title | escape }}
-                        </a>
-                      </li>
-                    {%- endfor -%}
-                  </ul>
+                  {%- assign total_items = link.links.size -%}
+                  {%- assign limit_items = total_items | minus: 2 -%}
+                  {% assign midpoint = limit_items | divided_by: 2 | round %}
+
+                  {% for i in (1..2) %}
+                    <ul
+                      class="mega-menu__list {% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                      role="list"
+                    >
+                      {%- for childlink in link.links limit: limit_items -%}
+                        {% if i == 1 and forloop.index <= midpoint %}
+                          {% assign print = true %}
+                        {% elsif i == 2 and forloop.index > midpoint %}
+                          {% assign print = true %}
+                        {% else %}
+                          {% assign print = false %}
+                        {% endif %}
+
+                        {% if print %}
+                          <li class="mega-menu__child {% if childlink.current %} mega-menu__child--active{% endif %}">
+                            <a
+                              id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                              href="{{ childlink.url }}"
+                              class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
+                              {% if childlink.current %}
+                                aria-current="page"
+                              {% endif %}
+                            >
+                              {{ childlink.title | escape }}
+                            </a>
+                          </li>
+                        {% endif %}
+                      {%- endfor -%}
+                    </ul>
+                  {% endfor %}
 
                   {%- assign start_last_two = total_items | minus: 2 -%}
                   <ul class="list-unstyled mega-menu--featured" role="list">
