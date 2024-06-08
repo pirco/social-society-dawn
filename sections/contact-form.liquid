@@ -15,11 +15,11 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
-    <div class="grid grid--gapless grid--1-col grid--2-col-tablet">
+  <div class="contact page-width page-width-full section-{{ section.id }}-padding">
+    <div class="grid grid--1-col grid--2-col-tablet">
       <div class="grid__item contact-graphics">
         <div class="contact--sub-heading">{{ section.settings.subheading }}</div>
-        <img src="{{ section.settings.image }}">
+        <img src="{{ section.settings.image | image_url: width: 500 }}">
         <h1 class="contact--heading">{{ section.settings.heading }}</h1>
       </div>
       <div class="grid__item contact-form">
@@ -135,26 +135,26 @@
   </div>
 
   <div class="address">
-    <div class="grid grid--1-col grid--3-col-tablet">
-      <div class="grid__item">
-        <div class="address--heading">
-          {{ section.settings.address_heading }}
+    <div class="page-width">
+      <div class="grid grid--1-col grid--3-col-tablet">
+        <div class="grid__item">
+          <h2 class="address--heading">
+            {{ section.settings.address_heading }}
+          </h2>
         </div>
-      </div>
 
-      <div class="grid__item">
-        <svg width="240" height="367" viewBox="0 0 240 367" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M189.86 51.3738C189.86 19.8109 168.753 0 142.43 0C116.107 0 95 19.8109 95 51.3738C95 80.5459 121.207 114.756 138.401 119.77L134.64 127.297C137.294 127.774 139.892 128.037 142.436 128.061C145.108 128.086 147.707 127.854 150.232 127.297L146.716 119.697C163.916 114.426 189.866 80.4053 189.866 51.3738" fill="#F5420D"/>
-          <line x1="142" y1="120" x2="142" y2="340" stroke="#F5420D" stroke-width="4"/>
-          <line x1="56.332" y1="292" x2="56.332" y2="340" stroke="#F5420D" stroke-width="4"/>
-          <path d="M240 169.215C240 147.587 225.537 134.012 207.5 134.012C189.463 134.012 175 147.587 175 169.215C175 189.204 192.957 212.646 204.739 216.081L202.162 221.239C203.981 221.566 205.761 221.746 207.504 221.763C209.335 221.78 211.116 221.62 212.846 221.239L210.437 216.031C222.223 212.42 240.004 189.108 240.004 169.215" fill="#F5420D"/>
-          <line x1="207.836" y1="216.239" x2="207.836" y2="366.988" stroke="#F5420D" stroke-width="4"/>
-          <path d="M113.667 201.779C113.667 163.824 88.3748 140 56.8333 140C25.2918 140 0 163.824 0 201.779C0 236.86 31.4023 278 52.005 284.029L47.4991 293.081C50.6789 293.654 53.7927 293.971 56.8407 294C60.0424 294.029 63.1563 293.75 66.1822 293.081L61.9694 283.941C82.5794 277.603 113.674 236.691 113.674 201.779" fill="#F5420D"/>
-        </svg>
-      </div>
+        <div class="grid__item address--image">
+          <svg width="240" height="367" viewBox="0 0 240 367" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M189.86 51.3738C189.86 19.8109 168.753 0 142.43 0C116.107 0 95 19.8109 95 51.3738C95 80.5459 121.207 114.756 138.401 119.77L134.64 127.297C137.294 127.774 139.892 128.037 142.436 128.061C145.108 128.086 147.707 127.854 150.232 127.297L146.716 119.697C163.916 114.426 189.866 80.4053 189.866 51.3738" fill="#F5420D"/>
+            <line x1="142" y1="120" x2="142" y2="340" stroke="#F5420D" stroke-width="4"/>
+            <line x1="56.332" y1="292" x2="56.332" y2="340" stroke="#F5420D" stroke-width="4"/>
+            <path d="M240 169.215C240 147.587 225.537 134.012 207.5 134.012C189.463 134.012 175 147.587 175 169.215C175 189.204 192.957 212.646 204.739 216.081L202.162 221.239C203.981 221.566 205.761 221.746 207.504 221.763C209.335 221.78 211.116 221.62 212.846 221.239L210.437 216.031C222.223 212.42 240.004 189.108 240.004 169.215" fill="#F5420D"/>
+            <line x1="207.836" y1="216.239" x2="207.836" y2="366.988" stroke="#F5420D" stroke-width="4"/>
+            <path d="M113.667 201.779C113.667 163.824 88.3748 140 56.8333 140C25.2918 140 0 163.824 0 201.779C0 236.86 31.4023 278 52.005 284.029L47.4991 293.081C50.6789 293.654 53.7927 293.971 56.8407 294C60.0424 294.029 63.1563 293.75 66.1822 293.081L61.9694 283.941C82.5794 277.603 113.674 236.691 113.674 201.779" fill="#F5420D"/>
+          </svg>
+        </div>
 
-      <div class="grid__item">
-        <div class="address--address">
+        <div class="grid__item address--address">
           {{ section.settings.address }}
         </div>
       </div>
@@ -166,7 +166,7 @@
 {
   "name": "t:sections.contact-form.name",
   "tag": "section",
-  "class": "section",
+  "class": "section section-contact",
   "disabled_on": {
     "groups": ["header", "footer"]
   },

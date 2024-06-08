@@ -7,6 +7,8 @@
   --color-dark-rgb: 20, 20, 23;
   --color-blue: #A6C4EB;
   --color-blue-rgb: 166, 196, 235;
+  --color-deep-blue: #2E159B;
+  --color-deep-blue-rgb: 46, 21, 155;
   --color-pink: #FFBFE1;
   --color-pink-rgb: 255, 191, 225;
   --color-green: #D6F254;
@@ -14,6 +16,10 @@
   --color-red: #F5420D;
   --color-red-rgb: 245, 66, 13;
   --gradient-background: #FCFAF5;
+}
+
+h2 {
+  line-height: 25px;
 }
 
 /* Announcement bar */
@@ -777,6 +783,92 @@ svg.clips {
           max-width: 40%;
         }
       }
+    }
+  }
+}
+
+/* Section Contact */
+
+.section-contact {
+  .contact .grid {
+    --grid-desktop-horizontal-spacing: 30px;
+
+    .contact-graphics {
+      background-color: var(--color-green);
+      color: var(--color-deep-blue);
+      padding: 60px 60px;
+      text-align: center;
+      overflow: hidden;
+
+      .contact--sub-heading {
+        font-family: EdwardianScript;
+        font-size: 50px;
+        line-height: 55px;
+      }
+
+      img {
+        max-width: 380px;
+      }
+
+      .contact--heading {
+        color: var(--color-deep-blue);
+        font-size: 60px;
+        margin-top: 0px;
+        margin-bottom: 0;
+      }
+    }
+
+    .contact-form {
+      padding-top: 80px;
+      padding-bottom: 30px;
+      --color-shadow: 0, 0, 0;
+    }
+  }
+
+  .address {
+    padding-top: 30px;
+    background-color: var(--color-pink);
+    color: var(--color-red);
+    --color-foreground: var(--color-red-rgb);
+
+    .address--heading {
+      font-size: 60px;
+      line-height: 55px;
+    }
+
+    .address--image {
+      text-align: center;
+
+      svg {
+        margin-bottom: -100px;
+        max-width: 180px;
+      }
+    }
+
+    .address--address {
+      font-size: 13px;
+      line-height: 15px;
+
+      strong {
+        font-family: Picaresk;
+      }
+    }
+  }
+}
+
+@media (max-width: 749px) {
+  .section-contact {
+    .contact-form {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    .address {
+      order: 2;
+    }
+
+    .address--image {
+      order: 3;
     }
   }
 }
