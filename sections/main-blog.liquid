@@ -16,7 +16,7 @@
   }
 {%- endstyle -%}
 
-{% if blog.title == 'In-Store Events' %}
+{% if blog.handle == 'in-store-events' %}
   {% assign events_blog = true %}
 {% endif %}
 
@@ -54,14 +54,10 @@
             media_height: section.settings.image_height,
             media_aspect_ratio: article.image.aspect_ratio,
             show_image: section.settings.show_image,
-            show_date: section.settings.show_date,
+            show_date: false,
             show_author: section.settings.show_author,
             show_excerpt: true
           -%}
-
-          <div class="event-date">
-            {{ article.metafields.custom.event_date_time | date: '<div>%d</div><div>%B</div>' }}
-          </div>
         </div>
       {%- endfor -%}
     </div>

@@ -153,5 +153,11 @@
         {%- endif -%}
       </div>
     </div>
+
+    {% if blog.handle == 'in-store-events' %}
+      <div class="event-date">
+        {{ article.metafields.custom.event_date_time | date: '<div>%d</div><div>%B</div>' }}
+      </div>
+    {% endif %}
   </div>
 {%- endif -%}
