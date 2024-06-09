@@ -606,14 +606,14 @@ svg.clips {
   text-align: center;
   padding-top: 40px !important;
 
-  .collection-hero__pretitle {
-    font-family: EdwardianScript;
-    font-size: 40px;
-    line-height: 40px;
-  }
-
   .collection-hero__text-wrapper {
     padding: 60px 0;
+
+    .collection-hero__pretitle {
+      font-family: EdwardianScript;
+      font-size: 40px;
+      line-height: 40px;
+    }
 
     .collection-hero__title {
       text-transform: uppercase;
@@ -880,6 +880,97 @@ svg.clips {
 
     .address--image {
       order: 3;
+    }
+  }
+}
+
+/* Events */
+
+.events-blog {
+  --grid-desktop-horizontal-spacing: 20px;
+  --grid-desktop-vertical-spacing: 30px;
+  --grid-mobile-vertical-spacing: 30px;
+
+  .events-hero {
+    text-align: center;
+    background-color: var(--color-red);
+    color: rgb(var(--color-pink-rgb));
+    --color-foreground: var(--color-pink-rgb);
+    margin-bottom: 30px;
+
+    .events-hero__text-wrapper {
+      padding: 60px 0;
+
+      .events-hero__pretitle {
+        font-family: EdwardianScript;
+        font-size: 40px;
+        line-height: 40px;
+      }
+
+      .events-hero__title {
+        text-transform: uppercase;
+        font-size: 100px;
+        line-height: 80px;
+        margin-top: 15px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .blog-articles__article {
+    background-color: #F4EFE4;
+
+    .article-card {
+      flex-direction: row;
+
+      > .card__inner {
+        min-height: 450px;
+      }
+
+      > .card__content {
+        padding: 20px;
+
+        .card__heading {
+          font-size: 18px;
+        }
+
+        .article-card__info {
+          display: none;
+        }
+
+        .article-card__excerpt {
+          line-height: 20px;
+        }
+
+        .read-more {
+          font-size: 11px;
+        }
+      }
+    }
+
+    .event-date {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      top: 20px;
+      left: 20px;
+      background-color: #F4EFE4;
+      padding: 10px;
+
+      div:first-child {
+        font-size: 45px;
+        font-family: ABCROMCompressed-Heavy;
+        line-height: 45px;
+      }
+
+      div:last-child {
+        font-size: 14px;
+        font-family: Picaresk;
+        font-weight: bold;
+        line-height: 15px;
+        text-transform: uppercase;
+      }
     }
   }
 }

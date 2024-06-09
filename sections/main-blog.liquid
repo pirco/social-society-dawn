@@ -16,11 +16,29 @@
   }
 {%- endstyle -%}
 
+{% if blog.title == 'In-Store Events' %}
+  {% assign events_blog = true %}
+{% endif %}
+
 {%- paginate blog.articles by 6 -%}
-  <div class="main-blog page-width section-{{ section.id }}-padding">
-    <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-      {{ blog.title | escape }}
-    </h1>
+  <div class="main-blog {% if events_blog %}events-blog{% endif %} page-width section-{{ section.id }}-padding">
+    {% if events_blog %}
+      <div class="events-hero page-width">
+        <div class="events-hero__text-wrapper">
+          <div class="events-hero__pretitle">You're Cordially Invited...</div>
+
+          <h1 class="events-hero__title{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+            {{ blog.title | escape }}
+          </h1>
+        </div>
+      </div>
+    {% else %}
+      <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+        {{ blog.title | escape }}
+      </h1>
+
+      <div class="title--secondary">Read more from our experts</div>
+    {% endif %}
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
@@ -40,6 +58,10 @@
             show_author: section.settings.show_author,
             show_excerpt: true
           -%}
+
+          <div class="event-date">
+            {{ article.metafields.custom.event_date_time | date: '<div>%d</div><div>%B</div>' }}
+          </div>
         </div>
       {%- endfor -%}
     </div>
