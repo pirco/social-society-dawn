@@ -1,15 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const mediaElements = document.querySelectorAll('[class*="__featured_collection"] .product-card-wrapper');
+  const mediaElements = document.querySelectorAll('[class*="__featured_collection"] li');
   mediaElements.forEach(function (element) {
     element.addEventListener('mouseenter', function () {
       var hovered = document.querySelector('.hovered');
       if (!hovered) {
         element.classList.add('hovered');
-        document.querySelector('.animate-forward').beginElement();
+        const clipClass = Array.from(element.classList).find(cls => cls.startsWith('clip-'));
+        document.getElementById(clipClass).querySelector('.animate-forward').beginElement();
       }
     });
     element.addEventListener('mouseleave', function () {
-      document.querySelector('.animate-reverse').beginElement();
+      const clipClass = Array.from(element.classList).find(cls => cls.startsWith('clip-'));
+      document.getElementById(clipClass).querySelector('.animate-reverse').beginElement();
       setTimeout(function () {
         element.classList.remove('hovered');
       }, 100);

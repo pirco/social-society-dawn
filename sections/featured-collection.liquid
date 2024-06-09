@@ -97,7 +97,35 @@
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
-            class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="
+              grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}
+              {% for collection in product.collections %}
+                {% case collection.handle %}
+                  {% when 'balloons' %}
+                    clip-balloon
+                  {% when 'cake-toppers' %}
+                    clip-cake
+                  {% when 'garlands-banners' %}
+                    clip-bag
+                  {% when 'birthday-candles-sparklers' %}
+                    clip-bag
+                  {% when 'table-covers' %}
+                    clip-bag
+                  {% when 'cutlery' %}
+                    clip-bag
+                  {% when 'straws' %}
+                    clip-bag
+                  {% when 'confetti' %}
+                    clip-hat
+                  {% when 'plates' %}
+                    clip-heart
+                  {% when 'cups' %}
+                    clip-cup
+                  {% when 'napkins' %}
+                    clip-card
+                {% endcase %}
+              {% endfor %}
+            "
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
               style="--animation-order: {{ forloop.index }};"
