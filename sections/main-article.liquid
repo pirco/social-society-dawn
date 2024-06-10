@@ -64,8 +64,10 @@
     </div>
 
     <modal-dialog id="PopupModal-event-rsvp" class="event-rsvp">
-      {% form 'contact' %}
+      {% form 'contact', return_to: 'thank-you' %}
         {{ form.errors | default_errors }}
+        <input type="hidden" name="contact[event_title]" value="{{ article.title }}">
+        <input type="hidden" name="contact[event_date]" value="{{ date }}">
 
         <div class="first-name">
           <input type="text" name="contact[first_name]" id="first-name" placeholder="First name">
