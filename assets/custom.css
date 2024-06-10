@@ -630,6 +630,14 @@ svg.clips {
   }
 }
 
+.product-grid-container {
+  .collection {
+    ul {
+      --grid-desktop-horizontal-spacing: 40px;
+    }
+  }
+}
+
 .collection-interjection {
   width: 100%;
 
