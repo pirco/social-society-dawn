@@ -59,28 +59,28 @@ header-drawer {
       text-decoration: none;
     }
 
-    > li:nth-child(1) {
+    >li:nth-child(1) {
       --bg-color: var(--color-primary);
     }
 
-    > li:nth-child(2) {
+    >li:nth-child(2) {
       --bg-color: var(--color-blue);
     }
 
-    > li:nth-child(3) {
+    >li:nth-child(3) {
       --bg-color: var(--color-pink);
     }
 
-    > li:nth-child(4) {
+    >li:nth-child(4) {
       --bg-color: var(--color-green);
     }
 
-    > li:nth-child(5) {
+    >li:nth-child(5) {
       --bg-color: var(--color-red);
     }
 
-    > li details[open] > .header__menu-item,
-    > li:hover .header__menu-item {
+    >li details[open]>.header__menu-item,
+    >li:hover .header__menu-item {
       background-color: var(--bg-color);
     }
   }
@@ -94,7 +94,7 @@ header-drawer {
     text-decoration: none !important;
     padding: 14px;
 
-    > svg {
+    >svg {
       display: none;
     }
   }
@@ -150,12 +150,12 @@ header-drawer {
       text-decoration: none;
     }
 
-    > li {
+    >li {
       padding: 0 30px;
       transition: padding .3s;
       width: 100% !important;
 
-      > a {
+      >a {
         text-transform: uppercase;
         font-weight: bold;
       }
@@ -172,12 +172,13 @@ header-drawer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: start;
     gap: 10px;
     padding-bottom: 20px;
+    padding-top: 20px;
     background-color: var(--bg-color);
 
-    > li {
+    >li {
       max-height: 100%;
       min-width: 220px;
 
@@ -220,23 +221,23 @@ footer {
     }
 
     .footer-block--menu {
-      > ul {
+      >ul {
         display: flex;
         flex-direction: column;
 
-        > li {
+        >li {
           margin-bottom: 40px;
 
-          > a {
+          >a {
             font-weight: bold;
             font-size: 17px;
             text-transform: uppercase;
             padding-bottom: 0;
           }
 
-          > ul {
-            > li {
-              > a {
+          >ul {
+            >li {
+              >a {
                 font-size: 15px;
                 letter-spacing: 1.5px;
               }
@@ -286,17 +287,17 @@ footer {
       }
 
       .footer-block--menu {
-        > ul {
+        >ul {
           flex-direction: row;
           justify-content: space-between;
 
-          > li:first-child {
+          >li:first-child {
             .list-menu__item {
               justify-content: flex-start;
             }
           }
 
-          > li:last-child {
+          >li:last-child {
             .list-menu__item {
               justify-content: flex-end;
             }
@@ -491,7 +492,7 @@ svg.clips {
   .heading {
     text-align: center;
 
-    > * {
+    >* {
       font-size: 40px;
       margin-bottom: 0;
     }
@@ -927,11 +928,11 @@ svg.clips {
     .article-card {
       flex-direction: row;
 
-      > .card__inner {
+      >.card__inner {
         min-height: 450px;
       }
 
-      > .card__content {
+      >.card__content {
         padding: 20px;
 
         .card__heading {
