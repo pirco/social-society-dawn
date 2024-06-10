@@ -697,14 +697,23 @@ svg.clips {
   border-bottom: 1px solid var(--color-dark);
 }
 
-.facets__form,
-.facets__form h2,
-.facets__form .facets__summary,
-.facets__form select {
-  font-family: Picaresk;
-  font-weight: bold;
-  font-size: 11px;
-  text-transform: uppercase;
+.facets__form {
+
+  h2,
+  .facets__summary,
+  select,
+  .facets__header,
+  .link,
+  .facet-checkbox {
+    font-family: Picaresk;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  .facet-checkbox {
+    line-height: 20px;
+  }
 }
 
 @media (max-width: 749px) {
