@@ -604,6 +604,7 @@ svg.clips {
   .collection {
     ul {
       --grid-desktop-horizontal-spacing: 40px;
+      --grid-desktop-vertical-spacing: 60px;
     }
   }
 }
