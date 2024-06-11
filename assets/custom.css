@@ -484,8 +484,9 @@ svg.clips {
     padding: 0px 60px;
     --grid-desktop-horizontal-spacing: 35px;
     max-width: 720px;
+    margin: 0 auto;
 
-    margin: 0 auto .media {
+    .media {
       background-color: transparent;
 
       img {
