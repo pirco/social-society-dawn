@@ -482,9 +482,10 @@ svg.clips {
   .products {
     margin-top: 25px;
     padding: 0px 60px;
-    --grid-desktop-horizontal-spacing: 25px;
+    --grid-desktop-horizontal-spacing: 35px;
+    max-width: 720px;
 
-    .media {
+    margin: 0 auto .media {
       background-color: transparent;
 
       img {
@@ -1129,6 +1130,10 @@ svg.clips {
 .page-width-full {
   padding-left: 0;
   padding-right: 0;
+}
+
+.page-width-bleed {
+  max-width: 100%;
 }
 
 @media screen and (min-width: 750px) {
