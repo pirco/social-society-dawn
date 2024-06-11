@@ -414,36 +414,6 @@ svg.clips {
         }
       }
     }
-
-    &.hovered {
-      &.clip-balloon .card__media {
-        clip-path: url(#clip-balloon);
-      }
-
-      &.clip-cake .card__media {
-        clip-path: url(#clip-cake);
-      }
-
-      &.clip-bag .card__media {
-        clip-path: url(#clip-bag);
-      }
-
-      &.clip-hat .card__media {
-        clip-path: url(#clip-hat);
-      }
-
-      &.clip-heart .card__media {
-        clip-path: url(#clip-heart);
-      }
-
-      &.clip-cup .card__media {
-        clip-path: url(#clip-cup);
-      }
-
-      &.clip-card .card__media {
-        clip-path: url(#clip-card);
-      }
-    }
   }
 }
 

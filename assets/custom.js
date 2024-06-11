@@ -1,20 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const mediaElements = document.querySelectorAll('[class*="__featured_collection"] li');
+  const mediaElements = document.querySelectorAll('[class*="__featured_collection"] .product-card-wrapper');
   mediaElements.forEach(function (element) {
     element.addEventListener('mouseenter', function () {
-      var hovered = document.querySelector('.hovered');
-      if (!hovered) {
-        element.classList.add('hovered');
-        const clipClass = Array.from(element.classList).find(cls => cls.startsWith('clip-'));
-        document.getElementById(clipClass).querySelector('.animate-forward').beginElement();
-      }
+      document.querySelector(element.getAttribute('data-clip') + ' .animate-forward').beginElement();
     });
     element.addEventListener('mouseleave', function () {
-      const clipClass = Array.from(element.classList).find(cls => cls.startsWith('clip-'));
-      document.getElementById(clipClass).querySelector('.animate-reverse').beginElement();
-      setTimeout(function () {
-        element.classList.remove('hovered');
-      }, 100);
+      document.querySelector(element.getAttribute('data-clip') + ' .animate-reverse').beginElement();
     });
   });
 });
