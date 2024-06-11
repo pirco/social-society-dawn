@@ -459,6 +459,10 @@ svg.clips {
 .section-product-compilation {
   overflow: hidden;
 
+  .grid__item.content {
+    padding-bottom: 5vh;
+  }
+
   .heading {
     text-align: center;
 
@@ -514,6 +518,10 @@ svg.clips {
   .section-product-compilation {
     .content {
       width: 60%;
+    }
+
+    .grid__item.content {
+      padding-top: 6vh;
     }
 
     .image {
