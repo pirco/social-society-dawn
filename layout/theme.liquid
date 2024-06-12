@@ -99,6 +99,13 @@
         font-style: normal;
         font-display: swap;
       }
+      @font-face {
+        font-family: 'Imbue';
+        src: url("{{ 'Imbue_72pt-SemiBold.ttf' | asset_url }}") format('truetype');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+      }
 
       {% for scheme in settings.color_schemes -%}
         {% assign scheme_classes = scheme_classes | append: ', .color-' | append: scheme.id %}

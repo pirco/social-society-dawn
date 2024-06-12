@@ -391,12 +391,17 @@ svg.clips {
   height: 0;
 }
 
-[class*="__featured_collection"] {
+.section-featured-collection {
   --grid-desktop-horizontal-spacing: 40px;
 
   .collection__title {
     text-align: center;
-    font-family: 'freight'
+    --font-heading-family: 'Imbue';
+
+    h2 {
+      font-size: 60px;
+      letter-spacing: -0.02em;
+    }
   }
 
   .grid__item {
@@ -426,6 +431,7 @@ svg.clips {
   font-size: 12px;
   min-height: unset;
   padding: 15px 10px;
+  text-transform: uppercase;
 
   &:before {
     display: none;
@@ -564,8 +570,14 @@ svg.clips {
 
 /* Blog section */
 
-[class*="__featured_blog"] {
+.section-featured-blog {
   --grid-desktop-horizontal-spacing: 60px;
+
+  .blog__title {
+    --font-heading-family: Imbue;
+    font-size: 60px;
+    letter-spacing: -0.02em;
+  }
 
   .title-wrapper-with-link {
     justify-content: center;
@@ -614,7 +626,7 @@ svg.clips {
   .collection {
     ul {
       --grid-desktop-horizontal-spacing: 40px;
-      --grid-desktop-vertical-spacing: 60px;
+      --grid-desktop-vertical-spacing: 65px;
     }
   }
 }
@@ -733,7 +745,9 @@ svg.clips {
         text-align: left;
 
         h2 {
+          font-family: Imbue;
           font-size: 50px;
+          letter-spacing: -0.02em;
           max-width: 100px;
           line-height: 55px;
           margin-bottom: 10px;
@@ -848,11 +862,18 @@ svg.clips {
     }
 
     .contact-form {
+      display: flex;
+      justify-content: flex-start;
       padding-top: 80px;
       padding-bottom: 30px;
       --color-shadow: 0, 0, 0;
       --font-body-family: Picaresk;
       font-family: Picaresk;
+
+      form {
+        max-width: 600px;
+        flex: 1;
+      }
 
       .contact__fields {
         display: block;
