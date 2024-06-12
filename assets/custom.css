@@ -201,6 +201,7 @@ header-drawer {
 
 /* Footer */
 footer {
+  position: relative;
   padding-bottom: 0 !important;
 
   .footer__blocks-wrapper {
@@ -1143,6 +1144,77 @@ svg.clips {
       right: 15px;
       font-size: 20px;
       cursor: pointer;
+    }
+  }
+}
+
+.section-about-us {
+  .grid {
+    .grid__item.about-us--left {
+      position: relative;
+
+      .block {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 70px;
+        text-align: center;
+        height: calc(100vh - 126px);
+        overflow: hidden;
+
+        .subheadline {
+          font-family: EdwardianScript;
+          font-size: 40px;
+        }
+
+        .image {
+          width: 100%;
+          max-width: 350px;
+        }
+
+        .headline {
+          font-family: ABCROMCompressed-Heavy;
+          font-size: 60px;
+        }
+      }
+    }
+
+    .grid__item.about-us--right {
+      .block {
+        position: relative;
+        padding: 50px 90px;
+        height: calc(100vh - 126px);
+        overflow: hidden;
+
+        svg {
+          opacity: .1;
+          transform: scale(.8);
+
+          &.icon-active {
+            opacity: 1;
+          }
+        }
+
+        .content {
+          max-width: 400px;
+
+          h2,
+          h3 {
+            font-family: Picaresk;
+          }
+
+          p {
+            line-height: 18px;
+          }
+        }
+
+      }
     }
   }
 }
