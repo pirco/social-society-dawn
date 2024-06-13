@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
     start: "top 126px",
     end: "bottom top",
     pin: ".about-us--left",
-    markers: true
   });
   var leftBlocks = document.querySelectorAll('.about-us--left .block');
   gsap.utils.toArray(".about-us--right .block").forEach((block, index) => {
