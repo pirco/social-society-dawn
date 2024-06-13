@@ -1152,41 +1152,41 @@ svg.clips {
   .grid {
     .grid__item.about-us--left {
       position: relative;
+    }
 
-      .block {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 60px 70px;
-        text-align: center;
-        height: calc(100vh - 126px);
-        overflow: hidden;
+    .left-block {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 70px;
+      text-align: center;
+      height: calc(100vh - 126px);
+      overflow: hidden;
 
-        .subheadline {
-          font-family: EdwardianScript;
-          font-size: 40px;
-        }
+      .subheadline {
+        font-family: EdwardianScript;
+        font-size: 40px;
+      }
 
-        .image {
-          width: 100%;
-          max-width: 350px;
-        }
+      .image {
+        width: 100%;
+        max-width: 300px;
+      }
 
-        .headline {
-          font-family: ABCROMCompressed-Heavy;
-          font-size: 60px;
-        }
+      .headline {
+        font-family: ABCROMCompressed-Heavy;
+        font-size: 60px;
       }
     }
 
     .grid__item.about-us--right {
-      .block {
+      .right-block {
         position: relative;
         padding: 50px 90px;
         height: calc(100vh - 126px);
@@ -1213,7 +1213,35 @@ svg.clips {
             line-height: 18px;
           }
         }
+      }
 
+      .left-block {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 749px) {
+  .section-about-us {
+    .grid {
+      .about-us--left {
+        display: none;
+      }
+
+      .left-block {
+        position: relative;
+        height: auto;
+      }
+
+      .grid__item.about-us--right {
+        .right-block {
+          height: auto;
+        }
+
+        .left-block {
+          display: flex;
+        }
       }
     }
   }

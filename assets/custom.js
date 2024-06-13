@@ -10,36 +10,52 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   gsap.registerPlugin(ScrollTrigger);
-  gsap.set('.about-us--left .block:not(:first-child)', { autoAlpha: 0 });
-  ScrollTrigger.create({
-    trigger: ".section-about-us",
-    start: "top 126px",
-    end: "bottom top",
-    pin: ".about-us--left",
-  });
-  var leftBlocks = document.querySelectorAll('.about-us--left .block');
-  gsap.utils.toArray(".about-us--right .block").forEach((block, index) => {
-    ScrollTrigger.create({
-      trigger: block,
-      start: "top 126px",
-      end: "bottom 0px",
-      pin: block.querySelector('.block-inner'),
-      onEnter: () => {
-        if (index != 0)
-          gsap.fromTo(leftBlocks[index], { autoAlpha: 0 }, { duration: 0.3, autoAlpha: 1 });
-      },
-      onEnterBack: () => {
-        gsap.fromTo(leftBlocks[index], { autoAlpha: 0 }, { duration: 0.3, autoAlpha: 1 });
-      },
-      onLeave: () => {
-        if (index != 0)
-          gsap.fromTo(leftBlocks[index], { autoAlpha: 1 }, { duration: 0.3, autoAlpha: 0 });
-      },
-      onLeaveBack: () => {
-        if (index != 0)
-          gsap.fromTo(leftBlocks[index], { autoAlpha: 1 }, { duration: 0.3, autoAlpha: 0 });
-      }
-    });
+  gsap.set('.about-us--left .right-block:not(:first-child)', { autoAlpha: 0 });
+  ScrollTrigger.matchMedia({
+    "(min-width: 750px)": function () {
+      ScrollTrigger.create({
+        trigger: ".section-about-us",
+        start: function () {
+          const viewportWidth = window.innerWidth;
+          if (viewportWidth >= 990)
+            return "top 126px";
+          else
+            return "top 54px";
+        },
+        end: "bottom top",
+        pin: ".about-us--left",
+      });
+      var leftBlocks = document.querySelectorAll('.about-us--left .left-block');
+      gsap.utils.toArray(".about-us--right .right-block").forEach((block, index) => {
+        ScrollTrigger.create({
+          trigger: block,
+          start: function () {
+            const viewportWidth = window.innerWidth;
+            if (viewportWidth >= 990)
+              return "top 126px";
+            else
+              return "top 54px";
+          },
+          end: "bottom 0px",
+          pin: block.querySelector('.block-inner'),
+          onEnter: () => {
+            if (index != 0)
+              gsap.fromTo(leftBlocks[index], { autoAlpha: 0 }, { duration: 0.3, autoAlpha: 1 });
+          },
+          onEnterBack: () => {
+            gsap.fromTo(leftBlocks[index], { autoAlpha: 0 }, { duration: 0.3, autoAlpha: 1 });
+          },
+          onLeave: () => {
+            if (index != 0)
+              gsap.fromTo(leftBlocks[index], { autoAlpha: 1 }, { duration: 0.3, autoAlpha: 0 });
+          },
+          onLeaveBack: () => {
+            if (index != 0)
+              gsap.fromTo(leftBlocks[index], { autoAlpha: 1 }, { duration: 0.3, autoAlpha: 0 });
+          }
+        });
+      });
+    }
   });
 
   const sectionHeader = document.querySelector('.section-header');
