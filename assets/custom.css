@@ -1148,6 +1148,63 @@ svg.clips {
   }
 }
 
+/* News blog */
+
+.main-blog {
+  .title--primary {
+    font-size: 110px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .title--secondary {
+    text-align: center;
+    font-size: 24px;
+    font-family: Picaresk;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  .blog-articles {
+    --grid-desktop-horizontal-spacing: 30px;
+  }
+
+  .card__heading {
+    font-size: 18px;
+  }
+
+  .article-card__excerpt {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .read-more {
+    font-size: 13px;
+  }
+}
+
+.blog-news {
+  header {
+    text-align: center;
+
+    h1 {
+      font-size: 80px;
+      line-height: 64px;
+    }
+
+    time {
+      font-weight: bold;
+      font-size: 15px;
+      font-family: Picaresk;
+    }
+  }
+}
+
+/* About us */
+
 .section-about-us {
   .grid {
     .grid__item.about-us--left {
