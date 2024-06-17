@@ -47,7 +47,7 @@
         "button_NkmxUp"
       ],
       "custom_css": [
-        ".rich-text.content-container {background-color: rgb(var(--color-background)); }"
+        ".rich-text.content-container {background-color: #FCFAF5;}"
       ],
       "settings": {
         "desktop_content_position": "center",
