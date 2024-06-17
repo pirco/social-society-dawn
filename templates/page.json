@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        ".pag{min-height: 60vh;}"
+        ".scroll-trigger {min-height: 60vh;}"
       ],
       "settings": {
         "padding_top": 28,
