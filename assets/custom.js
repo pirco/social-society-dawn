@@ -9,26 +9,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  gsap.registerPlugin(ScrollTrigger);
-  gsap.set('.about-us--left .right-block:not(:first-child)', { autoAlpha: 0 });
-  ScrollTrigger.matchMedia({
-    "(min-width: 750px)": function () {
-      ScrollTrigger.create({
-        trigger: ".section-about-us",
-        start: function () {
-          const viewportWidth = window.innerWidth;
-          if (viewportWidth >= 990)
-            return "top 126px";
-          else
-            return "top 54px";
-        },
-        end: "bottom top",
-        pin: ".about-us--left",
-      });
-      var leftBlocks = document.querySelectorAll('.about-us--left .left-block');
-      gsap.utils.toArray(".about-us--right .right-block").forEach((block, index) => {
+  if (document.querySelector('.about-us--left')) {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.set('.about-us--left .right-block:not(:first-child)', { autoAlpha: 0 });
+    ScrollTrigger.matchMedia({
+      "(min-width: 750px)": function () {
         ScrollTrigger.create({
-          trigger: block,
+          trigger: ".section-about-us",
           start: function () {
             const viewportWidth = window.innerWidth;
             if (viewportWidth >= 990)
@@ -36,27 +23,42 @@ document.addEventListener('DOMContentLoaded', function () {
             else
               return "top 54px";
           },
-          end: "bottom 0px",
-          pin: block.querySelector('.block-inner'),
-          onEnter: () => {
-            if (index != 0)
-              gsap.fromTo(leftBlocks[index], { autoAlpha: 0 }, { duration: 0.3, autoAlpha: 1 });
-          },
-          onEnterBack: () => {
-            gsap.fromTo(leftBlocks[index], { autoAlpha: 0 }, { duration: 0.3, autoAlpha: 1 });
-          },
-          onLeave: () => {
-            if (index != 0)
-              gsap.fromTo(leftBlocks[index], { autoAlpha: 1 }, { duration: 0.3, autoAlpha: 0 });
-          },
-          onLeaveBack: () => {
-            if (index != 0)
-              gsap.fromTo(leftBlocks[index], { autoAlpha: 1 }, { duration: 0.3, autoAlpha: 0 });
-          }
+          end: "bottom top",
+          pin: ".about-us--left",
         });
-      });
-    }
-  });
+        var leftBlocks = document.querySelectorAll('.about-us--left .left-block');
+        gsap.utils.toArray(".about-us--right .right-block").forEach((block, index) => {
+          ScrollTrigger.create({
+            trigger: block,
+            start: function () {
+              const viewportWidth = window.innerWidth;
+              if (viewportWidth >= 990)
+                return "top 126px";
+              else
+                return "top 54px";
+            },
+            end: "bottom 0px",
+            pin: block.querySelector('.block-inner'),
+            onEnter: () => {
+              if (index != 0)
+                gsap.fromTo(leftBlocks[index], { autoAlpha: 0 }, { duration: 0.3, autoAlpha: 1 });
+            },
+            onEnterBack: () => {
+              gsap.fromTo(leftBlocks[index], { autoAlpha: 0 }, { duration: 0.3, autoAlpha: 1 });
+            },
+            onLeave: () => {
+              if (index != 0)
+                gsap.fromTo(leftBlocks[index], { autoAlpha: 1 }, { duration: 0.3, autoAlpha: 0 });
+            },
+            onLeaveBack: () => {
+              if (index != 0)
+                gsap.fromTo(leftBlocks[index], { autoAlpha: 1 }, { duration: 0.3, autoAlpha: 0 });
+            }
+          });
+        });
+      }
+    });
+  }
 
   const sectionHeader = document.querySelector('.section-header');
   let previousClassList = sectionHeader.className;
@@ -78,7 +80,34 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   observer.observe(sectionHeader, { attributes: true, attributeFilter: ['class'] });
+
+  if (shouldShowPopup()) {
+    showPopup();
+    document.querySelector('.newsletter .close').addEventListener('click', function () {
+      document.getElementById('newsletter').style.bottom = '-1050px';
+    });
+  }
+
 });
+
+function shouldShowPopup() {
+  const lastShownDate = localStorage.getItem('popupLastShownDate');
+  if (!lastShownDate) {
+    return true;
+  }
+
+  const currentDate = new Date();
+  const lastShown = new Date(lastShownDate);
+  const oneYear = 1000 * 60 * 60 * 24 * 365; // milliseconds in one year
+
+  return currentDate - lastShown > oneYear;
+}
+
+function showPopup() {
+  document.getElementById('newsletter').style.bottom = '0';
+  localStorage.setItem('popupLastShownDate', new Date().toISOString());
+}
+
 
 var creditsElements = document.querySelectorAll('.credits');
 creditsElements.forEach(function (creditsElement) {
