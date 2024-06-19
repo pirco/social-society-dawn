@@ -83,7 +83,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (shouldShowPopup()) {
     showPopup();
-    document.querySelector('.newsletter .close').addEventListener('click', function () {
+    document.querySelector('.newsletter .close').addEventListener('click', function (e) {
+      e.preventDefault();
       document.getElementById('newsletter').classList.remove('visible');
     });
   }
