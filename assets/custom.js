@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (shouldShowPopup()) {
     showPopup();
     document.querySelector('.newsletter .close').addEventListener('click', function () {
-      document.getElementById('newsletter').style.bottom = '-1050px';
+      document.getElementById('newsletter').classList.remove('visible');
     });
   }
 
@@ -104,7 +104,7 @@ function shouldShowPopup() {
 }
 
 function showPopup() {
-  document.getElementById('newsletter').style.bottom = '0';
+  document.getElementById('newsletter').classList.add('visible');
   localStorage.setItem('popupLastShownDate', new Date().toISOString());
 }
 
