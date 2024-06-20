@@ -141,6 +141,10 @@ header-drawer {
     height: 4rem;
   }
 
+  .search-modal__form .search__input.field__input {
+    padding-right: 3.8rem;
+  }
+
   .search-modal__content {
     padding: 0;
   }
@@ -148,6 +152,12 @@ header-drawer {
   .predictive-search {
     width: 500px;
     max-width: 100vw;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .header__search .search-modal__form {
+    max-width: 22.2rem;
   }
 }
 
