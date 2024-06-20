@@ -283,6 +283,10 @@ a.product__text {
   display: none;
 }
 
+.product__info-container>*:first-child {
+  margin-bottom: 1.5rem;
+}
+
 @media screen and (min-width: 750px) {
   .product__info-container {
     max-width: 60rem;
