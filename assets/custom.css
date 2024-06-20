@@ -358,6 +358,13 @@ footer {
   }
 }
 
+.field__label {
+  color: black;
+  font-family: Picaresk;
+  left: 1em;
+  top: 1.7rem;
+}
+
 @media (max-width: 749px) {
   footer {
     .footer__blocks-wrapper {
