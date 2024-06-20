@@ -1,3 +1,7 @@
+.collection-hero__pretitle {
+  display: none; 
+}
+
 .collection-hero__inner {
   display: flex;
   flex-direction: column;
