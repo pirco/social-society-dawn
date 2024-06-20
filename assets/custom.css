@@ -424,15 +424,18 @@ footer {
       position: absolute;
       bottom: 300px;
       left: calc(50% + 300px);
-      border: 1px solid black;
+      border: 1px solid white;
       border-radius: 50%;
       width: 20px;
       height: 20px;
       line-height: 20px;
-      color: black;
+      color: white;
+      font-weight: normal;
+      font-family: Arial;
       text-decoration: none;
       text-align: center;
       vertical-align: middle;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
   }
 }
