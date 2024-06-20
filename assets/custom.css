@@ -1396,7 +1396,7 @@ svg.clips {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 60px 70px;
+      padding: 6vw 7vh;
       text-align: center;
       height: calc(100vh - 126px);
       overflow: hidden;
@@ -1408,7 +1408,7 @@ svg.clips {
 
       .image {
         width: 100%;
-        max-width: 300px;
+        max-width: 480px;
       }
 
       .headline {
@@ -1464,6 +1464,10 @@ svg.clips {
       .left-block {
         position: relative;
         height: auto;
+
+        .image {
+          max-width: 300px;
+        }
       }
 
       .grid__item.about-us--right {
@@ -1478,6 +1482,22 @@ svg.clips {
       }
     }
   }
+}
+
+@media (max-width: 899px) {
+
+  .section-about-us {
+    .grid {
+
+      .left-block {
+
+        .image {
+          max-width: 360px;
+        }
+      }
+    }
+  }
+
 }
 
 /* Responsive */
