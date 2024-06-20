@@ -823,12 +823,12 @@ svg.clips {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 60px;
+    padding: 5vw 6vh;
 
     .preheading p {
       font-family: EdwardianScript;
-      font-size: 40px;
-      line-height: 40px;
+      font-size: 32px;
+      line-height: 32px;
       margin-top: 5px;
       margin-bottom: 5px;
     }
