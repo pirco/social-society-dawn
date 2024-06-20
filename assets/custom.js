@@ -88,7 +88,6 @@ document.addEventListener('DOMContentLoaded', function () {
       document.getElementById('newsletter').classList.remove('visible');
     });
   }
-
 });
 
 function shouldShowPopup() {

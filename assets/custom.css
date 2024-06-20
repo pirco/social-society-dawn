@@ -271,90 +271,108 @@ footer {
   }
 }
 
-.newsletter {
+.newsletter-overlay {
   position: fixed;
-  bottom: -1050px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 1050px;
-  height: 1050px;
-  padding: 40px 0;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1"><path d="M 0 1 Z C 0.093 0.843 0.24 0.699 0.499 0.696 C 0.785 0.697 0.906 0.842 1 1" fill="rgb(255, 191, 225)"/></svg>');
-  background-size: contain;
-  background-repeat: no-repeat;
-  transition: 1s bottom;
-  overflow: visible;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 20;
+  visibility: hidden;
+  transition: 1s visibility, 1s opacity;
+  opacity: 0;
 
   &.visible {
-    bottom: 0;
+    visibility: visible;
+    opacity: 1;
+
+    .newsletter {
+      bottom: 0;
+    }
   }
 
-  .newsletter-preheader {
-    font-family: EdwardianScript;
-    font-size: 38px;
-  }
+  .newsletter {
+    position: fixed;
+    bottom: -1050px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1050px;
+    height: 1050px;
+    padding: 40px 0;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1"><path d="M 0 1 Z C 0.093 0.843 0.24 0.699 0.499 0.696 C 0.785 0.697 0.906 0.842 1 1" fill="rgb(255, 191, 225)"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s bottom;
+    overflow: visible;
 
-  .newsletter-header {
-    font-family: ABCROMCompressed-Heavy;
-    font-size: 70px;
-    line-height: 57px;
-    max-width: 400px;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  .newsletter-form {
-    max-width: 350px;
-
-    input[type="email"] {
-      border: none;
-      border-bottom: 2px solid black;
-      background-color: transparent;
-      width: 100%;
-      padding: 10px;
+    .newsletter-preheader {
+      font-family: EdwardianScript;
+      font-size: 38px;
     }
 
-    input[type="email"]::placeholder {
-      color: black;
-      font-family: Picaresk;
+    .newsletter-header {
+      font-family: ABCROMCompressed-Heavy;
+      font-size: 70px;
+      line-height: 57px;
+      max-width: 400px;
+      text-align: center;
+      margin-bottom: 30px;
     }
 
-    input[type="email"]:focus {
-      outline: none;
-      box-shadow: none;
+    .newsletter-form {
+      max-width: 350px;
+
+      input[type="email"] {
+        border: none;
+        border-bottom: 2px solid black;
+        background-color: transparent;
+        width: 100%;
+        padding: 10px;
+      }
+
+      input[type="email"]::placeholder {
+        color: black;
+        font-family: Picaresk;
+      }
+
+      input[type="email"]:focus {
+        outline: none;
+        box-shadow: none;
+      }
+
+      button {
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+        font-family: Picaresk;
+        font-size: 9px;
+        font-weight: bold;
+        color: var(--color-pink);
+        background-color: var(--color-deep-blue);
+        padding: 10px 20px;
+        min-width: auto;
+      }
     }
 
-    button {
+    .close {
       position: absolute;
-      right: 0;
-      bottom: 5px;
-      font-family: Picaresk;
-      font-size: 9px;
-      font-weight: bold;
-      color: var(--color-pink);
-      background-color: var(--color-deep-blue);
-      padding: 10px 20px;
-      min-width: auto;
+      bottom: 300px;
+      left: calc(50% + 300px);
+      border: 1px solid black;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      color: black;
+      text-decoration: none;
+      text-align: center;
+      vertical-align: middle;
     }
-  }
-
-  .close {
-    position: absolute;
-    bottom: 300px;
-    left: calc(50% + 300px);
-    border: 1px solid black;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    vertical-align: middle;
   }
 }
 
