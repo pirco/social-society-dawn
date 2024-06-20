@@ -1,36 +1,6 @@
 <script src="{{ 'gsap.min.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'ScrollTrigger.min.js' | asset_url }}" defer="defer"></script>
 
-<script>
-  gsap.registerPlugin(ScrollTrigger);
-  gsap.utils.toArray(".about-us--right .block").forEach(block => {
-    ScrollTrigger.create({
-      trigger: block,
-      start: "top top",
-      end: "bottom 0px",
-      pin: block
-    });
-  });
-
-  {% comment %} let tl = gsap.timeline({
-    scrollTrigger: {
-      trigger: ".section-about-us",
-      start: "top",
-      //end: "+=3000",
-      pin: true,
-      pinSpacing: true,
-      markers: true,
-      scrub: true,
-    }
-  });
-  tl.to('.first', {
-    opacity: 0,
-  })
-  tl.from('.second', {
-    opacity: 0,
-  }) {% endcomment %}
-</script>
-
 <div class="page-width page-width-full">
   <div class="grid grid--gapless grid--1-col grid--2-col-tablet">
     <div class="grid__item about-us--left">

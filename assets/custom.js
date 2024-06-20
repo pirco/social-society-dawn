@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (document.querySelector('.about-us--left')) {
     gsap.registerPlugin(ScrollTrigger);
-    gsap.set('.about-us--left .right-block:not(:first-child)', { autoAlpha: 0 });
+    gsap.set('.about-us--left .left-block:not(:first-child)', { autoAlpha: 0 });
     ScrollTrigger.matchMedia({
       "(min-width: 750px)": function () {
         ScrollTrigger.create({
