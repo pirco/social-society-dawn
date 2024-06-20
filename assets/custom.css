@@ -1464,10 +1464,6 @@ svg.clips {
       .left-block {
         position: relative;
         height: auto;
-
-        .image {
-          max-width: 300px;
-        }
       }
 
       .grid__item.about-us--right {
@@ -1484,7 +1480,23 @@ svg.clips {
   }
 }
 
-@media (max-width: 899px) {
+@media (max-height: 750px) {
+
+  .section-about-us {
+    .grid {
+
+      .left-block {
+
+        .image {
+          max-width: 300px;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-height: 899px) {
 
   .section-about-us {
     .grid {
