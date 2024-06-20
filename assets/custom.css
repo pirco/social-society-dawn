@@ -132,8 +132,10 @@ header-drawer {
 
   .search-modal__form .field:after,
   .search-modal__form .field:before,
-  .search-modal__form .field:hover.field:after {
+  .search-modal__form .field:hover.field:after,
+  .search-modal__form .field__input:focus {
     box-shadow: none;
+
   }
 
   .search-modal__content {
