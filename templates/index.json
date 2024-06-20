@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "hero_Necbeg": {
@@ -60,25 +69,25 @@
         "product_xRe9eA": {
           "type": "product",
           "settings": {
-            "product": "16-inch-ombre-orbz-blue-and-green-foil-balloon"
+            "product": "100_beeswax_handdipped_birthday_candles_blues"
           }
         },
         "product_bb8UGV": {
           "type": "product",
           "settings": {
-            "product": "16-inch-ombre-orbz-red-and-pink-foil-balloon"
+            "product": "12_inch_deluxe_sparklers"
           }
         },
         "product_TE8KRL": {
           "type": "product",
           "settings": {
-            "product": "16-inch-ombre-orbz-pastel-foil-balloon"
+            "product": "18-inch-heart-metallic-gold-foil-balloon"
           }
         },
         "product_y49VTW": {
           "type": "product",
           "settings": {
-            "product": "16-inch-orbz-gold-foil-balloon"
+            "product": "34-inch-letter-f-silver-foil-balloon"
           }
         },
         "product_EPLYx7": {
