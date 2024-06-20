@@ -815,6 +815,8 @@ svg.clips {
     ul {
       --grid-desktop-horizontal-spacing: 40px;
       --grid-desktop-vertical-spacing: 65px;
+      --grid-mobile-horizontal-spacing: 30px;
+      --grid-mobile-vertical-spacing: 45px;
     }
   }
 }
@@ -899,10 +901,13 @@ svg.clips {
 }
 
 @media (max-width: 749px) {
-  .collection-interjection {
+
+  .collection-interjection,
+  .collection-interjection.collection-interjection--reverse {
     .image {
       padding-left: 40px;
       padding-right: 40px;
+      text-align: center;
     }
   }
 }
