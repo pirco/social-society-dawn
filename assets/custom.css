@@ -777,7 +777,6 @@ svg.clips {
 /* Collection page */
 .collection-hero {
   text-align: center;
-  padding-top: 40px !important;
 
   .collection-hero__text-wrapper {
     padding: 60px 0;
