@@ -503,9 +503,9 @@ main {
 .section-hero {
   .page-width {
     padding-top: 0rem;
-    padding-right: 1.5rem;
+    padding-right: 0rem;
     padding-bottom: 3.5rem;
-    padding-left: 1.5rem;
+    padding-left: 0rem;
 
     .section-hero--image {
       position: relative;
