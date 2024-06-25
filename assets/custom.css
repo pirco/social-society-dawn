@@ -667,6 +667,8 @@ svg.clips {
 
   .grid__item.content {
     padding-bottom: 5vh;
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 
   .heading {
@@ -751,7 +753,7 @@ svg.clips {
   padding: 40px 20px 20px;
 
   .collections {
-    justify-content: space-between;
+    justify-content: center;
 
     .collection {
       text-decoration: none;
