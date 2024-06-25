@@ -13,7 +13,7 @@
 
       {%- when 'content' -%}
         <div
-          class="grid__item section-hero--content"
+          class="grid__item section-hero--content section-hero--color-scheme-{{ section.settings.color }}"
           style="background-color: var(--color-{{ section.settings.color }});"
         >
           <div class="titles">
@@ -49,6 +49,10 @@
         {
           "value": "blue",
           "label": "Blue"
+        },
+        {
+          "value": "deep-blue",
+          "label": "Deep blue"
         },
         {
           "value": "pink",

@@ -500,6 +500,14 @@ main {
 }
 
 /* Section Hero */
+.section-hero--color-scheme-deep-blue {
+  color: #FFBFE1;
+
+  a {
+    color: #FFBFE1 !important;
+  }
+}
+
 .section-hero {
   .page-width {
     padding-top: 0rem;
