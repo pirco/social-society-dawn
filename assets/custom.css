@@ -500,7 +500,8 @@ main {
 }
 
 /* Section Hero */
-.section-hero--color-scheme-deep-blue {
+.section-hero--color-scheme-deep-blue,
+.section-hero--color-scheme-deep-dark {
   color: #FFBFE1;
 
   a,
