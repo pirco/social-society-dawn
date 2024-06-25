@@ -606,6 +606,7 @@ svg.clips {
 
   .grid__item {
     text-align: center;
+    margin-bottom: 3vh;
 
     .card-wrapper {
       height: auto;
