@@ -171,7 +171,7 @@
         "text_MjzkHG": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "text": "<p>Game nights are the perfect way to spend quality time with your friends and family. Whether you choose a puzzle to tackle, a favorite board game or play a round of poker, we've got an assortment of tableware that will make it easy to host. So gather around and let the games bring us closer together!<\/p>",
             "text_style": "body"
           }
         },
@@ -188,6 +188,7 @@
         "heading_BYdaNx"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_4188.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
