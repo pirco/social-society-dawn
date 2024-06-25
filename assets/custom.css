@@ -503,7 +503,9 @@ main {
 .section-hero--color-scheme-deep-blue {
   color: #FFBFE1;
 
-  a {
+  a,
+  .subtitle,
+  h2 {
     color: #FFBFE1 !important;
   }
 }
