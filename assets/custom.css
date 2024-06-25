@@ -502,12 +502,12 @@ main {
 /* Section Hero */
 .section-hero--color-scheme-deep-blue,
 .section-hero--color-scheme-dark {
-  color: #FFBFE1;
+  color: #A2E0E0;
 
   a,
   .subtitle,
   h2 {
-    color: #FFBFE1 !important;
+    color: #A2E0E0 !important;
   }
 }
 
