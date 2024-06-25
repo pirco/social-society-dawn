@@ -50,6 +50,7 @@
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   margin-right: auto;
   margin-left: auto;
+  max-width: 600px;
 }
 
 @media screen and (min-width: 750px) {
