@@ -66,28 +66,10 @@
     "product_compilation_9BKDzm": {
       "type": "product-compilation",
       "blocks": {
-        "product_ChPNwb": {
-          "type": "product",
-          "settings": {
-            "product": "gold-foil-star-plates-8ct"
-          }
-        },
         "product_8riacw": {
           "type": "product",
           "settings": {
             "product": "good_time_cocktail_napkin"
-          }
-        },
-        "product_HnJGhp": {
-          "type": "product",
-          "settings": {
-            "product": "straberry-field-ceramic-vase"
-          }
-        },
-        "product_96xGzn": {
-          "type": "product",
-          "settings": {
-            "product": "gold-stripe-large-napkins-16ct"
           }
         },
         "product_kfzWHU": {
@@ -96,20 +78,38 @@
             "product": "here_comes_fun_party_cups"
           }
         },
+        "product_ChPNwb": {
+          "type": "product",
+          "settings": {
+            "product": "gold-foil-star-plates-8ct"
+          }
+        },
         "product_DtQ9DG": {
           "type": "product",
           "settings": {
             "product": "homesick-game-day-candle"
           }
+        },
+        "product_HnJGhp": {
+          "type": "product",
+          "settings": {
+            "product": "straberry-field-ceramic-vase"
+          }
+        },
+        "product_yieWyf": {
+          "type": "product",
+          "settings": {
+            "product": "garden_party_melamine_serving_platter"
+          }
         }
       },
       "block_order": [
-        "product_ChPNwb",
         "product_8riacw",
-        "product_HnJGhp",
-        "product_96xGzn",
         "product_kfzWHU",
-        "product_DtQ9DG"
+        "product_ChPNwb",
+        "product_DtQ9DG",
+        "product_HnJGhp",
+        "product_yieWyf"
       ],
       "custom_css": [
         ".subheading {max-width: 500px; margin: 1em auto; line-height: 1.3;}"
