@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -48,7 +57,7 @@
           "settings": {
             "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
             "text_first": false,
-            "image": "shopify:\/\/shop_images\/Rectangle_77.png",
+            "image": "shopify:\/\/shop_images\/BTM_0495.jpg",
             "preheading": "<p>Milestone Birthdays!<\/p>",
             "heading": "<p>CELEBRATE YOUR SPECIAL DAY WITH US<\/p>",
             "icon": "shopify:\/\/shop_images\/SocialSociety_BrandIcons_Cheers-CMYK_1.png"
