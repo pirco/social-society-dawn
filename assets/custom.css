@@ -754,7 +754,7 @@ svg.clips {
   padding: 40px 20px 20px;
 
   .collections {
-    justify-content: space-between;
+    justify-content: space-around;
 
     .collection {
       text-decoration: none;
