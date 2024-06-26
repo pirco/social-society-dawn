@@ -61,7 +61,7 @@
           endif
         -%}
         {%- for block in section.blocks -%}
-          {%- unless collection.metafields.custom.hide_from_collection_list -%}
+          {%- unless collection.metafields.custom.hide_from_collection_list == 1 -%}
             <li
               id="Slide-{{ section.id }}-{{ forloop.index }}"
               class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
