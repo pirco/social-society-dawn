@@ -1453,9 +1453,12 @@ svg.clips {
       }
     }
 
-    .grid__item.about-us--right {
+    .grid__item.about-us--right:not(.about-us--right-static) {
       display: flex;
       flex-direction: column-reverse;
+    }
+
+    .grid__item.about-us--right {
 
       .right-block {
         position: relative;
