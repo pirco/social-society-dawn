@@ -86,17 +86,23 @@
                   </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
-                    <a
-                      {% if block.settings.button_link == blank %}
-                        role="link" aria-disabled="true"
-                      {% else %}
-                        href="{{ block.settings.button_link }}"
-                      {% endif %}
-                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
-                      {{ block.shopify_attributes }}
-                    >
-                      {{ block.settings.button_label | escape }}
-                    </a>
+                    {%- if block.settings.newsletter_link -%}
+                      <modal-opener data-modal="#PopupModal-newsletter"
+                        ><button class="button">{{ block.settings.button_label | escape }}</button></modal-opener
+                      >
+                    {%- elsif -%}
+                      <a
+                        {% if block.settings.button_link == blank %}
+                          role="link" aria-disabled="true"
+                        {% else %}
+                          href="{{ block.settings.button_link }}"
+                        {% endif %}
+                        class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                        {{ block.shopify_attributes }}
+                      >
+                        {{ block.settings.button_label | escape }}
+                      </a>
+                    {%- endif -%}
                   {%- endif -%}
               {%- endcase -%}
             {%- endfor -%}
@@ -457,6 +463,12 @@
           "id": "button_style_secondary",
           "default": false,
           "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter_link",
+          "default": false,
+          "label": "link to newsletter popup"
         }
       ]
     }
