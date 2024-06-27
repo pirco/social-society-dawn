@@ -1454,6 +1454,9 @@ svg.clips {
     }
 
     .grid__item.about-us--right {
+      display: flex;
+      flex-direction: column-reverse;
+
       .right-block {
         position: relative;
         padding: 50px 90px;
