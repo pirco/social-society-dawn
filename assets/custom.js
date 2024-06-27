@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  /*
-  if (document.querySelector('.about-us--left')) {
+
+  if (document.querySelector('.about-us--left.parallaxScroll')) {
     gsap.registerPlugin(ScrollTrigger);
     gsap.set('.about-us--left .left-block:not(:first-child)', { autoAlpha: 0 });
     ScrollTrigger.matchMedia({
@@ -25,9 +25,9 @@ document.addEventListener('DOMContentLoaded', function () {
               return "top 54px";
           },
           end: "bottom top",
-          pin: ".about-us--left",
+          pin: ".about-us--left.parallaxScroll",
         });
-        var leftBlocks = document.querySelectorAll('.about-us--left .left-block');
+        var leftBlocks = document.querySelectorAll('.about-us--left.parallaxScroll .left-block');
         gsap.utils.toArray(".about-us--right .right-block").forEach((block, index) => {
           ScrollTrigger.create({
             trigger: block,
@@ -60,7 +60,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
-*/
 
   const sectionHeader = document.querySelector('.section-header');
   let previousClassList = sectionHeader.className;
