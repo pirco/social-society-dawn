@@ -845,7 +845,7 @@ svg.clips {
   margin-bottom: 3vh;
 
   .image {
-    padding: 30px 0 30px 60px;
+    padding: 0px 0 0px 60px;
 
     img {
       max-width: 100%;
@@ -857,7 +857,7 @@ svg.clips {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5vw 6vh;
+    padding: 3vh 3vw;
 
     .preheading p {
       font-family: EdwardianScript;
@@ -874,7 +874,7 @@ svg.clips {
       line-height: 60px;
       margin-top: 5px;
       margin-bottom: 5px;
-      max-width: 350px;
+      max-width: 600px;
     }
 
     .icon {
