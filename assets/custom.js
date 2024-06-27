@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  /*
   if (document.querySelector('.about-us--left')) {
     gsap.registerPlugin(ScrollTrigger);
     gsap.set('.about-us--left .left-block:not(:first-child)', { autoAlpha: 0 });
@@ -59,6 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
+*/
 
   const sectionHeader = document.querySelector('.section-header');
   let previousClassList = sectionHeader.className;
