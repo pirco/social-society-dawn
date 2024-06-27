@@ -1697,6 +1697,7 @@ details[open]>.share-button__fallback {
   padding: 1.5rem;
   margin: var(--inputs-border-width);
   transition: box-shadow var(--duration-short) ease;
+  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
 }
 
 .field__label,
