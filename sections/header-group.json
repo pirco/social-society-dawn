@@ -20,10 +20,18 @@
             "text": "HOORAY! WE'RE OFFICIALLY LIVE!",
             "link": ""
           }
+        },
+        "announcement_4H97Lm": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE SHIPPING on orders $50+",
+            "link": "shopify:\/\/collections\/all"
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_4H97Lm"
       ],
       "settings": {
         "color_scheme": "scheme-2",
