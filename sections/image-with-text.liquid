@@ -87,9 +87,9 @@
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
                     {%- if block.settings.newsletter_link -%}
-                      <modal-opener data-modal="#PopupModal-newsletter"
-                        ><button class="button">{{ block.settings.button_label | escape }}</button></modal-opener
-                      >
+                      <modal-opener data-modal="#PopupModal-newsletter">
+                        <button class="button">{{ block.settings.button_label | escape }}</button>
+                      </modal-opener>
                     {%- elsif -%}
                       <a
                         {% if block.settings.button_link == blank %}
