@@ -1469,8 +1469,15 @@ svg.clips {
           }
         }
 
+        .block-inner {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+        }
+
         .content {
           max-width: 400px;
+          margin: auto 0;
 
           h2,
           h3 {
