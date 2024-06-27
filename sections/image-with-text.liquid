@@ -90,7 +90,7 @@
                       <modal-opener data-modal="#PopupModal-newsletter">
                         <button class="button">{{ block.settings.button_label | escape }}</button>
                       </modal-opener>
-                    {%- elsif -%}
+                    {%- else -%}
                       <a
                         {% if block.settings.button_link == blank %}
                           role="link" aria-disabled="true"
