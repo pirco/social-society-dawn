@@ -150,11 +150,38 @@
                 {% if section.settings.quick_add == 'bulk' %} collection-quick-add-bulk{% endif %}
               "
             >
-              {% assign blocks = section.blocks %}
-              {% assign total_blocks = blocks.size %}
-              {% assign random_index = 'now' | date: '%s' | modulo: total_blocks %}
-              {% assign interjection = blocks[random_index] %}
-              {% assign interjection_pos = collection.products.size | divided_by: 2 | divided_by: 4 | times: 4 %}
+              {% assign interjection_pos = -1 %}
+              {% if paginate.current_page == 1 %}
+                {% assign blocks = section.blocks %}
+                {% assign total_blocks = blocks.size %}
+                {% assign random_index = 'now' | date: '%s' | modulo: total_blocks %}
+                {% assign interjection = blocks[random_index] %}
+
+                {% if collection.products.size >= 16 %}
+                  {% assign interjection_pos = collection.products.size | divided_by: 2 | divided_by: 4 | times: 4 %}
+                {% else %}
+                  {% assign interjection_pos = collection.products.size %}
+                {% endif %}
+
+                {% assign interjection_bg = collection.metafields.custom.interjection_background_color %}
+                {% assign interjection_fg = collection.metafields.custom.interjection_foreground_color %}
+                {% assign interjection_text_first = collection.metafields.custom.interjection_text_first %}
+                {% assign interjection_image = collection.metafields.custom.interjection_image %}
+                {% assign interjection_preheading = collection.metafields.custom.interjection_pre_heading
+                  | metafield_tag
+                %}
+                {% assign interjection_heading = collection.metafields.custom.interjection_heading | metafield_tag %}
+                {% assign interjection_icon = collection.metafields.custom.interjection_icon %}
+
+                {% if interjection_image == blank %}
+                  {% assign interjection_color_scheme = interjection.settings.color_scheme %}
+                  {% assign interjection_text_first = interjection.settings.text_first %}
+                  {% assign interjection_image = interjection.settings.image.src %}
+                  {% assign interjection_preheading = interjection.settings.preheading %}
+                  {% assign interjection_heading = interjection.settings.heading %}
+                  {% assign interjection_icon = interjection.settings.icon %}
+                {% endif %}
+              {% endif %}
 
               {%- for product in collection.products -%}
                 {% assign lazy_load = false %}
@@ -182,15 +209,18 @@
                 </li>
 
                 {% if forloop.index == interjection_pos %}
-                  <div class="collection-interjection {% if interjection.settings.text_first %}collection-interjection--reverse{% endif %} color-{{ interjection.settings.color_scheme }}">
+                  <div
+                    class="collection-interjection {% if interjection_text_first %}collection-interjection--reverse{% endif %} color-{{ interjection_color_scheme }}"
+                    style="{% if interjection_bg != blank %}background-color: {{ interjection_bg }};{% endif %} {% if interjection_fg != blank %} color: {{ interjection_fg }};{% endif %}"
+                  >
                     <div class="grid grid--gapless grid--1-col grid--2-col-tablet">
                       <div class="image grid__item">
-                        <img src="{{ interjection.settings.image.src | image_url: width: 700 }}">
+                        <img src="{{ interjection_image | image_url: width: 700 }}">
                       </div>
                       <div class="text grid__item">
-                        <div class="preheading">{{ interjection.settings.preheading }}</div>
-                        <div class="heading">{{ interjection.settings.heading }}</div>
-                        <img class="icon" src="{{ interjection.settings.icon | image_url: width: 100 }}">
+                        <div class="preheading">{{ interjection_preheading }}</div>
+                        <div class="heading">{{ interjection_heading }}</div>
+                        <img class="icon" src="{{ interjection_icon | image_url: width: 100 }}">
                       </div>
                     </div>
                   </div>
