@@ -98,8 +98,8 @@
             "left_subtitle": "Yay",
             "left_image": "shopify:\/\/shop_images\/IMG_3855_1561de06-6433-4e48-98c5-e43a9e300734.jpg",
             "left_headline": "No text here is fine!",
-            "right_background": "",
-            "right_text_color": "",
+            "right_background": "#a2e0e0",
+            "right_text_color": "#141417",
             "right_icon": "cup",
             "right_content": "<p>Some Text here makes this look good!<\/p>"
           }
@@ -113,7 +113,7 @@
             "left_image": "shopify:\/\/shop_images\/IMG_3881.jpg",
             "left_headline": "No Sub Title Above!",
             "right_background": "#ffbfe1",
-            "right_text_color": "#085e21",
+            "right_text_color": "#141417",
             "right_icon": "palm",
             "right_content": "<p>Let's add some text here. Not too much, but enough. <\/p>"
           }
