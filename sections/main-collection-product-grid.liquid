@@ -218,9 +218,15 @@
                         <img src="{{ interjection_image | image_url: width: 700 }}">
                       </div>
                       <div class="text grid__item">
-                        <div class="preheading">{{ interjection_preheading }}</div>
-                        <div class="heading">{{ interjection_heading }}</div>
-                        <img class="icon" src="{{ interjection_icon | image_url: width: 100 }}">
+                        {%- if interjection_preheading != blank -%}
+                          <div class="preheading">{{ interjection_preheading }}</div>
+                        {%- endif -%}
+                        {%- if interjection_heading != blank -%}
+                          <div class="heading">{{ interjection_heading }}</div>
+                        {%- endif -%}
+                        {%- if interjection_icon != blank -%}
+                          <img class="icon" src="{{ interjection_icon | image_url: width: 100 }}">
+                        {%- endif -%}
                       </div>
                     </div>
                   </div>
