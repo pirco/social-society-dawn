@@ -83,12 +83,38 @@
         "section_JmCXRa",
         "section_dPL3ia"
       ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "about_us_static_HqjrWK": {
+      "type": "about-us-static",
+      "blocks": {
+        "section_JwKYtY": {
+          "type": "section",
+          "settings": {
+            "left_background": "#2e159b",
+            "left_text_color": "#a2e0e0",
+            "left_subtitle": "Yay",
+            "left_image": "shopify:\/\/shop_images\/IMG_3855_1561de06-6433-4e48-98c5-e43a9e300734.jpg",
+            "left_headline": "No text here is fine!",
+            "right_background": "",
+            "right_text_color": "",
+            "right_icon": "cup",
+            "right_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "section_JwKYtY"
+      ],
       "settings": {
       }
     }
   },
   "order": [
     "main",
-    "about_us_9MmmgH"
+    "about_us_9MmmgH",
+    "about_us_static_HqjrWK"
   ]
 }
