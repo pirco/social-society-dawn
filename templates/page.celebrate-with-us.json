@@ -101,12 +101,27 @@
             "right_background": "",
             "right_text_color": "",
             "right_icon": "cup",
-            "right_content": ""
+            "right_content": "<p>Some Text here makes this look good!<\/p>"
+          }
+        },
+        "section_gRddeb": {
+          "type": "section",
+          "settings": {
+            "left_background": "#bfa3de",
+            "left_text_color": "#fcfaf5",
+            "left_subtitle": "",
+            "left_image": "shopify:\/\/shop_images\/IMG_3881.jpg",
+            "left_headline": "No Sub Title Above!",
+            "right_background": "#ffbfe1",
+            "right_text_color": "#085e21",
+            "right_icon": "palm",
+            "right_content": "<p>Let's add some text here. Not too much, but enough. <\/p>"
           }
         }
       },
       "block_order": [
-        "section_JwKYtY"
+        "section_JwKYtY",
+        "section_gRddeb"
       ],
       "settings": {
       }
