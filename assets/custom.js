@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
           const currentClassList = sectionHeader.className;
           if (previousClassList !== currentClassList) {
-            if (ScrollTrigger) {
+            if (typeof ScrollTrigger != 'undefined') {
               setTimeout(function () {
                 ScrollTrigger.refresh();
               }, 400);
@@ -83,10 +83,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (shouldShowPopup()) {
     showPopup();
-    document.querySelector('.newsletter .close').addEventListener('click', function (e) {
-      e.preventDefault();
-      document.getElementById('newsletter').classList.remove('visible');
-    });
   }
 });
 
@@ -104,7 +100,7 @@ function shouldShowPopup() {
 }
 
 function showPopup() {
-  document.getElementById('newsletter').classList.add('visible');
+  document.getElementById('PopupModal-newsletter').show();
   localStorage.setItem('popupLastShownDate', new Date().toISOString());
 }
 

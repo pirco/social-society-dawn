@@ -118,8 +118,8 @@
                               <div class="credits">
                                 <span>Site Credits</span
                                 ><span
-                                  >design by <a href="http://greetingsfrom.studio/">Greetings From Studio</a> <br/>built
-                                  by <a href="https://piroc.com/">piroc media</a></span
+                                  >design by <a href="http://greetingsfrom.studio/">Greetings From Studio</a> <br>
+                                  built by <a href="https://piroc.com/">piroc media</a></span
                                 >
                               </div>
                             {% endif %}
@@ -344,8 +344,8 @@
   </div>
 </footer>
 
-<div id="newsletter" class="newsletter-overlay">
-  <div class="newsletter">
+<modal-dialog id="PopupModal-newsletter" class="newsletter-overlay">
+  <div class="newsletter" role="dialog">
     <div class="newsletter-preheader">Hey There!</div>
     <div class="newsletter-header">MAY WE POP INTO YOUR INBOX?</div>
 
@@ -405,9 +405,9 @@
       {%- endif -%}
     {%- endform -%}
 
-    <a href="#" class="close">✖</a>
+    <div id="ModalClose-newsletter" class="close">✖</div>
   </div>
-</div>
+</modal-dialog>
 
 {% schema %}
 {
