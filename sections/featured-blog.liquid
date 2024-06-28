@@ -38,6 +38,12 @@
           {{ section.settings.heading }}
         </h2>
 
+        {% if section.settings.intro_text != blank %}
+          <div class="featured-blog-intro-text">
+            {{ sectio.settings.intro_text }}
+          </div>
+        {% endif %}
+
         {%- if section.settings.blog != blank
           and section.settings.show_view_all
           and section.settings.post_limit < section.settings.blog.articles_count
@@ -200,6 +206,12 @@
       "id": "heading",
       "default": "Blog posts",
       "label": "t:sections.featured-blog.settings.heading.label"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "intro_text",
+      "default": "Intro text",
+      "label": "Intro text"
     },
     {
       "type": "select",
