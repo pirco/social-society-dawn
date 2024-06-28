@@ -102,11 +102,26 @@
             "right_icon": "palm",
             "right_content": "<p>Let's add some text here. Not too much, but enough. <\/p>"
           }
+        },
+        "section_jtUBrK": {
+          "type": "section",
+          "settings": {
+            "left_background": "#d6f254",
+            "left_text_color": "#2e159b",
+            "left_subtitle": "coming soon!",
+            "left_image": "shopify:\/\/shop_images\/IMG_7854_copy.jpg",
+            "left_headline": "THE SOCIAL SOCIETY STORE",
+            "right_background": "",
+            "right_text_color": "",
+            "right_icon": "cup",
+            "right_content": ""
+          }
         }
       },
       "block_order": [
         "section_JwKYtY",
-        "section_gRddeb"
+        "section_gRddeb",
+        "section_jtUBrK"
       ],
       "settings": {
       }
