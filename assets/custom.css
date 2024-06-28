@@ -1504,6 +1504,7 @@ svg.clips {
           h2,
           h3 {
             font-family: Picaresk;
+            color: inherit;
           }
 
           p {
