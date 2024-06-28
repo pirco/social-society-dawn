@@ -78,29 +78,15 @@
         "section_JwKYtY": {
           "type": "section",
           "settings": {
-            "left_background": "#2e159b",
-            "left_text_color": "#a2e0e0",
+            "left_background": "#a2e0e0",
+            "left_text_color": "#141417",
             "left_subtitle": "welcome to the party!",
             "left_image": "shopify:\/\/shop_images\/IMG_5047_copy.jpg",
             "left_headline": "",
-            "right_background": "#a2e0e0",
+            "right_background": "#085e21",
             "right_text_color": "#141417",
             "right_icon": "cup",
             "right_content": "<p>The Social Society is your one-stop shop for all the supplies you need to throw a fabulous party! Find trendy tableware and decor; a balloon bar with helium bouquets; grab-and-go garlands; and unique, thoughtful gifts for hosts and everyday entertaining. Enjoy community-driven in-store events and take advantage of our event styling services, too.<\/p>"
-          }
-        },
-        "section_gRddeb": {
-          "type": "section",
-          "settings": {
-            "left_background": "#bfa3de",
-            "left_text_color": "#fcfaf5",
-            "left_subtitle": "boo!",
-            "left_image": "shopify:\/\/shop_images\/IMG_2793.jpg",
-            "left_headline": "Time To Get Spooktacular",
-            "right_background": "#ffbfe1",
-            "right_text_color": "#141417",
-            "right_icon": "palm",
-            "right_content": "<p>Let's add some text here. Not too much, but enough. <\/p>"
           }
         },
         "section_jtUBrK": {
@@ -111,17 +97,31 @@
             "left_subtitle": "coming soon!",
             "left_image": "shopify:\/\/shop_images\/IMG_7854_copy.jpg",
             "left_headline": "THE SOCIAL SOCIETY STORE",
-            "right_background": "",
-            "right_text_color": "",
+            "right_background": "#2e159b",
+            "right_text_color": "#ffffff",
             "right_icon": "cup",
             "right_content": "<h2>The Social Society<\/h2><p>Is opening their doors this fall, 2024. Make sure that you are signed up and on the look out for announcements, news, store events and so much more. We cannot wait to party with you!<\/p>"
+          }
+        },
+        "section_gRddeb": {
+          "type": "section",
+          "settings": {
+            "left_background": "#ffbfe1",
+            "left_text_color": "#141417",
+            "left_subtitle": "boo!",
+            "left_image": "shopify:\/\/shop_images\/IMG_2793.jpg",
+            "left_headline": "Time To Get Spooktacular",
+            "right_background": "#f5420d",
+            "right_text_color": "#ffffff",
+            "right_icon": "palm",
+            "right_content": "<p>Let's add some text here. Not too much, but enough. <\/p>"
           }
         }
       },
       "block_order": [
         "section_JwKYtY",
-        "section_gRddeb",
-        "section_jtUBrK"
+        "section_jtUBrK",
+        "section_gRddeb"
       ],
       "settings": {
       }
