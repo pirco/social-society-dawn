@@ -29,10 +29,40 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "image_banner_TJyUTp": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_xCVFEx": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xCVFEx"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/social_society_contact_page.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "image_banner_TJyUTp"
   ]
 }
