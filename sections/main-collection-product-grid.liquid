@@ -171,7 +171,6 @@
                   | metafield_tag
                 %}
                 {% assign interjection_icon = collection.metafields.custom.interjection_icon %}
-                interjection heading: {{ interjection_heading }}
                 {% if interjection_image == blank %}
                   {% assign interjection_color_scheme = interjection.settings.color_scheme %}
                   {% assign interjection_text_first = interjection.settings.text_first %}
@@ -220,7 +219,7 @@
                         {%- if interjection_preheading != blank -%}
                           <div class="preheading">{{ interjection_preheading }}</div>
                         {%- endif -%}
-                        {%- if interjection_icon != blank -%}
+                        {%- if interjection_heading != blank -%}
                           <div class="heading">{{ interjection_heading }}</div>
                         {%- endif -%}
                         {%- if interjection_icon != blank -%}
