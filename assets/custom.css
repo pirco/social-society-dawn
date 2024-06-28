@@ -840,6 +840,11 @@ svg.clips {
   }
 }
 
+.collection-interjection:is(.color-deep-blue) .text,
+.collection-interjection:is(.color-dark) .text {
+  color: #a2e0e0 !important;
+}
+
 .collection-interjection {
   width: 100%;
   margin-bottom: 3vh;
