@@ -99,7 +99,7 @@
             "left_headline": "THE SOCIAL SOCIETY STORE",
             "right_background": "#2e159b",
             "right_text_color": "#ffffff",
-            "right_icon": "cup",
+            "right_icon": "palm",
             "right_content": "<h2>The Social Society<\/h2><p>Is opening their doors this fall, 2024. Make sure that you are signed up and on the look out for announcements, news, store events and so much more. We cannot wait to party with you!<\/p>"
           }
         },
@@ -113,15 +113,29 @@
             "left_headline": "Time To Get Spooktacular",
             "right_background": "#f5420d",
             "right_text_color": "#ffffff",
-            "right_icon": "palm",
+            "right_icon": "hat",
             "right_content": "<p>Plan a boo-tiful bash with hauntingly hip centerpieces, spine-tingling tableware and enough creepy-cute favors to satisfy every ghoul and goblin.<\/p>"
+          }
+        },
+        "section_fcgkFH": {
+          "type": "section",
+          "settings": {
+            "left_background": "",
+            "left_text_color": "",
+            "left_subtitle": "",
+            "left_headline": "",
+            "right_background": "",
+            "right_text_color": "",
+            "right_icon": "cup",
+            "right_content": ""
           }
         }
       },
       "block_order": [
         "section_JwKYtY",
         "section_jtUBrK",
-        "section_gRddeb"
+        "section_gRddeb",
+        "section_fcgkFH"
       ],
       "settings": {
       }
