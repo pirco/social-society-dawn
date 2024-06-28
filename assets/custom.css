@@ -1450,7 +1450,11 @@ svg.clips {
 
       .image {
         width: 100%;
-        max-width: 480px;
+        max-width: 660px;
+
+        img {
+          width: 100%;
+        }
       }
 
       .headline {
@@ -1548,7 +1552,7 @@ svg.clips {
 
 @media (max-height: 750px) {
 
-  .section-about-us {
+  .section-about-us:not(.section-about-us-static) {
     .grid {
 
       .left-block {
@@ -1564,7 +1568,7 @@ svg.clips {
 
 @media (max-height: 899px) {
 
-  .section-about-us {
+  .section-about-us:not(.section-about-us-static) {
     .grid {
 
       .left-block {
