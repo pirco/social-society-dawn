@@ -9,6 +9,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  const links = document.links;
+  for (let i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname !== window.location.hostname) {
+      links[i].target = '_blank';
+      links[i].rel = 'noreferrer noopener';
+    }
+  }
 
   if (document.querySelector('.about-us--left.parallaxScroll')) {
     gsap.registerPlugin(ScrollTrigger);
