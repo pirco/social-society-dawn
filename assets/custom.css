@@ -1470,7 +1470,7 @@ svg.clips {
 
       .right-block {
         position: relative;
-        height: auto;
+        height: 100%;
       }
     }
 
