@@ -168,10 +168,8 @@
                 {% assign interjection_color_scheme = collection.metafields.custom.interjection_color_scheme %}
                 {% assign interjection_text_first = collection.metafields.custom.interjection_text_first %}
                 {% assign interjection_image = collection.metafields.custom.interjection_image %}
-                {% assign interjection_preheading = collection.metafields.custom.interjection_pre_heading
-                  | metafield_tag
-                %}
-                {% assign interjection_heading = collection.metafields.custom.interjection_heading | metafield_tag %}
+                {% assign interjection_preheading = collection.metafields.custom.interjection_pre_heading %}
+                {% assign interjection_heading = collection.metafields.custom.interjection_heading %}
                 {% assign interjection_icon = collection.metafields.custom.interjection_icon %}
 
                 {% if interjection_image == blank %}
