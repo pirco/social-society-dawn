@@ -210,13 +210,18 @@
                 {% if forloop.index == interjection_pos %}
                   <div
                     class="collection-interjection {% if interjection_text_first %}collection-interjection--reverse{% endif %} color-{{ interjection_color_scheme }}"
-                    style="background-color: var(--color-{{ interjection_color_scheme }});{% if interjection_fg != blank %}color: {{ interjection_fg }}!important;{% endif %}"
+                    style="background-color: var(--color-{{ interjection_color_scheme }});"
                   >
                     <div class="grid grid--gapless grid--1-col grid--2-col-tablet">
                       <div class="image grid__item">
                         <img src="{{ interjection_image | image_url: width: 700 }}">
                       </div>
-                      <div class="text grid__item">
+                      <div
+                        class="text grid__item"
+                        {% if interjection_fg != blank %}
+                          style="color: {{ interjection_fg }}!important;"
+                        {% endif %}
+                      >
                         {%- if interjection_preheading != blank -%}
                           <div class="preheading">{{ interjection_preheading }}</div>
                         {%- endif -%}
