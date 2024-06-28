@@ -1465,7 +1465,7 @@ svg.clips {
 
     .left-block.left-block-static {
       position: relative;
-      height: auto;
+      height: 100%;
       overflow: visible;
     }
 
