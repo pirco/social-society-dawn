@@ -217,6 +217,7 @@
       "type": "featured-blog",
       "settings": {
         "heading": "PARTY LIKE US...",
+        "intro_text": "If you know you know that we are a society of designers, event producers and stylists who dream up the chicest parties you have ever seen. Here, on our blog, you will find our most creative ideas, inspiration and expert planning tips for hosting and attending parties.",
         "heading_size": "h1",
         "blog": "party-like-us",
         "post_limit": 2,
