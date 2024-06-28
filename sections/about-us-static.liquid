@@ -22,12 +22,6 @@
           class="right-block"
           style="background-color: {{ block.settings.right_background }}; color: {{ block.settings.right_text_color }}"
         >
-          {% if block.settings.right_text_color != blank %}
-            {% style %}
-              .right-block * { color: {{ block.settings.right_text_color }} }
-            {% endstyle %}
-          {% endif %}
-
           <div class="block-inner">
             <div class="icons">
               <svg
@@ -80,7 +74,14 @@
               </svg>
             </div>
 
-            <div class="content">{{ block.settings.right_content }}</div>
+            <div
+              class="content"
+              {% if block.settings.right_text_color != blank %}
+                style="color: {{ block.settings.right_text_color }}!important;"
+              {% endif %}
+            >
+              {{ block.settings.right_content }}
+            </div>
           </div>
         </div>
 
