@@ -163,6 +163,7 @@
                   {% assign interjection_pos = collection.products.size %}
                 {% endif %}
 
+                {% assign interjection_fg = collection.metafields.custom.interjection_foreground_color %}
                 {% assign interjection_color_scheme = collection.metafields.custom.interjection_color_scheme %}
                 {% assign interjection_text_first = collection.metafields.custom.interjection_text_first %}
                 {% assign interjection_image = collection.metafields.custom.interjection_image %}
@@ -209,7 +210,7 @@
                 {% if forloop.index == interjection_pos %}
                   <div
                     class="collection-interjection {% if interjection_text_first %}collection-interjection--reverse{% endif %} color-{{ interjection_color_scheme }}"
-                    style="background-color: var(--color-{{ interjection_color_scheme }});"
+                    style="background-color: var(--color-{{ interjection_color_scheme }});{% if interjection_fg != blank %}color: {{ interjection_fg }}!important;{% endif %}"
                   >
                     <div class="grid grid--gapless grid--1-col grid--2-col-tablet">
                       <div class="image grid__item">
