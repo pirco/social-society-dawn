@@ -165,6 +165,7 @@
 
                 {% assign interjection_bg = collection.metafields.custom.interjection_background_color %}
                 {% assign interjection_fg = collection.metafields.custom.interjection_foreground_color %}
+                {% assign interjection_color_scheme = collection.metafields.custom.interjection_color_scheme %}
                 {% assign interjection_text_first = collection.metafields.custom.interjection_text_first %}
                 {% assign interjection_image = collection.metafields.custom.interjection_image %}
                 {% assign interjection_preheading = collection.metafields.custom.interjection_pre_heading
@@ -221,7 +222,7 @@
                         {%- if interjection_preheading != blank -%}
                           <div class="preheading">{{ interjection_preheading }}</div>
                         {%- endif -%}
-                        {%- if interjection_heading != blank -%}
+                        {%- if interjection_icon != blank -%}
                           <div class="heading">{{ interjection_heading }}</div>
                         {%- endif -%}
                         {%- if interjection_icon != blank -%}
