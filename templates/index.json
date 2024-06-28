@@ -124,22 +124,22 @@
     "collections_7dJhJC": {
       "type": "collections",
       "blocks": {
-        "collection_Ubbc9G": {
-          "type": "collection",
-          "settings": {
-            "collection": "party-supplies"
-          }
-        },
         "collection_XpmTee": {
           "type": "collection",
           "settings": {
-            "collection": "holidays"
+            "collection": "beach-vibes"
+          }
+        },
+        "collection_Ubbc9G": {
+          "type": "collection",
+          "settings": {
+            "collection": "halloween"
           }
         },
         "collection_hbFYWi": {
           "type": "collection",
           "settings": {
-            "collection": "themes"
+            "collection": "birthday"
           }
         },
         "collection_nT9pcz": {
@@ -156,8 +156,8 @@
         }
       },
       "block_order": [
-        "collection_Ubbc9G",
         "collection_XpmTee",
+        "collection_Ubbc9G",
         "collection_hbFYWi",
         "collection_nT9pcz",
         "collection_h6qtNj"

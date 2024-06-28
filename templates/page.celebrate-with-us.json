@@ -20,20 +20,6 @@
     "about_us_9MmmgH": {
       "type": "about-us",
       "blocks": {
-        "section_MepjNh": {
-          "type": "section",
-          "settings": {
-            "left_background": "#000000",
-            "left_text_color": "#bfa3de",
-            "left_subtitle": "About Us",
-            "left_image": "shopify:\/\/shop_images\/IMG_5046.jpg_copy.jpg",
-            "left_headline": "Party People",
-            "right_background": "#bfa3de",
-            "right_text_color": "#121212",
-            "right_icon": "cup",
-            "right_content": "<p>The Social Society is your one-stop shop for all the supplies you need to throw a fabulous party! Find trendy tableware and decor; a balloon bar with helium bouquets; grab-and-go garlands; and unique, thoughtful gifts for hosts and everyday entertaining. Enjoy community-driven in-store events and take advantage of our event styling services, too.<\/p>"
-          }
-        },
         "section_UGNYyq": {
           "type": "section",
           "settings": {
@@ -78,7 +64,6 @@
         }
       },
       "block_order": [
-        "section_MepjNh",
         "section_UGNYyq",
         "section_JmCXRa",
         "section_dPL3ia"
@@ -95,13 +80,13 @@
           "settings": {
             "left_background": "#2e159b",
             "left_text_color": "#a2e0e0",
-            "left_subtitle": "Yay",
-            "left_image": "shopify:\/\/shop_images\/IMG_3855_1561de06-6433-4e48-98c5-e43a9e300734.jpg",
-            "left_headline": "No text here is fine!",
+            "left_subtitle": "welcome to the party!",
+            "left_image": "shopify:\/\/shop_images\/IMG_5047_copy.jpg",
+            "left_headline": "",
             "right_background": "#a2e0e0",
             "right_text_color": "#141417",
             "right_icon": "cup",
-            "right_content": "<p>Some Text here makes this look good!<\/p>"
+            "right_content": "<p>The Social Society is your one-stop shop for all the supplies you need to throw a fabulous party! Find trendy tableware and decor; a balloon bar with helium bouquets; grab-and-go garlands; and unique, thoughtful gifts for hosts and everyday entertaining. Enjoy community-driven in-store events and take advantage of our event styling services, too.<\/p>"
           }
         },
         "section_gRddeb": {
