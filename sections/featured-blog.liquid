@@ -9,6 +9,14 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .featured-blog--header {
+    text-align: center;
+  }
+  .featured-blog--intro-text {
+    max-width: 660px;
+    margin: 0 auto;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -28,21 +36,23 @@
   <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link{% if posts_displayed > 2 %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
-        <h2
-          id="SectionHeading-{{ section.id }}"
-          class="blog__title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {% if settings.animations_reveal_on_scroll %}
-            data-cascade
-          {% endif %}
-        >
-          {{ section.settings.heading }}
-        </h2>
+        <div class="featured-blog--header">
+          <h2
+            id="SectionHeading-{{ section.id }}"
+            class="blog__title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+            {% endif %}
+          >
+            {{ section.settings.heading }}
+          </h2>
 
-        {% if section.settings.intro_text != blank %}
-          <div class="featured-blog-intro-text">
-            {{ section.settings.intro_text }}
-          </div>
-        {% endif %}
+          {% if section.settings.intro_text != blank %}
+            <div class="featured-blog--intro-text">
+              {{ section.settings.intro_text }}
+            </div>
+          {% endif %}
+        </div>
 
         {%- if section.settings.blog != blank
           and section.settings.show_view_all
