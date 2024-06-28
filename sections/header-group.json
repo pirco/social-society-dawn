@@ -23,6 +23,7 @@
         },
         "announcement_4H97Lm": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "FREE SHIPPING on orders $50+",
             "link": "shopify:\/\/collections\/all"
