@@ -1365,6 +1365,12 @@ svg.clips {
   }
 }
 
+@media screen and (max-width: 749px) {
+  .events-blog .blog-articles__article .article-card {
+    flex-direction: column;
+  }
+}
+
 /* News blog */
 
 .main-blog {
