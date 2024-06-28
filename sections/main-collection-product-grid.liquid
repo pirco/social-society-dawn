@@ -171,7 +171,7 @@
                   | metafield_tag
                 %}
                 {% assign interjection_icon = collection.metafields.custom.interjection_icon %}
-
+                interjection heading: {{ interjection_heading }}
                 {% if interjection_image == blank %}
                   {% assign interjection_color_scheme = interjection.settings.color_scheme %}
                   {% assign interjection_text_first = interjection.settings.text_first %}
