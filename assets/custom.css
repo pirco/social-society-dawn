@@ -1466,6 +1466,7 @@ svg.clips {
     .left-block.left-block-static {
       position: relative;
       height: auto;
+      overflow: visible;
     }
 
     .grid__item.about-us--right.about-us--right-static {
