@@ -9,7 +9,7 @@
           <div class="subheadline">{{ block.settings.left_subtitle }}</div>
 
           <div class="image">
-            <div class="media media--portrait">
+            <div class="">
               <img src="{{ block.settings.left_image | image_url: width: 300 }}">
             </div>
           </div>
@@ -79,7 +79,7 @@
         </div>
 
         <div
-          class="left-block"
+          class="left-block left-block-static"
           style="background-color: {{ block.settings.left_background }}; color: {{ block.settings.left_text_color }}"
         >
           <div class="subheadline">{{ block.settings.left_subtitle }}</div>

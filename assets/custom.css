@@ -1459,9 +1459,19 @@ svg.clips {
       }
     }
 
+    .left-block.left-block-static {
+      position: relative;
+      height: auto;
+    }
+
     .grid__item.about-us--right.about-us--right-static {
       display: flex;
       flex-direction: column-reverse;
+
+      .right-block {
+        position: relative;
+        height: auto;
+      }
     }
 
     .grid__item.about-us--right {
