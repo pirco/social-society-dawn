@@ -845,7 +845,7 @@ svg.clips {
   margin-bottom: 3vh;
 
   .image {
-    padding: 0px 0 0px 60px;
+    padding: 3vh 3vw;
 
     img {
       max-width: 100%;
