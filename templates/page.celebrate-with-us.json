@@ -79,12 +79,12 @@
           "type": "section",
           "settings": {
             "left_background": "#a2e0e0",
-            "left_text_color": "#141417",
+            "left_text_color": "#085e21",
             "left_subtitle": "welcome to the party!",
             "left_image": "shopify:\/\/shop_images\/IMG_5047_copy.jpg",
             "left_headline": "",
             "right_background": "#085e21",
-            "right_text_color": "#141417",
+            "right_text_color": "#a2e0e0",
             "right_icon": "cup",
             "right_content": "<p>The Social Society is your one-stop shop for all the supplies you need to throw a fabulous party! Find trendy tableware and decor; a balloon bar with helium bouquets; grab-and-go garlands; and unique, thoughtful gifts for hosts and everyday entertaining. Enjoy community-driven in-store events and take advantage of our event styling services, too.<\/p>"
           }
@@ -98,7 +98,7 @@
             "left_image": "shopify:\/\/shop_images\/img_7854.jpg",
             "left_headline": "THE SOCIAL SOCIETY",
             "right_background": "#2e159b",
-            "right_text_color": "#ffffff",
+            "right_text_color": "#d6f254",
             "right_icon": "palm",
             "right_content": "<h2>Shop at The Social Society<\/h2><p>This fall, 2024. We cannot wait to open our doors to you!<\/p><p><\/p><p>Make sure that you are signed up and on the look out for announcements, news, store events and so much more. We cannot wait to party with you!<\/p>"
           }
