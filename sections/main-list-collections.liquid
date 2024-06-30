@@ -23,7 +23,7 @@
       assign paginate_by = 28
     endif
 
-    assign collections = inklists.all-collections.links.object
+    assign collections = linklists.all-collections.links.object
   -%}
   {%- paginate collections by paginate_by -%}
     <ul
