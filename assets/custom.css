@@ -92,7 +92,7 @@ header-drawer {
     color: var(--color-dark);
     text-transform: uppercase;
     text-decoration: none !important;
-    padding: 14px;
+    padding: 14px 22px 14px 2px;
 
     >svg {
       display: none;
