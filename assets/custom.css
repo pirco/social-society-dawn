@@ -166,6 +166,11 @@ header-drawer {
   border: 1px solid grey;
 }
 
+#menu-drawer .template-search__search {
+  border: none;
+    padding: 14px;
+}
+
 @media screen and (min-width: 990px) {
   .header__search .search-modal__form {
     max-width: 22.2rem;
