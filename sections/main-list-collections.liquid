@@ -23,7 +23,7 @@
       assign paginate_by = 28
     endif
   -%}
-  {%- paginate collections by paginate_by -%}
+  {%- paginate linklists.all-collections.links by paginate_by -%}
     <ul
       class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
       role="list"
@@ -31,7 +31,6 @@
       {% comment %} for collection in collections {% endcomment %}
         {% for link in linklists.all-collections.links %}
         {% assign collection = link.object %}
-        {%- unless collection.metafields.custom.hide_from_collection_list == 1 -%}
           <li
             class="collection-list__item grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {% if settings.animations_reveal_on_scroll %}
@@ -45,7 +44,6 @@
               columns: 3
             %}
           </li>
-        {%- endunless -%}
       {%- endfor -%}
     </ul>
     {% render 'pagination', paginate: paginate %}
