@@ -171,10 +171,6 @@ header-drawer {
     padding: 14px;
 }
 
-.menu-drawer__menu-item {
-    padding: 1.1rem 3rem 1.1rem 14px;
-}
-
 @media screen and (min-width: 990px) {
   .header__search .search-modal__form {
     max-width: 22.2rem;
