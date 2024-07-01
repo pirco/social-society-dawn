@@ -1169,6 +1169,44 @@ svg.clips {
   }
 }
 
+/* Press */
+
+.press-blog {
+  --grid-desktop-horizontal-spacing: 20px;
+  --grid-desktop-vertical-spacing: 30px;
+  --grid-mobile-vertical-spacing: 30px;
+  
+  .events-hero {
+    text-align: center;
+    background-color: transparent;
+    color: #000;
+    --color-foreground: #000;
+    margin-bottom: 30px;
+
+    .events-hero__text-wrapper {
+      padding: 60px 0;
+
+      .events-hero__pretitle {
+        font-family: EdwardianScript;
+        font-size: 40px;
+        line-height: 40px;
+      }
+
+      .events-hero__title {
+        text-transform: uppercase;
+        font-size: 100px;
+        line-height: 80px;
+        margin-top: 15px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .blog-articles__article {
+    background-color: transparent;
+  }
+}
+
 /* Events */
 
 .events-blog {
