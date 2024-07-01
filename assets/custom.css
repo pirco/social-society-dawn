@@ -325,9 +325,14 @@ footer {
     display: none;
   }
 
+  .copyright {
+    font-size: 14px;
+  }
+
   .credits {
     margin-top: 20px;
     cursor: pointer;
+    font-size: 14px;
     line-height: 20px;
 
     span:first-child {}
