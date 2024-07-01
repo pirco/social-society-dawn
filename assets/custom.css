@@ -1533,6 +1533,12 @@ svg.clips {
             color: inherit;
           }
 
+          a,
+          button {
+            color: inherit;
+          }
+
+
           p {
             line-height: 24px;
           }
