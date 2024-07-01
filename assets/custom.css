@@ -1182,12 +1182,13 @@ svg.clips {
     color: #000;
     --color-foreground: #000;
     margin-bottom: 30px;
+    border-bottom: 1px solid 000;
 
     .events-hero__text-wrapper {
       padding: 60px 0;
 
       .events-hero__pretitle {
-        font-family: EdwardianScript;
+        font-family: Picaresk;
         font-size: 40px;
         line-height: 40px;
       }
