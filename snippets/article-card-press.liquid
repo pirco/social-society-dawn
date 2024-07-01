@@ -115,8 +115,8 @@
       <div class="card__content">
         <div class="card__information">
           <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
-            <a href="{{ metafields.blogs.custom.press_link_url }}" class="full-unstyled-link">
-              {{ article.title | truncate: 50 | escape }} url: {{ metafields.custom.press_link_url }}
+            <a href="{{ article.metafields.custom.press_link_url }}" class="full-unstyled-link">
+              {{ article.title | truncate: 50 | escape }} url: {{ article.metafields.custom.press_link_url }}
             </a>
           </h3>
           <div class="article-card__info caption-with-letter-spacing h5">
