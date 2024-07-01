@@ -168,7 +168,7 @@ header-drawer {
 
 #menu-drawer .template-search__search {
   border: none;
-    padding: 14px;
+  padding: 14px;
 }
 
 @media screen and (min-width: 990px) {
@@ -1449,7 +1449,7 @@ svg.clips {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 6vw 7vh;
+      padding: 3vh 6vw;
       text-align: center;
       height: calc(100vh - 126px);
       overflow: hidden;
