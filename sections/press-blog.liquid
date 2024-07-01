@@ -18,31 +18,17 @@
   }
 {%- endstyle -%}
 
-{% if blog.handle == 'in-store-events' %}
-  {% assign events_blog = true %}
-{% elsif blog.handle == 'press' %}
+{% if blog.handle == 'press' %}
   {% assign press_blog = true %}
 {% endif %}
 
-{% if events_blog %}
-  {% assign paginate_by = 6 %}
-{% else %}
+{% if press_blog %}
   {% assign paginate_by = 24 %}
 {% endif %}
 
 {%- paginate blog.articles by paginate_by -%}
-  <div class="main-blog {% if events_blog %}events-blog{% elsif press_blog %} press-blog{% endif %} section-{{ section.id }}-padding">
-    {% if events_blog %}
-      <div class="events-hero page-width page-full-width">
-        <div class="events-hero__text-wrapper">
-          <div class="events-hero__pretitle">You're Cordially Invited...</div>
-
-          <h1 class="events-hero__title{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-            {{ blog.title | escape }}
-          </h1>
-        </div>
-      </div>
-    {% elsif press_blog %}
+  <div class="main-blog {% if press_blog %} press-blog{% endif %} section-{{ section.id }}-padding">
+    {% if press_blog %}
       <div class="events-hero page-width page-full-width">
         <div class="events-hero__text-wrapper">
           <h1 class="events-hero__title{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -67,7 +53,7 @@
             style="--animation-order: {{ forloop.index }};"
           {% endif %}
         >
-          {%- render 'article-card',
+          {%- render 'article-card-press',
             article: article,
             media_height: section.settings.image_height,
             media_aspect_ratio: article.image.aspect_ratio,
