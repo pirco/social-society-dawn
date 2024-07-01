@@ -114,7 +114,7 @@
                               </ul>
                             {%- endif -%}
 
-                            forloop.index={{ forloop.index }} / block loop index = {{ block.loop.index }}
+                            forloop.index={{ forloop.index }} / block loop index = {{ blocks.loop.index }}
                             {% if forloop.index == 1 and blocks.loop.index == 3 %}
                               <div class="copyright">&copy; 2024 The Social Society. All rights reserved</div>
                             {% endif %}
