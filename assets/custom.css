@@ -1185,7 +1185,7 @@ svg.clips {
     border-bottom: 1px solid #000;
 
     .events-hero__text-wrapper {
-      padding: 60px 0;
+      padding: 60px 0 48px;
 
       .events-hero__pretitle {
         font-family: Picaresk;
