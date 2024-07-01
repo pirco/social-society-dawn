@@ -31,10 +31,10 @@
     {% if press_blog %}
       <div class="events-hero page-width page-full-width">
         <div class="events-hero__text-wrapper">
-          <div class="events-hero__pretitle"></div>
           <h1 class="events-hero__title{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
             {{ blog.title | escape }}
           </h1>
+          <div class="events-hero__pretitle">Here's the latest</div>
         </div>
       </div>
     {% else %}
