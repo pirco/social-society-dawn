@@ -15,4 +15,8 @@
     column-gap: var(--grid-desktop-horizontal-spacing);
     row-gap: var(--grid-desktop-vertical-spacing);
   }
+
+  .press-blog .blog-articles {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
