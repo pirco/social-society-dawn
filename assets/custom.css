@@ -327,6 +327,8 @@ footer {
 
   .copyright {
     font-size: 14px;
+    margin-top: 20px;
+    line-height: 20px;
   }
 
   .credits {
