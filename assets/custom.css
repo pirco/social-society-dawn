@@ -1471,6 +1471,8 @@ svg.clips {
       .headline {
         font-family: ABCROMCompressed-Heavy;
         font-size: 60px;
+        line-height: 1;
+        margin-bottom: 1.9vh;
       }
     }
 
