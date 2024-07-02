@@ -1103,8 +1103,8 @@ svg.clips {
       }
 
       .contact__fields input:focus + label.field__label,
-      .contact__fields input[type="tel"]:focus + label.field__label,
-      .contact__fields textarea:focus + label.field__label {
+      .contact-form input[type="tel"]:focus + label.field__label,
+      .contact-form textarea:focus + label.field__label {
         font-size: 1.1rem;
         top: 0.39em;
       }
