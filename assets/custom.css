@@ -1102,6 +1102,9 @@ svg.clips {
         display: block;
       }
 
+      .contact__fields input:focus + label.field__label {
+        font-size: 1.1rem;
+      }
 
       .field__label {
         color: black;
