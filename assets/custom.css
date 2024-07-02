@@ -1631,7 +1631,7 @@ svg.clips {
 }
 
 .section-about-us:not(.section-about-us-static) .grid .left-block .image {
-     max-width: 4000px;
+     max-width: 400px;
   }
 
 @media (max-height: 600px) {
