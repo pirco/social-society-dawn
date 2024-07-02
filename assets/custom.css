@@ -1631,7 +1631,13 @@ svg.clips {
 }
 
 .section-about-us:not(.section-about-us-static) .grid .left-block .image {
-   max-width: 480px;
+     max-width: 4000px;
+  }
+
+@media (max-height: 600px) {
+  .section-about-us:not(.section-about-us-static) .grid .left-block .image {
+     max-width: 260px;
+  }
 }
 
 @media (max-height: 750px) {
@@ -1650,7 +1656,7 @@ svg.clips {
 
 }
 
-@media (max-height: 899px) {
+@media (max-height: 959px) {
 
   .section-about-us:not(.section-about-us-static) {
     .grid {
@@ -1663,7 +1669,6 @@ svg.clips {
       }
     }
   }
-
 }
 
 /* Responsive */
