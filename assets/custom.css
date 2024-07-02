@@ -443,9 +443,9 @@ footer {
       left: calc(50% + 300px);
       border: 1px solid white;
       border-radius: 50%;
-      width: 20px;
-      height: 20px;
-      line-height: 20px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
       color: white;
       font-weight: normal;
       font-family: Arial;
