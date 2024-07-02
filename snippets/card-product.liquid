@@ -554,7 +554,7 @@
     <svg class="clips">
       <defs>
         {% liquid
-          assign clip = ""
+          assign clip = "heart"
           for collection in card_product.collections
             case collection.handle
               when 'balloons'
@@ -587,8 +587,6 @@
                 assign clip = 'card'
               when 'gifts'
                 assign clip = 'card'
-              else 
-                assign clip = 'heart'
             endcase
           endfor
         %}
