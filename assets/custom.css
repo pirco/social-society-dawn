@@ -458,13 +458,6 @@ footer {
   }
 }
 
-.field__label {
-  color: black;
-  font-family: Picaresk;
-  left: 1em;
-  top: 1.17rem;
-}
-
 @media (max-width: 749px) {
   footer {
     .footer__blocks-wrapper {
@@ -1109,9 +1102,12 @@ svg.clips {
         display: block;
       }
 
-      label {
-        font-size: 1.6rem;
-        /* top: 1.5rem; */
+
+      .field__label {
+        color: black;
+        font-family: Picaresk;
+        left: 1em;
+        top: 1.17rem;
       }
 
       .button {
