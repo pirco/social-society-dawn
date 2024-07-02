@@ -1104,6 +1104,7 @@ svg.clips {
 
       .contact__fields input:focus + label.field__label {
         font-size: 1.1rem;
+        top: 0.39em;
       }
 
       .field__label {
