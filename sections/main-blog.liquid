@@ -50,6 +50,7 @@
 
     <div class="blog-articles page-width {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
+        {%- if article -%}
         <div
           class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
@@ -67,6 +68,10 @@
             show_excerpt: true
           -%}
         </div>
+          {%- else -%}
+        <h2>We are planning big things.</h2>
+          <p>Please check back later and don't forget to sign up for news about products and events below.</p>
+          {%- endif -%}
       {%- endfor -%}
     </div>
 
