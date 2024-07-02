@@ -33,8 +33,7 @@
                 >
                   {%- assign total_items = link.links.size -%}
                   {%- assign limit_items = total_items | minus: 2 -%}
-                  {% assign midpoint = limit_items | divided_by: 2 %}
-                  {% assign midpoint = midpoint | ceil %}
+                  {% assign midpoint = limit_items | divided_by: 2 | ceil %}
 total_items: {{ total_items }}<br>limit_items: {{ limit_items }}<br> midpoint: {{ midpoint }}
                   {% for i in (1..2) %}
                     <ul
