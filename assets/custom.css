@@ -1492,6 +1492,13 @@ svg.clips {
 
 /* About us */
 
+.section-about-us.section-about-us-static {
+  .left-block {
+    top: 0;
+    height: calc(100vh - 126px);
+  }
+}
+
 .section-about-us {
   .grid {
     .grid__item.about-us--left {
