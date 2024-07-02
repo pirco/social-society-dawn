@@ -1492,12 +1492,6 @@ svg.clips {
 
 /* About us */
 
-.section-about-us.section-about-us-static {
-  .left-block {
-    top: 0;
-    height: calc(100vh - 126px);
-  }
-}
 
 .section-about-us {
   .grid {
@@ -1518,6 +1512,118 @@ svg.clips {
       padding: 3vh 6vw;
       text-align: center;
       height: calc(100vh - 115px);
+      overflow: hidden;
+
+      .subheadline {
+        font-family: EdwardianScript;
+        font-size: 40px;
+      }
+
+      .image {
+        width: 100%;
+        max-width: 660px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .headline {
+        font-family: ABCROMCompressed-Heavy;
+        font-size: 60px;
+        line-height: 1;
+        margin-bottom: 1.9vh;
+      }
+    }
+
+    .left-block.left-block-static {
+      position: relative;
+      height: 100%;
+      overflow: visible;
+    }
+
+    .grid__item.about-us--right.about-us--right-static {
+      display: flex;
+      flex-direction: column-reverse;
+
+      .right-block {
+        position: relative;
+        height: 100%;
+      }
+    }
+
+    .grid__item.about-us--right {
+
+      .right-block {
+        position: relative;
+        padding: 50px 90px;
+        height: calc(100vh - 126px);
+        overflow: hidden;
+
+        svg {
+          opacity: .1;
+          transform: scale(.8);
+
+          &.icon-active {
+            opacity: 1;
+          }
+        }
+
+        .block-inner {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+        }
+
+        .content {
+          max-width: 400px;
+          margin: auto 0;
+          padding-bottom: 3vh;
+
+          h2,
+          h3 {
+            font-family: Picaresk;
+            color: inherit;
+          }
+
+          a,
+          button {
+            color: inherit;
+          }
+
+
+          p {
+            line-height: 24px;
+          }
+        }
+      }
+
+      .left-block {
+        display: none;
+      }
+    }
+  }
+}
+
+.section-about-us.section-about-us-static {
+  .grid {
+    .grid__item.about-us--left {
+      position: relative;
+    }
+
+    .left-block {
+      position: absolute;
+      top: 0px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 3vh 6vw;
+      text-align: center;
+      height: calc(100vh - 126px);
       overflow: hidden;
 
       .subheadline {
