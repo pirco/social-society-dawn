@@ -1492,7 +1492,7 @@ svg.clips {
 
 /* About us */
 
-.section-about-us:not(.section-about-us-static) {
+.section-about-us {
   .grid {
     .grid__item.about-us--left {
       position: relative;
@@ -1628,6 +1628,10 @@ svg.clips {
       }
     }
   }
+}
+
+.section-about-us:not(.section-about-us-static) .grid .left-block .image {
+   max-width: 480px;
 }
 
 @media (max-height: 750px) {
