@@ -462,7 +462,7 @@ footer {
   color: black;
   font-family: Picaresk;
   left: 1em;
-  top: 1.7rem;
+  top: 1.17rem;
 }
 
 @media (max-width: 749px) {
@@ -1110,7 +1110,7 @@ svg.clips {
       }
 
       label {
-        font-size: 11px;
+        font-size: 1.6rem;
         /* top: 1.5rem; */
       }
 
