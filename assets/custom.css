@@ -1634,10 +1634,12 @@ svg.clips {
      max-width: 400px;
   }
 
-@media (max-height: 600px) {
+@media (max-height: 959px) {
+
   .section-about-us:not(.section-about-us-static) .grid .left-block .image {
-     max-width: 260px;
+          max-width: 360px;
   }
+  
 }
 
 @media (max-height: 750px) {
@@ -1648,12 +1650,10 @@ svg.clips {
 
 }
 
-@media (max-height: 959px) {
-
+@media (max-height: 600px) {
   .section-about-us:not(.section-about-us-static) .grid .left-block .image {
-          max-width: 360px;
+     max-width: 260px;
   }
-  
 }
 
 /* Responsive */
