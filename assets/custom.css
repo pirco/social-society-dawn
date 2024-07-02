@@ -1205,6 +1205,10 @@ svg.clips {
 
   .blog-articles__article {
     background-color: transparent;
+
+    .media {
+      background: transparent;
+    }
   }
 }
 
