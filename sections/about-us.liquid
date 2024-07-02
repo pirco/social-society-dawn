@@ -9,15 +9,17 @@
           class="left-block"
           style="background-color: {{ block.settings.left_background }}; color: {{ block.settings.left_text_color }}"
         >
-          <div class="subheadline">{{ block.settings.left_subtitle }}</div>
-
+          
+          <div class="headline">{{ block.settings.left_headline }}</div>
+          
           <div class="image">
             <div class="media media--portrait">
               <img src="{{ block.settings.left_image | image_url: width: 300 }}">
             </div>
           </div>
 
-          <div class="headline">{{ block.settings.left_headline }}</div>
+          <div class="subheadline">{{ block.settings.left_subtitle }}</div>
+
         </div>
       {% endfor %}
     </div>
@@ -88,15 +90,17 @@
           class="left-block"
           style="background-color: {{ block.settings.left_background }}; color: {{ block.settings.left_text_color }}"
         >
-          <div class="subheadline">{{ block.settings.left_subtitle }}</div>
-
+          
+          <div class="headline">{{ block.settings.left_headline }}</div>
+          
           <div class="image">
             <div class="media media--portrait">
               <img src="{{ block.settings.left_image | image_url: width: 300 }}">
             </div>
           </div>
 
-          <div class="headline">{{ block.settings.left_headline }}</div>
+          <div class="subheadline">{{ block.settings.left_subtitle }}</div>
+
         </div>
       {% endfor %}
     </div>
