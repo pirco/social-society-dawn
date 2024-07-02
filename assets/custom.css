@@ -1642,33 +1642,18 @@ svg.clips {
 
 @media (max-height: 750px) {
 
-  .section-about-us:not(.section-about-us-static) {
-    .grid {
-
-      .left-block {
-
-        .image {
+  .section-about-us:not(.section-about-us-static) .grid .left-block .image {
           max-width: 300px;
-        }
-      }
-    }
   }
 
 }
 
 @media (max-height: 959px) {
 
-  .section-about-us:not(.section-about-us-static) {
-    .grid {
-
-      .left-block {
-
-        .image {
+  .section-about-us:not(.section-about-us-static) .grid .left-block .image {
           max-width: 360px;
-        }
-      }
-    }
   }
+  
 }
 
 /* Responsive */
