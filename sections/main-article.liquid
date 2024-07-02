@@ -17,9 +17,9 @@
           <div class="event-hero--content">
             <div class="event-title">{{ article.title }}</div>
 
-            {% assign from_date = article.metafields.custom.event_date_time | date: '%d %B' %}
-            {% assign to_date = article.metafields.custom.event_date_time_to | date: '%d %B' %}
-            {% assign date = article.metafields.custom.event_date_time | date: '%d %B, %-I:%M%p' | append: ' - ' %}
+            {% assign from_date = article.metafields.custom.event_date_time | date: '%B %d' %}
+            {% assign to_date = article.metafields.custom.event_date_time_to | date: '%B%d' %}
+            {% assign date = article.metafields.custom.event_date_time | date: '%B %d, %-I:%M%p' | append: ' - ' %}
             {% if from_date != to_date %}
               {% assign date = date | append: to_date | append: ' - ' %}
             {% endif %}
