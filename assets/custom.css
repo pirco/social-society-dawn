@@ -1500,7 +1500,7 @@ svg.clips {
 
     .left-block {
       position: absolute;
-      top: 0;
+      top: -11px;
       right: 0;
       bottom: 0;
       left: 0;
@@ -1510,7 +1510,7 @@ svg.clips {
       align-items: center;
       padding: 3vh 6vw;
       text-align: center;
-      height: calc(100vh - 126px);
+      height: calc(100vh - 115px);
       overflow: hidden;
 
       .subheadline {
