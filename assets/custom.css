@@ -1492,7 +1492,7 @@ svg.clips {
 
 /* About us */
 
-.section-about-us {
+.section-about-us:not(.section-about-us-static) {
   .grid {
     .grid__item.about-us--left {
       position: relative;
