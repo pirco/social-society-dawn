@@ -1,199 +1,89 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
-{% if blog.handle == 'in-store-events' %}
-  {% assign events_blog = true %}
-{% endif %}
-
 <article class="article-template blog-{{ blog.handle }}" itemscope itemtype="http://schema.org/BlogPosting">
-  {% if events_blog %}
-    <div class="event-hero page-width">
-      <div class="grid grid--gapless grid--1-col grid--2-col-tablet">
-        <div class="grid__item">
-          <div class="media media--square">
-            <img src="{{ article.image | image_url: width: 600 }}">
-          </div>
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when '@app' -%}
+        <div class="page-width{% if section.settings.page_width_narrow %} page-width--narrow{% endif %}">
+          {% render block %}
         </div>
-        <div class="grid__item">
-          <div class="event-hero--content">
-            <div class="event-title">{{ article.title }}</div>
-
-            {% assign event_button_text = article.metafields.custom.event_button_text %}
-            {% if article.metafields.custom.event_custom_date != blank %}
-              {% assign date = article.metafields.custom.event_custom_date %}
-            {% else %}
-              {% assign from_date = article.metafields.custom.event_date_time | date: '%B %d' %}
-              {% assign to_date = article.metafields.custom.event_date_time_to | date: '%B %d' %}
-              {% assign date = article.metafields.custom.event_date_time | date: '%B %d, %-I:%M%p' | append: ' - ' %}
-              {% if from_date != to_date %}
-                {% assign date = date | append: to_date | append: ' - ' %}
-              {% endif %}
-              {% assign to_time = article.metafields.custom.event_date_time_to | date: '%-I:%M%p' %}
-              {% assign date = date | append: to_time %}
-            {% endif %}
-            <div class="event-date">{{ date }}</div>
-
-            <div class="event-location">{{ article.metafields.custom.event_location }}</div>
-            <div class="event-price">{{ article.metafields.custom.event_price }}</div>
-
-            <modal-opener data-modal="#PopupModal-event-rsvp">
-              <button class="button">
-                {% if event_button_text != blank %}{{ event_button_text }}{% else %}RSVP{% endif %}
-              </button>
-            </modal-opener>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="event-content page-width">
-      <div class="event-description">{{ article.content }}</div>
-
-      <div class="event-date">{{ date }}</div>
-
-      <div class="event-location">{{ article.metafields.custom.event_location }}</div>
-
-      <div class="event-price">{{ article.metafields.custom.event_price }}</div>
-
-      <modal-opener data-modal="#PopupModal-event-rsvp">
-        <button class="button">
-          {% if event_button_text != blank %}{{ event_button_text }}{% else %}RSVP{% endif %}
-        </button>
-      </modal-opener>
-
-      <hr>
-
-      <div class="event-share">
-        <div class="event-share--title">SHARE THIS EVENT</div>
-
-        {% liquid
-          assign share_url = article.url
-          render 'share-buttons', share_link: share_url, text: article.title
-        %}
-      </div>
-    </div>
-
-    <modal-dialog id="PopupModal-event-rsvp" class="event-rsvp">
-      {% form 'contact', return_to: '/pages/thank-you' %}
-        {{ form.errors | default_errors }}
-        <input type="hidden" name="contact[event_title]" value="{{ article.title }}">
-        <input type="hidden" name="contact[event_date]" value="{{ date }}">
-
-        <div class="first-name">
-          <input type="text" name="contact[first_name]" id="first-name" placeholder="First name">
-        </div>
-
-        <div class="last-name">
-          <input type="text" name="contact[last_name]" id="last-name" placeholder="Last name">
-        </div>
-
-        <div class="phone">
-          <input type="tel" name="contact[phone]" id="phone" placeholder="Phone">
-        </div>
-
-        <div class="email">
-          <input type="email" name="contact[email]" id="email" placeholder="Email">
-        </div>
-
-        <div class="people">
-          <input type="text" name="contact[people]" id="people" placeholder="Number of people">
-        </div>
-
-        <div class="message">
-          <textarea name="contact[body]" id="message" placeholder="Message"></textarea>
-        </div>
-
-        <div class="submit">
-          <input type="submit" value="SUBMIT" class="button">
-        </div>
-
-        <div id="ModalClose-event-rsvp" class="event-rsvp--close">✖</div>
-      {% endform %}
-    </modal-dialog>
-  {% else %}
-    {%- for block in section.blocks -%}
-      {%- case block.type -%}
-        {%- when '@app' -%}
-          <div class="page-width{% if section.settings.page_width_narrow %} page-width--narrow{% endif %}">
-            {% render block %}
-          </div>
-        {%- when 'featured_image' -%}
-          {%- if article.image -%}
+      {%- when 'featured_image' -%}
+        {%- if article.image -%}
+          <div
+            class="article-template__hero-container{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            {{ block.shopify_attributes }}
+          >
             <div
-              class="article-template__hero-container{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-              {{ block.shopify_attributes }}
+              class="article-template__hero-{{ block.settings.image_height }} media"
+              itemprop="image"
+              {% if block.settings.image_height == 'adapt' and article.image %}
+                style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
+              {% endif %}
             >
-              <div
-                class="article-template__hero-{{ block.settings.image_height }} media"
-                itemprop="image"
-                {% if block.settings.image_height == 'adapt' and article.image %}
-                  style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
-                {% endif %}
+              <img
+                srcset="
+                  {% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
+                  {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
+                  {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
+                  {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
+                  {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
+                  {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
+                  {{ article.image | image_url }} {{ article.image.width }}w
+                "
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                src="{{ article.image | image_url: width: 1100 }}"
+                loading="eager"
+                fetchpriority="high"
+                width="{{ article.image.width }}"
+                height="{{ article.image.height }}"
+                alt="{{ article.image.alt | escape }}"
               >
-                <img
-                  srcset="
-                    {% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
-                    {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
-                    {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
-                    {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
-                    {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
-                    {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
-                    {{ article.image | image_url }} {{ article.image.width }}w
-                  "
-                  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
-                  src="{{ article.image | image_url: width: 1100 }}"
-                  loading="eager"
-                  fetchpriority="high"
-                  width="{{ article.image.width }}"
-                  height="{{ article.image.height }}"
-                  alt="{{ article.image.alt | escape }}"
-                >
-              </div>
             </div>
+          </div>
+        {%- endif -%}
+
+      {%- when 'title' -%}
+        <header
+          class="page-width{% if section.settings.page_width_narrow %} page-width--narrow{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          {{ block.shopify_attributes }}
+        >
+          <h1
+            class="article-template__title"
+            itemprop="headline"
+          >
+            {{ article.title | escape }}
+          </h1>
+          {%- if block.settings.blog_show_date -%}
+            <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
+              {{- article.published_at | time_tag: format: 'date' -}}
+            </span>
           {%- endif -%}
+          {%- if block.settings.blog_show_author -%}
+            <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span itemprop="name">{{ article.author }}</span>
+            </span>
+          {%- endif -%}
+        </header>
 
-        {%- when 'title' -%}
-          <header
-            class="page-width{% if section.settings.page_width_narrow %} page-width--narrow{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-            {{ block.shopify_attributes }}
-          >
-            <h1
-              class="article-template__title"
-              itemprop="headline"
-            >
-              {{ article.title | escape }}
-            </h1>
-            {%- if block.settings.blog_show_date -%}
-              <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
-                {{- article.published_at | time_tag: format: 'date' -}}
-              </span>
-            {%- endif -%}
-            {%- if block.settings.blog_show_author -%}
-              <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span itemprop="name">{{ article.author }}</span>
-              </span>
-            {%- endif -%}
-          </header>
+      {%- when 'content' -%}
+        <div
+          class="article-template__content page-width{% if section.settings.page_width_narrow %} page-width--narrow{% endif %} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          itemprop="articleBody"
+          {{ block.shopify_attributes }}
+        >
+          {{ article.content }}
+        </div>
 
-        {%- when 'content' -%}
-          <div
-            class="article-template__content page-width{% if section.settings.page_width_narrow %} page-width--narrow{% endif %} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-            itemprop="articleBody"
-            {{ block.shopify_attributes }}
-          >
-            {{ article.content }}
-          </div>
-
-        {%- when 'share' -%}
-          <div
-            class="article-template__social-sharing page-width{% if section.settings.page_width_narrow %} page-width--narrow{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-            {{ block.shopify_attributes }}
-          >
-            {% assign share_url = request.origin | append: article.url %}
-            {% render 'share-button', block: block, share_link: share_url %}
-          </div>
-      {%- endcase -%}
-    {%- endfor -%}
-  {% endif %}
+      {%- when 'share' -%}
+        <div
+          class="article-template__social-sharing page-width{% if section.settings.page_width_narrow %} page-width--narrow{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          {{ block.shopify_attributes }}
+        >
+          {% assign share_url = request.origin | append: article.url %}
+          {% render 'share-button', block: block, share_link: share_url %}
+        </div>
+    {%- endcase -%}
+  {%- endfor -%}
 
   <div class="article-template__back element-margin-top center{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
