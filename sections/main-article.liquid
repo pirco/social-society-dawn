@@ -20,7 +20,6 @@
             {% assign event_button_text = article.metafields.custom.event_button_text %}
             {% if article.metafields.custom.event_custom_date != blank %}
               {% assign date = article.metafields.custom.event_custom_date %}
-              date: {{ date }}
             {% else %}
               {% assign from_date = article.metafields.custom.event_date_time | date: '%B %d' %}
               {% assign to_date = article.metafields.custom.event_date_time_to | date: '%B %d' %}
