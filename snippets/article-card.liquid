@@ -28,8 +28,9 @@
       assign ratio = media_aspect_ratio
     endif
   -%}
+
   {% assign article_url = article.url %}
-  metafield URL {{ article.metafields.custom.external_blog_link_to_lmp }}
+
   <div class="article-card-wrapper card-wrapper underline-links-hover">
     {% comment %} <article aria-labelledby="Article-{{ article.id }}"> {% endcomment %}
     <div
@@ -162,10 +163,11 @@
               {%- endif -%}
             </div>
 
+            metafield URL {{ article.metafields.custom.external_blog_link_to_lmp }}
             {% if article.metafields.custom.external_blog_link_to_lmp != empty %}
               <a href="{{ article.metafields.custom.external_blog_link_to_lmp }}" class="read-more">READ MORE?</a>
             {% else %}
-              <a href="{{ article.url }}" class="read-more">READ MORE?</a>
+              <a href="{{ article.url }}" class="read-more">READ MORE</a>
             {% endif %}
           {%- endif -%}
         </div>
