@@ -162,10 +162,10 @@
                 <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
               {%- endif -%}
             </div>
-
+            {% assign article_url = article.url %}
             article.url {{ article.url -}}
             <br>
-            article_url {{ article.url -}}
+            article_url {{ article_url -}}
             <br>
             metafield URL {{ article.metafields.custom.external_blog_link_to_lmp }}
             {% if article.metafields.custom.external_blog_link_to_lmp != empty %}
