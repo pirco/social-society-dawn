@@ -28,7 +28,7 @@
               {% assign to_time = article.metafields.custom.event_date_time_to | date: '%-I:%M%p' %}
               {% assign date = date | append: to_time %}
             {% else %}
-              {% assign date = article.metafields.custom.custom_date %}
+              {% assign date = article.metafields.custom.event_custom_date %}
             {% endif %}
             <div class="event-date">{{ date }}</div>
 
