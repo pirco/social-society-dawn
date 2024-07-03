@@ -29,8 +29,6 @@
     endif
   -%}
 
-  {% assign article_url = article.url %}
-
   <div class="article-card-wrapper card-wrapper underline-links-hover">
     {% comment %} <article aria-labelledby="Article-{{ article.id }}"> {% endcomment %}
     <div
@@ -84,12 +82,12 @@
         <div class="card__content">
           <div class="card__information">
             <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
-              {% if article.metafields.custom.external_blog_link_to_lmp != empty %}
+              {% if blog.handle == 'party-like-us' %}
                 <a href="{{ article.metafields.custom.external_blog_link_to_lmp }}" class="full-unstyled-link">
                   {{ article.title | truncate: 50 | escape }}
                 </a>
               {% else %}
-                <a href="{{ article_url }}" class="full-unstyled-link">
+                <a href="{{ article.url }}" class="full-unstyled-link">
                   {{ article.title | truncate: 50 | escape }}
                 </a>
               {% endif %}
@@ -162,16 +160,11 @@
                 <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
               {%- endif -%}
             </div>
-            {% assign article_url = article.url %}
-            article.url {{ article.url -}}
-            <br>
-            article_url {{ article_url -}}
-            <br>
-            metafield URL {{ article.metafields.custom.external_blog_link_to_lmp }}
-            {% if article.metafields.custom.external_blog_link_to_lmp != empty %}
-              <a href="{{ article.metafields.custom.external_blog_link_to_lmp }}" class="read-more">READ MORE?</a>
+            {
+            {% if blog.handle == 'party-like-us' %}
+              <a href="{{ article.metafields.custom.external_blog_link_to_lmp }}" class="read-more">READ MORE</a>
             {% else %}
-              <a href="{{ article_url }}" class="read-more">READ MORE</a>
+              <a href="{{ article.url }}" class="read-more">READ MORE</a>
             {% endif %}
           {%- endif -%}
         </div>
