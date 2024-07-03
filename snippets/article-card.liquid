@@ -29,7 +29,7 @@
     endif
   -%}
   {% assign article_url = article.url %}
-
+  metafield URL {{ article.metafields.custom.external_blog_link_to_lmp }}
   <div class="article-card-wrapper card-wrapper underline-links-hover">
     {% comment %} <article aria-labelledby="Article-{{ article.id }}"> {% endcomment %}
     <div
