@@ -28,7 +28,8 @@
       assign ratio = media_aspect_ratio
     endif
   -%}
-  article URL: {{ article.url }}
+  {% assign article_url = article.url %}
+
   <div class="article-card-wrapper card-wrapper underline-links-hover">
     {% comment %} <article aria-labelledby="Article-{{ article.id }}"> {% endcomment %}
     <div
@@ -87,7 +88,7 @@
                   {{ article.title | truncate: 50 | escape }}
                 </a>
               {% else %}
-                <a href="{{ article.url }}" class="full-unstyled-link">
+                <a href="{{ article_url }}" class="full-unstyled-link">
                   {{ article.title | truncate: 50 | escape }}
                 </a>
               {% endif %}
@@ -132,7 +133,7 @@
                 {{ article.title | truncate: 50 | escape }}
               </a>
             {% else %}
-              <a href="{{ article.url }}" class="full-unstyled-link">
+              <a href="{{ article_url }}" class="full-unstyled-link">
                 {{ article.title | truncate: 50 | escape }}
               </a>
             {% endif %}
