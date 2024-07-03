@@ -55,7 +55,9 @@
       <div class="event-price">{{ article.metafields.custom.event_price }}</div>
 
       <modal-opener data-modal="#PopupModal-event-rsvp">
-        <button class="button">RSVP</button>
+        <button class="button">
+          {% if event_button_text != blank %}{{ event_button_text }}{% else %}RSVP{% endif %}
+        </button>
       </modal-opener>
 
       <hr>
