@@ -1222,6 +1222,7 @@ svg.clips {
       height: auto;
       margin: auto;
       position: relative;
+      padding: 19px 0;
     }
 
     .media {
