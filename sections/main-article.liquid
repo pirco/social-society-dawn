@@ -24,7 +24,7 @@
             from: {{ from_date }} / to: {{ to_date }} / date: {{ date }}
             {% if from_date != to_date %}
               {% assign date = date | append: to_date %}
-              {% if to_date %}
+              {% if to_date != blank %}
                 {% assign date = date | append: to_date | append: ' - ' %}
               {% endif %}
             {% endif %}
