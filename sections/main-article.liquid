@@ -23,7 +23,10 @@
             {% assign date = article.metafields.custom.event_date_time | date: '%B %d, %-I:%M%p' | append: ' - ' %}
             from: {{ from_date }} / to: {{ to_date }} / date: {{ date }}
             {% if from_date != to_date %}
-              {% assign date = date | append: to_date | append: ' - ' %}
+              {% assign date = date | append: to_date %}
+              {% if to_date %}
+                {% assign date = date | append: to_date | append: ' - ' %}
+              {% endif %}
             {% endif %}
             {% assign to_time = article.metafields.custom.event_date_time_to | date: '%-I:%M%p' %}
             {% assign date = date | append: to_time %}
