@@ -113,7 +113,7 @@
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
-          <div class="page-width page-width--narrow">
+          <div class="page-width{% if section.settings.page_width_narrow %} page-width--narrow{% endif %}">
             {% render block %}
           </div>
         {%- when 'featured_image' -%}
@@ -153,7 +153,7 @@
 
         {%- when 'title' -%}
           <header
-            class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            class="page-width{% if section.settings.page_width_narrow %} page-width--narrow{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
             {{ block.shopify_attributes }}
           >
             <h1
@@ -426,7 +426,7 @@
   "settings": [
     {
       "type": "checkbox",
-      "id": "page_width",
+      "id": "page_width_narrow",
       "label": "page width narrow",
       "default": false
     }
