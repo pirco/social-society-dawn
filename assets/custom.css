@@ -505,7 +505,7 @@ footer {
 main {
   a {
     font-family: Picaresk;
-    font-weight: bold;
+    font-weight: 500;
     color: var(--color-dark);
   }
 }
