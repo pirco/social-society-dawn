@@ -151,7 +151,7 @@
             {% if blogs.metafields.custom.external_blog_link_to_lmp != empty %}
               {% assign read_more_link = logs.metafields.custom.external_blog_link_to_lmp %}
             {% else %}
-              {% assign read_more_link = {{ article.url }} %}
+              {% assign read_more_link = article.url %}
             {% endif %}
             <a href="{{ read_more_link }}" class="read-more">READ MORE?</a>
           {%- endif -%}
