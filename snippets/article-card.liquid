@@ -158,7 +158,7 @@
               {%- endif -%}
             </div>
 
-            {% if blogs.metafields.custom.external_blog_link_to_lmp != empty %}
+            {% if article.metafields.custom.external_blog_link_to_lmp != empty %}
               {% assign read_more_link = article.metafields.custom.external_blog_link_to_lmp %}
             {% else %}
               {% assign read_more_link = article.url %}
