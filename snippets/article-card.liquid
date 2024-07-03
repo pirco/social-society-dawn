@@ -16,6 +16,11 @@
   {% render 'article-card' blog: blog, article: article, show_image: section.settings.show_image %}
 {% endcomment %}
 
+{% comment %}
+  THIS TEMPLATE IS USED BY AT LEAST TWO BLOGS: THE MAIN BLOG (CALLED "PARTY LIKE US" AS OF JULY 3, 2024) AND THE PRESS EVENTS BLOG
+  this at least affects the READ MORE link since the main blog links out to the external littlemisspartyplanner.com squarespace blog
+{% endcomment %}
+
 {%- if article and article != empty -%}
   {%- liquid
     assign ratio = 1
@@ -143,7 +148,12 @@
               {%- endif -%}
             </div>
 
-            <a href="{{ article.url }}" class="read-more">READ MORE</a>
+            {% if blogs.metafields.custom.external_blog_link_to_lmp != empty %}
+              {% assign read_more_link = logs.metafields.custom.external_blog_link_to_lmp %}
+            {% else %}
+              {% assign read_more_link = {{ article.url }} %}
+            {% endif %}
+            <a href="{{ read_more_link }}" class="read-more">READ MORE?</a>
           {%- endif -%}
         </div>
         {%- if show_badge -%}

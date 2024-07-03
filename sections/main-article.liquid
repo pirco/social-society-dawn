@@ -1,5 +1,9 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
+{% comment %}
+  THIS TEMPLATE SHOULD NOT BE NEEDED SINCE THE MAIN BLOG POSTS SHOULD LINK DIRECTLY TO THE LITTLEMISSPARTYPLANNER.COM SQUARESPACE BLOG POST
+{% endcomment %}
+
 <article class="article-template blog-{{ blog.handle }}" itemscope itemtype="http://schema.org/BlogPosting">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
