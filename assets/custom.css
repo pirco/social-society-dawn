@@ -295,8 +295,9 @@ footer {
         >li {
           margin-bottom: 40px;
 
-          >a {
-            font-weight: bold;
+          >a,
+          .footer-sub-titles {
+            font-family: 'Picaresk', sans-serif;
             font-size: 17px;
             text-transform: uppercase;
             padding-bottom: 0;
