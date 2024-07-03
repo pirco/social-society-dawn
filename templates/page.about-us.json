@@ -45,7 +45,21 @@
             "right_background": "#ffbfe1",
             "right_text_color": "#000000",
             "right_icon": "palm",
-            "right_content": "<p>My name is Seri. I love to party. I created a company called Little Miss Party Planner back in 2010. We planned and styled events all over New York City. We captured a niche in the market for our customized work.<\/p>"
+            "right_content": "<p>My name is Seri. I love to party. I created a company called <a href=\"https:\/\/www.littlemisspartyplanner.com\/\" target=\"_blank\" title=\"https:\/\/www.littlemisspartyplanner.com\/\">Little Miss Party Planner<\/a> back in 2010. We planned and styled events all over New York City. We captured a niche in the market for our customized work.<\/p>"
+          }
+        },
+        "section_dPL3ia": {
+          "type": "section",
+          "settings": {
+            "left_background": "#085e21",
+            "left_text_color": "#a2e0e0",
+            "left_subtitle": "Chief Party Officer",
+            "left_image": "shopify:\/\/shop_images\/BTM_1338.jpg",
+            "left_headline": "",
+            "right_background": "#a2e0e0",
+            "right_text_color": "#000000",
+            "right_icon": "hat",
+            "right_content": "<h2>How I got here...<\/h2><p>I grew up in Toronto, Ontario, Canada. I spent every Friday night at my grandmother's house (rotating weekly) for home cooked dinners with my whole family. I developed a love for cooking and entertaining at a young age.<br\/>I moved to New York City in 2001, for a job in fashion. I worked in the finance + production departments at Kate Spade, Club Monaco and J.Crew and then had a child and left the corporate world to fulfill my dream of partying for a living.<\/p><p>After event planning for 10+ years, I am seeing through my next chapter of owning my own store where I sell party supplies that I know, will bring joy into the community that I now live in.<\/p>"
           }
         },
         "section_JmCXRa": {
@@ -61,27 +75,13 @@
             "right_icon": "bow",
             "right_content": "<h2>The Social Society<\/h2><p>Is opening their doors this fall, 2024. Make sure that you are signed up and on the look out for announcements, news, store events and so much more. We cannot wait to party with you!<\/p>"
           }
-        },
-        "section_dPL3ia": {
-          "type": "section",
-          "settings": {
-            "left_background": "#085e21",
-            "left_text_color": "#a2e0e0",
-            "left_subtitle": "Hostess Gifts",
-            "left_image": "shopify:\/\/shop_images\/BTM_1338.jpg",
-            "left_headline": "It's the thought that counts",
-            "right_background": "#a2e0e0",
-            "right_text_color": "#000000",
-            "right_icon": "hat",
-            "right_content": "<h2>Bring a gift!<\/h2><p>When you're invited to a dinner party, it's really nice to bring a little something to show your appreciation. We have carefully curated a selection of gifts to choose from for all different occassions and have created a specific list just for the host.  Trust us when we tell you, that you'll be the favorite guest and will definitely receive another invite back if you show up with a little something to make the host feel special!<\/p>"
-          }
         }
       },
       "block_order": [
         "section_MepjNh",
         "section_UGNYyq",
-        "section_JmCXRa",
-        "section_dPL3ia"
+        "section_dPL3ia",
+        "section_JmCXRa"
       ],
       "settings": {
       }
