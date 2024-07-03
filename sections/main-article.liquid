@@ -17,6 +17,7 @@
           <div class="event-hero--content">
             <div class="event-title">{{ article.title }}</div>
 
+            {% assign event_button_text = article.metafields.custom.event_button_text %}
             {% assign from_date = article.metafields.custom.event_date_time | date: '%B %d' %}
             {% assign to_date = article.metafields.custom.event_date_time_to | date: '%B %d' %}
             {% assign date = article.metafields.custom.event_date_time | date: '%B %d, %-I:%M%p' | append: ' - ' %}
@@ -31,7 +32,9 @@
             <div class="event-price">{{ article.metafields.custom.event_price }}</div>
 
             <modal-opener data-modal="#PopupModal-event-rsvp">
-              <button class="button">RSVP</button>
+              <button class="button">
+                {% if event_button_text != blank %}{{ event_button_text }}{% else %}RSVP{% endif %}
+              </button>
             </modal-opener>
           </div>
         </div>
