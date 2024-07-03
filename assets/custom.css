@@ -1209,6 +1209,10 @@ svg.clips {
   .blog-articles__article {
     background-color: transparent;
 
+    .card__inner.gradient {
+      background: var(--color-blue);
+    }
+
     .card .media {
       display: flex;
     }
