@@ -82,13 +82,14 @@
           <div class="card__information">
             <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
               {% if article.metafields.custom.external_blog_link_to_lmp != empty %}
-                {% assign read_more_link = artivcle.metafields.custom.external_blog_link_to_lmp %}
+                <a href="{{ article.metafields.custom.external_blog_link_to_lmp }}" class="full-unstyled-link">
+                  {{ article.title | truncate: 50 | escape }}
+                </a>
               {% else %}
-                {% assign read_more_link = article.url %}
+                <a href="{{ article.url }}" class="full-unstyled-link">
+                  {{ article.title | truncate: 50 | escape }}
+                </a>
               {% endif %}
-              <a href="{{ read_more_link }}" class="full-unstyled-link">
-                {{ article.title | truncate: 50 | escape }}
-              </a>
             </h3>
             <div class="article-card__info caption-with-letter-spacing h5">
               {%- if show_date -%}
@@ -126,13 +127,14 @@
         <div class="card__information">
           <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
             {% if article.metafields.custom.external_blog_link_to_lmp != empty %}
-              {% assign read_more_link = article.metafields.custom.external_blog_link_to_lmp %}
+              <a href="{{ article.metafields.custom.external_blog_link_to_lmp }}" class="full-unstyled-link">
+                {{ article.title | truncate: 50 | escape }}
+              </a>
             {% else %}
-              {% assign read_more_link = article.url %}
+              <a href="{{ article.url }}" class="full-unstyled-link">
+                {{ article.title | truncate: 50 | escape }}
+              </a>
             {% endif %}
-            <a href="{{ read_more_link }}" class="full-unstyled-link">
-              {{ article.title | truncate: 50 | escape }}
-            </a>
           </h3>
           <div class="article-card__info caption-with-letter-spacing h5">
             {%- if show_date -%}
@@ -159,11 +161,10 @@
             </div>
 
             {% if article.metafields.custom.external_blog_link_to_lmp != empty %}
-              {% assign read_more_link = article.metafields.custom.external_blog_link_to_lmp %}
+              <a href="{{ article.metafields.custom.external_blog_link_to_lmp }}" class="read-more">READ MORE?</a>
             {% else %}
-              {% assign read_more_link = article.url %}
+              <a href="{{ article.url }}" class="read-more">READ MORE?</a>
             {% endif %}
-            <a href="{{ read_more_link }}" class="read-more">READ MORE?</a>
           {%- endif -%}
         </div>
         {%- if show_badge -%}
