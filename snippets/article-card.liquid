@@ -160,9 +160,13 @@
                 <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
               {%- endif -%}
             </div>
-            {
+
             {% if blog.handle == 'party-like-us' %}
-              <a href="{{ article.metafields.custom.external_blog_link_to_lmp }}" class="read-more">READ MORE</a>
+              <a
+                href="{{ article.metafields.custom.external_blog_link_to_lmp }}"
+                class="read-more party-like-us-read-more-lnk"
+                >READ MORE</a
+              >
             {% else %}
               <a href="{{ article.url }}" class="read-more">READ MORE</a>
             {% endif %}
