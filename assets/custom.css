@@ -1280,9 +1280,7 @@ svg.clips {
           display: none;
         }
 
-        .article-card__excerpt {
-          line-height: 20px;
-        }
+        .article-card__excerpt {}
 
         .read-more {
           font-size: 11px;
