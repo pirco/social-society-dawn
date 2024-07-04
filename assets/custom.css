@@ -1449,7 +1449,7 @@ svg.clips {
 .main-blog {
   .title--primary {
     font-size: 110px;
-    line-height: 60px;
+    line-height: 1;
     text-align: center;
     text-transform: uppercase;
     margin-top: 40px;
