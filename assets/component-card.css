@@ -79,6 +79,10 @@
   border-radius: calc(var(--border-radius) - var(--border-width) - var(--image-padding));
 }
 
+.main-blog .card .card__inner .card__media {
+  border: 1.9vw solid var(--gradient-background)
+}
+
 .card--card .card__inner .card__media {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
