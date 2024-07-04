@@ -17,7 +17,7 @@
   box-sizing: border-box;
 }
 
-.article-card__image-wrapper > a {
+.article-card__image-wrapper>a {
   display: block;
 }
 
@@ -100,6 +100,10 @@
   padding-bottom: 33rem;
 }
 
+.article-card__image--large .ratio::before {
+  padding-bottom: 48rem;
+}
+
 @media screen and (min-width: 750px) {
   .article-card__image--small .ratio::before {
     padding-bottom: 14.3rem;
@@ -111,6 +115,10 @@
 
   .article-card__image--large .ratio::before {
     padding-bottom: 27.5rem;
+  }
+
+  .article-card__image--extra-large .ratio::before {
+    padding-bottom: calc(27.5rem * 1.5);
   }
 }
 
@@ -125,6 +133,10 @@
 
   .article-card__image--large .ratio::before {
     padding-bottom: 40.7rem;
+  }
+
+  .article-card__image--extra-large .ratio::before {
+    padding-bottom: calc(40.7rem * 1.5);
   }
 }
 
