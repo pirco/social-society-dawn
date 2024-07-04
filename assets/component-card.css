@@ -80,7 +80,7 @@
 }
 
 .main-blog .card .card__inner .card__media {
-  border: 1.9vw solid var(--gradient-background)
+  border: 1.9vw solid var(--color-violet)
 }
 
 .card--card .card__inner .card__media {
