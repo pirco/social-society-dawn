@@ -1,3 +1,7 @@
+.product__media-list .product__media-item {
+    max-width: 100%;
+}
+
 .product {
   margin: 0;
 }
