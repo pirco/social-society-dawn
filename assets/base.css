@@ -92,6 +92,12 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   max-width: 100%;
 }
 
+.page-width--medium,
+.rich-text__blocks.page-width--medium {
+  max-width: 92.6rem;
+  padding: 0;
+}
+
 .page-width-desktop {
   padding: 0;
   margin: 0 auto;
