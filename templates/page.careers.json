@@ -19,54 +19,6 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_7LmjMq": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_LMMteC": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Shipping and Payment",
-            "heading_size": "h1"
-          }
-        },
-        "text_NbMgcW": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>Do you have a brick-and-mortar store?<\/strong><\/p>"
-          }
-        },
-        "button_NkmxUp": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_LMMteC",
-        "text_NbMgcW",
-        "button_NkmxUp"
-      ],
-      "custom_css": [
-        ".rich-text.content-container {background-color: #fcfaf5;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collapsible_content_HEEPBR": {
       "type": "collapsible-content",
       "blocks": {
@@ -100,7 +52,7 @@
         "heading_alignment": "left",
         "intro": "We are seeking a vibrant, outgoing individual to manage The Social Society Boutique. The Social Society store manager will assume the role of leading a team of Sales Associates to assist customers in their shopping needs and ensuring this team provides exceptional service and handles customer questions and comments with grace. They will be skilled in creating a festive atmosphere that inspires customers to party and have fun.",
         "layout": "none",
-        "color_scheme": "",
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
@@ -137,7 +89,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 52
@@ -176,7 +128,7 @@
         "heading_alignment": "left",
         "intro": "The Social Society is currently seeking full (and part time) store associates to join our vibrant team. As a SalesAssociate at our party shop, you’ll be at the heart of creating unforgettable celebrations for our customers. From balloons to banners, gifts to celebration essentials, your enthusiasm and expertise will guide ourcustomers in bringing their party visions to life. Join us in spreading joy, laughter, and a sprinkle of confetti!",
         "layout": "none",
-        "color_scheme": "",
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
@@ -213,7 +165,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 52
@@ -222,7 +174,6 @@
   },
   "order": [
     "main",
-    "rich_text_7LmjMq",
     "collapsible_content_HEEPBR",
     "rich_text_wY97aV",
     "collapsible_content_PN7w6A",
