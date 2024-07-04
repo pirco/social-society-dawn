@@ -101,7 +101,7 @@
 }
 
 .article-card__image--extra-large .ratio::before {
-  padding-bottom: 48rem;
+  padding-bottom: calc(64vw * 1.5);
 }
 
 @media screen and (min-width: 750px) {
