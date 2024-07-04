@@ -115,7 +115,7 @@
         "button_BTyCCd": {
           "type": "button",
           "settings": {
-            "button_label": "APPLY",
+            "button_label": "APPLY NOW",
             "button_link": "mailto:party@thesocialsociety.com?subject=Store%20Manager",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -136,7 +136,83 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_PN7w6A": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_hBcEdL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "RESPONSIBILITIES",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Welcome, greet and interact with customers as they enter the store<\/li><li>Assist with the day to day store operations by waiting on customers and assisting them with the selection of merchandise<\/li><li>Foster brand loyalty among local customers to strengthen The Social Society’s brand presence<\/li><li>Handle and fulfill orders placed in-store and completing sales transactions<\/li><li>Display and organize products in the store for the customers to locate easily, this includes restocking the<br\/>store throughout the day<\/li><li>Assist with labeling and receiving newly arrived merchandise at the store<\/li><li>Assist with the balloon bar to inflate\/blow-up any instore or online balloon orders<\/li><li>Keep up-to-date on store merchandise and products<\/li><li>Provide resources to customers interested in different services offered by The Social Society (i.e. event planning, balloon installation, online orders)<\/li><li>Supervise customer activity to enhance in-store security and prevent losses<\/li><li>Store maintenance: emptying trash, basic cleaning inside and outside the store<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_U9JkMf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "REQUIREMENTS",
+            "icon": "check_mark",
+            "row_content": "<ul><li>High school diploma, or the equivalent<\/li><li>Strong organizational skills and meticulous attention to detail<\/li><li>Problem-solving, conflict resolution and organizational skills<\/li><li>A quick learner and very adaptable<\/li><li>Be extremely dedicated to customer service and support<\/li><li>Strong interpersonal skills<\/li><li>Ability to perform a variety of clerical duties as needed to support the operations of the location<\/li><li>Ability to work independently<\/li><li>Ability to learn and become proficient in The Social Society store and operational systems (ie. Shopify, Cricut)<\/li><\/ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_hBcEdL",
+        "collapsible_row_U9JkMf"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FULL AND PART TIME SALES ASSOCIATE",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "intro": "The Social Society is currently seeking full (and part time) store associates to join our vibrant team. As a SalesAssociate at our party shop, you’ll be at the heart of creating unforgettable celebrations for our customers. From balloons to banners, gifts to celebration essentials, your enthusiasm and expertise will guide ourcustomers in bringing their party visions to life. Join us in spreading joy, laughter, and a sprinkle of confetti!",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_cQzHyM": {
+      "type": "rich-text",
+      "blocks": {
+        "button_TAFGfB": {
+          "type": "button",
+          "settings": {
+            "button_label": "APPLY NOW",
+            "button_link": "mailto:party@thesocialsociety.com?subject=Sales%20Associate",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_jhpr9R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please send your resume and cover letter by clicking the “apply” button<br\/>or via email directly to Leigh at <a href=\"mailto:party@thesocialsociety.com\" title=\"mailto:party@thesocialsociety.com\">party@thesocialsociety.com<\/a> and be sure to include your full name and desired job title in the subject.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "button_TAFGfB",
+        "text_jhpr9R"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 0,
@@ -148,6 +224,8 @@
     "main",
     "rich_text_7LmjMq",
     "collapsible_content_HEEPBR",
-    "rich_text_wY97aV"
+    "rich_text_wY97aV",
+    "collapsible_content_PN7w6A",
+    "rich_text_cQzHyM"
   ]
 }
