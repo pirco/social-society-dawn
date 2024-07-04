@@ -173,6 +173,12 @@ header-drawer {
 
 @media screen and (min-width: 990px) {
   .header__search .search-modal__form {
+    max-width: 16.2rem;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .header__search .search-modal__form {
     max-width: 22.2rem;
   }
 }
