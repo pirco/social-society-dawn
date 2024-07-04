@@ -66,10 +66,72 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "collapsible_content_HEEPBR": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_fUCk4q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_edPnHb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_iz8xnX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_BNfNxx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_fUCk4q",
+        "collapsible_row_edPnHb",
+        "collapsible_row_iz8xnX",
+        "collapsible_row_BNfNxx"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Store Manager",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_7LmjMq"
+    "rich_text_7LmjMq",
+    "collapsible_content_HEEPBR"
   ]
 }
