@@ -137,6 +137,11 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
     padding: 0;
   }
 
+  .page-width--medium {
+    max-width: 92.6rem;
+    padding: 0;
+  }
+
   .page-width-desktop {
     max-width: var(--page-width);
     padding: 0 5rem;

@@ -55,6 +55,13 @@
   max-width: 73.4rem;
 }
 
+.collapsible-content-wrapper-medium {
+  margin: 0 auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  max-width: 92.6rem;
+}
+
 .collapsible-content__header {
   word-break: break-word;
 }
