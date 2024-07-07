@@ -12,7 +12,7 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "Categories",
+        "title": "Collections",
         "sort": "alphabetical",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -43,6 +43,7 @@
         "text_JF6mGE"
       ],
       "settings": {
+        "content_width": "medium",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
