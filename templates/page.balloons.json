@@ -46,60 +46,10 @@
       "settings": {
         "color": "violet"
       }
-    },
-    "rich_text_7LmjMq": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_LMMteC": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Shipping and Payment",
-            "heading_size": "h1"
-          }
-        },
-        "text_NbMgcW": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>Do you have a brick-and-mortar store?<\/strong><\/p>"
-          }
-        },
-        "button_NkmxUp": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_LMMteC",
-        "text_NbMgcW",
-        "button_NkmxUp"
-      ],
-      "custom_css": [
-        ".rich-text.content-container {background-color: #fcfaf5;}"
-      ],
-      "settings": {
-        "content_width": "medium",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
-    "hero_8xzgPW",
-    "rich_text_7LmjMq"
+    "hero_8xzgPW"
   ]
 }
