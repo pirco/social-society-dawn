@@ -184,6 +184,29 @@
                 </li>
               {%- endfor -%}
             </ul>
+
+            <ul class="list-menu-secondary list-menu" role="list">
+              {%- for link in section.settings.menu_secondary.links -%}
+                <li>
+                  <a
+                    id="HeaderMenu-{{ link.handle }}"
+                    href="{{ link.url }}"
+                    class="menu-drawer__menu-item list-menu__item link link--text focus-inset"
+                    {% if link.current %}
+                      aria-current="page"
+                    {% endif %}
+                  >
+                    <span
+                      {%- if link.current %}
+                        class="header__active-menu-item"
+                      {% endif %}
+                    >
+                      {{- link.title | escape -}}
+                    </span>
+                  </a>
+                </li>
+              {%- endfor -%}
+            </ul>
           </nav>
           <div class="menu-drawer__utility-links">
             {%- if shop.customer_accounts_enabled -%}

@@ -44,6 +44,10 @@ header-drawer {
   border-bottom: none;
 }
 
+/* .header > .header__icons .header__icon--cart {
+  margin-right: 0;
+} */
+
 .header__inline-menu {
   border-top: 2px solid var(--color-dark);
   border-bottom: 2px solid var(--color-dark);
@@ -59,28 +63,28 @@ header-drawer {
       text-decoration: none;
     }
 
-    >li:nth-child(1) {
+    > li:nth-child(1) {
       --bg-color: var(--color-primary);
     }
 
-    >li:nth-child(2) {
+    > li:nth-child(2) {
       --bg-color: var(--color-blue);
     }
 
-    >li:nth-child(3) {
+    > li:nth-child(3) {
       --bg-color: var(--color-pink);
     }
 
-    >li:nth-child(4) {
+    > li:nth-child(4) {
       --bg-color: var(--color-green);
     }
 
-    >li:nth-child(5) {
+    > li:nth-child(5) {
       --bg-color: var(--color-red);
     }
 
-    >li details[open]>.header__menu-item,
-    >li:hover .header__menu-item {
+    > li details[open] > .header__menu-item,
+    > li:hover .header__menu-item {
       background-color: var(--bg-color);
     }
   }
@@ -94,7 +98,7 @@ header-drawer {
     text-decoration: none !important;
     padding: 14px 22px 14px 2px;
 
-    >svg {
+    > svg {
       display: none;
     }
   }
@@ -171,9 +175,45 @@ header-drawer {
   padding: 14px;
 }
 
+@media screen and (max-width: 989px) {
+  .header__inline-menu {
+    display: block;
+    grid-area: icons;
+    border: none;
+
+    .page-width {
+      justify-content: flex-end;
+
+      .list-menu {
+        display: none;
+      }
+
+      .header--secondary-menu {
+        .list-menu-secondary {
+          display: none;
+        }
+
+        .header__icons {
+          .header__search {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 990px) {
+  .header {
+    padding-top: 10px !important;
+  }
+
   .header__search .search-modal__form {
     max-width: 16.2rem;
+  }
+
+  .header--top-center .header__inline-menu {
+    justify-self: stretch;
   }
 }
 
@@ -185,16 +225,6 @@ header-drawer {
 
 body.overflow-hidden {
   overflow: visible !important;
-}
-
-@media screen and (min-width: 990px) {
-  .header--top-center .header__inline-menu {
-    justify-self: stretch;
-  }
-
-  .header {
-    padding-top: 10px !important;
-  }
 }
 
 /* Mega menu */
@@ -222,12 +252,12 @@ body.overflow-hidden {
       text-decoration: none;
     }
 
-    >li {
+    > li {
       padding: 0 30px;
       transition: padding .3s;
       width: 100% !important;
 
-      >a {
+      > a {
         text-transform: uppercase;
         font-weight: bold;
       }
@@ -250,7 +280,7 @@ body.overflow-hidden {
     padding-top: 20px;
     background-color: var(--bg-color);
 
-    >li {
+    > li {
       max-height: 100%;
       min-width: 220px;
 
@@ -294,14 +324,14 @@ footer {
     }
 
     .footer-block--menu {
-      >ul {
+      > ul {
         display: flex;
         flex-direction: column;
 
-        >li {
+        > li {
           margin-bottom: 40px;
 
-          >a,
+          > a,
           .footer-sub-title {
             font-family: 'Picaresk', sans-serif;
             font-size: 14px;
@@ -309,9 +339,9 @@ footer {
             padding-bottom: 0;
           }
 
-          >ul {
-            >li {
-              >a {
+          > ul {
+            > li {
+              > a {
                 font-size: 14px;
                 line-height: 1.5;
                 letter-spacing: 1.5px;
@@ -482,17 +512,17 @@ footer {
       }
 
       .footer-block--menu {
-        >ul {
+        > ul {
           flex-direction: row;
           justify-content: space-between;
 
-          >li:first-child {
+          > li:first-child {
             .list-menu__item {
               justify-content: flex-start;
             }
           }
 
-          >li:last-child {
+          > li:last-child {
             .list-menu__item {
               justify-content: flex-end;
             }
@@ -693,7 +723,7 @@ svg.clips {
   .heading {
     text-align: center;
 
-    >* {
+    > * {
       font-size: 40px;
       margin-bottom: 0;
     }
@@ -1109,9 +1139,9 @@ svg.clips {
         display: block;
       }
 
-      .contact__fields input:focus+label.field__label,
-      .contact-form input[type="tel"]:focus+label.field__label,
-      .contact-form textarea:focus+label.field__label {
+      .contact__fields input:focus + label.field__label,
+      .contact-form input[type="tel"]:focus + label.field__label,
+      .contact-form textarea:focus + label.field__label {
         font-size: 1.1rem;
         top: 0.39em;
       }
@@ -1276,11 +1306,11 @@ svg.clips {
     .article-card {
       flex-direction: row;
 
-      >.card__inner {
+      > .card__inner {
         min-height: 450px;
       }
 
-      >.card__content {
+      > .card__content {
         padding: 20px;
 
         .card__heading {
