@@ -11,12 +11,40 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
+        "content_width": "medium",
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "hero_8xzgPW": {
+      "type": "hero",
+      "blocks": {
+        "image_inBczn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SS1817_09d33386-57c4-42c2-a1c5-794d62813db9.webp"
+          }
+        },
+        "content_gWkTMB": {
+          "type": "content",
+          "settings": {
+            "subtitle": "<p>We love Balloons<\/p>",
+            "headline": "<p>Custom Balloon Arrangements<\/p>",
+            "description": "<p>COMING SOON!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_inBczn",
+        "content_gWkTMB"
+      ],
+      "settings": {
+        "color": "violet"
       }
     },
     "rich_text_7LmjMq": {
@@ -59,6 +87,7 @@
         ".rich-text.content-container {background-color: #fcfaf5;}"
       ],
       "settings": {
+        "content_width": "medium",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -70,6 +99,7 @@
   },
   "order": [
     "main",
+    "hero_8xzgPW",
     "rich_text_7LmjMq"
   ]
 }
