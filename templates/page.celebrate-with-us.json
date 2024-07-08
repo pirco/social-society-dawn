@@ -110,7 +110,7 @@
         "instafeed_app_block_9nptQp"
       ],
       "settings": {
-        "include_margins": true
+        "include_margins": false
       }
     }
   },
