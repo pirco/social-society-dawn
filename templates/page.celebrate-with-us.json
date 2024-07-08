@@ -111,7 +111,7 @@
       ],
       "custom_css": [
         "#insta-feed h2 {margin-top: 30px; display: block; font-family: \"Picaresk\"; text-transform: uppercase; font-size: 16px; font-weight: normal; letter-spacing: 0.03em;}",
-        ".custom-insta-block {display: flex; }"
+        ".custom-insta-block {display: block;}"
       ],
       "settings": {
         "include_margins": false
