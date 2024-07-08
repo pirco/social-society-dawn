@@ -96,6 +96,7 @@
             "title": "CHECK OUR INSTA @shopthesocialsociety",
             "title_color": "",
             "alignment": "center",
+            "margin_top": 12,
             "margin_sides": 0,
             "html_area": ""
           }
