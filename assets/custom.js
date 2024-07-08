@@ -125,7 +125,8 @@ creditsElements.forEach(function (creditsElement) {
   });
 });
 
-document.querySelector("#insta-feed h2").length && document.querySelector("#insta-feed h2").addEventListener("click", function () {
-  window.open("https://www.instagram.com/shopthesocialsociety")
+if (document.querySelector("#insta-feed h2").length) {
+  document.querySelector("#insta-feed h2").addEventListener("click", function () {
+    window.open("https://www.instagram.com/shopthesocialsociety");
+  })
 }
-)
