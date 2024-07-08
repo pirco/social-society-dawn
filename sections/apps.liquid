@@ -2,7 +2,7 @@
   {%- for block in section.blocks -%}
     {% render block %}
 
-    apps.liquid: {{ block.type }}
+    apps.liquid: {{ block.shopify_attributes }}
   {%- endfor -%}
 </div>
 
