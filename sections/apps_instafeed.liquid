@@ -1,12 +1,7 @@
-<div class="instafeed_left">CHECK OUR INSTA</div>
-<div>
-  <div style="display: flex;">
-    <div class="{% if section.settings.include_margins %}page-width{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-      {%- for block in section.blocks -%}
-        {% render block %}
-      {%- endfor -%}
-    </div>
-  </div>
+<div class="{% if section.settings.include_margins %}page-width{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  {%- for block in section.blocks -%}
+    {% render block %}
+  {%- endfor -%}
 </div>
 
 {% schema %}
