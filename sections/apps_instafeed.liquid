@@ -1,9 +1,15 @@
 <div class="{% if section.settings.include_margins %}page-width{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
   {%- for block in section.blocks -%}
-    <div class="instafeed-block" style="display: flex;">
-      <div class="instafeed-block-intro">this is a block for insta feed app only</div>
-      <div>{% render block %}</div>
-    </div>
+    {% if block.type contains 'app' %}
+      <div class="instafeed-block" style="display: flex;">
+        <div class="instafeed-block-intro">this is a block for insta feed app only</div>
+        <div>
+    {% endif %}
+    {% render block %}
+    {% if block.type contains 'app' %}
+      </div>
+      </div>
+    {% endif %}
   {%- endfor -%}
 </div>
 
