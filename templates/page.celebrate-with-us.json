@@ -89,21 +89,25 @@
     },
     "172044015753b1f47a": {
       "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "apps_instafeed_pGrQAt": {
+      "type": "apps_instafeed",
       "blocks": {
-        "instafeed_app_block_yMbi8Y": {
+        "instafeed_app_block_9nptQp": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "title": "CHECK OUR INSTA",
+            "title": "",
             "title_color": "",
             "alignment": "center",
-            "margin_top": 12,
-            "margin_sides": 0,
             "html_area": ""
           }
         }
       },
       "block_order": [
-        "instafeed_app_block_yMbi8Y"
+        "instafeed_app_block_9nptQp"
       ],
       "settings": {
         "include_margins": true
@@ -113,6 +117,7 @@
   "order": [
     "main",
     "about_us_static_HqjrWK",
-    "172044015753b1f47a"
+    "172044015753b1f47a",
+    "apps_instafeed_pGrQAt"
   ]
 }
