@@ -1844,3 +1844,8 @@ svg.clips {
     padding: 0 1.5rem;
   }
 }
+
+
+.custom-insta-block {
+  display: flex;
+}
