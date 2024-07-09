@@ -126,6 +126,9 @@
     },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        ".related-products--titles > a {display: none; }"
+      ],
       "settings": {
         "heading": "Shop This Party",
         "heading_size": "h2",
