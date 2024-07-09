@@ -132,4 +132,4 @@ var instafeedTitle = document.querySelectorAll('#insta-feed h2');
   instafeedTitle.addEventListener('click', function () {
     window.open('https://instagram.com/shopsocialsociety');
     console.log('instafeed title clicked');
-  }
+  })
