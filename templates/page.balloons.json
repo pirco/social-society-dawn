@@ -33,9 +33,9 @@
         "content_gWkTMB": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>We love Balloons<\/p>",
-            "headline": "<p>Custom Balloon Arrangements<\/p>",
-            "description": "<p>COMING SOON!<\/p>"
+            "subtitle": "<p>We Love Balloons<\/p>",
+            "headline": "<p>CUSTOM BALLOON ARRANGEMENTS<\/p>",
+            "description": "<p>COMING SOON<\/p>"
           }
         }
       },
@@ -44,7 +44,7 @@
         "content_gWkTMB"
       ],
       "settings": {
-        "color": "violet"
+        "color": "pink"
       }
     }
   },
