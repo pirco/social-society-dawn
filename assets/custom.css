@@ -1853,6 +1853,6 @@ svg.clips {
 }
 
 button._formSubmitButton_1ll8d_81 {
-  border-radius: 25px;
-    width: 200px;
+  border-radius: 25px!important;
+    width: 200px!important;
 }
