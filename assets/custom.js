@@ -130,7 +130,7 @@ window.addEventListener("load", (event) => {
   if (document.getElementById('insta-feed').getElementsByTagName('h2').length) {
     document.getElementById('insta-feed').getElementsByTagName('h2').addEventListener("click", function () {
       window.open("https://www.instagram.com/shopthesocialsociety");
-    })
+    });
   }
-})
+});
 console.log('test');
