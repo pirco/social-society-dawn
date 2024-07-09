@@ -120,7 +120,7 @@
         "forms_inline_khnxw8"
       ],
       "custom_css": [
-        "._formFieldset_1ll8d_67 button[type=\"submit\"] {border-radius: 50%;}"
+        "._formFieldset_1ll8d_67 button[type=\"submit\"] {border-radius: 50%!important;}"
       ],
       "settings": {
         "include_margins": true
