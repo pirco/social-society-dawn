@@ -172,7 +172,7 @@
           "type": "heading",
           "settings": {
             "heading": "Turn everyday moments into experiences worth celebrating.",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "text_MjzkHG": {
@@ -198,8 +198,8 @@
         "button_KcLKFH"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BTM_0180.jpg",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/BTM_0867-R.jpg",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -237,8 +237,8 @@
         "heading_gyXieq": {
           "type": "heading",
           "settings": {
-            "heading": "Join the Party!",
-            "heading_size": "h1"
+            "heading": "JOIN THE PARTY!",
+            "heading_size": "h0"
           }
         },
         "paragraph_8xrLTf": {
