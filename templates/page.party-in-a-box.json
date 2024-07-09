@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -20,22 +21,46 @@
         "padding_bottom": 28
       }
     },
+    "hero_d3KhmV": {
+      "type": "hero",
+      "blocks": {
+        "image_MCVYwW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7783.jpg"
+          }
+        },
+        "content_cdi8dC": {
+          "type": "content",
+          "settings": {
+            "subtitle": "",
+            "headline": "<p>PARTY IN A BOX<\/p>",
+            "description": "<p>Create a custom party in box for your next event. Our team of expert stylists will design, source, curate and ship everything you need for your next celebration. Details like custom menus, thoughtful favor bags, thoughtful color palettes and unique decor will not go unnoticed. Please fill out the form below to give us more details about your party.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_MCVYwW",
+        "content_cdi8dC"
+      ],
+      "settings": {
+        "color": "violet"
+      }
+    },
     "rich_text_7LmjMq": {
       "type": "rich-text",
       "blocks": {
         "heading_LMMteC": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Shipping and Payment",
+            "heading": "LITTLE MISS PARTY IN A BOX",
             "heading_size": "h1"
           }
         },
         "text_NbMgcW": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p><strong>Do you have a brick-and-mortar store?<\/strong><\/p>"
+            "text": "<p>Create a custom party in box for your next event. Our team of expert stylists will design, source, curate and ship everything you need for your next celebration. Details like custom menus, thoughtful favor bags, thoughtful color palettes and unique decor will not go unnoticed. Please fill out the form below to give us more details about your party.<\/p>"
           }
         },
         "button_NkmxUp": {
@@ -56,14 +81,12 @@
         "text_NbMgcW",
         "button_NkmxUp"
       ],
-      "custom_css": [
-        ".rich-text.content-container {background-color: #fcfaf5;}"
-      ],
+      "disabled": true,
       "settings": {
         "content_width": "medium",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -83,7 +106,7 @@
             "errors_color": "#E02229",
             "text_alignment": "center",
             "form_alignment": "center",
-            "padding_top": 0,
+            "padding_top": 24,
             "padding_bottom": 0,
             "padding_right": 0,
             "padding_left": 0
@@ -100,6 +123,7 @@
   },
   "order": [
     "main",
+    "hero_d3KhmV",
     "rich_text_7LmjMq",
     "1720517278771de6d8"
   ]
