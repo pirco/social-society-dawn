@@ -96,8 +96,12 @@
           <div class="headline">{{ block.settings.left_headline }}</div>
 
           <div class="image">
-            <div class="">
-              <img src="{{ block.settings.left_image | image_url: width: 300 }}">
+            <div
+              {% if block settings.left_image_aspect == "landscape" %}
+                class="landscape"
+              {% endif %}
+            >
+              <img src="{{ block.settings.left_image | image_url: width: 600 }}">
             </div>
           </div>
 
