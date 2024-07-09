@@ -110,7 +110,7 @@
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 24,
-            "padding_bottom": 0,
+            "padding_bottom": 60,
             "padding_right": 0,
             "padding_left": 0
           }
@@ -118,6 +118,9 @@
       },
       "block_order": [
         "forms_inline_khnxw8"
+      ],
+      "custom_css": [
+        "button[type=\"submit\"] {border-radius: 50%;}"
       ],
       "settings": {
         "include_margins": true
