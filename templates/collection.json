@@ -46,7 +46,7 @@
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
-        "color_scheme": "scheme-1"
+        "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272"
       }
     },
     "product-grid": {
@@ -84,12 +84,22 @@
             "heading": "<p>YOU ARE NOT LIVING.<\/p>",
             "icon": "shopify:\/\/shop_images\/Group_41487_34085a96-f556-4331-8cb5-22e2d79dfaec.png"
           }
+        },
+        "interjection_Gcaxz4": {
+          "type": "interjection",
+          "settings": {
+            "color_scheme": "",
+            "text_first": false,
+            "preheading": "",
+            "heading": ""
+          }
         }
       },
       "block_order": [
         "interjection_W8CPnq",
         "interjection_ETpP8j",
-        "interjection_tXQ7mJ"
+        "interjection_tXQ7mJ",
+        "interjection_Gcaxz4"
       ],
       "settings": {
         "products_per_page": 24,
@@ -115,8 +125,8 @@
         "heading_kTCbH9": {
           "type": "heading",
           "settings": {
-            "heading": "Join the Party!",
-            "heading_size": "h1"
+            "heading": "JOIN THE PARTY!",
+            "heading_size": "h0"
           }
         },
         "paragraph_FtFCgp": {
