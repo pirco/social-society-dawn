@@ -1852,7 +1852,7 @@ svg.clips {
   }
 }
 
-._formFieldset_1ll8d_67 input { border-radius: 0; }
-._formFieldset_1ll8d_67 button[type=submit] {
-  border-radius: 50%!important; 
+button._formSubmitButton_1ll8d_81 {
+  border-radius: 25px;
+    width: 200px;
 }
