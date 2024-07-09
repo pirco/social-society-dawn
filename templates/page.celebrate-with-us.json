@@ -89,6 +89,20 @@
     },
     "172044015753b1f47a": {
       "type": "apps",
+      "blocks": {
+        "instafeed_app_block_PaEtGd": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "html_area": "<script>\nconsole.log('instafeed loaded');\n\ndocument.getElementById('insta-feed').getElementsByTagName('h2').addEventListener('click', () => {\n      window.open('https:\/\/www.instagram.com\/shopthesocialsociety');\n    });\n\n\n\n  <\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_PaEtGd"
+      ],
       "settings": {
         "include_margins": true
       }
@@ -102,13 +116,14 @@
             "title": "",
             "title_color": "",
             "alignment": "center",
-            "html_area": "<script>\nconsole.log('instafeed loaded');\n\nsetTimeout(() => {\n  console.log(\"Delayed for 1 second.\");\n\ndocument.getElementById('insta-feed').getElementsByTagName('h2').addEventListener('click', () => {\n      window.open('https:\/\/www.instagram.com\/shopthesocialsociety');\n    });\n\n}, 5000);\n\n\n\n  <\/script>"
+            "html_area": "<script>\nconsole.log('instafeed loaded');\n\ndocument.getElementById('insta-feed').getElementsByTagName('h2').addEventListener('click', () => {\n      window.open('https:\/\/www.instagram.com\/shopthesocialsociety');\n    });\n\n\n\n  <\/script>"
           }
         }
       },
       "block_order": [
         "instafeed_app_block_9nptQp"
       ],
+      "disabled": true,
       "custom_css": [
         "#insta-feed h2 {margin-top: 30px; display: block; font-family: \"Picaresk\"; text-transform: uppercase; font-size: 16px; font-weight: normal; letter-spacing: 0.03em;}",
         ".custom-insta-block {display: block;}"
