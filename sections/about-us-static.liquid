@@ -10,7 +10,7 @@
 
           <div class="image">
             <div
-              {% if block settings.left_image_aspect == "landscape" %}
+              {% if block settings.left_image_aspect contains "landscape" %}
                 class="landscape"
               {% endif %}
             >
@@ -97,7 +97,7 @@
 
           <div class="image">
             <div
-              {% if block settings.left_image_aspect == "landscape" %}
+              {% if block settings.left_image_aspect contains "landscape" %}
                 class="landscape"
               {% endif %}
             >
