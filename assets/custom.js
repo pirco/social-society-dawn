@@ -127,7 +127,7 @@ creditsElements.forEach(function (creditsElement) {
   });
 });
 
-var instafeedTitle = document.querySelectorAll('#insta-feed h2');
+var instafeedTitle = document.querySelectorAll('#insta-feed>h2');
    console.log(instafeedTitle);
   instafeedTitle.addEventListener('click', function () {
     window.open('https://instagram.com/shopsocialsociety');
