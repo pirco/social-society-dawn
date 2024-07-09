@@ -1685,6 +1685,13 @@ svg.clips {
         }
       }
 
+      .image div.landscape {
+
+        img {
+          max-width: 480px
+        }
+      }
+
       .headline {
         font-family: ABCROMCompressed-Heavy;
         font-size: 60px;
