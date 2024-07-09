@@ -49,7 +49,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/social_society_contact_page.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
