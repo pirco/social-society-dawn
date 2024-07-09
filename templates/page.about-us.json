@@ -33,7 +33,7 @@
             "right_background": "#bfa3de",
             "right_text_color": "#000000",
             "right_icon": "cup",
-            "right_content": "<h2><strong>Welcome to the Social Society. We're so glad you're here!<\/strong><\/h2><p>The Social Society is your one-stop shop for all the supplies you need to throw a fabulous party! Find trendy tableware and decor; a balloon bar with helium bouquets; grab-and-go garlands; and unique, thoughtful gifts for hosts and everyday entertaining. Enjoy community-driven in-store events and take advantage of our event styling services, too.<\/p>"
+            "right_content": "<h2><strong>Welcome to the Social Society. <br\/>We're so glad you're here!<\/strong><\/h2><p>The Social Society is your one-stop shop for all the supplies you need to throw a fabulous party! Find trendy tableware and decor; a balloon bar with helium bouquets; grab-and-go garlands; and unique, thoughtful gifts for hosts and everyday entertaining. Enjoy community-driven in-store events and take advantage of our event styling services, too.<\/p>"
           }
         },
         "section_kwiLCU": {
@@ -44,7 +44,7 @@
             "left_headline": "WHO'S THAT GIRL",
             "left_image": "shopify:\/\/shop_images\/IMG_9967_b4989476-377c-4fe3-ba17-59e79fabf249.jpg",
             "left_image_aspect": "portrait",
-            "left_subtitle": "hello, hi!",
+            "left_subtitle": "Seri Kertzner",
             "right_background": "#ffbfe1",
             "right_text_color": "#000000",
             "right_icon": "palm",
