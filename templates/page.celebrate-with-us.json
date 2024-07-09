@@ -100,7 +100,7 @@
             "title": "",
             "title_color": "",
             "alignment": "center",
-            "html_area": "<style>\n#insta-feed h2 {\n  margin-top: 30px;\n  display: block;\n  font-family: \"Picaresk\";\n  text-transform: uppercase;\n  font-size: 16px;\n  font-weight: normal;\n  letter-spacing: 0.03em;\n}\n.custom-insta-block {\n  display: block;\n}\n<\/style>\n<script>\nconsole.log('instafeed loaded');\n\/\/not working:\n\ndocument.getElementById('insta-feed').getElementsByTagName('h2').addEventListener('click', () => {\n      window.open('https:\/\/www.instagram.com\/shopthesocialsociety');\n    });\n\n\n\n  <\/script>"
+            "html_area": "<style>\n#insta-feed h2 {\n  margin-top: 30px;\n  display: block;\n  font-family: \"Picaresk\";\n  text-transform: uppercase;\n  font-size: 16px;\n  font-weight: normal;\n  letter-spacing: 0.03em;\n}\n.custom-insta-block {\n  display: block;\n}\n<\/style>"
           }
         }
       },
