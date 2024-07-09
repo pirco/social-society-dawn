@@ -125,3 +125,7 @@ creditsElements.forEach(function (creditsElement) {
     }
   });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+   console.log('window loaded custom.js');
+}, false);
