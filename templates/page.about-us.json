@@ -27,13 +27,13 @@
             "left_background": "#000000",
             "left_text_color": "#bfa3de",
             "left_headline": "PARTY PEOPLE",
-            "left_image": "shopify:\/\/shop_images\/IMG_5046.jpg_copy.jpg",
+            "left_image": "shopify:\/\/shop_images\/IMG_5046-R.jpg",
             "left_image_aspect": "portrait",
             "left_subtitle": "About Us",
             "right_background": "#bfa3de",
             "right_text_color": "#000000",
             "right_icon": "cup",
-            "right_content": "<h2><strong>Welcome to the Social Society. <br\/>We're so glad you're here!<\/strong><\/h2><p>The Social Society is your one-stop shop for all the supplies you need to throw a fabulous party! Find trendy tableware and decor; a balloon bar with helium bouquets; grab-and-go garlands; and unique, thoughtful gifts for hosts and everyday entertaining. Enjoy community-driven in-store events and take advantage of our event styling services, too.<\/p>"
+            "right_content": "<h2>Welcome to the Social Society. <br\/>We're so glad you're here!<\/h2><p>The Social Society is your one-stop shop for all the supplies you need to throw a fabulous party! Find trendy tableware and decor; a balloon bar with helium bouquets; grab-and-go garlands; and unique, thoughtful gifts for hosts and everyday entertaining. Enjoy community-driven in-store events and take advantage of our event styling services, too.<\/p>"
           }
         },
         "section_kwiLCU": {
@@ -54,13 +54,13 @@
         "section_GJmxQU": {
           "type": "section",
           "settings": {
-            "left_background": "#085e21",
-            "left_text_color": "#a2e0e0",
+            "left_background": "#2e159b",
+            "left_text_color": "#d6f254",
             "left_headline": "CHIEF PARTY OFFICER",
-            "left_image": "shopify:\/\/shop_images\/BTM_1338.jpg",
+            "left_image": "shopify:\/\/shop_images\/BTM_1338-R.jpg",
             "left_image_aspect": "portrait",
-            "left_subtitle": "",
-            "right_background": "#a2e0e0",
+            "left_subtitle": "Life of The Party",
+            "right_background": "#d6f254",
             "right_text_color": "#000000",
             "right_icon": "bow",
             "right_content": "<h2>How I got here...<\/h2><p>I grew up in Toronto, Ontario, Canada. I spent every Friday night at my grandmother's house (rotating weekly between the 2) for home cooked dinners with my whole family. I developed a love for cooking and entertaining at a young age.<br\/>I moved to New York City in 2001, for a job in fashion. I worked in the finance + production departments at Kate Spade, Club Monaco and J.Crew and then had a child and left the corporate world to fulfill my dream of partying for a living.<\/p><p>After event planning for 10+ years, I am seeing through my next chapter of owning my own store where I sell party supplies that I know, will bring joy into the community that I now live in.<\/p>"
@@ -69,13 +69,13 @@
         "section_zBxyTp": {
           "type": "section",
           "settings": {
-            "left_background": "#2e159b",
-            "left_text_color": "#d6f254",
+            "left_background": "#085e21",
+            "left_text_color": "#a2e0e0",
             "left_headline": "THE SOCIAL SOCIETY STORE",
             "left_image": "shopify:\/\/shop_images\/BTM_1852.jpg",
             "left_image_aspect": "portrait",
-            "left_subtitle": "coming soon!",
-            "right_background": "#d6f254",
+            "left_subtitle": "Coming Soon!",
+            "right_background": "#a2e0e0",
             "right_text_color": "#000000",
             "right_icon": "hat",
             "right_content": "<h2>The Social Society<\/h2><p>Is opening their doors this fall, 2024. Make sure that you are signed up and on the look out for announcements, news, store events and so much more. We cannot wait to party with you!<\/p><p>Join the Party at <a href=\"https:\/\/www.instagram.com\/shopthesocialsociety\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/shopthesocialsociety\/\">Shop The Social Society<\/a> to stay up to date!<\/p><p>300 Pine Lake Drive<br\/>Suite E104<br\/>Ponte Vedra, FL 32081<\/p>"
