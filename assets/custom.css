@@ -1681,6 +1681,7 @@ svg.clips {
 
         img {
           width: 100%;
+          max-width: 390px;
         }
       }
 
