@@ -1852,7 +1852,8 @@ svg.clips {
   }
 }
 
-button._formSubmitButton_1ll8d_81 {
+[data-forms-id='forms-root-135733'] input, 
+[data-forms-id='forms-root-135733'] button {
   border-radius: 25px!important;
     width: 200px!important;
 }
