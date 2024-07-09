@@ -44,7 +44,7 @@
         "content_cdi8dC"
       ],
       "custom_css": [
-        ".description {font-size: 1em; }"
+        ".description {font-size: 1em;}"
       ],
       "settings": {
         "color": "violet"
@@ -103,7 +103,7 @@
           "settings": {
             "form_id": "135733",
             "text_color": "#202020",
-            "button_background_color": "#202020",
+            "button_background_color": "#f5420d",
             "button_label_color": "#FFFFFF",
             "links_color": "#1878B9",
             "errors_color": "#E02229",
