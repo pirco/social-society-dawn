@@ -128,8 +128,8 @@ creditsElements.forEach(function (creditsElement) {
 window.addEventListener("load", (event) => {
   console.log('window loaded');
   if (document.getElementById('insta-feed').getElementsByTagName('h2').length) {
-    document.getElementById('insta-feed').getElementsByTagName('h2').addEventListener("click", function () {
-      window.open("https://www.instagram.com/shopthesocialsociety");
+    document.getElementById('insta-feed').getElementsByTagName('h2').addEventListener('click', () => {
+      window.open('https://www.instagram.com/shopthesocialsociety');
     });
   }
 });
