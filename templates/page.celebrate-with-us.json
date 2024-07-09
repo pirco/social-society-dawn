@@ -121,7 +121,7 @@
             "title": "",
             "title_color": "",
             "alignment": "center",
-            "html_area": ""
+            "html_area": "<script>\ndocument.addEventListener('instafeedAppLoaded', function() {\n    const fullTitle = document.querySelector('#insta-feed h2');\n    const link = document.createElement('a');\n    link.href = 'https:\/\/www.instagram.com\/shopthesocialsociety\/';\n    link.style.color = \"#000\";\n    link.target = \"_blank\";\n    link.innerHTML = fullTitle.innerHTML;\n\n    fullTitle.innerHTML = '';\n    fullTitle.appendChild(link);\n});\n<\/script>"
           }
         }
       },
