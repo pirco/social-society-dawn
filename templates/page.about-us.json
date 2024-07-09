@@ -98,11 +98,12 @@
             "left_text_color": "#bfa3de",
             "left_headline": "PARTY PEOPLE",
             "left_image": "shopify:\/\/shop_images\/IMG_5046.jpg_copy.jpg",
+            "left_image_aspect": "portrait",
             "left_subtitle": "About Us",
             "right_background": "#bfa3de",
             "right_text_color": "#000000",
             "right_icon": "cup",
-            "right_content": "<p>Welcome to the Social Society. We're so glad you're here!<\/p><p>The Social Society is your one-stop shop for all the supplies you need to throw a fabulous party! Find trendy tableware and decor; a balloon bar with helium bouquets; grab-and-go garlands; and unique, thoughtful gifts for hosts and everyday entertaining. Enjoy community-driven in-store events and take advantage of our event styling services, too.<\/p>"
+            "right_content": "<h3><strong>Welcome to the Social Society. We're so glad you're here!<\/strong><\/h3><p>The Social Society is your one-stop shop for all the supplies you need to throw a fabulous party! Find trendy tableware and decor; a balloon bar with helium bouquets; grab-and-go garlands; and unique, thoughtful gifts for hosts and everyday entertaining. Enjoy community-driven in-store events and take advantage of our event styling services, too.<\/p>"
           }
         },
         "section_kwiLCU": {
@@ -112,6 +113,7 @@
             "left_text_color": "#ffbfe1",
             "left_headline": "WHO'S THAT GIRL",
             "left_image": "shopify:\/\/shop_images\/IMG_9967_b4989476-377c-4fe3-ba17-59e79fabf249.jpg",
+            "left_image_aspect": "portrait",
             "left_subtitle": "hello, hi!",
             "right_background": "#ffbfe1",
             "right_text_color": "#000000",
@@ -126,6 +128,7 @@
             "left_text_color": "#a2e0e0",
             "left_headline": "CHIEF PARTY OFFICER",
             "left_image": "shopify:\/\/shop_images\/BTM_1338.jpg",
+            "left_image_aspect": "portrait",
             "left_subtitle": "",
             "right_background": "#a2e0e0",
             "right_text_color": "#000000",
@@ -140,6 +143,7 @@
             "left_text_color": "#d6f254",
             "left_headline": "THE SOCIAL SOCIETY STORE",
             "left_image": "shopify:\/\/shop_images\/BTM_1852.jpg",
+            "left_image_aspect": "portrait",
             "left_subtitle": "coming soon!",
             "right_background": "#d6f254",
             "right_text_color": "#000000",
