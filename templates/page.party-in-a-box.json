@@ -43,6 +43,9 @@
         "image_MCVYwW",
         "content_cdi8dC"
       ],
+      "custom_css": [
+        ".description {font-size: 1em; }"
+      ],
       "settings": {
         "color": "violet"
       }
