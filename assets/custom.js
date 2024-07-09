@@ -93,7 +93,8 @@ document.addEventListener('DOMContentLoaded', function () {
   if (shouldShowPopup()) {
     showPopup();
   }
-});
+  
+}); //DOMContentLoaded
 
 function shouldShowPopup() {
   const lastShownDate = localStorage.getItem('popupLastShownDate');
@@ -126,6 +127,9 @@ creditsElements.forEach(function (creditsElement) {
   });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-   console.log('window loaded custom.js');
-}, false);
+var instafeedTitle = document.querySelectorAll('#insta-feed h2');
+   console.log(instafeedTitle);
+  instafeedTitle.addEventListener('click', function () {
+    window.open('https://instagram.com/shopsocialsociety');
+    console.log('instafeed title clicked');
+  }
