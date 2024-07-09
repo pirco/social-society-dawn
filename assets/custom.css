@@ -1852,11 +1852,11 @@ svg.clips {
   }
 }
 
-[data-forms-id='forms-root-135733'] input {
+div[data-forms-id='forms-root-135733'] input {
   border-radius: 0px;
 }
 
-[data-forms-id='forms-root-135733'] button {
+div[data-forms-id='forms-root-135733'] button {
   border-radius: 25px!important;
     width: 200px!important;
 }
