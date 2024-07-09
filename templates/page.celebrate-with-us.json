@@ -102,7 +102,7 @@
             "title": "",
             "title_color": "",
             "alignment": "center",
-            "html_area": "<script>\nconsole.log('instafeed loaded');\n\ndocument.getElementById('insta-feed').addEventListener('click', () => {\n      window.open('https:\/\/www.instagram.com\/shopthesocialsociety');\n    });\n  <\/script>"
+            "html_area": "<script>\nconsole.log('instafeed loaded');\n\ndocument.getElementById('insta-feed').getElementsByTagName('h2').addEventListener('click', () => {\n      window.open('https:\/\/www.instagram.com\/shopthesocialsociety');\n    });\n  <\/script>"
           }
         }
       },
