@@ -13,8 +13,8 @@
   --color-pink-rgb: 255, 191, 225;
   --color-green: #D6F254;
   --color-green-rgb: 214, 242, 84;
-  --color-red: #F5420D;
-  --color-red-rgb: 245, 66, 13;
+  --color-red: rgb(246, 75, 0);
+  --color-red-rgb: 246, 75, 0;
   --gradient-background: #FCFAF5;
 }
 
@@ -1857,6 +1857,6 @@ div[data-forms-id="forms-root-135733"] input {
 }
 
 div[data-forms-id="forms-root-135733"] button {
-  border-radius: 25px!important;
-    width: 200px!important;
+  border-radius: 25px !important;
+  width: 200px !important;
 }
