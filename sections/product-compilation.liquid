@@ -18,7 +18,7 @@
         </div>
       </div>
 
-      <a href="{{ section.settings.url }}" class="link">SHOP NOW</a>
+      <a href="{{ section.settings.url }}" class="link">{{ section.settings.button_text }}</a>
     </div>
 
     <div class="grid__item image">
@@ -50,7 +50,13 @@
     {
       "type": "url",
       "id": "url",
-      "label": "URL"
+      "label": "CTA URL"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button label",
+      "default": "SHOP NOW"
     }
   ],
   "blocks": [
