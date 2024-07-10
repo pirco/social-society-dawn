@@ -714,7 +714,7 @@ svg.clips {
 /* Buttons */
 .button {
   border-radius: 25px;
-  background-color: rgb(var(--color-violet-rgb));
+  background-color: rgb(var(--color-red-rgb));
   color: white;
   border-image-width: 0;
   font-size: 12px;
@@ -729,6 +729,10 @@ svg.clips {
   &:after {
     display: none;
   }
+}
+
+section:not(.section-featured-collection) .product-grid button {
+  background-color: rgb(var(--color-violet-rgb));
 }
 
 /* Section Image with Text */
