@@ -731,7 +731,8 @@ svg.clips {
   }
 }
 
-.section:not(.section-featured-collection) .product-grid button {
+.section:not(.section-featured-collection) .product-grid button,
+.product-form__buttons button {
   background-color: rgb(var(--color-violet-rgb));
 }
 
