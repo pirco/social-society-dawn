@@ -3,7 +3,7 @@
     {% for block in section.blocks %}
       <a href="{{ block.settings.collection.url }}" class="collection grid__item">
         <div class="media media--circle">
-          <img src="{{ block.settings.collection.featured_image | image_url: width: 150 }}">
+          <img src="{{ block.settings.collection.featured_image | image_url: width: 500 }}">
         </div>
 
         <div class="collection-title">{{ block.settings.collection.title }}</div>
