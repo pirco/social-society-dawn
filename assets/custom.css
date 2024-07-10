@@ -1102,9 +1102,9 @@ svg.clips {
   }
 
   svg {
-    position: absolute;
-    bottom: 40px;
-    right: 0;
+    position: relative;
+    margin: 0 0 0 auto;
+    display: block;
 
     path {
       fill: rgb(var(--color-foreground));
