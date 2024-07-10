@@ -587,10 +587,7 @@ main {
 .section-hero--color-scheme-pink {
   color: #f64b00 !important;
 
-  a,
-  subtitle,
-  subtitle p,
-  h2 {
+  * {
     color: #f64b00 !important;
   }
 }
