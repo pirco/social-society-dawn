@@ -2,7 +2,7 @@
   --color-primary: #BFA3DE;
   --color-primary-rgb: 191, 163, 222;
   --color-violet: #BFA3DE;
-  --color-primary-rgb: 191, 163, 222;
+  --color-violet-rgb: 191, 163, 222;
   --color-dark: #141417;
   --color-dark-rgb: 20, 20, 23;
   --color-blue: #A6C4EB;
@@ -714,7 +714,7 @@ svg.clips {
 /* Buttons */
 .button {
   border-radius: 25px;
-  background-color: rgb(var(--color-red-rgb));
+  background-color: rgb(var(--color-violet-rgb));
   color: white;
   border-image-width: 0;
   font-size: 12px;
