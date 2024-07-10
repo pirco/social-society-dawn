@@ -556,6 +556,7 @@ main {
 
   a,
   .subtitle,
+  subtitle p,
   h2 {
     color: var(--color-violet) !important;
   }
@@ -566,6 +567,7 @@ main {
 
   a,
   subtitle,
+  subtitle p,
   h2 {
     color: #FFBFE1 !important;
   }
@@ -576,6 +578,7 @@ main {
 
   a,
   subtitle,
+  subtitle p,
   h2 {
     color: #2e159b !important;
   }
@@ -586,6 +589,7 @@ main {
 
   a,
   subtitle,
+  subtitle p,
   h2 {
     color: #f64b00 !important;
   }
@@ -596,6 +600,7 @@ main {
 
   a,
   subtitle,
+  subtitle p,
   h2 {
     color: #c81127 !important;
   }
@@ -606,6 +611,7 @@ main {
 
   a,
   subtitle,
+  subtitle p,
   h2 {
     color: #085e21 !important;
   }
