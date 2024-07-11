@@ -1,6 +1,8 @@
 :root {
   --color-primary: #BFA3DE;
   --color-primary-rgb: 191, 163, 222;
+  --color-lime: #d6f254;
+  --color-lime-rgb: 214, 242, 84;
   --color-violet: #BFA3DE;
   --color-violet-rgb: 191, 163, 222;
   --color-dark: #141417;
@@ -550,12 +552,20 @@ main {
 }
 
 /* Section Hero */
-.section-hero--color-scheme-deep-blue,
+
 .section-hero--color-scheme-dark {
   color: var(--color-violet);
 
   * {
     color: var(--color-violet) !important;
+  }
+}
+
+.section-hero--color-scheme-deep-blue {
+  color: var(--color-lime);
+
+  * {
+    color: var(--color-lime) !important;
   }
 }
 
@@ -951,7 +961,7 @@ svg.clips {
 
 .collection-interjection:is(.color-deep-blue) .text,
 .collection-interjection:is(.color-dark) .text {
-  color: #a2e0e0 !important;
+  color: var(--color-lime) !important;
 }
 
 .collection-interjection {
