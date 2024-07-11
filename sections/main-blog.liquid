@@ -18,35 +18,21 @@
   }
 {%- endstyle -%}
 
-{% if blog.handle == 'in-store-events' %}
-  {% assign events_blog = true %}
-{% endif %}
-
-{% if events_blog %}
-  {% assign paginate_by = 6 %}
-{% else %}
-  {% assign paginate_by = 24 %}
-{% endif %}
+{% assign paginate_by = 24 %}
 
 {%- paginate blog.articles by paginate_by -%}
-  <div class="main-blog {% if events_blog %}events-blog{% endif %} section-{{ section.id }}-padding">
-    {% if events_blog %}
-      <div class="events-hero page-width page-full-width">
-        <div class="events-hero__text-wrapper">
-          <div class="events-hero__pretitle">You're Cordially Invited...</div>
+  <div class="main-blog section-{{ section.id }}-padding">
+    <div class="events-hero page-width page-full-width">
+      <div class="events-hero__text-wrapper">
+        <div class="events-hero__pretitle">You're Cordially Invited...</div>
 
-          <h1 class="events-hero__title{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-            {{ blog.title | escape }}
-          </h1>
-        </div>
+        <h1 class="events-hero__title{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+          {{ blog.title | escape }}
+        </h1>
+
+        <div class="title--secondary">On The Social Society Blog</div>
       </div>
-    {% else %}
-      <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-        {{ blog.title | escape }}
-      </h1>
-
-      <div class="title--secondary">On The Social Society Blog</div>
-    {% endif %}
+    </div>
 
     <div class="blog-articles page-width {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
