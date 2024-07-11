@@ -1343,7 +1343,8 @@ svg.clips {
 
 /* Events */
 
-.events-blog {
+.events-blog,
+.party-like-us-blog {
   --grid-desktop-horizontal-spacing: 20px;
   --grid-desktop-vertical-spacing: 30px;
   --grid-mobile-vertical-spacing: 30px;
