@@ -18,18 +18,10 @@
   }
 {%- endstyle -%}
 
-{% if blog.handle == 'in-store-events' %}
-  {% assign events_blog = true %}
-{% endif %}
-
-{% if events_blog %}
-  {% assign paginate_by = 6 %}
-{% else %}
-  {% assign paginate_by = 24 %}
-{% endif %}
+{% assign paginate_by = 24 %}
 
 {%- paginate blog.articles by paginate_by -%}
-  <div class="main-blog {% if events_blog %}events-blog{% endif %} section-{{ section.id }}-padding">
+  <div class="main-blog section-{{ section.id }}-padding">
     {% comment %}
       THIS DISPLAYS PROPER BLOG POSTS (default blog PARTY LIKE US)
       {% if events_blog %}
@@ -49,9 +41,9 @@
       {% endif %}
     {% endcomment %}
 
-    <div class="events-hero page-width page-full-width">
-      <div class="events-hero__text-wrapper">
-        <h1 class="events-hero__title{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    <div class="main-blog-hero page-width page-full-width">
+      <div class="emain-blog-hero__text-wrapper">
+        <h1 class="main-blog-hero__title{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
           {{ blog.title | escape }}
         </h1>
         <div class="title--secondary">On The Social Society Blog</div>
