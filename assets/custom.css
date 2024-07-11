@@ -1624,8 +1624,11 @@ svg.clips {
 }
 
 @media screen and (min-width: 990px) {
-  .blog-articles {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  .main-blog {
+    .blog-articles {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
   }
 }
 
