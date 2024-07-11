@@ -65,6 +65,12 @@
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
         {%- endif -%}
 
+        {% for tag in product.tags %}
+          {% if tag contains 'final sale' %}
+            <input type="hidden" form="{{ product_form_id }}" id="final_sale" name="properties[Final Sale]">
+          {% endif %}
+        {% endfor %}
+
         <div class="product-form__buttons">
           {%- liquid
             assign check_against_inventory = true
