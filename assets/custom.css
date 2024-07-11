@@ -1410,11 +1410,11 @@ svg.clips {
 
   .events-hero {
     background-color: var(--color-pink);
-    color: rgb(var(--color-pink-deep-blue));
+    color: rgb(var(--color-deep-blue));
     --color-foreground: var(--color-deep-blue-rgb);
 
     .title--secondary {
-      color: rgb(var(--color-pink-deep-blue)) !important;
+      color: rgb(var(--color-deep-blue));
     }
   }
 }
