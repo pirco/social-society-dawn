@@ -20,9 +20,54 @@
         "padding_top": 36,
         "padding_bottom": 72
       }
+    },
+    "rich_text_jprzfm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kWDaPz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Download The Social Society Media Kit here",
+            "heading_size": "h1"
+          }
+        },
+        "text_gKJUBa": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_CMtYL4": {
+          "type": "button",
+          "settings": {
+            "button_label": "PDF (3.6MB)",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0684\/2875\/9265\/files\/The_Social_Society_Media_Kit_FINAL.pdf?v=1720730255",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kWDaPz",
+        "text_gKJUBa",
+        "button_CMtYL4"
+      ],
+      "settings": {
+        "content_width": "medium",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_jprzfm"
   ]
 }
