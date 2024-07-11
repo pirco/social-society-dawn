@@ -1406,12 +1406,17 @@ svg.clips {
   }
 }
 
-.party-like-us-blog .events-hero {
+.party-like-us-blog {
 
-  background-color: var(--color-pink);
-  color: rgb(var(--color-pink-deep-blue));
-  --color-foreground: var(--color-deep-blue-rgb);
+  .events-hero {
+    background-color: var(--color-pink);
+    color: rgb(var(--color-pink-deep-blue));
+    --color-foreground: var(--color-deep-blue-rgb);
+  }
 
+  .title--secondary {
+    color: rgb(var(--color-pink-deep-blue));
+  }
 }
 
 .article-card-wrapper {
