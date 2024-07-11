@@ -53,6 +53,7 @@
         },
         "section_GJmxQU": {
           "type": "section",
+          "disabled": true,
           "settings": {
             "left_background": "#2e159b",
             "left_text_color": "#d6f254",
