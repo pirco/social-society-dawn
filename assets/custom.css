@@ -1414,7 +1414,7 @@ svg.clips {
     --color-foreground: var(--color-deep-blue-rgb);
 
     .title--secondary {
-      color: rgb(var(--color-deep-blue));
+      color: var(--color-deep-blue);
     }
   }
 }
