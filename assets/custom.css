@@ -1406,7 +1406,7 @@ svg.clips {
   }
 }
 
-.party-like-us-blog .events-hero>* {
+.party-like-us-blog .events-hero {
   background-color: var(--color-pink);
   color: rgb(var(--color-deep-blue));
 }
