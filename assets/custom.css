@@ -1013,7 +1013,7 @@ svg.clips {
   color: var(--color-pink) !important;
 }
 
-.collection-interjection:is(.color-green) .text {
+.collection-interjection:is(.color-lime) .text {
   color: var(--color-deep-blue) !important;
 }
 
