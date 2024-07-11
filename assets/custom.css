@@ -82,11 +82,11 @@ header-drawer {
     }
 
     >li:nth-child(4) {
-      --bg-color: var(--color-green);
+      --bg-color: var(--color-lime);
     }
 
     >li:nth-child(5) {
-      --bg-color: var(--color-red);
+      --bg-color: var(--color-teal);
     }
 
     >li details[open]>.header__menu-item,
