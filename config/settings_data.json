@@ -197,9 +197,9 @@
           "background": "#ffbfe1",
           "background_gradient": "",
           "text": "#f5420d",
-          "button": "#ffffff",
-          "button_label": "#141417",
-          "secondary_button_label": "#141417",
+          "button": "#f5420d",
+          "button_label": "#ffbfe1",
+          "secondary_button_label": "#f5420d",
           "shadow": "#121212"
         }
       },
@@ -219,20 +219,20 @@
           "background": "#a2e0e0",
           "background_gradient": "",
           "text": "#085e21",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "button": "#085e21",
+          "button_label": "#a2e0e0",
+          "secondary_button_label": "#085e21",
           "shadow": "#121212"
         }
       },
       "scheme-baf667b2-e410-4c52-8737-8d80dc8a1f13": {
         "settings": {
-          "background": "#bfa3de",
+          "background": "#fcfaf5",
           "background_gradient": "",
-          "text": "#2e159b",
+          "text": "#bfa3de",
           "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "button_label": "#fcfaf5",
+          "secondary_button_label": "#141417",
           "shadow": "#121212"
         }
       },
@@ -241,9 +241,9 @@
           "background": "#a6c4eb",
           "background_gradient": "",
           "text": "#c91325",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "button": "#c91325",
+          "button_label": "#fcfaf5",
+          "secondary_button_label": "#c91325",
           "shadow": "#121212"
         }
       },
@@ -252,9 +252,9 @@
           "background": "#ffbfe1",
           "background_gradient": "",
           "text": "#2e159b",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "button": "#2e159b",
+          "button_label": "#ffbfe1",
+          "secondary_button_label": "#2e159b",
           "shadow": "#121212"
         }
       },
@@ -263,9 +263,9 @@
           "background": "#f5420d",
           "background_gradient": "",
           "text": "#ffbfe1",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "button": "#ffbfe1",
+          "button_label": "#f5420d",
+          "secondary_button_label": "#ffbfe1",
           "shadow": "#121212"
         }
       },
@@ -273,9 +273,9 @@
         "settings": {
           "background": "#d6f254",
           "background_gradient": "",
-          "text": "#085e21",
-          "button": "#121212",
-          "button_label": "#ffffff",
+          "text": "#2e159b",
+          "button": "#2e159b",
+          "button_label": "#d6f254",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
@@ -284,10 +284,32 @@
         "settings": {
           "background": "#2e159b",
           "background_gradient": "",
+          "text": "#d6f254",
+          "button": "#d6f254",
+          "button_label": "#2e159b",
+          "secondary_button_label": "#d6f254",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-2ebb493e-a3a2-4910-b4da-e3d9a19027e8": {
+        "settings": {
+          "background": "#085e21",
+          "background_gradient": "",
           "text": "#a2e0e0",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "button": "#a2e0e0",
+          "button_label": "#085e21",
+          "secondary_button_label": "#a2e0e0",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-356e8cfa-ab1f-4b3d-9881-362ba91759a9": {
+        "settings": {
+          "background": "#c91325",
+          "background_gradient": "",
+          "text": "#a6c4eb",
+          "button": "#a6c4eb",
+          "button_label": "#141417",
+          "secondary_button_label": "#a6c4eb",
           "shadow": "#121212"
         }
       }
