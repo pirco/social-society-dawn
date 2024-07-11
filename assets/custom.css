@@ -1375,6 +1375,13 @@ svg.clips {
     }
   }
 
+  .party-like-us-blog {
+    .events-hero {
+      background-color: var(--color-pink);
+      color: rgb(var(--color-violet-rgb));
+    }
+  }
+
   .blog-articles__article {
     background-color: #F4EFE4;
 
