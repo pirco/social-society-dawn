@@ -67,7 +67,13 @@
 
         {% for tag in product.tags %}
           {% if tag contains 'final sale' %}
-            <input type="hidden" form="{{ product_form_id }}" id="final_sale" name="properties[Final Sale]">
+            <input
+              type="hidden"
+              form="{{ product_form_id }}"
+              id="final_sale"
+              name="properties[Final Sale]"
+              value="Final Sale!"
+            >
           {% endif %}
         {% endfor %}
 
