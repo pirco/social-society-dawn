@@ -1407,8 +1407,11 @@ svg.clips {
 }
 
 .party-like-us-blog .events-hero {
+
   background-color: var(--color-pink);
-  color: rgb(var(--color-deep-blue));
+  color: rgb(var(--color-pink-deep-blue));
+  --color-foreground: var(--color-deep-blue-rgb);
+
 }
 
 .article-card-wrapper {
