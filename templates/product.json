@@ -127,10 +127,10 @@
     "related-products": {
       "type": "related-products",
       "custom_css": [
-        ".related-products--titles > a {display: none; }"
+        ".related-products--titles > a {display: none;}"
       ],
       "settings": {
-        "heading": "Shop This Party",
+        "heading": "Shop More",
         "heading_size": "h2",
         "products_to_show": 3,
         "columns_desktop": 3,
