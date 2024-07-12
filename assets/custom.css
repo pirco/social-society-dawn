@@ -1411,6 +1411,7 @@ svg.clips {
       margin: auto;
       position: relative;
       padding: 19px 0;
+      max-width: 360px;
     }
 
     .media {
