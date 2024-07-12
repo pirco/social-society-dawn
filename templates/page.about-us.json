@@ -24,14 +24,14 @@
         "section_AKDDwg": {
           "type": "section",
           "settings": {
-            "left_background": "#000000",
-            "left_text_color": "#bfa3de",
+            "left_background": "#2e159b",
+            "left_text_color": "#d6f254",
             "left_headline": "ABOUT US",
             "left_image": "shopify:\/\/shop_images\/IMG_5048-R.jpg",
-            "left_image_aspect": "portrait",
+            "left_image_aspect": "landscape",
             "left_subtitle": "Party People",
-            "right_background": "#bfa3de",
-            "right_text_color": "#000000",
+            "right_background": "#d6f254",
+            "right_text_color": "#141417",
             "right_icon": "cup",
             "right_content": "<h2>Welcome to the Social Society. <br\/>We're so glad you're here!<\/h2><p>The Social Society is your one-stop shop for all the supplies you need to throw a fabulous party! Find trendy tableware and decor; a balloon bar with helium bouquets; grab-and-go garlands; and unique, thoughtful gifts for hosts and everyday entertaining. Enjoy community-driven in-store events and take advantage of our event styling services, too.<\/p>"
           }
@@ -41,14 +41,14 @@
           "settings": {
             "left_background": "#f5420d",
             "left_text_color": "#ffbfe1",
-            "left_headline": "WHO'S THAT GIRL",
-            "left_image": "shopify:\/\/shop_images\/IMG_9967_b4989476-377c-4fe3-ba17-59e79fabf249.jpg",
-            "left_image_aspect": "portrait",
+            "left_headline": "CHIEF PARTY OFFICER",
+            "left_image": "shopify:\/\/shop_images\/BTM_1338-5x7-R.jpg",
+            "left_image_aspect": "landscape",
             "left_subtitle": "Seri Kertzner",
             "right_background": "#ffbfe1",
             "right_text_color": "#000000",
             "right_icon": "palm",
-            "right_content": "<p>My name is Seri. I love to party. I created a company called <a href=\"https:\/\/www.littlemisspartyplanner.com\/\" target=\"_blank\" title=\"https:\/\/www.littlemisspartyplanner.com\/\">Little Miss Party Planner<\/a> back in 2010. We planned and styled events all over New York City. We captured a niche in the market for our customized work.<\/p>"
+            "right_content": "<h2>How I got here...<\/h2><p>My name is Seri. I love to party. I grew up in Toronto, Ontario, Canada. I spent every Friday night at my grandmother's house (rotating weekly between the 2) for home-cooked dinners with my whole family and developed a love for cooking and entertaining at a young age.<br\/>In 2001, I moved to New York City for a job in fashion. I worked in the finance + production departments at Kate Spade, Club Monaco and J.Crew before having a child when I left the corporate world to fulfill my dream of partying for a living.<br\/>After event planning for 10+ years, I am seeing through my next chapter of owning my own store where I sell party supplies that I know, will bring joy into the community that I now live in.<\/p>"
           }
         },
         "section_GJmxQU": {
@@ -72,9 +72,9 @@
           "settings": {
             "left_background": "#085e21",
             "left_text_color": "#a2e0e0",
-            "left_headline": "THE SOCIAL SOCIETY STORE",
-            "left_image": "shopify:\/\/shop_images\/BTM_1852.jpg",
-            "left_image_aspect": "portrait",
+            "left_headline": "THE STORE",
+            "left_image": "shopify:\/\/shop_images\/BTM_1858-R.jpg",
+            "left_image_aspect": "landscape",
             "left_subtitle": "Coming Soon!",
             "right_background": "#a2e0e0",
             "right_text_color": "#000000",
