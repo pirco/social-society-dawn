@@ -12,7 +12,7 @@
     "main": {
       "type": "events-blog",
       "settings": {
-        "layout": "collage",
+        "layout": "grid",
         "show_image": true,
         "image_height": "medium",
         "show_date": true,
@@ -27,8 +27,8 @@
         "heading_q6cpGd": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
+            "heading": "JOIN THE PARTY!",
+            "heading_size": "h0"
           }
         },
         "paragraph_3YBRiT": {
