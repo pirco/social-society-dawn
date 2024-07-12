@@ -1357,6 +1357,13 @@ svg.clips {
   --grid-desktop-vertical-spacing: 30px;
   --grid-mobile-vertical-spacing: 30px;
 
+  .article-card {
+
+    .card-information {
+      display: none;
+    }
+  }
+
   .events-hero {
     text-align: center;
     background-color: transparent;

@@ -28,22 +28,33 @@
 
 {%- paginate blog.articles by paginate_by -%}
   <div class="main-blog {% if press_blog %} press-blog{% endif %} section-{{ section.id }}-padding">
-    {% if press_blog %}
-      <div class="events-hero page-width page-full-width">
-        <div class="events-hero__text-wrapper">
-          <h1 class="events-hero__title{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-            {{ blog.title | escape }}
-          </h1>
-          <div class="events-hero__pretitle">Here's the latest</div>
+    {% comment %}
+      {% if press_blog %}
+        <div class="events-hero page-width page-full-width">
+          <div class="events-hero__text-wrapper">
+            <h1 class="events-hero__title{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+              {{ blog.title | escape }}
+            </h1>
+            <div class="events-hero__pretitle">Here's the latest</div>
+          </div>
         </div>
-      </div>
-    {% else %}
-      <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-        {{ blog.title | escape }}
-      </h1>
+      {% else %}
+        <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+          {{ blog.title | escape }}
+        </h1>
 
-      <div class="title--secondary">On The Social Society Blog</div>
-    {% endif %}
+        <div class="title--secondary">On The Social Society Blog</div>
+      {% endif %}
+    {% endcomment %}
+
+    <div class="main-blog-hero page-width page-full-width">
+      <div class="main-blog-hero__text-wrapper">
+        <h1 class="main-blog-hero__title{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+          {{ blog.title | escape }}
+        </h1>
+        <div class="title--secondary">Here's the latest</div>
+      </div>
+    </div>
 
     <div class="blog-articles page-width {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
