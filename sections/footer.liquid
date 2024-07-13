@@ -116,10 +116,7 @@
                             {%- endif -%}
 
                             {% if forloop.index == 2 and blocks_loop.index == 1 %}
-                              <div class="copyright">
-                                &copy; {{ 'now' | date: '%Y' }} The Social Society.<br>
-                                All rights reserved
-                              </div>
+                              {% comment %} displays below left columns {% endcomment %}
                             {% endif %}
                             {% if forloop.index == 2 and blocks_loop.index == 3 %}
                               <div class="credits list-menu__item">
@@ -195,7 +192,8 @@
         <div class="copyright">
                                 &copy; {{ 'now' | date: '%Y' }} The Social Society.<br>
                                 All rights reserved
-                              </div>
+        </div>
+        
         <div
           class="footer-block--newsletter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
