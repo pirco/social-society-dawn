@@ -339,7 +339,7 @@ footer {
         flex-direction: column;
 
         >li {
-          margin-bottom: 40px;
+          margin-bottom: 1rem;
 
           >a,
           .footer-sub-title {
@@ -390,6 +390,12 @@ footer {
     span:last-child {
       display: none;
     }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  footer .footer__blocks-wrapper .footer-block--menu>ul>li {
+    margin-bottom: 3rem; 
   }
 }
 
