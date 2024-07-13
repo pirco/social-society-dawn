@@ -1965,7 +1965,7 @@ svg.clips {
 }
 
 @media (max-width: 749px) {
-  .section-about-us {
+  .section-about-us:not(.section-about-us-static) {
     .grid {
       .about-us--left {
         display: none;
