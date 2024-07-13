@@ -1350,6 +1350,14 @@ svg.clips {
   }
 }
 
+@media (min-width: 750px) {
+  .section-contact {
+    .contact-form {
+      padding-right: 1.5rem;
+    }
+  }
+}
+
 /* Press */
 
 .press-blog {
