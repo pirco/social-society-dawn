@@ -1360,7 +1360,7 @@ svg.clips {
   .article-card {
 
     .card__information {
-      display: none;
+     /* display: none; */
     }
   }
 
