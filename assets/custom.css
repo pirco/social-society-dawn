@@ -1869,6 +1869,8 @@ svg.clips {
       .subheadline {
         font-family: EdwardianScript;
         font-size: 40px;
+        line-height: 44px;
+        margin-top: 1rem;
       }
 
       .image {
