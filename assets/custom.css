@@ -1704,7 +1704,7 @@ svg.clips {
 
 @media screen and (min-width: 990px) {
 
-  .main-blog {
+  .main-blog:not(.events-blog, press-blog) .blog-articles {
     .blog-articles {
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
