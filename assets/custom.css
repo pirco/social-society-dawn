@@ -374,8 +374,9 @@ footer {
 
   .copyright {
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
     line-height: 20px;
+    text-align: center;
   }
 
   .credits {
