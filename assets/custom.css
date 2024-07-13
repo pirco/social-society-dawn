@@ -1239,7 +1239,7 @@ svg.clips {
     --grid-desktop-horizontal-spacing: 30px;
 
     .contact-graphics {
-      background-color: var(--color-green);
+      background-color: var(--color-lime);
       color: var(--color-deep-blue);
       padding: 60px 60px;
       text-align: center;
