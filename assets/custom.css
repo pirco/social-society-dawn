@@ -1938,6 +1938,7 @@ svg.clips {
         .content {
           margin: auto 0;
           padding-bottom: 3vh;
+          max-width: 690px;
 
           h2,
           h3 {
