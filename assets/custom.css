@@ -1916,7 +1916,7 @@ svg.clips {
 
       .right-block {
         position: relative;
-        padding: 50px 90px;
+        padding: 3vh 6vw;
         height: calc(100vh - 126px);
         overflow: hidden;
 
