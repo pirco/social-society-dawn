@@ -32,6 +32,10 @@ h2 {
   line-height: 1.2em;
 }
 
+.picaresk {
+  font-family: 'Picaresk', sans-serif;
+}
+
 /* Announcement bar */
 .announcement-bar__message {
   font-family: Picaresk !important;
