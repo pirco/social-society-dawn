@@ -900,7 +900,7 @@ svg.clips {
 /* Section collections */
 
 .section-collections {
-  background-color: var(--color-green);
+  background-color: var(--color-lime);
   padding: 40px 20px 20px;
 
   .collections {
