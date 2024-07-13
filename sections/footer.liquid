@@ -192,6 +192,10 @@
           </div>
         {%- endif -%}
 
+        <div class="copyright">
+                                &copy; {{ 'now' | date: '%Y' }} The Social Society.<br>
+                                All rights reserved
+                              </div>
         <div
           class="footer-block--newsletter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
