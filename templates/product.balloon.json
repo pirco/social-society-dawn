@@ -60,6 +60,13 @@
           "settings": {
           }
         },
+        "text_ji8WjR": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Balloons are sold as described and ship uninflated. To order helium-inflated balloons, please contact us at <\/strong><a href=\"mailto:Shop@thesocialsociety.com\" target=\"_blank\"><strong>Shop@thesocialsociety.com<\/strong><\/a><strong> or 904-709-4550.<\/strong>",
+            "text_style": "body"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -103,6 +110,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "text_ji8WjR",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
