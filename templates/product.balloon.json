@@ -63,7 +63,7 @@
         "text_ji8WjR": {
           "type": "text",
           "settings": {
-            "text": "<strong>Balloons are sold as described and ship uninflated. To order helium-inflated balloons, please contact us at <\/strong><a href=\"mailto:Shop@thesocialsociety.com\" target=\"_blank\"><strong>shop@thesocialsociety.com<\/strong><\/a><strong> or 904-709-4550.<\/strong>",
+            "text": "<strong>Balloons are sold as described and ship uninflated. To order helium-inflated balloons, please contact us at <\/strong><a href=\"mailto:shop@thesocialsociety.com\" target=\"_blank\" title=\"mailto:shop@thesocialsociety.com\"><strong>shop@thesocialsociety.com<\/strong><\/a><strong> or 904-709-4550.<\/strong>",
             "text_style": "body"
           }
         },
