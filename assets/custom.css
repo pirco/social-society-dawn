@@ -395,7 +395,7 @@ footer {
 
 @media screen and (min-width: 750px) {
   footer .footer__blocks-wrapper .footer-block--menu>ul>li {
-    margin-bottom: 3rem; 
+    margin-bottom: 3rem;
   }
 }
 
@@ -1323,6 +1323,7 @@ svg.clips {
     .address--heading {
       font-size: 60px;
       line-height: 55px;
+      max-width: 230px;
     }
 
     .address--image {
@@ -1380,7 +1381,7 @@ svg.clips {
   .article-card {
 
     .card__information {
-     text-align: center; 
+      text-align: center;
 
       .card__heading {
         display: none;
@@ -1688,7 +1689,7 @@ svg.clips {
     line-height: 25px;
   }
   */
-  
+
   .read-more {
     font-size: 13px;
   }
