@@ -24,35 +24,36 @@
         "section_JwKYtY": {
           "type": "section",
           "settings": {
-            "left_background": "#2e159b",
-            "left_text_color": "#d6f254",
-            "left_headline": "WELCOME TO THE PARTY!",
-            "left_image": "shopify:\/\/shop_images\/IMG_5047_copy.jpg",
+            "left_background": "#ffbfe1",
+            "left_text_color": "#f5420d",
+            "left_headline": "SPOOK-TACULAR CELEBRATIONS",
+            "left_image": "shopify:\/\/shop_images\/IMG_2793.jpg",
             "left_image_aspect": "landscape",
-            "left_subtitle": "We're so glad you're here",
-            "right_background": "#d6f254",
+            "left_subtitle": "Trick or Treat!",
+            "right_background": "#f5420d",
             "right_text_color": "#000000",
             "right_icon": "cup",
-            "right_content": "<h2>Party Perfection, All Under One Roof!<\/h2><p>Looking to throw an unforgettable bash? The Social Society has you covered! We're your one-stop shop for everything party-related, from trendy tableware and decor to delightful grab-and-go garlands and festive balloon bouquets.<\/p><p>Find unique gifts for any host or occasion, perfect for everyday entertaining or special celebrations. Coming soon, we'll host community-driven in-store events and our party experts are happy to discuss our event styling services.<\/p>"
+            "right_content": "<p><strong>Halloween Fun<\/strong><\/p><p>Plan a boo-tiful bash with hauntingly hip centerpieces, spine-tingling tableware and enough creepy-cute favors to satisfy every ghoul and goblin.<\/p><p><a href=\"\/collections\/halloween\">SHOP HALLOWEEN<\/a><\/p>"
           }
         },
         "section_gRddeb": {
           "type": "section",
           "settings": {
-            "left_background": "#f5420d",
-            "left_text_color": "#ffbfe1",
-            "left_headline": "WHO'S THAT GIRL?",
-            "left_image": "shopify:\/\/shop_images\/BTM_1338-5x7-R.jpg",
+            "left_background": "#2e159b",
+            "left_text_color": "#d6f254",
+            "left_headline": "COMING SOON...",
+            "left_image": "shopify:\/\/shop_images\/IMG_0661.jpg",
             "left_image_aspect": "landscape",
-            "left_subtitle": "Seri Kertzner",
-            "right_background": "#ffbfe1",
+            "left_subtitle": "balloon services",
+            "right_background": "#d6f254",
             "right_text_color": "#141715",
             "right_icon": "bow",
-            "right_content": "<p>My name is Seri Kertzner. My love for entertaining grew from the laughter and warmth of Friday night family dinners. After a successful career in corporate fashion, I traded the runway for the party scene, launching <a href=\"https:\/\/www.littlemisspartyplanner.com\/\"><span style=\"text-decoration:underline\">Little Miss Party Planner<\/span><\/a> and delivering custom “parties in a box” to doorsteps nationwide. After rebranding as <a href=\"https:\/\/www.rev-newyork.com\/\" target=\"_blank\" title=\"https:\/\/www.rev-newyork.com\/\"><strong>REV New York<\/strong><\/a> — which I continue to run — I produce events and custom-designs for brands like Hallmark Media, L'Oréal Paris, Neutrogena and Essie. The Social Society is my first brick-and-mortar boutique. Filled with one-of-a-kind partyware that’ll be the talk of your next group chat, we feature thoughtfully curated party supplies to elevate your celebrations.<\/p>"
+            "right_content": "<p>When The Social Society opens it's doors to the Ponte Vedra Beach Community, we'll have a variety of helium filled balloon bundles and Grab and Go Garlands availble for store pick up.<\/p>"
           }
         },
         "section_fcgkFH": {
           "type": "section",
+          "disabled": true,
           "settings": {
             "left_background": "#141417",
             "left_text_color": "#bfa3de",
@@ -69,13 +70,13 @@
         "section_jtUBrK": {
           "type": "section",
           "settings": {
-            "left_background": "#2e159b",
-            "left_text_color": "#d6f254",
+            "left_background": "#c91325",
+            "left_text_color": "#a6c4eb",
             "left_headline": "OUR STORE",
             "left_image": "shopify:\/\/shop_images\/img_7854.jpg",
             "left_image_aspect": "landscape",
             "left_subtitle": "Coming Soon!",
-            "right_background": "#d6f254",
+            "right_background": "#a6c4eb",
             "right_text_color": "#141417",
             "right_icon": "palm",
             "right_content": "<h2>Shop at The Social Society<\/h2><p>We’re opening our brick-and-mortar store this fall 2024. <\/p><p>Sign up for our email list and be on the lookout for announcements, news, store events and so much more. We cannot wait to party with you!<\/p><p><a href=\"\/blogs\/in-store-events\/grand-opening\" title=\"GRAND OPENING\">RSVP FOR OUR OPENING DAY PARTY!<\/a><\/p>"
