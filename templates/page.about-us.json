@@ -24,31 +24,31 @@
         "section_AKDDwg": {
           "type": "section",
           "settings": {
-            "left_background": "#2e159b",
-            "left_text_color": "#d6f254",
-            "left_headline": "ABOUT US",
-            "left_image": "shopify:\/\/shop_images\/IMG_5048-R.jpg",
+            "left_background": "#ffbfe1",
+            "left_text_color": "#f5420d",
+            "left_headline": "SPOOK-TACULAR CELEBRATIONS",
+            "left_image": "shopify:\/\/shop_images\/IMG_2793.jpg",
             "left_image_aspect": "landscape",
-            "left_subtitle": "Party People",
-            "right_background": "#d6f254",
+            "left_subtitle": "Trick or Treat!",
+            "right_background": "#f5420d",
             "right_text_color": "#141417",
             "right_icon": "cup",
-            "right_content": "<h2>Welcome to the Social Society! <br\/><\/h2><p>The Social Society is your one-stop shop for all the supplies you need to throw a fabulous party! Find trendy tableware and decor; a balloon bar with helium bouquets; grab-and-go garlands; and unique, thoughtful gifts for hosts and everyday entertaining. Enjoy community-driven in-store events and take advantage of our event styling services, too.<\/p>"
+            "right_content": "<p><strong>Halloween Fun<\/strong><\/p><p>Plan a boo-tiful bash with hauntingly hip centerpieces, spine-tingling tableware and enough creepy-cute favors to satisfy every ghoul and goblin.<\/p><p><a href=\"\/collections\/halloween\">SHOP HALLOWEEN<\/a><\/p>"
           }
         },
         "section_kwiLCU": {
           "type": "section",
           "settings": {
-            "left_background": "#f5420d",
-            "left_text_color": "#ffbfe1",
-            "left_headline": "WHO'S THAT GIRL?",
-            "left_image": "shopify:\/\/shop_images\/BTM_1338-5x7-R.jpg",
+            "left_background": "#2e159b",
+            "left_text_color": "#d6f254",
+            "left_headline": "COMING SOON...",
+            "left_image": "shopify:\/\/shop_images\/IMG_0661.jpg",
             "left_image_aspect": "landscape",
-            "left_subtitle": "Seri Kertzner",
-            "right_background": "#ffbfe1",
+            "left_subtitle": "balloon bundles!",
+            "right_background": "#d6f254",
             "right_text_color": "#000000",
             "right_icon": "palm",
-            "right_content": "<p>My name is Seri Kertzner. My love for entertaining grew from the laughter and warmth of Friday night family dinners. After a successful career in corporate fashion, I traded the runway for the party scene, launching <a href=\"https:\/\/www.littlemisspartyplanner.com\/\"><span style=\"text-decoration:underline\">Little Miss Party Planner<\/span><\/a> and delivering custom “parties in a box” to doorsteps nationwide. After rebranding as <a href=\"https:\/\/www.rev-newyork.com\/\" target=\"_blank\" title=\"https:\/\/www.rev-newyork.com\/\"><strong>REV New York<\/strong><\/a> — which I continue to run — I produce events and custom-designs for brands like Hallmark Media, L'Oréal Paris, Neutrogena and Essie. The Social Society is my first brick-and-mortar boutique. Filled with one-of-a-kind partyware that’ll be the talk of your next group chat, we feature thoughtfully curated party supplies to elevate your celebrations.<\/p>"
+            "right_content": "<p>When The Social Society opens it's doors to the Ponte Vedra Beach Community, we'll have a variety of helium filled balloon bundles and Grab and Go Garlands availble for store pick up. <\/p>"
           }
         },
         "section_GJmxQU": {
