@@ -317,11 +317,8 @@ footer {
   padding-bottom: 0 !important;
 
   .footer__blocks-wrapper {
-    display: block!important;
-    
     .grid__item:nth-child(2) {
       width: calc(50% - var(--grid-desktop-horizontal-spacing)* 3 / 2);
-      order: inherit;
     }
 
     .grid__item:nth-child(3) {
@@ -517,10 +514,8 @@ footer {
 
 @media (max-width: 749px) {
   footer {
-    
     .footer__blocks-wrapper {
-      display: flex!important; 
-      
+
       .grid__item,
       .footer-block__details-content {
         margin-top: 1rem;
@@ -531,7 +526,6 @@ footer {
         width: 320px;
         max-width: 100%;
         margin: 0 auto;
-        order: 3;
       }
 
       .footer-block--menu {
