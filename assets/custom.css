@@ -317,8 +317,10 @@ footer {
   padding-bottom: 0 !important;
 
   .footer__blocks-wrapper {
+    display: flex;
     .grid__item:nth-child(2) {
       width: calc(50% - var(--grid-desktop-horizontal-spacing)* 3 / 2);
+      order: 3;
     }
 
     .grid__item:nth-child(3) {
@@ -515,7 +517,8 @@ footer {
 @media (max-width: 749px) {
   footer {
     .footer__blocks-wrapper {
-
+      display: block; 
+      
       .grid__item,
       .footer-block__details-content {
         margin-top: 1rem;
