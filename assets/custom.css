@@ -513,7 +513,7 @@ footer {
 }
 
 @media (max-width: 749px) {
-  
+
   footer {
     .footer__blocks-wrapper {
 
@@ -543,7 +543,7 @@ footer {
           ul li {
             margin-top: 1rem;
           }
-          
+
 
           >li:last-child {
             .list-menu__item {
@@ -698,8 +698,8 @@ main {
         }
 
         .headline {
-          font-size: 90px;
-          line-height: 80px;
+          font-size: calc(4vw + 4vh + 1.6vmin);
+          line-height: calc(4vw + 4vh + 1.6vmin);
           margin: 0;
           margin-top: 10px;
         }
