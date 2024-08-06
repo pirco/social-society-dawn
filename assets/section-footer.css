@@ -26,6 +26,10 @@
     margin-top: 0;
   }
 
+  .footer-block.grid__item:nth-child(2) {
+   order: 3;
+  }
+
   .footer__content-top {
     padding-bottom: 3rem;
   }
