@@ -658,11 +658,13 @@ main {
     padding-right: 0rem;
     padding-bottom: 0rem;
     padding-left: 0rem;
+    max-height: 72vh;
 
     .section-hero--image {
       position: relative;
       overflow: hidden;
       font-size: 0;
+      max-height: 72vh;
 
       img {
         width: 100%;
@@ -678,6 +680,7 @@ main {
       justify-content: space-between;
       padding: 30px;
       text-align: center;
+      max-height: 72vh;
 
       .titles {
         flex: 1;
