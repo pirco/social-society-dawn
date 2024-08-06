@@ -35,13 +35,27 @@
           "settings": {
             "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272"
           }
+        },
+        "color_scheme_ejga9U": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6"
+          }
+        },
+        "color_scheme_XQ9GEb": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-2ebb493e-a3a2-4910-b4da-e3d9a19027e8"
+          }
         }
       },
       "block_order": [
         "color_scheme_egJ6tL",
         "color_scheme_JVqYWP",
         "color_scheme_XYDggm",
-        "color_scheme_D7VcF6"
+        "color_scheme_D7VcF6",
+        "color_scheme_ejga9U",
+        "color_scheme_XQ9GEb"
       ],
       "settings": {
         "show_collection_description": true,
