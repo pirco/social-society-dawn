@@ -513,6 +513,7 @@ footer {
 }
 
 @media (max-width: 749px) {
+  
   footer {
     .footer__blocks-wrapper {
 
@@ -538,6 +539,11 @@ footer {
               justify-content: flex-start;
             }
           }
+
+          ul li {
+            margin-top: 1rem;
+          }
+          
 
           >li:last-child {
             .list-menu__item {
