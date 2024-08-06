@@ -517,8 +517,9 @@ footer {
 
 @media (max-width: 749px) {
   footer {
+    
     .footer__blocks-wrapper {
-      display: flex; 
+      display: flex!important; 
       
       .grid__item,
       .footer-block__details-content {
