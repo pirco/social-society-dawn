@@ -594,6 +594,9 @@ main {
   * {
     color: var(--color-lime) !important;
   }
+  strong {
+    color: #FFF!important; 
+  }
 }
 
 .section-hero--color-scheme-red {
