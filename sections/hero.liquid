@@ -18,7 +18,7 @@
         >
           <div class="titles">
             {% if block.settings.subtitle != blank %}<div class="subtitle">{{ block.settings.subtitle }}</div>{% endif %}
-            <h2 class="headline">{{ block.settings.headline }}</h2>
+            <h2 class="headline">{{ block.settings.headline | metafield_tag }}</h2>
           </div>
           {% if block.settings.description != blank %}
             <div class="description">{{ block.settings.description }}</div>
