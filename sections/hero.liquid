@@ -4,7 +4,7 @@
       {%- when 'image' -%}
         <div class="grid__item section-hero--image">
           <img
-            src="{{ block.settings.image.src | image_url: width: 960 }}"
+            src="{{ block.settings.image.src | image_url: width: 700 }}"
             width="{{ block.settings.image.width }}"
             height="{{ block.settings.image.height }}"
             alt="{{ block.settings.image.alt }}"
@@ -17,11 +17,12 @@
           style="background-color: var(--color-{{ section.settings.color }});"
         >
           <div class="titles">
-            <div class="subtitle">{{ block.settings.subtitle }}</div>
+            {% if block.settings.subtitle != blank %}<div class="subtitle">{{ block.settings.subtitle }}</div>{% endif %}
             <h2 class="headline">{{ block.settings.headline }}</h2>
           </div>
-
-          <div class="description">{{ block.settings.description }}</div>
+          {% if block.settings.description != blank %}
+            <div class="description">{{ block.settings.description }}</div>
+          {% endif %}
         </div>
     {% endcase %}
   {%- endfor -%}
