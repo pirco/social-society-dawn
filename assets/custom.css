@@ -684,7 +684,7 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        margin-top: 70px;
+        margin-top: 3.9vh;
         max-width: 690px;
 
         p {
