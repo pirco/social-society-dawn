@@ -33,9 +33,9 @@
         "content_gWkTMB": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>We Love Balloons<\/p>",
-            "headline": "<p>CUSTOM BALLOON ARRANGEMENTS<\/p>",
-            "description": "<p>COMING SOON<\/p>"
+            "subtitle": "",
+            "headline": "<p>HELIUM BUNDLES + BALLOON GARLANDS FOR LOCALS ONLY ARRIVING SOON<\/p>",
+            "description": ""
           }
         }
       },
@@ -44,7 +44,7 @@
         "content_gWkTMB"
       ],
       "settings": {
-        "color": "pink"
+        "color": "deep-blue"
       }
     }
   },
