@@ -578,6 +578,9 @@ main {
   * {
     color: var(--color-violet) !important;
   }
+  strong {
+    color: #FFF!important; 
+  }
 }
 
 .section-hero--color-scheme-violet {
@@ -585,6 +588,9 @@ main {
 
   * {
     color: #000000 !important;
+  }
+  strong {
+    color: #FFF!important; 
   }
 }
 
@@ -605,6 +611,9 @@ main {
   * {
     color: var(--color-pink) !important;
   }
+  strong {
+    color: #FFF!important; 
+  }
 }
 
 .section-hero--color-scheme-lime {
@@ -612,6 +621,9 @@ main {
 
   * {
     color: var(--color-deep-blue) !important;
+  }
+  strong {
+    color: #FFF!important; 
   }
 }
 
@@ -621,6 +633,9 @@ main {
   * {
     color: var(--color-teal) !important;
   }
+  strong {
+    color: #FFF!important; 
+  }
 }
 
 .section-hero--color-scheme-pink {
@@ -628,6 +643,9 @@ main {
 
   * {
     color: var(--color-orange) !important;
+  }
+  strong {
+    color: #FFF!important; 
   }
 }
 
@@ -637,6 +655,9 @@ main {
   * {
     color: var(--color-red) !important;
   }
+  strong {
+    color: #FFF!important; 
+  }
 }
 
 .section-hero--color-scheme-teal {
@@ -645,6 +666,9 @@ main {
   * {
     color: var(--color-green) !important;
   }
+  strong {
+    color: #FFF!important; 
+  }
 }
 
 .section-hero--color-scheme-orange {
@@ -652,6 +676,9 @@ main {
 
   * {
     color: #f5420d !important;
+  }
+  strong {
+    color: #FFF!important; 
   }
 }
 
