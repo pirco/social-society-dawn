@@ -680,7 +680,6 @@ main {
       justify-content: space-between;
       padding: 30px;
       text-align: center;
-      max-height: 72vh;
 
       .titles {
         flex: 1;
@@ -723,6 +722,12 @@ main {
         }
       }
     }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .section-hero .page-width {
+      max-height: 72vh;
   }
 }
 
