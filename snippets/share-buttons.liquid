@@ -1,11 +1,15 @@
 <div class="share-buttons">
   <div class="share-button--title">Share on:</div>
 
-  <a class="share-buttons--x" href="https://twitter.com/share?url={{ share_link }}" target="_blank">
-    <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M18.2969 0H21.8594L14.0765 8.89539L23.2325 21H16.0634L10.4483 13.6586L4.02338 21H0.458769L8.78338 11.4854L0 0H7.35108L12.4266 6.71031L18.2969 0ZM17.0466 18.8677H19.0206L6.27846 2.02031H4.16015L17.0466 18.8677Z" fill="#141417"/>
-    </svg>
-  </a>
+    <a
+      target="_blank"
+      href="//www.facebook.com/sharer.php?u={{ shop.url | append: product.url }}"
+      class="btn--share share-facebook"
+    >
+      {%- render 'icon-facebook' -%}
+      <span class="share-title" aria-hidden="true">Share</span>
+      <span class="visually-hidden">Share on Facebook</span>
+    </a>
 
   <a
     class="share-buttons--threads"
