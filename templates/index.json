@@ -69,37 +69,37 @@
         "product_8riacw": {
           "type": "product",
           "settings": {
-            "product": "good_time_cocktail_napkin"
+            "product": "back_to_school_composition_paper_cups"
           }
         },
         "product_kfzWHU": {
           "type": "product",
           "settings": {
-            "product": "here_comes_fun_party_cups"
+            "product": "back_to_school_globe_paper_plate"
           }
         },
         "product_ChPNwb": {
           "type": "product",
           "settings": {
-            "product": "gold-foil-star-plates-8ct"
+            "product": "back_to_school_table_runner"
           }
         },
         "product_DtQ9DG": {
           "type": "product",
           "settings": {
-            "product": "homesick-game-day-candle"
+            "product": "glue_bottle_plate"
           }
         },
         "product_HnJGhp": {
           "type": "product",
           "settings": {
-            "product": "straberry-field-ceramic-vase"
+            "product": "pencil_shape_napkin"
           }
         },
         "product_yieWyf": {
           "type": "product",
           "settings": {
-            "product": "garden_party_melamine_serving_platter"
+            "product": "stack_of_books_paper_plate"
           }
         }
       },
@@ -115,10 +115,10 @@
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_4224-R.jpg",
-        "heading": "<h1>LET'S PLAY!<\/h1>",
-        "subheading": "<p>Game nights are the perfect way to spend quality time with your friends and family. Whether you choose a puzzle to tackle, pick a board game or invite friends for a round of poker, we've got an assortment of tableware that makes it easy to host. So, gather around and let the games bring you closer together!<\/p>",
-        "url": "shopify:\/\/collections\/game-time",
+        "image": "shopify:\/\/shop_images\/IMG_8838.jpg",
+        "heading": "<h1>BACK TO SCHOOL BABY!<\/h1>",
+        "subheading": "<p>Are you kids back to school or headed back there soon? Good reason to celebrate isn't it?! Style the kitchen table with our festive school supply tableware and get your kids excited to get back into the classroom. These plates, cups and napkins are the perfect way to serve up snacks for homework or a playdate!<\/p>",
+        "url": "shopify:\/\/collections\/back-to-school",
         "button_text": "SHOP NOW!"
       }
     },
