@@ -1094,6 +1094,7 @@ svg.clips {
 
   .image {
     padding: 3vh 3vw;
+    line-height: 1;
 
     img {
       max-width: 100%;
