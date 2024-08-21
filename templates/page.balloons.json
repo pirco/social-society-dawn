@@ -43,6 +43,9 @@
         "image_inBczn",
         "content_gWkTMB"
       ],
+      "custom_css": [
+        ".section-hero--content .titles {max-width: 880px; }"
+      ],
       "settings": {
         "color": "deep-blue"
       }
