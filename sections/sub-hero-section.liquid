@@ -1,27 +1,38 @@
 {% comment %}{{ 'section-sub-hero.css' | asset_url | stylesheet_tag }}{% endcomment %}
 <div
-  class="collection-interjection {% if interjection_text_first %}collection-interjection--reverse{% endif %} color-{{ interjection_color_scheme }}"
-  style="background-color: var(--color-{{ interjection_color_scheme }});"
+  class="collection-interjection color-{{ color }}"
+  style="background-color: var(--color-{{ color }});"
 >
   <div class="grid grid--gapless grid--1-col grid--2-col-tablet">
     <div class="image grid__item">
-      <img src="{{ interjection_image | image_url: width: 700 }}">
+      <img src="{{ section.settings.image | image_url: width: 700 }}">
     </div>
     <div
       class="text grid__item"
-      {% if interjection_fg != blank %}
-        style="color: {{ interjection_fg }}!important;"
-      {% endif %}
     >
-      {%- if interjection_preheading != blank -%}
-        <div class="preheading">{{ interjection_preheading }}</div>
+      {%- if section.settings.title != blank -%}
+        <div class="heading">{{ isection.settings.title }}</div>
       {%- endif -%}
-      {%- if interjection_heading != blank -%}
-        <div class="heading">{{ interjection_heading }}</div>
-      {%- endif -%}
-      {%- if interjection_icon != blank -%}
-        <img class="icon" src="{{ interjection_icon | image_url: width: 100 }}">
-      {%- endif -%}
+
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'content' -%}
+            <div
+              class="grid__item section-hero--content section-hero--color-scheme-{{ section.settings.color }}"
+              style="background-color: var(--color-{{ section.settings.color }});"
+            >
+              <div class="titles">
+                {% if block.settings.subtitle != blank %}
+                  <div class="subtitle">{{ block.settings.subtitle }}</div>
+                {% endif %}
+                <h2 class="headline">{{ block.settings.headline }}</h2>
+              </div>
+              {% if block.settings.description != blank %}
+                <div class="description">{{ block.settings.description }}</div>
+              {% endif %}
+            </div>
+        {% endcase %}
+      {%- endfor -%}
     </div>
   </div>
 </div>
@@ -65,18 +76,53 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "color",
+      "label": "Color",
+      "options": [
+        {
+          "value": "violet",
+          "label": "Violet"
+        },
+        {
+          "value": "dark",
+          "label": "Dark"
+        },
+        {
+          "value": "blue",
+          "label": "Blue"
+        },
+        {
+          "value": "deep-blue",
+          "label": "Deep blue"
+        },
+        {
+          "value": "pink",
+          "label": "Pink"
+        },
+        {
+          "value": "green",
+          "label": "Green"
+        },
+        {
+          "value": "red",
+          "label": "Red"
+        },
+        {
+          "value": "teal",
+          "label": "Teal"
+        }
+      ]
     }
   ],
   "blocks": [
     {
       "type": "content",
       "name": "Content",
+      "limit": 2,
       "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:sections.multicolumn.blocks.column.settings.image.label"
-        },
         {
           "type": "inline_richtext",
           "id": "title",
