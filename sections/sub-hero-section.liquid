@@ -12,7 +12,7 @@
     </div>
     <div class="text grid__item">
       {%- if section.settings.title != blank -%}
-        <h2 class="heading">{{ section.settings.title }}</h2>
+        <h2 class="heading {{ section.settings.heading_size }}">{{ section.settings.title }}</h2>
       {%- endif -%}
 
       {%- for block in section.blocks -%}
