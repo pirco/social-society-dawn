@@ -45,7 +45,7 @@
       ],
       "custom_css": [
         ".section-hero .section-hero--content .titles {max-width: 880px;}",
-        "@media screen and (min-width: 750px) {.section-hero > .pag {margin: 0 !important; }}"
+        "@media screen and (min-width: 750px) {.section-hero > div {margin: 0 !important; }}"
       ],
       "settings": {
         "color": "deep-blue"
