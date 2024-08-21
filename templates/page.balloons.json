@@ -98,11 +98,34 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "sub_hero_section_kepywh": {
+      "type": "sub-hero-section",
+      "blocks": {
+        "content_QCcNwW": {
+          "type": "content",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_QCcNwW"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PVBWhiteNapkin.png",
+        "title": "Multicolumn",
+        "heading_size": "h1"
+      }
     }
   },
   "order": [
     "main",
     "hero_8xzgPW",
-    "image_with_text_YYyGL4"
+    "image_with_text_YYyGL4",
+    "sub_hero_section_kepywh"
   ]
 }
