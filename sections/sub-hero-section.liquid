@@ -12,7 +12,7 @@
     </div>
     <div class="text grid__item">
       {%- if section.settings.title != blank -%}
-        <div class="heading">{{ isection.settings.title }}</div>
+        <h2 class="heading">{{ section.settings.title }}</h2>
       {%- endif -%}
 
       {%- for block in section.blocks -%}
@@ -23,10 +23,9 @@
                 {% if block.settings.subtitle != blank %}
                   <div class="subtitle">{{ block.settings.subtitle }}</div>
                 {% endif %}
-                <h2 class="headline">{{ block.settings.headline }}</h2>
               </div>
-              {% if block.settings.description != blank %}
-                <div class="description">{{ block.settings.description }}</div>
+              {% if block.settings.text != blank %}
+                <div class="description">{{ block.settings.text }}</div>
               {% endif %}
             </div>
         {% endcase %}
@@ -123,9 +122,9 @@
       "settings": [
         {
           "type": "inline_richtext",
-          "id": "title",
-          "default": "Column",
-          "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+          "id": "subtitle",
+          "default": "Sub title",
+          "label": "Sub title"
         },
         {
           "type": "richtext",
