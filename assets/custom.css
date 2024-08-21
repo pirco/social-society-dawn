@@ -514,6 +514,10 @@ footer {
 
 @media (max-width: 749px) {
 
+  .newsletter-overlay .newsletter .close {
+    left: calc(50% + 160px);
+  }
+
   footer {
     .footer__blocks-wrapper {
 
