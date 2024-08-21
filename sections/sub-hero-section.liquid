@@ -7,9 +7,7 @@
     <div class="image grid__item">
       <img src="{{ section.settings.image | image_url: width: 700 }}">
     </div>
-    <div
-      class="text grid__item"
-    >
+    <div class="text grid__item">
       {%- if section.settings.title != blank -%}
         <div class="heading">{{ isection.settings.title }}</div>
       {%- endif -%}
@@ -41,7 +39,7 @@
 {
   "name": "Sub-hero",
   "tag": "section",
-  "class": "section",
+  "class": "section sub-hero",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
