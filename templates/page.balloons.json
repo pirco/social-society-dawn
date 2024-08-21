@@ -105,7 +105,7 @@
         "content_QCcNwW": {
           "type": "content",
           "settings": {
-            "title": "Column",
+            "subtitle": "Sub title",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -117,8 +117,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/PVBWhiteNapkin.png",
-        "title": "Multicolumn",
-        "heading_size": "h1"
+        "title": "Grab & Go Garlands",
+        "heading_size": "h0",
+        "color": "violet"
       }
     }
   },
