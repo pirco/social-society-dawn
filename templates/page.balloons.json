@@ -44,7 +44,8 @@
         "content_gWkTMB"
       ],
       "custom_css": [
-        ".section-hero .section-hero--content .titles {max-width: 880px;}"
+        ".section-hero .section-hero--content .titles {max-width: 880px;}",
+        "@media screen and (min-width: 750px) {.section-hero .section-hero--image {margin: 0; }}"
       ],
       "settings": {
         "color": "deep-blue"
