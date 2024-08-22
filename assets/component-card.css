@@ -288,12 +288,7 @@
   object-fit: cover;
   object-position: center center;
   width: 100%;
-}
-.safari_only {
-  .card__media .media img {
-    height: auto;
-  }
-}  
+} 
 
 .card__inner:not(.ratio)>.card__content {
   height: 100%;
