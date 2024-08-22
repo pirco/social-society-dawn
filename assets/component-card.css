@@ -289,9 +289,11 @@
   object-position: center center;
   width: 100%;
 }
-@supports (-webkit-appearance: none) {
-  .card__media .media img {
-    height: auto;
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .card__media .media img {
+      height: auto;
+    }
   }
 }
   
