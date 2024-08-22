@@ -859,7 +859,7 @@ svg.clips {
   overflow: hidden;
 
   .grid__item.image {
-    line-height: 1;
+    line-height: 0;
   }
 
   .grid__item.content {
