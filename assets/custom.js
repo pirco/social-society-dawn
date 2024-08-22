@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-  if (/^((?!chrome|android).)*safari/i.test(navigator.userAgent))
+  if (/^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
     document.documentElement.classList.add('safari_only');
   }
 
