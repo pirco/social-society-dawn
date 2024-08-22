@@ -289,7 +289,7 @@
   object-position: center center;
   width: 100%;
 }
-_::-webkit-full-page-media, _:future, :root .safari_only {
+.safari_only {
   .card__media .media img {
     height: auto;
   }
