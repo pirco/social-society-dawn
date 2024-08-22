@@ -858,6 +858,10 @@ svg.clips {
 .section-product-compilation {
   overflow: hidden;
 
+  .grid__item.image {
+    line-height: 1;
+  }
+
   .grid__item.content {
     padding-bottom: 5vh;
     padding-right: 3rem;
