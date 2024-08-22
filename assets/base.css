@@ -1119,8 +1119,15 @@ summary::-webkit-details-marker {
   position: absolute;
   top: 0;
   left: 0;
-  height: auto;
+  height: 100%;
   width: 100%;
+}
+
+@supports (-webkit-appearance: none) {
+  .media>*:not(.zoom):not(.deferred-media__poster-button),
+  .media model-viewer {
+    height: auto;
+  }
 }
 
 .media>img {
