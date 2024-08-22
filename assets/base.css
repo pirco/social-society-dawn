@@ -1122,8 +1122,7 @@ summary::-webkit-details-marker {
   height: 100%;
   width: 100%;
 }
-
-@supports (-webkit-appearance: none) {
+_::-webkit-full-page-media, _:future, :root .safari_only {
   .media>*:not(.zoom):not(.deferred-media__poster-button),
   .media model-viewer {
     height: auto;
