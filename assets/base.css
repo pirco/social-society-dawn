@@ -1119,7 +1119,7 @@ summary::-webkit-details-marker {
   position: absolute;
   top: 0;
   left: 0;
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 
@@ -1152,6 +1152,13 @@ summary::-webkit-details-marker {
 .media--circle {
   padding-bottom: 100%;
   border-radius: 50%;
+}
+.safari_only {
+  .media--square, .media--portrait, .media--landscape, .media--cropped, .media--16-9, .media--circle {
+    img {
+      height: auto;
+    }
+  }
 }
 
 .media.media--hover-effect>img+img {

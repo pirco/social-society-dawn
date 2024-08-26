@@ -284,11 +284,11 @@
 }
 
 .card__media .media img {
-  height: auto;
+  height: 100%;
   object-fit: cover;
   object-position: center center;
   width: 100%;
-}
+} 
 
 .card__inner:not(.ratio)>.card__content {
   height: 100%;

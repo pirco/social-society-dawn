@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
 
+  if (/^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
+    document.documentElement.classList.add('safari_only');
+  }
+
   const mediaElements = document.querySelectorAll('[class*="__featured_collection"] .product-card-wrapper');
   mediaElements.forEach(function (element) {
     element.addEventListener('mouseenter', function () {
