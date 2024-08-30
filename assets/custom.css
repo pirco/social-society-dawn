@@ -2143,3 +2143,11 @@ div[data-forms-id="forms-root-135733"] button {
   border-radius: 25px !important;
   width: 200px !important;
 }
+
+
+wrapped-extension [feature="checkbox"] [part="container"] {
+    & label {
+        padding: 0 !important;
+        font-family: Picaresk, sans-serif;
+    }
+}
