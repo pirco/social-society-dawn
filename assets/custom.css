@@ -2145,9 +2145,6 @@ div[data-forms-id="forms-root-135733"] button {
 }
 
 
-wrapped-extension [feature="checkbox"] [part="container"] {
-    & label {
-        padding: 0 !important;
-        font-family: Picaresk, sans-serif;
-    }
+wrapped-extension [feature="message"] [part="container"] {
+  background: #FFF!important; 
 }
