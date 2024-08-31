@@ -2147,7 +2147,7 @@ div[data-forms-id="forms-root-135733"] button {
 
 /* gift wrap app wrapped */
 
-wrapped-extension { border: none!important; }
+wrapped-extension { border: none!important; border-color: #FFF!important; }
 wrapped-extension [feature="checkbox"] [part="container"] { padding: 0!important; }
 
 wrapped-extension [feature="message"] [part="container"] {
