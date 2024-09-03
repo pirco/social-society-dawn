@@ -2143,3 +2143,18 @@ div[data-forms-id="forms-root-135733"] button {
   border-radius: 25px !important;
   width: 200px !important;
 }
+
+
+/* gift wrap app wrapped */
+
+wrapped-extension { border: none!important; border-color: #FFF!important; }
+wrapped-extension [feature="checkbox"] [part="container"] {  }
+
+wrapped-extension [feature="message"] [part="container"] {
+  background: #FFF!important; 
+}
+
+td.cart-item__totals .price--end {
+  display: block!important;
+}
+

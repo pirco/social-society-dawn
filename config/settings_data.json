@@ -154,7 +154,7 @@
       },
       "15014643352720781508": {
         "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "gift_thumbnail_enabled": false,
           "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
