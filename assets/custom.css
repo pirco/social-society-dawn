@@ -733,7 +733,7 @@ main {
         }
 
         .headline {
-          font-size: calc(4vw + 4vh + 1.6vmin);
+          font-size: calc(4vw + 4vh + 1.23vmin);
           line-height: calc(4vw + 4vh + 1.6vmin);
           margin: 0;
           margin-top: 10px;
