@@ -57,8 +57,8 @@
         "content_QCcNwW": {
           "type": "content",
           "settings": {
-            "subtitle": "Sub title",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "subtitle": "Want to add a little FUN to your next party?",
+            "text": "<p>The colorful and playful nature of balloon garlands instantly brighten up any space, making it feel more celebratory. Our balloon garlands can be custom designed to match the theme or color scheme of your next celebration.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -67,6 +67,7 @@
       "block_order": [
         "content_QCcNwW"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/PVBWhiteNapkin.png",
         "title": "Grab & Go Garlands",
