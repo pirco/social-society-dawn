@@ -66,60 +66,60 @@
     "product_compilation_9BKDzm": {
       "type": "product-compilation",
       "blocks": {
-        "product_8riacw": {
+        "product_nDTBXc": {
           "type": "product",
           "settings": {
-            "product": "back_to_school_composition_paper_cups"
+            "product": "17_inch_nfl_football"
           }
         },
-        "product_kfzWHU": {
+        "product_bnw3ny": {
           "type": "product",
           "settings": {
-            "product": "back_to_school_globe_paper_plate"
+            "product": "emerald_green_signature_cabana_stripe_plates"
           }
         },
-        "product_ChPNwb": {
+        "product_wTPFyt": {
           "type": "product",
           "settings": {
-            "product": "back_to_school_table_runner"
+            "product": "tis_the_season_beverage_napkins"
           }
         },
-        "product_DtQ9DG": {
+        "product_tPk87V": {
           "type": "product",
           "settings": {
-            "product": "glue_bottle_plate"
+            "product": "football_party_cups"
           }
         },
-        "product_HnJGhp": {
+        "product_nFmcgX": {
           "type": "product",
           "settings": {
-            "product": "pencil_shape_napkin"
+            "product": "17_inch_nfl_jacksonville_jaguars_football_team_colors"
           }
         },
-        "product_yieWyf": {
+        "product_D3NnYa": {
           "type": "product",
           "settings": {
-            "product": "stack_of_books_paper_plate"
+            "product": "emerald_green_cabana_stripe_cups"
           }
         }
       },
       "block_order": [
-        "product_8riacw",
-        "product_kfzWHU",
-        "product_ChPNwb",
-        "product_DtQ9DG",
-        "product_HnJGhp",
-        "product_yieWyf"
+        "product_nDTBXc",
+        "product_bnw3ny",
+        "product_wTPFyt",
+        "product_tPk87V",
+        "product_nFmcgX",
+        "product_D3NnYa"
       ],
       "custom_css": [
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_8838.jpg",
-        "heading": "<h1>BACK TO SCHOOL BABY!<\/h1>",
-        "subheading": "<p>Are your kids back to school or headed back there soon? Good reason to celebrate, isn't it?! Style the kitchen table with our festive school supply tableware and get your kids excited to return to the classroom. These plates, cups and napkins are the perfect way to serve up snacks for homework or a playdate!<\/p>",
-        "url": "shopify:\/\/collections\/back-to-school",
-        "button_text": "SHOP NOW!"
+        "image": "shopify:\/\/shop_images\/football-cover.jpg",
+        "heading": "<h1>HUDDLE UP, PARTY PEOPLE!<\/h1>",
+        "subheading": "<p>Ready to score big at your next game day gathering? Our curated collection of football-themed decorations and tableware promise to turn your tailgate into a touchdown. So, gather your team, grab your favorite snack and let the game day festivities begin!<\/p>",
+        "url": "shopify:\/\/collections\/football",
+        "button_text": "SCORE NOW!"
       }
     },
     "collections_7dJhJC": {
