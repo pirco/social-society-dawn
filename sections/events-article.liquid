@@ -49,21 +49,21 @@
 
     <div class="event-content page-width">
       <div class="event-description">{{ article.content }}</div>
-
-      <div class="event-date">{{ date }}</div>
-
-      <div class="event-location">{{ article.metafields.custom.event_location }}</div>
-
-      <div class="event-price">{{ article.metafields.custom.event_price }}</div>
       {% comment %}
-                second RSVP button not needed
-          {% if event_button_text != blank %}
-          <modal-opener data-modal="#PopupModal-event-rsvp">
-            <button class="button">
-              {{ event_button_text }}
-            </button>
-          </modal-opener>
-        {% endif %}
+        <div class="event-date">{{ date }}</div>
+
+        <div class="event-location">{{ article.metafields.custom.event_location }}</div>
+
+        <div class="event-price">{{ article.metafields.custom.event_price }}</div>
+
+                  second RSVP button not needed
+            {% if event_button_text != blank %}
+            <modal-opener data-modal="#PopupModal-event-rsvp">
+              <button class="button">
+                {{ event_button_text }}
+              </button>
+            </modal-opener>
+          {% endif %}
       {% endcomment %}
       <hr>
 
