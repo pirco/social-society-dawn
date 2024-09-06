@@ -582,8 +582,9 @@ main {
   * {
     color: var(--color-violet) !important;
   }
+
   strong {
-    color: #FFF!important; 
+    color: #FFF !important;
   }
 }
 
@@ -593,8 +594,9 @@ main {
   * {
     color: #000000 !important;
   }
+
   strong {
-    color: #FFF!important; 
+    color: #FFF !important;
   }
 }
 
@@ -604,8 +606,9 @@ main {
   * {
     color: var(--color-lime) !important;
   }
+
   strong {
-    color: #FFF!important; 
+    color: #FFF !important;
   }
 }
 
@@ -615,8 +618,9 @@ main {
   * {
     color: var(--color-pink) !important;
   }
+
   strong {
-    color: #FFF!important; 
+    color: #FFF !important;
   }
 }
 
@@ -626,8 +630,9 @@ main {
   * {
     color: var(--color-deep-blue) !important;
   }
+
   strong {
-    color: #FFF!important; 
+    color: #FFF !important;
   }
 }
 
@@ -637,8 +642,9 @@ main {
   * {
     color: var(--color-teal) !important;
   }
+
   strong {
-    color: #FFF!important; 
+    color: #FFF !important;
   }
 }
 
@@ -648,8 +654,9 @@ main {
   * {
     color: var(--color-orange) !important;
   }
+
   strong {
-    color: #FFF!important; 
+    color: #FFF !important;
   }
 }
 
@@ -659,8 +666,9 @@ main {
   * {
     color: var(--color-red) !important;
   }
+
   strong {
-    color: #FFF!important; 
+    color: #FFF !important;
   }
 }
 
@@ -670,8 +678,9 @@ main {
   * {
     color: var(--color-green) !important;
   }
+
   strong {
-    color: #FFF!important; 
+    color: #FFF !important;
   }
 }
 
@@ -681,8 +690,9 @@ main {
   * {
     color: #f5420d !important;
   }
+
   strong {
-    color: #FFF!important; 
+    color: #FFF !important;
   }
 }
 
@@ -743,7 +753,7 @@ main {
       .section-hero .page-width .section-hero--content .titles:has(+ .description) {
         justify-content: flex-end;
       }
-      
+
       .description {
         flex: 1;
         display: flex;
@@ -763,9 +773,10 @@ main {
 }
 
 @media screen and (min-width: 750px) {
-  .section-hero .page-width, 
+
+  .section-hero .page-width,
   .section-hero--image {
-      max-height: 72vh;
+    max-height: 72vh;
   }
 }
 
@@ -813,7 +824,7 @@ svg.clips {
 /* Buttons */
 .button {
   border-radius: 25px;
-  background-color: rgb(var(--color-red-rgb));
+  background-color: #000000;
   color: white;
   border-image-width: 0;
   font-size: 12px;
@@ -2147,14 +2158,17 @@ div[data-forms-id="forms-root-135733"] button {
 
 /* gift wrap app wrapped */
 
-wrapped-extension { border: none!important; border-color: #FFF!important; }
-wrapped-extension [feature="checkbox"] [part="container"] {  }
+wrapped-extension {
+  border: none !important;
+  border-color: #FFF !important;
+}
+
+wrapped-extension [feature="checkbox"] [part="container"] {}
 
 wrapped-extension [feature="message"] [part="container"] {
-  background: #FFF!important; 
+  background: #FFF !important;
 }
 
 td.cart-item__totals .price--end {
-  display: block!important;
+  display: block !important;
 }
-
