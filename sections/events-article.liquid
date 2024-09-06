@@ -34,13 +34,16 @@
 
             <div class="event-location">{{ article.metafields.custom.event_location }}</div>
             <div class="event-price">{{ article.metafields.custom.event_price }}</div>
-            {% if event_button_text != blank %}
-              <modal-opener data-modal="#PopupModal-event-rsvp">
-                <button class="button">
-                  {{ event_button_text }}
-                </button>
-              </modal-opener>
-            {% endif %}
+            {% comment %}
+              second RSVP button not needed
+              {% if event_button_text != blank %}
+                <modal-opener data-modal="#PopupModal-event-rsvp">
+                  <button class="button">
+                    {{ event_button_text }}
+                  </button>
+                </modal-opener>
+              {% endif %}
+            {% endcomment %}
           </div>
         </div>
       </div>
