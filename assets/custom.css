@@ -572,6 +572,9 @@ main {
     font-weight: 600;
     color: var(--color-dark);
   }
+  button a {
+    color: #FFF;
+  }
 }
 
 /* Section Hero */
