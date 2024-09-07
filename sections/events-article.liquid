@@ -18,7 +18,7 @@
             <div class="event-title">{{ article.title }}</div>
 
             {% assign event_button_text = article.metafields.custom.event_button_text %}
-            {% assign event_button_link = article.metafields.custom.event_button_link %}
+            {% assign event_button_link = article.metafields.custom.press_link_url %}
             {% if article.metafields.custom.event_custom_date != blank %}
               {% assign date = article.metafields.custom.event_custom_date %}
             {% else %}
