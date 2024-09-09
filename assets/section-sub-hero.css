@@ -16,3 +16,10 @@
   line-height: 1;
   padding: 3vh 3vw;
 }
+.section-sub-hero .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 3vw;
+}
