@@ -36,6 +36,11 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -53,11 +58,6 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
           }
         },
         "text_brbrEF": {
@@ -120,10 +120,10 @@
         "title",
         "caption",
         "price",
+        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "text_brbrEF",
         "text_mrnC6J",
         "text_fYGyXV",
