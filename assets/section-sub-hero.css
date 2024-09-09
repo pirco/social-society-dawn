@@ -7,6 +7,11 @@
   
 }
 
+.section-sub-hero {
+  width: 100%;
+  margin-bottom: 3vh;
+
+}
 .section-sub-hero .image {
   line-height: 1;
   padding: 3vh 3vw;
