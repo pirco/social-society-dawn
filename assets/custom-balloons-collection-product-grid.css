@@ -4,6 +4,7 @@ ul.custom-balloons-collection-product-grid li {
 
 .card__content .card__information {
   text-align: center!important;
+  width: 100%;
 }
 
 .card-information .button { color: #FFF;}
