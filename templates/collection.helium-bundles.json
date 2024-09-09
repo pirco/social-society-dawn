@@ -71,6 +71,9 @@
         "color_scheme_ReRpaD",
         "color_scheme_Xr77Yr"
       ],
+      "custom_css": [
+        ".collection-hero__title+.collection-hero__description {max-width: 800px; }"
+      ],
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
