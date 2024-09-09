@@ -1,4 +1,5 @@
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
+{{ 'custom-balloons-collection-product-grid' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 
@@ -145,7 +146,7 @@
               id="product-grid"
               data-id="{{ section.id }}"
               class="
-                grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+                custom-balloons-collection-product-grid grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
                 grid--{{ section.settings.columns_desktop }}-col-desktop
                 {% if section.settings.quick_add == 'bulk' %} collection-quick-add-bulk{% endif %}
               "
