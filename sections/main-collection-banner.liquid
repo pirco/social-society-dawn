@@ -14,8 +14,8 @@
 {% assign random_index = 'now' | date: '%s' | modulo: total_blocks %}
 {% assign selected_block = blocks[random_index] %}
 
-{% assign var_color_scheme = selected_block.settings.color_scheme %}
-{% render 'variable_color_scheme' with var_color_scheme %}
+{% assign variable_color_scheme = selected_block.settings.color_scheme %}
+{% render 'variable_color_scheme' with variable_color_scheme %}
 
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} gradient">
   <div class="collection-hero__inner page-width page-full-width color-{{ selected_block.settings.color_scheme }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
