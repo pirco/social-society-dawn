@@ -78,57 +78,7 @@
       }
     },
     "product-grid": {
-      "type": "main-collection-product-grid",
-      "blocks": {
-        "interjection_W8CPnq": {
-          "type": "interjection",
-          "settings": {
-            "color_scheme": "scheme-5",
-            "text_first": true,
-            "image": "shopify:\/\/shop_images\/BTM_0839.jpg",
-            "preheading": "",
-            "heading": "<p>BE KIND<\/p><p>HAVE FUN<\/p><p>CELEBRATE EVERY DAY<\/p>",
-            "icon": "shopify:\/\/shop_images\/Group_41487.png"
-          }
-        },
-        "interjection_ETpP8j": {
-          "type": "interjection",
-          "settings": {
-            "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
-            "text_first": false,
-            "image": "shopify:\/\/shop_images\/BTM_0921.jpg",
-            "preheading": "<p>The day you were born!<\/p>",
-            "heading": "<p>CELEBRATE YOUR SPECIAL DAY WITH US<\/p>",
-            "icon": "shopify:\/\/shop_images\/SocialSociety_BrandIcons_Cheers-CMYK_1.png"
-          }
-        },
-        "interjection_tXQ7mJ": {
-          "type": "interjection",
-          "settings": {
-            "color_scheme": "scheme-baf667b2-e410-4c52-8737-8d80dc8a1f13",
-            "text_first": false,
-            "image": "shopify:\/\/shop_images\/IMG_5256.jpg",
-            "preheading": "<p>If you're not celebrating....<\/p>",
-            "heading": "<p>YOU ARE NOT LIVING.<\/p>",
-            "icon": "shopify:\/\/shop_images\/Group_41487_34085a96-f556-4331-8cb5-22e2d79dfaec.png"
-          }
-        },
-        "interjection_Gcaxz4": {
-          "type": "interjection",
-          "settings": {
-            "color_scheme": "",
-            "text_first": false,
-            "preheading": "",
-            "heading": ""
-          }
-        }
-      },
-      "block_order": [
-        "interjection_W8CPnq",
-        "interjection_ETpP8j",
-        "interjection_tXQ7mJ",
-        "interjection_Gcaxz4"
-      ],
+      "type": "helium-balloons-collection-product-grid",
       "settings": {
         "products_per_page": 24,
         "columns_desktop": 4,
