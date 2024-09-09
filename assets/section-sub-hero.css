@@ -1,6 +1,7 @@
 .section.sub-hero h2.heading {
   align-self: start;
-  margin: 0.19em 0;
+  margin: 0.19em 0
+font-family: Imbue;
 }
 .section-sub-hero--content {
   width: 100%; 
