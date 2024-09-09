@@ -3,6 +3,7 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 
+{% include 'variable_color_scheme' with selected_block %}
 selected block: {{ var_color_scheme }}
 
 {% if section.settings.image_shape == 'blob' %}
