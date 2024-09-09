@@ -4,4 +4,10 @@
 .section-sub-hero--content {
   width: 100%; 
   max-width: 100%;
+  
+}
+
+.section-sub-hero .image {
+  line-height: 1;
+  padding: 3vh 3vw;
 }
