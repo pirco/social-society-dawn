@@ -1,5 +1,6 @@
 .section.sub-hero h2.heading {
   align-self: start;
+  margin-bottom: 0.19em;
 }
 .section-sub-hero--content {
   width: 100%; 
