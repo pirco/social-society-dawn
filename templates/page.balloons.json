@@ -111,7 +111,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/social_society_helium_bundle.jpg",
         "title": "Helium Bundles",
-        "heading_size": "h1",
+        "heading_size": "h0",
         "color": "teal"
       }
     }
