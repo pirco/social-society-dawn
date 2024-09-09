@@ -2,7 +2,8 @@ ul.custom-balloons-collection-product-grid li {
   padding: 1em; 
 }
 
-.card__content .card__information {
+.card__content .card__information,
+.card__content .card-information {
   text-align: center!important;
   width: 100%;
 }
