@@ -10,12 +10,18 @@
 .section-sub-hero {
   width: 100%;
   margin-bottom: 3vh;
-
 }
+
 .section-sub-hero .image {
   line-height: 1;
   padding: 3vh 3vw;
 }
+
+.section-sub-hero .image img {
+  width: 100%;
+  height: auto;
+}
+
 .section-sub-hero .text {
     display: flex;
     flex-direction: column;
