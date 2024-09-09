@@ -112,22 +112,12 @@
             "heading": "<p>YOU ARE NOT LIVING.<\/p>",
             "icon": "shopify:\/\/shop_images\/Group_41487_34085a96-f556-4331-8cb5-22e2d79dfaec.png"
           }
-        },
-        "interjection_Gcaxz4": {
-          "type": "interjection",
-          "settings": {
-            "color_scheme": "",
-            "text_first": false,
-            "preheading": "",
-            "heading": ""
-          }
         }
       },
       "block_order": [
         "interjection_W8CPnq",
         "interjection_ETpP8j",
-        "interjection_tXQ7mJ",
-        "interjection_Gcaxz4"
+        "interjection_tXQ7mJ"
       ],
       "settings": {
         "products_per_page": 24,
