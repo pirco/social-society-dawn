@@ -2,6 +2,8 @@ ul.custom-balloons-collection-product-grid li {
   padding: 1em; 
 }
 
-.card--standard>.card__content .card__information {
+.card--standard>.card__content > * {
   text-align: center;
 }
+
+.card-information .button { color: #FFF;}
