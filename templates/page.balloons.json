@@ -62,10 +62,19 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "buttons_AwnkdW": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/balloons",
+            "button_style_secondary_1": false
+          }
         }
       },
       "block_order": [
-        "content_QCcNwW"
+        "content_QCcNwW",
+        "buttons_AwnkdW"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/PVBWhiteNapkin.png",
