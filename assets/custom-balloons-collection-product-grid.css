@@ -8,4 +8,9 @@ ul.custom-balloons-collection-product-grid li {
   width: 100%;
 }
 
+.card__information a {
+  font-family: Imbue, 
+    font-size: 1.3em;
+}
+
 .card-information .button { color: #FFF;}
