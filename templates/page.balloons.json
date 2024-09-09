@@ -77,16 +77,49 @@
         "buttons_AwnkdW"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/PVBWhiteNapkin.png",
+        "image": "shopify:\/\/shop_images\/social_society_garlands.jpg",
         "title": "Grab & Go Garlands",
         "heading_size": "h0",
         "color": "violet"
+      }
+    },
+    "sub_hero_section_8QUqn6": {
+      "type": "sub-hero-section",
+      "blocks": {
+        "content_tKKhXX": {
+          "type": "content",
+          "settings": {
+            "subtitle": "Want to bring some joy into someone's life?",
+            "text": "<p>Grab one of our helium filled bouquets and surprise your friend or set it up at your next celebratory party!<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/back-to-school"
+          }
+        },
+        "buttons_AV4jTf": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/helium-bundles",
+            "button_style_secondary_1": false
+          }
+        }
+      },
+      "block_order": [
+        "content_tKKhXX",
+        "buttons_AV4jTf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/social_society_helium_bundle.jpg",
+        "title": "Helium Bundles",
+        "heading_size": "h1",
+        "color": "teal"
       }
     }
   },
   "order": [
     "main",
     "hero_8xzgPW",
-    "sub_hero_section_kepywh"
+    "sub_hero_section_kepywh",
+    "sub_hero_section_8QUqn6"
   ]
 }
