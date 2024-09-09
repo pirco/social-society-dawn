@@ -1,0 +1,213 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.collapsible_tab_1_heading.value }}",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.collapsible_tab_1_content.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.collapsible_tab_2_heading.value }}",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.collapsible_tab_2_content | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.collapsible_tab_3_heading.value }}",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.collapsible_tab_3_content | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "custom_css": [
+        ".related-products--titles > a {display: none;}"
+      ],
+      "settings": {
+        "heading": "Shop More",
+        "heading_size": "h2",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_rnd_rjGh8U": {
+      "type": "image-with-text-rnd",
+      "blocks": {
+        "text_7ambqb": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Celebrate Every Day<\/h2>"
+          }
+        },
+        "spacer_MVBw9D": {
+          "type": "spacer",
+          "settings": {
+            "height": 40
+          }
+        },
+        "text_4AeVUy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here at The Social Society we have every reason to celebrate. Whether it's your birthday, your anniversary, a sports team gathering or a graduation (just to name a few!), we've got the party supplies that you need to host a gathering that your guests will never forget!<\/p>"
+          }
+        },
+        "color_scheme_VTp4TL": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272"
+          }
+        },
+        "color_scheme_4KRKib": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-baf667b2-e410-4c52-8737-8d80dc8a1f13"
+          }
+        },
+        "color_scheme_GCxPg9": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6"
+          }
+        },
+        "color_scheme_3wcxKx": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac"
+          }
+        }
+      },
+      "block_order": [
+        "text_7ambqb",
+        "spacer_MVBw9D",
+        "text_4AeVUy",
+        "color_scheme_VTp4TL",
+        "color_scheme_4KRKib",
+        "color_scheme_GCxPg9",
+        "color_scheme_3wcxKx"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/H00A0139.jpg"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "image_with_text_rnd_rjGh8U"
+  ]
+}
