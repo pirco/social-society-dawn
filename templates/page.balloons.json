@@ -66,7 +66,7 @@
         "buttons_AwnkdW": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP NOW",
+            "button_label_1": "SHOP GARLANDS",
             "button_link_1": "shopify:\/\/collections\/grab-and-go-garlands",
             "button_style_secondary_1": false
           }
@@ -98,7 +98,7 @@
         "buttons_AV4jTf": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP NOW",
+            "button_label_1": "SHOP HELIUM BUNDLES",
             "button_link_1": "shopify:\/\/collections\/helium-bundles",
             "button_style_secondary_1": false
           }
