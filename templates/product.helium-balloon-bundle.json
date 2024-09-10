@@ -41,15 +41,6 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "IT'S ALL IN THE DETAILS",
-            "icon": "none",
-            "content": "<p><strong>Pick-Up Only:<\/strong> <br\/>From our storefront at <br\/>300 Pine Lake Drive Suite E104,<br\/>Ponte Vedra, FL 32081. <\/p><p>Please refer to the Sizing Guide in the pictures for transportation tips.<\/p><p><strong>NOTE ON PICKUP DATES & TIMES:<\/strong> <br\/>Pickup times are available <br\/>Wed. - Fri. 10am - 3pm. <\/p><p>Event on a weekend? <br\/>Don't worry! This creation will last at least a week.<\/p>",
-            "page": ""
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -104,6 +95,15 @@
           "settings": {
           }
         },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "IT'S ALL IN THE DETAILS",
+            "icon": "none",
+            "content": "<p><strong>Pick-Up Only:<\/strong> <br\/>From our storefront at <br\/>300 Pine Lake Drive Suite E104,<br\/>Ponte Vedra, FL 32081. <\/p><p>Please refer to the Sizing Guide in the pictures for transportation tips.<\/p><p><strong>NOTE ON PICKUP DATES & TIMES:<\/strong> <br\/>Pickup times are available <br\/>Wed. - Fri. 10am - 3pm. <\/p><p>Event on a weekend? <br\/>Don't worry! This creation will last at least a week.<\/p>",
+            "page": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -124,7 +124,6 @@
         "caption",
         "price",
         "description",
-        "collapsible-row-0",
         "variant_picker",
         "text_brbrEF",
         "text_mrnC6J",
@@ -132,6 +131,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "quantity_selector",
+        "collapsible-row-0",
         "buy_buttons",
         "share"
       ],
