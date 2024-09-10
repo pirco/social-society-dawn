@@ -41,15 +41,6 @@
           "settings": {
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ product.metafields.custom.collapsible_tab_2_heading.value }}",
-            "icon": "none",
-            "content": "<p>{{ product.metafields.custom.collapsible_tab_2_content | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -102,6 +93,15 @@
             "page": ""
           }
         },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.collapsible_tab_2_heading.value }}",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.collapsible_tab_2_content | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
@@ -124,7 +124,6 @@
         "caption",
         "price",
         "description",
-        "collapsible-row-1",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -132,6 +131,7 @@
         "text_mrnC6J",
         "text_fYGyXV",
         "collapsible-row-0",
+        "collapsible-row-1",
         "collapsible-row-2",
         "share"
       ],
