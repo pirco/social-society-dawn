@@ -84,9 +84,9 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "{{ product.metafields.custom.collapsible_tab_1_heading.value }}",
+            "heading": "READ THE DETAILS:",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.collapsible_tab_1_content.value }}<\/p>",
+            "content": "<p><strong>Pick-Up Only:<\/strong> <br\/>From our storefront at <br\/>300 Pine Lake Drive Suite E104,<br\/>Ponte Vedra, FL 32081. <\/p><p>Please refer to the Sizing Guide in the pictures for transportation tips.<\/p><p><strong>NOTE ON PICKUP DATES & TIMES:<\/strong> <br\/>Pickup times are available <br\/>Wed. - Fri. 10am - 3pm. <\/p><p>Event on a weekend? <br\/>Don't worry! This creation will last at least a week.<\/p>",
             "page": ""
           }
         },
