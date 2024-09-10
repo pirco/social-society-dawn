@@ -62,6 +62,7 @@
         },
         "text_brbrEF": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>It’s all in the details.<\/strong>..",
             "text_style": "body"
@@ -69,6 +70,7 @@
         },
         "text_mrnC6J": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Pick-Up Only: From our storefront at 300 Pine Lake Drive Suite E104 Ponte Vedra, FL 32081. Please refer to the Sizing Guide in the pictures for transportation tips.",
             "text_style": "body"
@@ -76,6 +78,7 @@
         },
         "text_fYGyXV": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "NOTE ON PICKUP DATES & TIMES: Pickup times are available Wed. - Fri. 10am - 3pm. Event on a weekend? Don't worry! This creation will last at least a week.",
             "text_style": "body"
@@ -84,7 +87,7 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "READ THE DETAILS:",
+            "heading": "IT'S ALL IN THE DETAILS",
             "icon": "none",
             "content": "<p><strong>Pick-Up Only:<\/strong> <br\/>From our storefront at <br\/>300 Pine Lake Drive Suite E104,<br\/>Ponte Vedra, FL 32081. <\/p><p>Please refer to the Sizing Guide in the pictures for transportation tips.<\/p><p><strong>NOTE ON PICKUP DATES & TIMES:<\/strong> <br\/>Pickup times are available <br\/>Wed. - Fri. 10am - 3pm. <\/p><p>Event on a weekend? <br\/>Don't worry! This creation will last at least a week.<\/p>",
             "page": ""
