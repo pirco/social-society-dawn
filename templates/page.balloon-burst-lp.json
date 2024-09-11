@@ -9,8 +9,28 @@
 */
 {
   "sections": {
+    "hero_gVrRz7": {
+      "type": "hero",
+      "blocks": {
+        "content_HiYGt6": {
+          "type": "content",
+          "settings": {
+            "subtitle": "<p>The Balloon hotline is open...<\/p>",
+            "headline": "<p>GET IN TOUCH<\/p>",
+            "description": "<p>Want to surprise and delight someone with a ceiling full of balloons? Hire one of our experts to come into your home and fill a room of your choice with balloons and coordinating letters to celebrate a proposal or college acceptance!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_HiYGt6"
+      ],
+      "settings": {
+        "color": "violet"
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -33,9 +53,8 @@
         },
         "text_NbMgcW": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p><strong>Do you have a brick-and-mortar store?<\/strong><\/p>"
+            "text": ""
           }
         },
         "button_NkmxUp": {
@@ -99,6 +118,7 @@
     }
   },
   "order": [
+    "hero_gVrRz7",
     "main",
     "rich_text_7LmjMq",
     "17260812976d363c09"
