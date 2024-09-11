@@ -24,6 +24,9 @@
       "block_order": [
         "content_HATgMc"
       ],
+      "custom_css": [
+        ".section-hero--content {margin-bottom: 3vh;}"
+      ],
       "settings": {
         "color": "pink"
       }
