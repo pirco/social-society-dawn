@@ -132,6 +132,9 @@
         "content_tKKhXX",
         "buttons_AV4jTf"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/social_society_helium_bundle.jpg",
         "title": "Helium Bundles",
@@ -167,7 +170,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/social-society_balloon-burst_LP.jpg",
         "title": "Balloon Burst",
-        "heading_size": "h1",
+        "heading_size": "h0",
         "color": "blue"
       }
     }
