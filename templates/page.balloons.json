@@ -9,9 +9,27 @@
 */
 {
   "sections": {
+    "hero_cfanxA": {
+      "type": "hero",
+      "blocks": {
+        "content_HATgMc": {
+          "type": "content",
+          "settings": {
+            "subtitle": "<p>Locals Only<\/p>",
+            "headline": "<p>BALLOON BAR SERVICES<\/p>",
+            "description": "<p>Pick-Up Only: From our storefront at 300 Pine Lake Drive Suite E104 Ponte Vedra, FL 32081. Please refer to the Sizing Guide in the pictures for transportation tips.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_HATgMc"
+      ],
+      "settings": {
+        "color": "pink"
+      }
+    },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -117,6 +135,7 @@
     }
   },
   "order": [
+    "hero_cfanxA",
     "main",
     "hero_8xzgPW",
     "sub_hero_section_kepywh",
