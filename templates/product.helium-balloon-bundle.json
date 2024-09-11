@@ -135,6 +135,9 @@
         "buy_buttons",
         "share"
       ],
+      "custom_css": [
+        ".product__accordion .accordion__content {padding: 0;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
