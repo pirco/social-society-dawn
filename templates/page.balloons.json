@@ -138,6 +138,38 @@
         "heading_size": "h0",
         "color": "teal"
       }
+    },
+    "sub_hero_section_jariLg": {
+      "type": "sub-hero-section",
+      "blocks": {
+        "content_3NL3YV": {
+          "type": "content",
+          "settings": {
+            "subtitle": "Want to surprise someone with a ceiling full of balloons?",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "buttons_Mj4QTj": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ORDER NOW",
+            "button_link_1": "shopify:\/\/pages\/balloon-burst",
+            "button_style_secondary_1": false
+          }
+        }
+      },
+      "block_order": [
+        "content_3NL3YV",
+        "buttons_Mj4QTj"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/social-society_balloon-burst_LP.jpg",
+        "title": "Balloon Burst",
+        "heading_size": "h1",
+        "color": "teal"
+      }
     }
   },
   "order": [
@@ -145,6 +177,7 @@
     "main",
     "hero_8xzgPW",
     "sub_hero_section_kepywh",
-    "sub_hero_section_8QUqn6"
+    "sub_hero_section_8QUqn6",
+    "sub_hero_section_jariLg"
   ]
 }
