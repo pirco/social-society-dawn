@@ -25,7 +25,8 @@
         "content_HATgMc"
       ],
       "custom_css": [
-        ".section-hero--content {margin-bottom: 3vh;}"
+        ".section-hero--content {margin-bottom: 3vh;}",
+        ".description {max-width: 900px;}"
       ],
       "settings": {
         "color": "pink"
