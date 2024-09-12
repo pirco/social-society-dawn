@@ -25,6 +25,7 @@
         "content_HATgMc"
       ],
       "custom_css": [
+        ".section-hero--content {margin-bottom: 0;}",
         ".description {max-width: 900px;}"
       ],
       "settings": {
