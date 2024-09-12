@@ -706,6 +706,7 @@ main {
     padding-right: 0rem;
     padding-bottom: 0rem;
     padding-left: 0rem;
+    margin-bottom: 0;
 
     .section-hero--image {
       position: relative;
