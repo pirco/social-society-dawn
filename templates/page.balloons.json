@@ -85,10 +85,19 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "buttons_iNnHLX": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP GARLANDS",
+            "button_link_1": "shopify:\/\/collections\/grab-and-go-garlands",
+            "button_style_secondary_1": false
+          }
         }
       },
       "block_order": [
-        "content_QCcNwW"
+        "content_QCcNwW",
+        "buttons_iNnHLX"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/social_society_garlands.jpg",
