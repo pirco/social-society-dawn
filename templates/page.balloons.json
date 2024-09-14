@@ -85,19 +85,10 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "buttons_AwnkdW": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP GARLANDS",
-            "button_link_1": "shopify:\/\/collections\/grab-and-go-garlands",
-            "button_style_secondary_1": false
-          }
         }
       },
       "block_order": [
-        "content_QCcNwW",
-        "buttons_AwnkdW"
+        "content_QCcNwW"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/social_society_garlands.jpg",
@@ -117,19 +108,10 @@
             "link_label": "",
             "link": "shopify:\/\/collections\/back-to-school"
           }
-        },
-        "buttons_AV4jTf": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP HELIUM BUNDLES",
-            "button_link_1": "shopify:\/\/collections\/helium-bundles",
-            "button_style_secondary_1": false
-          }
         }
       },
       "block_order": [
-        "content_tKKhXX",
-        "buttons_AV4jTf"
+        "content_tKKhXX"
       ],
       "custom_css": [
 
