@@ -117,10 +117,19 @@
             "link_label": "",
             "link": "shopify:\/\/collections\/back-to-school"
           }
+        },
+        "buttons_T7DhUM": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP HELIUM BUNDLES",
+            "button_link_1": "shopify:\/\/collections\/helium-bundles",
+            "button_style_secondary_1": false
+          }
         }
       },
       "block_order": [
-        "content_tKKhXX"
+        "content_tKKhXX",
+        "buttons_T7DhUM"
       ],
       "custom_css": [
 
