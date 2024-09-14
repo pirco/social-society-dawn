@@ -12,8 +12,8 @@
     "video_UVP7BK": {
       "type": "video",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
+        "heading": "Garland Hanging Tutorial",
+        "heading_size": "h0",
         "enable_video_looping": false,
         "video_url": "https:\/\/vimeo.com\/1009297671",
         "cover_image": "shopify:\/\/shop_images\/social-society-garland-videostill.jpg",
@@ -27,7 +27,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-
+        "h1 {display: none;}"
       ],
       "settings": {
         "content_width": "medium",
