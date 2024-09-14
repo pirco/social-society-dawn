@@ -15,6 +15,7 @@
 
       ],
       "settings": {
+        "content_width": "medium",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -59,6 +60,7 @@
         ".rich-text.content-container {background-color: #fcfaf5;}"
       ],
       "settings": {
+        "content_width": "medium",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -66,10 +68,25 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "video_UVP7BK": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/vimeo.com\/1009297671",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_7LmjMq"
+    "rich_text_7LmjMq",
+    "video_UVP7BK"
   ]
 }
