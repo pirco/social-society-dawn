@@ -11,6 +11,9 @@
   "sections": {
     "video_UVP7BK": {
       "type": "video",
+      "custom_css": [
+        "h2.title {text-align: center; }"
+      ],
       "settings": {
         "heading": "Garland Hanging Tutorial",
         "heading_size": "h0",
