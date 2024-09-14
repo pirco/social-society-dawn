@@ -572,6 +572,10 @@ main {
     font-weight: 600;
     color: var(--color-dark);
   }
+  button a {
+    color: #FFF;
+    text-decoration: none;
+  }
 }
 
 /* Section Hero */
@@ -702,6 +706,7 @@ main {
     padding-right: 0rem;
     padding-bottom: 0rem;
     padding-left: 0rem;
+    margin-bottom: 0;
 
     .section-hero--image {
       position: relative;
@@ -839,6 +844,10 @@ svg.clips {
   &:after {
     display: none;
   }
+}
+
+.banner__buttons .button {
+  color: #FFF!important;
 }
 
 .section:not(.section-featured-collection) .product-grid button,

@@ -9,12 +9,36 @@
 */
 {
   "sections": {
+    "hero_gVrRz7": {
+      "type": "hero",
+      "blocks": {
+        "content_HiYGt6": {
+          "type": "content",
+          "settings": {
+            "subtitle": "<p>The Balloon hotline is open...<\/p>",
+            "headline": "<p>GET IN TOUCH<\/p>",
+            "description": "<p>Want to surprise and delight someone with a ceiling full of balloons? Hire one of our experts to come into your home and fill a room of your choice with balloons and coordinating letters to celebrate a proposal or college acceptance!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_HiYGt6"
+      ],
+      "custom_css": [
+        ".section-hero--content .description {max-width: 690px;}"
+      ],
+      "settings": {
+        "color": "teal"
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
+        "content_width": "medium",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -32,9 +56,8 @@
         },
         "text_NbMgcW": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p><strong>Do you have a brick-and-mortar store?<\/strong><\/p>"
+            "text": ""
           }
         },
         "button_NkmxUp": {
@@ -59,6 +82,7 @@
         ".rich-text.content-container {background-color: #fcfaf5;}"
       ],
       "settings": {
+        "content_width": "medium",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -66,10 +90,40 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "17260812976d363c09": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_zEqPKD": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "176856",
+            "text_color": "#202020",
+            "button_background_color": "#000000",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 64,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_zEqPKD"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
+    "hero_gVrRz7",
     "main",
-    "rich_text_7LmjMq"
+    "rich_text_7LmjMq",
+    "17260812976d363c09"
   ]
 }

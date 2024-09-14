@@ -1,7 +1,32 @@
 .section.sub-hero h2.heading {
   align-self: start;
+  margin: 0.19em 0;
+  font-family: Imbue;
 }
 .section-sub-hero--content {
   width: 100%; 
   max-width: 100%;
+  
+}
+
+.section-sub-hero {
+  width: 100%;
+  margin-bottom: 0vh;
+}
+
+.section-sub-hero .image {
+  line-height: 1;
+  padding: 3vh 3vw;
+}
+
+.section-sub-hero .image img {
+  width: 100%;
+  height: auto;
+}
+
+.section-sub-hero .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vh 3vw;
 }

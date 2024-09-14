@@ -18,6 +18,7 @@
             <div class="event-title">{{ article.title }}</div>
 
             {% assign event_button_text = article.metafields.custom.event_button_text %}
+            {% assign event_button_link = article.metafields.custom.press_link_url %}
             {% if article.metafields.custom.event_custom_date != blank %}
               {% assign date = article.metafields.custom.event_custom_date %}
             {% else %}
@@ -36,11 +37,19 @@
             <div class="event-price">{{ article.metafields.custom.event_price }}</div>
 
             {% if event_button_text != blank %}
+              {% if event_button_link != blank %}
+                <button class="button">
+                  <a href="{{ event_button_link }}">
+                    {{ event_button_text }}
+                  </a>
+                </button>
+                {% else %}
               <modal-opener data-modal="#PopupModal-event-rsvp">
                 <button class="button">
                   {{ event_button_text }}
                 </button>
               </modal-opener>
+                {% endif %}
             {% endif %}
           </div>
         </div>
@@ -203,7 +212,7 @@
   <div class="article-template__back element-margin-top center{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
       <span class="icon-wrap">{% render 'icon-arrow' %}</span>
-      {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
+      Back to Events <!-- {{ 'blogs.article.back_to_blog' | t: title: blog.title }} -->
     </a>
   </div>
   {%- if blog.comments_enabled? -%}
