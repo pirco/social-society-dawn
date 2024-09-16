@@ -33,6 +33,9 @@
     },
     "product-grid": {
       "type": "helium-balloons-collection-product-grid",
+      "custom_css": [
+        ".card .card__inner .card__media {border: 9px solid #d6f254;}"
+      ],
       "settings": {
         "products_per_page": 24,
         "columns_desktop": 4,
