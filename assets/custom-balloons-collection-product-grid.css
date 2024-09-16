@@ -4,13 +4,14 @@ ul.custom-balloons-collection-product-grid li {
 
 .card__content .card__information,
 .card__content .card-information {
-  text-align: center!important;
+  /*text-align: center!important;*/
   width: 100%;
 }
 
+/*
 .card__information a {
   font-family: Imbue!important;
     font-size: 1.69em;
 }
-
+*/
 .card-information .button { color: #FFF;}
