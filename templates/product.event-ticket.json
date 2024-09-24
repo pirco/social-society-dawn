@@ -51,7 +51,7 @@
         "waiver_zEgPPn": {
           "type": "waiver",
           "settings": {
-            "waiver_label": "terms & conditions"
+            "waiver_label": "I agree with the <a href=\"/pages/event-waiver\" target=\"_blank\" title=\"Event Waiver\">terms & conditions</a>."
           }
         },
         "buy_buttons": {
