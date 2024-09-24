@@ -1,6 +1,35 @@
+<script>
+  document.body.addEventListener('click', function (event) {
+        // Specify the selectors you're interested in
+        var selectors = ['[name="submit"]', '[name="goto_pp"]', '[name="goto_gc"]'];
+        var target = event.target;
+
+        // Check if the clicked element matches any of the selectors
+        if (selectors.some(function (selector) { return target.matches(selector); })) {
+            var agreeCheckbox = document.getElementById('agree');
+
+            if (agreeCheckbox && agreeCheckbox.checked) {
+                // Simulate form submission
+                target.closest('form').submit();
+            } else {
+                alert("You must agree with the terms and conditions of sales to check out.");
+                event.preventDefault();
+            }
+        }
+    }, false);
+  });
+</script>
+
+<p style="float: none; text-align: right; clear: both; margin: 10px 0;">
+  <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
+  <label style="display:inline; float:none" for="agree">
+    I agree with the <a href="/pages/event-waiver">terms and conditions</a>.
+  </label>
+</p>
+
 {% schema %}
   {
-    "name": "Section name",
+    "name": "Waiver checkbox",
     "settings": []
   }
 {% endschema %}
