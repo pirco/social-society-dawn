@@ -100,7 +100,7 @@
                               // Simulate form submission
                               target.closest('form').submit();
                           } else {
-                              alert("You must agree with the {{ section.settings.waiver_label }}.");
+                              alert("You must agree with the {{ block.settings.waiver_label }}.");
                               event.preventDefault();
                           }
                       }
@@ -111,7 +111,7 @@
               <p style="float: none; text-align: right; clear: both; margin: 10px 0;">
                 <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
                 <label style="display:inline; float:none" for="agree">
-                  I agree with the <a href="/pages/event-waiver">{{ section.settings.waiver_label }}</a>.
+                  I agree with the <a href="/pages/event-waiver">{{ block.settings.waiver_label }}</a>.
                 </label>
               </p>
 
