@@ -48,6 +48,12 @@
           "settings": {
           }
         },
+        "waiver_zEgPPn": {
+          "type": "waiver",
+          "settings": {
+            "waiver_label": "terms & conditions"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -101,6 +107,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "waiver_zEgPPn",
         "buy_buttons",
         "description",
         "collapsible-row-0",
