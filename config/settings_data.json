@@ -9,9 +9,9 @@
 */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/logo.svg",
+    "logo": "shopify://shop_images/logo.svg",
     "logo_width": 300,
-    "favicon": "shopify:\/\/shop_images\/SocialSociety_Icons-Colored_Balloon_5e48d60f-24eb-4d31-9568-6372c9ac7842.png",
+    "favicon": "shopify://shop_images/SocialSociety_Icons-Colored_Balloon_5e48d60f-24eb-4d31-9568-6372c9ac7842.png",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -106,13 +106,13 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
-    "social_facebook_link": "https:\/\/www.facebook.com\/shopthesocialsociety\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/shopthesocialsociety\/",
+    "social_facebook_link": "https://www.facebook.com/shopthesocialsociety/",
+    "social_instagram_link": "https://www.instagram.com/shopthesocialsociety/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
     "social_snapchat_link": "",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/thesocialsocietynocatee\/",
+    "social_pinterest_link": "https://www.pinterest.com/thesocialsocietynocatee/",
     "social_tumblr_link": "",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
@@ -142,19 +142,19 @@
     ],
     "blocks": {
       "12526071353035850722": {
-        "type": "shopify:\/\/apps\/back-in-stock-restock-alerts\/blocks\/app-embed\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+        "type": "shopify://apps/back-in-stock-restock-alerts/blocks/app-embed/bfa6a8c4-24e2-411a-9396-e35031b33f34",
         "disabled": true,
         "settings": {
         }
       },
       "4981902369724952902": {
-        "type": "shopify:\/\/apps\/vo-product-options\/blocks\/embed-block\/430cbd7b-bd20-4c16-ba41-db6f4c645164",
+        "type": "shopify://apps/vo-product-options/blocks/embed-block/430cbd7b-bd20-4c16-ba41-db6f4c645164",
         "disabled": false,
         "settings": {
         }
       },
       "15014643352720781508": {
-        "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
+        "type": "shopify://apps/wrapped/blocks/app-embed/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
         "disabled": false,
         "settings": {
           "gift_thumbnail_enabled": false,
@@ -172,6 +172,12 @@
           "border_color": "#000000",
           "border_radius": 0,
           "cart_widget_text_alignment": "--wrapped-checkbox--label-right"
+        }
+      },
+      "16735461377607925125": {
+        "type": "shopify://apps/rt-terms-and-conditions-box/blocks/app-embed/17661ca5-aeea-41b9-8091-d8f7233e8b22",
+        "disabled": false,
+        "settings": {
         }
       }
     },
