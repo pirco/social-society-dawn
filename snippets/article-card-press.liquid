@@ -142,8 +142,9 @@
                 <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
               {%- endif -%}
             </div>
-
-            <a href="{{ article.metafields.custom.press_link_url }}" class="read-more">VIEW ARTICLE</a>
+          
+            <a href="{{ article.metafields.custom.press_link_url }}" class="read-more">
+              {% if article.metafields.custom.press_link_text != blank %}{{ article.metafields.custom.press_link_text }}{% else %}VIEW ARTICLE{% endif %}</a>
           {%- endif -%}
         </div>
         {%- if show_badge -%}
