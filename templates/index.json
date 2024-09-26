@@ -15,15 +15,15 @@
         "image_y3DRXL": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/737A8886_211f9726-96bf-4925-b683-ffafe96da039.jpg"
+            "image": "shopify://shop_images/737A8886_211f9726-96bf-4925-b683-ffafe96da039.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Party on, Ponte Vedra!<\/p>",
-            "headline": "<p>WE'RE NOW OPEN! <\/p>",
-            "description": "<p>Come celebrate life’s little moments with us. Step inside our store and discover unique party supplies, thoughtful gifts and endless inspiration for hosting unforgettable celebrations.<\/p><p>For party planning made easy, you can also shop online.<\/p><p><a href=\"\/collections\" title=\"All collections\">SHOP NOW<\/a><\/p>"
+            "subtitle": "<p>Party on, Ponte Vedra!</p>",
+            "headline": "<p>WE'RE NOW OPEN! </p>",
+            "description": "<p>Come celebrate life’s little moments with us. Step inside our store and discover unique party supplies, thoughtful gifts and endless inspiration for hosting unforgettable celebrations.</p><p>For party planning made easy, you can also shop online.</p><p><a href=\"/collections\" title=\"All collections\">SHOP NOW</a></p>"
           }
         }
       },
@@ -115,11 +115,11 @@
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/football-cover.jpg",
-        "heading": "<h1>HUDDLE UP, PARTY PEOPLE!<\/h1>",
-        "subheading": "<p>Ready to score big at your next game day gathering? Our curated collection of football-themed decorations and tableware promise to turn your tailgate into a touchdown. So, gather your team, grab your favorite snack and let the game day festivities begin!<\/p>",
-        "url": "shopify:\/\/collections\/football",
-        "button_text": "SCORE NOW!"
+        "image": "shopify://shop_images/IMG_2631.jpg",
+        "heading": "<h1>FROM CREEPY TO CUTE</h1>",
+        "subheading": "<p>Everything you need for a hauntingly hot celebration. Whether you're aiming for eerie or enchanting, our Halloween collection has all the tricks (and treats) to make your party a scream.</p>",
+        "url": "shopify://collections/halloween",
+        "button_text": "Shop Now!"
       }
     },
     "collections_7dJhJC": {
@@ -179,7 +179,7 @@
         "text_MjzkHG": {
           "type": "text",
           "settings": {
-            "text": "<p>This fall, The Social Society, your one-stop shop for epic celebrations, is coming to Nocatee, Florida! We're a women-owned boutique bursting with unique, modern party essentials to turn any gathering into a celebratory masterpiece.<\/p><p>Be sure to sign up for our newsletter so you don't miss our in-store sneak peeks, events, party inspo and so much more.<\/p>",
+            "text": "<p>This fall, The Social Society, your one-stop shop for epic celebrations, is coming to Nocatee, Florida! We're a women-owned boutique bursting with unique, modern party essentials to turn any gathering into a celebratory masterpiece.</p><p>Be sure to sign up for our newsletter so you don't miss our in-store sneak peeks, events, party inspo and so much more.</p>",
             "text_style": "body"
           }
         },
@@ -199,7 +199,7 @@
         "button_KcLKFH"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BTM_0867-RH.jpg",
+        "image": "shopify://shop_images/BTM_0867-RH.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -245,7 +245,7 @@
         "paragraph_8xrLTf": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new products and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new products and exclusive offers.</p>"
           }
         },
         "email_form_WrMiFF": {
