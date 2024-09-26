@@ -66,50 +66,50 @@
     "product_compilation_9BKDzm": {
       "type": "product-compilation",
       "blocks": {
-        "product_nDTBXc": {
+        "product_NBUhrB": {
           "type": "product",
           "settings": {
-            "product": "17_inch_nfl_football"
+            "product": "boo_hook_pillow"
           }
         },
-        "product_bnw3ny": {
+        "product_yXaFPx": {
           "type": "product",
           "settings": {
-            "product": "emerald_green_signature_cabana_stripe_plates"
+            "product": "pink_witch_shaped_paper_plate"
           }
         },
-        "product_wTPFyt": {
+        "product_GdgqmA": {
           "type": "product",
           "settings": {
-            "product": "tis_the_season_beverage_napkins"
+            "product": "16_inch_eek_north_star_letters_kit"
           }
         },
-        "product_tPk87V": {
+        "product_VKHLHK": {
           "type": "product",
           "settings": {
-            "product": "football_party_cups"
+            "product": "lapel_paper_party_cups"
           }
         },
-        "product_nFmcgX": {
+        "product_BwzKMV": {
           "type": "product",
           "settings": {
-            "product": "17_inch_nfl_jacksonville_jaguars_football_team_colors"
+            "product": "frank__mummy_eek_shaped_dinner_napkin"
           }
         },
-        "product_D3NnYa": {
+        "product_PkMWeD": {
           "type": "product",
           "settings": {
-            "product": "emerald_green_cabana_stripe_cups"
+            "product": "be_afraid_paper_cocktail_napkin"
           }
         }
       },
       "block_order": [
-        "product_nDTBXc",
-        "product_bnw3ny",
-        "product_wTPFyt",
-        "product_tPk87V",
-        "product_nFmcgX",
-        "product_D3NnYa"
+        "product_NBUhrB",
+        "product_yXaFPx",
+        "product_GdgqmA",
+        "product_VKHLHK",
+        "product_BwzKMV",
+        "product_PkMWeD"
       ],
       "custom_css": [
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
