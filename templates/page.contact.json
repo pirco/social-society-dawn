@@ -22,11 +22,11 @@
       "type": "contact-form",
       "settings": {
         "subheading": "Hello, hi!",
-        "image": "shopify:\/\/shop_images\/IMG_5161-R.jpg",
+        "image": "shopify://shop_images/IMG_5161-R.jpg",
         "heading": "REACH OUT",
         "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
-        "address_heading": "<p>OUR FLAGSHIP STORE<\/p>",
-        "address": "<h2>300 PINE LAKE DR, SUITE E104<br\/>PONTE VEDRA BEACH, FL 32081<\/h2><p><strong>HOURS<br\/><\/strong>Monday - Friday: 10-7pm<br\/>Saturday: 10-5pm<br\/>Sunday: 10-4pm<\/p><p><strong>PHONE<\/strong>\u2028<br\/>904-709-4550<\/p><p><strong>EMAIL<\/strong>\u2028<br\/>shop@thesocialsociety.com<\/p>",
+        "address_heading": "<p>OUR FLAGSHIP STORE</p>",
+        "address": "<h2>300 PINE LAKE DR, SUITE E104<br/>PONTE VEDRA BEACH, FL 32081</h2><p><strong>HOURS<br/></strong>Monday: Closed<br/>Tuesday - Friday 11 am - 6 pm<br/>Saturday 10 am - 5 pm<br/>Sunday: 12 pm - 4 pm</p><p><strong>PHONE</strong> <br/>904-709-4550</p><p><strong>EMAIL</strong> <br/>shop@thesocialsociety.com</p>",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -47,7 +47,7 @@
         "heading_xCVFEx"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/737A9286-r.jpg",
+        "image": "shopify://shop_images/737A9286-r.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
