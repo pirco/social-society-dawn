@@ -38,11 +38,13 @@
 
             {% if event_button_text != blank %}
               {% if event_button_link != blank %}
-                <button class="button">
-                  <a href="{{ event_button_link }}">
-                    {{ event_button_text }}
-                  </a>
-                </button>
+                {% if article.metafields.custom.event_price != 'SOLD OUT' %}
+                  <button class="button">
+                    <a href="{{ event_button_link }}">
+                      {{ event_button_text }}
+                    </a>
+                  </button>
+                  {% endif %}
                 {% else %}
               <modal-opener data-modal="#PopupModal-event-rsvp">
                 <button class="button">
