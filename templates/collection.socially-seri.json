@@ -150,7 +150,7 @@
             "text_first": false,
             "image": "shopify://shop_images/IMG_9110.jpg",
             "preheading": "<p>test</p>",
-            "heading": ""
+            "heading": "<p>test</p>"
           }
         }
       },
