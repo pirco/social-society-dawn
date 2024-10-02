@@ -107,6 +107,16 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
+        "interjection_Gcaxz4": {
+          "type": "interjection",
+          "settings": {
+            "color_scheme": "scheme-5",
+            "text_first": false,
+            "image": "shopify://shop_images/IMG_9110.jpg",
+            "preheading": "<p>test</p>",
+            "heading": "<p>test</p>"
+          }
+        },
         "interjection_W8CPnq": {
           "type": "interjection",
           "disabled": true,
@@ -142,23 +152,13 @@
             "heading": "<p>YOU ARE NOT LIVING.</p>",
             "icon": "shopify://shop_images/Group_41487_34085a96-f556-4331-8cb5-22e2d79dfaec.png"
           }
-        },
-        "interjection_Gcaxz4": {
-          "type": "interjection",
-          "settings": {
-            "color_scheme": "",
-            "text_first": false,
-            "image": "shopify://shop_images/IMG_9110.jpg",
-            "preheading": "<p>test</p>",
-            "heading": "<p>test</p>"
-          }
         }
       },
       "block_order": [
+        "interjection_Gcaxz4",
         "interjection_W8CPnq",
         "interjection_ETpP8j",
-        "interjection_tXQ7mJ",
-        "interjection_Gcaxz4"
+        "interjection_tXQ7mJ"
       ],
       "settings": {
         "products_per_page": 24,
