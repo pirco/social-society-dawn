@@ -148,7 +148,8 @@
           "settings": {
             "color_scheme": "",
             "text_first": false,
-            "preheading": "",
+            "image": "shopify://shop_images/IMG_9110.jpg",
+            "preheading": "<p>test</p>",
             "heading": ""
           }
         }
