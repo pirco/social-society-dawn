@@ -40,7 +40,7 @@
             <div class="form__message">
               <h2 class="picaresk form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
                 {% render 'icon-error' %}
-                Tell us more and a party pro will reach out to coordinate…
+                {{ 'templates.contact.form.error_heading' | t }}
               </h2>
             </div>
             <ul class="form-status-list caption-large" role="list">
@@ -52,7 +52,8 @@
               </li>
             </ul>
           {% else %}
-            <h2 class="picaresk">Have a question or comment? Get in touch!</h2>
+            <h2 class="picaresk">Tell us more and a party pro will reach out to coordinate…</h2>
+            <p>Latex balloons float for roughly 8-10 hours. Please account for this when scheduling date + time for pick up.</p>
           {%- endif -%}
           <div class="contact__fields">
             <div class="field">
