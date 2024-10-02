@@ -25,7 +25,7 @@
         "content_HiYGt6"
       ],
       "custom_css": [
-        ".section-hero .section-hero--content .titles {max-width: 960px !important;}"
+        ".section-hero .section-hero--content .titles {max-width: 900px !important;}"
       ],
       "settings": {
         "color": "teal"
@@ -89,6 +89,7 @@
         "text_NbMgcW",
         "button_NkmxUp"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text.content-container {background-color: #fcfaf5;}"
       ],
