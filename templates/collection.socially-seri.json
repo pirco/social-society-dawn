@@ -109,6 +109,7 @@
       "blocks": {
         "interjection_W8CPnq": {
           "type": "interjection",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-5",
             "text_first": true,
@@ -120,6 +121,7 @@
         },
         "interjection_ETpP8j": {
           "type": "interjection",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
             "text_first": false,
@@ -131,6 +133,7 @@
         },
         "interjection_tXQ7mJ": {
           "type": "interjection",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-baf667b2-e410-4c52-8737-8d80dc8a1f13",
             "text_first": false,
