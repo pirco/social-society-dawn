@@ -43,6 +43,17 @@
         "padding_bottom": 28
       }
     },
+    "custom_form_helium_bundles_JH8d3x": {
+      "type": "custom-form-helium-bundles",
+      "settings": {
+        "subheading": "",
+        "image": "shopify://shop_images/social_society-custom_form-helium_bundles-image.jpg",
+        "heading": "Contact form",
+        "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_7LmjMq": {
       "type": "rich-text",
       "blocks": {
@@ -89,16 +100,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "custom_form_helium_bundles_JH8d3x": {
-      "type": "custom-form-helium-bundles",
-      "settings": {
-        "subheading": "",
-        "heading": "Contact form",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
