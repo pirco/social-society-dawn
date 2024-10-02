@@ -109,6 +109,7 @@
       "blocks": {
         "interjection_Gcaxz4": {
           "type": "interjection",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-5",
             "text_first": false,
