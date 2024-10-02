@@ -15,14 +15,15 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
+
   <header>
     <div class="contact--sub-heading">{{ section.settings.subheading }}</div>
     <h1 class="contact--heading">{{ section.settings.heading }}</h1>
   </header>
-
+  
   <div class="contact page-width section-{{ section.id }}-padding">
     <div class="grid grid--1-col grid--2-col-tablet">
-      <div class="grid__item contact-form">
+       <div class="grid__item contact-form">
         {%- liquid
           assign contact_form_class = 'isolate'
           if settings.animations_reveal_on_scroll
@@ -111,44 +112,44 @@
             <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
           </div>
 
-          <h2 class="picaresk">Tell us more and a party pro will reach out to coordinate…</h2>
-          <p>
-            Latex balloons float for roughly 8-10 hours. Please account for this when scheduling date + time for pick
-            up.
-          </p>
+          
+            <h2 class="picaresk">Tell us more and a party pro will reach out to coordinate…</h2>
+            <p>Latex balloons float for roughly 8-10 hours. Please account for this when scheduling date + time for pick up.</p>
+
 
           <div class="form-grid">
-            <div class="field">
-              <input
-                type="text"
-                id="ContactForm-year"
-                class="field__input"
-                name="contact[Year]"
-                placeholder="Year"
-              >
-              <label class="field__label" for="ContactForm-year">Year</label>
-            </div>
-            <div class="field">
-              <input
-                type="text"
-                id="ContactForm-make"
-                class="field__input"
-                name="contact[Make]"
-                placeholder="Make"
-              >
-              <label class="field__label" for="ContactForm-make">Make</label>
-            </div>
-            <div class="field">
-              <label for="ContactForm-model" class="field__label">Model</label>
-              <select id="ContactForm-model" class="field__input" name="contact[Model]">
-                <option value="">Select a model</option>
-                <option value="Model 1">Model X</option>
-                <option value="Model 2">Model Y</option>
-                <option value="Model 3">Model Z</option>
-              </select>
-            </div>
-          </div>
+    <div class="field">
+      <input
+        type="text"
+        id="ContactForm-year"
+        class="field__input"
+        name="contact[Year]"
+        placeholder="Year"
+      >
+      <label class="field__label" for="ContactForm-year">Year</label>
+    </div>
+    <div class="field">
+      <input
+        type="text"
+        id="ContactForm-make"
+        class="field__input"
+        name="contact[Make]"
+        placeholder="Make"
+      >
+      <label class="field__label" for="ContactForm-make">Make</label>
+    </div>
+    <div class="field">
+      <label for="ContactForm-model" class="field__label">Model</label>
+      <select id="ContactForm-model" class="field__input" name="contact[Model]">
+        <option value="">Select a model</option>
+        <option value="Model 1">Model X</option>
+        <option value="Model 2">Model Y</option>
+        <option value="Model 3">Model Z</option>
+      </select>
+    </div>
+</div>
 
+          
           <div class="field">
             <textarea
               rows="6"
@@ -173,6 +174,7 @@
       </div>
     </div>
   </div>
+
 </div>
 
 {% schema %}
