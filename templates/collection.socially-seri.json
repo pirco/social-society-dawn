@@ -9,6 +9,32 @@
 */
 {
   "sections": {
+    "hero_9GdrFf": {
+      "type": "hero",
+      "blocks": {
+        "image_iEhUG3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pool.jpg"
+          }
+        },
+        "content_UmDmRi": {
+          "type": "content",
+          "settings": {
+            "subtitle": "<p>This Month's</p>",
+            "headline": "<p>Socially Seri</p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_iEhUG3",
+        "content_UmDmRi"
+      ],
+      "settings": {
+        "color": "violet"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "blocks": {
@@ -71,6 +97,7 @@
         "color_scheme_ReRpaD",
         "color_scheme_Xr77Yr"
       ],
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -183,6 +210,7 @@
     }
   },
   "order": [
+    "hero_9GdrFf",
     "banner",
     "product-grid",
     "newsletter_WLUYTe"
