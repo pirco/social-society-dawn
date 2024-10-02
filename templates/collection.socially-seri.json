@@ -1,0 +1,190 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "color_scheme_egJ6tL": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-5"
+          }
+        },
+        "color_scheme_JVqYWP": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272"
+          }
+        },
+        "color_scheme_XYDggm": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-356e8cfa-ab1f-4b3d-9881-362ba91759a9"
+          }
+        },
+        "color_scheme_D7VcF6": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272"
+          }
+        },
+        "color_scheme_ejga9U": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6"
+          }
+        },
+        "color_scheme_XQ9GEb": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-2ebb493e-a3a2-4910-b4da-e3d9a19027e8"
+          }
+        },
+        "color_scheme_ReRpaD": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac"
+          }
+        },
+        "color_scheme_Xr77Yr": {
+          "type": "color_scheme",
+          "settings": {
+            "color_scheme": "scheme-ae5b6179-5aa6-465f-b9f4-b4ca822ef228"
+          }
+        }
+      },
+      "block_order": [
+        "color_scheme_egJ6tL",
+        "color_scheme_JVqYWP",
+        "color_scheme_XYDggm",
+        "color_scheme_D7VcF6",
+        "color_scheme_ejga9U",
+        "color_scheme_XQ9GEb",
+        "color_scheme_ReRpaD",
+        "color_scheme_Xr77Yr"
+      ],
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "interjection_W8CPnq": {
+          "type": "interjection",
+          "settings": {
+            "color_scheme": "scheme-5",
+            "text_first": true,
+            "image": "shopify://shop_images/BTM_0839.jpg",
+            "preheading": "",
+            "heading": "<p>BE KIND</p><p>HAVE FUN</p><p>CELEBRATE EVERY DAY</p>",
+            "icon": "shopify://shop_images/Group_41487.png"
+          }
+        },
+        "interjection_ETpP8j": {
+          "type": "interjection",
+          "settings": {
+            "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
+            "text_first": false,
+            "image": "shopify://shop_images/BTM_0921.jpg",
+            "preheading": "<p>The day you were born!</p>",
+            "heading": "<p>CELEBRATE YOUR SPECIAL DAY WITH US</p>",
+            "icon": "shopify://shop_images/SocialSociety_BrandIcons_Cheers-CMYK_1.png"
+          }
+        },
+        "interjection_tXQ7mJ": {
+          "type": "interjection",
+          "settings": {
+            "color_scheme": "scheme-baf667b2-e410-4c52-8737-8d80dc8a1f13",
+            "text_first": false,
+            "image": "shopify://shop_images/IMG_5256.jpg",
+            "preheading": "<p>If you're not celebrating....</p>",
+            "heading": "<p>YOU ARE NOT LIVING.</p>",
+            "icon": "shopify://shop_images/Group_41487_34085a96-f556-4331-8cb5-22e2d79dfaec.png"
+          }
+        },
+        "interjection_Gcaxz4": {
+          "type": "interjection",
+          "settings": {
+            "color_scheme": "",
+            "text_first": false,
+            "preheading": "",
+            "heading": ""
+          }
+        }
+      },
+      "block_order": [
+        "interjection_W8CPnq",
+        "interjection_ETpP8j",
+        "interjection_tXQ7mJ",
+        "interjection_Gcaxz4"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter_WLUYTe": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_kTCbH9": {
+          "type": "heading",
+          "settings": {
+            "heading": "JOIN THE PARTY!",
+            "heading_size": "h0"
+          }
+        },
+        "paragraph_FtFCgp": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new products and exclusive offers.</p>"
+          }
+        },
+        "email_form_AXPxHK": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_kTCbH9",
+        "paragraph_FtFCgp",
+        "email_form_AXPxHK"
+      ],
+      "settings": {
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "newsletter_WLUYTe"
+  ]
+}
