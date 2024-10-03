@@ -18,6 +18,10 @@
   .field__input:not(:placeholder-shown) {
     padding-top: .69em;
   }
+  .field__input, .customer .field input {
+    background: #FFF; 
+    box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) #000;
+  }
 </style>
 <div class="color-{{ section.settings.color_scheme }} gradient">
 
