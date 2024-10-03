@@ -60,7 +60,7 @@
         "heading_yYtiKf": {
           "type": "heading",
           "settings": {
-            "heading": "CReATE YOUR OWN BUNDLE",
+            "heading": "CREATE YOUR OWN BUNDLE",
             "heading_size": "h1"
           }
         },
@@ -87,8 +87,8 @@
         "button_r4Bjfi"
       ],
       "settings": {
-        "image": "shopify://shop_images/social_society-custom_form-helium_bundles-image.jpg",
-        "height": "medium",
+        "image": "shopify://shop_images/social_society-custom_form-helium_bundles-image-collection-teaser.jpg",
+        "height": "small",
         "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "middle",
