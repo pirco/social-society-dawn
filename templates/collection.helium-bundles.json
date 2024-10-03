@@ -88,11 +88,11 @@
       ],
       "settings": {
         "image": "shopify://shop_images/social_society-custom_form-helium_bundles-image-collection-teaser.jpg",
-        "height": "small",
+        "height": "medium",
         "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-baf667b2-e410-4c52-8737-8d80dc8a1f13",
         "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6",
