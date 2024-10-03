@@ -100,9 +100,8 @@
         },
         "text_NzEFLt": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>The Balloon Hotline is open... Get in touch with our Balloon specialist to create your very own custom Helium Balloon bundle!</p>",
             "text_style": "body"
           }
         },
@@ -129,8 +128,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-baf667b2-e410-4c52-8737-8d80dc8a1f13",
+        "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
