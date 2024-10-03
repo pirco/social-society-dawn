@@ -1424,7 +1424,7 @@ svg.clips {
     }
   }
 
-  .custom-form {
+  .custom-balloons {
     .grid {
       vertical-align: top; 
       .contact-form {
@@ -1456,7 +1456,7 @@ svg.clips {
     .contact-form {
       padding-right: 3rem;
     }
-    .custom-form {
+    .custom-balloons {
       padding-right: 0rem;
     }
   }
