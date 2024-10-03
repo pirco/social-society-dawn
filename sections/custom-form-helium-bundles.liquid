@@ -35,6 +35,19 @@
     background: #FFF; 
     box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) #000;
   }
+  .custom-form .field__input.select {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 111%;
+    top: 6px;
+    width: 11px;
+    height: 11px;
+    border-top: 2px solid #333;
+    border-right: 2px solid #333;
+    transform: rotate(135deg);
+
+  }
   @media (min-width:750px) {
     .custom-form--image { padding: 0 0 0 3em; }
   }
