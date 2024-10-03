@@ -35,7 +35,7 @@
     background: #FFF; 
     box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) #000;
   }
-  .custom-form .field__input.select {
+  .custom-form .field__input.select:after {
     content: '';
     display: block;
     position: absolute;
@@ -181,7 +181,7 @@
               </div>
               <div class="field">
                 <label for="ContactForm-addon" class="field__label">Add-Ons</label>
-                <select id="ContactForm-addon" class="field__input" name="contact[Add-Ons]">
+                <select id="ContactForm-addon" class="field__input select" name="contact[Add-Ons]">
                   <option value="">Add-Ons</option>
                   <option value="Silver Disco Ball Weight">Silver Disco Ball Weight</option>
                   <option value="Tissue Tassel Tail">Tissue Tassel Tail</option>
