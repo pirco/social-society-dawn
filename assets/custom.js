@@ -130,10 +130,3 @@ creditsElements.forEach(function (creditsElement) {
     }
   });
 });
-
-$( document ).ready(function() {
-    if($('.contact__success').text()!==undefined && $('.contact__success').text()!==''){
-      $('.contact__content .contact__text').hide();
-      $('#contact_form input , #contact_form textarea, #contact_form button').hide();
-}
-});
