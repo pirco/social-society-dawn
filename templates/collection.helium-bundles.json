@@ -89,7 +89,7 @@
       "settings": {
         "image": "shopify://shop_images/social_society-custom_form-helium_bundles-image.jpg",
         "height": "medium",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
