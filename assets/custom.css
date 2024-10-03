@@ -1374,7 +1374,11 @@ svg.clips {
       .contact-form input[type="text"]:focus+label.field__label,
       .contact-form input[type="tel"]:focus+label.field__label,
       .contact-form input[type="date"]:focus+label.field__label,
-      .contact-form textarea:focus+label.field__label {
+      .contact-form textarea:focus+label.field__label,
+      .custom-form input[type="text"]:focus+label.field__label,
+      .custom-form input[type="tel"]:focus+label.field__label,
+      .custom-form input[type="date"]:focus+label.field__label,
+      .custom-form textarea:focus+label.field__label {
         font-size: 1.1rem;
         top: 0.39em;
       }
