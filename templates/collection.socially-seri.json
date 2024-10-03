@@ -107,17 +107,6 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
-        "interjection_Gcaxz4": {
-          "type": "interjection",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "scheme-5",
-            "text_first": false,
-            "image": "shopify://shop_images/IMG_9110.jpg",
-            "preheading": "<p>test</p>",
-            "heading": "<p>test</p>"
-          }
-        },
         "interjection_W8CPnq": {
           "type": "interjection",
           "disabled": true,
@@ -156,7 +145,6 @@
         }
       },
       "block_order": [
-        "interjection_Gcaxz4",
         "interjection_W8CPnq",
         "interjection_ETpP8j",
         "interjection_tXQ7mJ"
