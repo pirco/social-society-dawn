@@ -54,40 +54,6 @@
         "padding_bottom": 36
       }
     },
-    "newsletter_WLUYTe": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_kTCbH9": {
-          "type": "heading",
-          "settings": {
-            "heading": "JOIN THE PARTY!",
-            "heading_size": "h0"
-          }
-        },
-        "paragraph_FtFCgp": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new products and exclusive offers.</p>"
-          }
-        },
-        "email_form_AXPxHK": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading_kTCbH9",
-        "paragraph_FtFCgp",
-        "email_form_AXPxHK"
-      ],
-      "settings": {
-        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "image_with_text_j879LD": {
       "type": "image-with-text",
       "blocks": {
@@ -122,7 +88,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/social_society-custom_form-helium_bundles-image.jpg",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -135,12 +101,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "newsletter_WLUYTe": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_kTCbH9": {
+          "type": "heading",
+          "settings": {
+            "heading": "JOIN THE PARTY!",
+            "heading_size": "h0"
+          }
+        },
+        "paragraph_FtFCgp": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new products and exclusive offers.</p>"
+          }
+        },
+        "email_form_AXPxHK": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_kTCbH9",
+        "paragraph_FtFCgp",
+        "email_form_AXPxHK"
+      ],
+      "settings": {
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "newsletter_WLUYTe",
-    "image_with_text_j879LD"
+    "image_with_text_j879LD",
+    "newsletter_WLUYTe"
   ]
 }
