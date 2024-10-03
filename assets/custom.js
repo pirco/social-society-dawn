@@ -133,9 +133,9 @@ creditsElements.forEach(function (creditsElement) {
 
 /* hide contact form fields after submit */
 document.addEventListener("DOMContentLoaded", function() {
-    var contactSuccess = document.querySelector('.contact__success');
+    var contactSuccess = document.querySelector('.form-status');
     if (contactSuccess && contactSuccess.textContent.trim() !== '') {
-        var contactText = document.querySelector('.contact__content .contact__text');
+        var contactText = document.querySelector('.contact__fields');
         if (contactText) {
             contactText.style.display = 'none';
         }
