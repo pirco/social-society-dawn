@@ -1423,6 +1423,15 @@ svg.clips {
       }
     }
   }
+
+  .custom-form {
+    .grid {
+      vertical-align: top; 
+      .contact-form {
+        padding-top: 6px; 
+      }
+    }
+  }
 }
 
 @media (max-width: 749px) {
@@ -1445,7 +1454,7 @@ svg.clips {
 @media (min-width: 750px) {
   .section-contact {
     .contact-form {
-      padding-right: 3rem;
+      padding-right: 0rem;
     }
   }
 }
