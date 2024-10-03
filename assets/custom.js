@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function() {
             contactText.style.display = 'none';
         }
 
-        var formElements = document.querySelectorAll('#contact_form input, #contact_form textarea, #contact_form button');
+        var formElements = document.querySelectorAll('#ContactForm input, #ContactForm textarea, #ContactForm button');
         formElements.forEach(function(element) {
             element.style.display = 'none';
         });
