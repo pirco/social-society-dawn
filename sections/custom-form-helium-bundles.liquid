@@ -15,6 +15,9 @@
 {%- endstyle -%}
 
 <style>
+  .custom-form h2 {
+    font-size: calc(var(--font-heading-scale)* 1.8rem);
+  }
   .field__input:not(:placeholder-shown) {
     padding-top: .69em;
   }
@@ -31,7 +34,7 @@
     <h1 class="contact--heading">{{ section.settings.heading }}</h1>
   </header>
   
-  <div class="contact page-width section-{{ section.id }}-padding">
+  <div class="contact custom-form page-width section-{{ section.id }}-padding">
     <div class="grid grid--1-col grid--2-col-tablet">
        <div class="grid__item contact-form">
         {%- liquid
