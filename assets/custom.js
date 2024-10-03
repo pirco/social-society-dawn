@@ -130,3 +130,19 @@ creditsElements.forEach(function (creditsElement) {
     }
   });
 });
+
+/* hide contact form fields after submit */
+document.addEventListener("DOMContentLoaded", function() {
+    var contactSuccess = document.querySelector('.contact__success');
+    if (contactSuccess && contactSuccess.textContent.trim() !== '') {
+        var contactText = document.querySelector('.contact__content .contact__text');
+        if (contactText) {
+            contactText.style.display = 'none';
+        }
+
+        var formElements = document.querySelectorAll('#contact_form input, #contact_form textarea, #contact_form button');
+        formElements.forEach(function(element) {
+            element.style.display = 'none';
+        });
+    }
+});
