@@ -135,7 +135,7 @@ creditsElements.forEach(function (creditsElement) {
 document.addEventListener("DOMContentLoaded", function() {
     var contactSuccess = document.querySelector('.form-status');
     if (contactSuccess && contactSuccess.textContent.trim() !== '') {
-        var contactText = document.querySelector('.contact__fields');
+        var contactText = document.querySelector('.custom_form_fields');
         if (contactText) {
             contactText.style.display = 'none';
         }
