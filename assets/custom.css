@@ -1454,6 +1454,9 @@ svg.clips {
 @media (min-width: 750px) {
   .section-contact {
     .contact-form {
+      padding-right: 3rem;
+    }
+    .custom-form {
       padding-right: 0rem;
     }
   }
