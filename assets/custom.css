@@ -1089,7 +1089,7 @@ svg.clips {
           justify-content: center;
           padding: 3px;
 
-          &.label-blue {
+          &.color-blue {
             background: var(--color-deep-blue);
             color: #FFF;
           }
