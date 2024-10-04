@@ -57,8 +57,8 @@
       <div class="label {{ label_color }}{% if label contains 'new' %}label-new{% elsif label contains 'save' %}label-save{% endif %}">
         {{ tag | split: ':' | last }}
       </div>
-      {% break %}
       {% endif %}
+      {% break %}
     {% endif %}
   {% endfor %}
     <div
