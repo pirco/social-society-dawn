@@ -115,10 +115,10 @@
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_2631.jpg",
-        "heading": "<h1>FROM CREEPY TO CUTE</h1>",
-        "subheading": "<p>Everything you need for a hauntingly hot celebration. Whether you're aiming for eerie or enchanting, our Halloween collection has all the tricks (and treats) to make your party a scream.</p>",
-        "url": "shopify://collections/halloween",
+        "image": "shopify://shop_images/BTM_1349.jpg",
+        "heading": "<h1>BALLOON BUNDLES FOR EVERY OCCASION</h1>",
+        "subheading": "<p>Grab one of our helium filled bundles to celebrate any occasion. Pick-Up Only: From our storefront at 300 Pine Lake Drive Suite E104 Ponte Vedra, FL 32081. </p>",
+        "url": "shopify://collections/helium-bundles",
         "button_text": "Shop Now!"
       }
     },
