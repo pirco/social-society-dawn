@@ -50,10 +50,10 @@
     data-clip="#clip-product-{{ section_id }}-{{ card_product.id }}"
   >
   {% for tag in card_product.tags %}
-    {% if tag contains 'label' %}
+    {% if tag contains 'label:' %}
       {% assign label = tag | downcase %}
-      {% if label contains 'label-color:' %}
-        {% assign label_color = tag | downcase %}
+      {% if label contains 'color:' %}
+        {% assign label_color = label | downcase %}
       <div class="label {{ label_color }}{% if label contains 'new' %}label-new{% elsif label contains 'save' %}label-save{% endif %}">
         {{ tag | split: ':' | last }}
       </div>
