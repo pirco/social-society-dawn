@@ -49,17 +49,24 @@
     "
     data-clip="#clip-product-{{ section_id }}-{{ card_product.id }}"
   >
-  {% for tag in card_product.tags %}
-    {% if tag contains 'label:' %}
-      {% assign label = tag | downcase %}
-    {% endif %}
-    {% if tag contains 'label-color:' %}
-      {% assign label_color = tag | downcase %}
-    {% endif %}
-      <div class="label {{ label_color | split: ':' | last }}">
-        {{ label | split: ':' | last }}
-      </div>
-  {% endfor %}
+  {% assign label = '' %}
+{% assign label_color = '' %}
+
+{% for tag in cart_product.tags %}
+  {% if tag contains 'label:' %}
+    {% assign label = tag | split: ':' | last %}
+  {% endif %}
+  {% if tag contains 'label-color:' %}
+    {% assign label_color = tag | split: ':' | last %}
+  {% endif %}
+{% endfor %}
+
+{% if label != '' %}
+  <div class="label {{ label_color }}">
+    {{ label }}
+  </div>
+{% endif %}
+
     <div
       class="
         card card--{{ settings.card_style }}
