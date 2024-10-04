@@ -49,6 +49,15 @@
     "
     data-clip="#clip-product-{{ section_id }}-{{ card_product.id }}"
   >
+  {% for tag in product_card_product.tags %}
+    {% if tag contains 'label:' %}
+      {% assign label = tag | downcase %}
+      <div class="label {% if label contains 'new' %}label-new{% elsif label contains 'save' %}label-save{% endif %}">
+        {{ tag | split: ':' | last }}
+      </div>
+      {% break %}
+    {% endif %}
+  {% endfor %}
     <div
       class="
         card card--{{ settings.card_style }}
