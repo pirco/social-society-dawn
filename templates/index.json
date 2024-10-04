@@ -172,14 +172,14 @@
         "heading_BYdaNx": {
           "type": "heading",
           "settings": {
-            "heading": "Turn everyday moments into experiences worth celebrating.",
+            "heading": "party with us at our in-store events",
             "heading_size": "h1"
           }
         },
         "text_MjzkHG": {
           "type": "text",
           "settings": {
-            "text": "<p>Located in Nocatee Town Center in Ponte Vedra Beach, Florida, The Social Society is your one-stop shop for the supplies you need to throw a fabulous party! Find modern tableware and decor; a balloon bar for helium bouquets; grab-and-go garlands; and a variety of unique, thoughtful gifts for hosts and everyday entertaining.</p>",
+            "text": "<p>You're Invited!</p><p>You can now celebrate each season with us at our in-store events. Located in Nocatee Town Center in Ponte Vedra Beach, Florida, The Social Society is hosting weekly events for the community. From fall pumpkin painting to cocktail making courses, you can grab your friends for an unforgettable day of creativity and learning.</p>",
             "text_style": "body"
           }
         },
@@ -187,9 +187,9 @@
           "type": "button",
           "settings": {
             "button_label": "JOIN THE PARTY",
-            "button_link": "",
+            "button_link": "https://thesocialsociety.com/blogs/in-store-events",
             "button_style_secondary": false,
-            "newsletter_link": true
+            "newsletter_link": false
           }
         }
       },
@@ -199,15 +199,15 @@
         "button_KcLKFH"
       ],
       "settings": {
-        "image": "shopify://shop_images/BTM_0867-RH.jpg",
+        "image": "shopify://shop_images/IMG_0213.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
-        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
+        "section_color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272",
+        "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
