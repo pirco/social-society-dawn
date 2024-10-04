@@ -52,7 +52,7 @@
   {% for tag in card_product.tags %}
     {% if tag contains 'label' %}
       {% assign label = tag | downcase %}
-      {% if tag contains 'label-color:' %}
+      {% if label contains 'label-color:' %}
         {% assign label_color = tag | downcase %}
       <div class="label {{ label_color }}{% if label contains 'new' %}label-new{% elsif label contains 'save' %}label-save{% endif %}">
         {{ tag | split: ':' | last }}
