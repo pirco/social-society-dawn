@@ -66,50 +66,50 @@
     "product_compilation_9BKDzm": {
       "type": "product-compilation",
       "blocks": {
-        "product_NBUhrB": {
+        "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "boo_hook_pillow"
+            "product": "double-digit-celebration-bundle"
           }
         },
-        "product_yXaFPx": {
+        "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "pink_witch_shaped_paper_plate"
+            "product": "duuuuval-go-jags"
           }
         },
-        "product_GdgqmA": {
+        "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "14_inch_boo_foil_letter_balloon"
+            "product": "the-signature-collection"
           }
         },
-        "product_VKHLHK": {
+        "product_FUTTQr": {
           "type": "product",
           "settings": {
-            "product": "lapel_paper_party_cups"
+            "product": "the-classic-collection"
           }
         },
-        "product_BwzKMV": {
+        "product_hWKkd8": {
           "type": "product",
           "settings": {
-            "product": "frank__mummy_eek_shaped_dinner_napkin"
+            "product": "gender-reveal-balloon"
           }
         },
-        "product_PkMWeD": {
+        "product_irkhwH": {
           "type": "product",
           "settings": {
-            "product": "be_afraid_paper_cocktail_napkin"
+            "product": "bundle-of-happy"
           }
         }
       },
       "block_order": [
-        "product_NBUhrB",
-        "product_yXaFPx",
-        "product_GdgqmA",
-        "product_VKHLHK",
-        "product_BwzKMV",
-        "product_PkMWeD"
+        "product_Kk8jeW",
+        "product_PX6LyV",
+        "product_tPaRHa",
+        "product_FUTTQr",
+        "product_hWKkd8",
+        "product_irkhwH"
       ],
       "custom_css": [
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
