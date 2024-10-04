@@ -43,13 +43,12 @@
         "padding_bottom": 28
       }
     },
-    "custom_form_helium_bundles_JH8d3x": {
-      "type": "custom-form-helium-bundles",
+    "custom_form_grab_and_go_garlands_h3J3tN": {
+      "type": "custom-form-grab-and-go-garlands",
       "settings": {
         "subheading": "",
-        "image": "shopify://shop_images/social_society-custom_form-helium_bundles-image.jpg",
-        "heading": "",
-        "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6",
+        "heading": "Contact form",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -107,7 +106,7 @@
   "order": [
     "hero_gVrRz7",
     "main",
-    "custom_form_helium_bundles_JH8d3x",
+    "custom_form_grab_and_go_garlands_h3J3tN",
     "rich_text_7LmjMq"
   ]
 }
