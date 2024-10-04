@@ -172,14 +172,14 @@
         "heading_BYdaNx": {
           "type": "heading",
           "settings": {
-            "heading": "party with us at our in-store events",
+            "heading": "YOU'RE CORDIALLY INVITED TO OUR IN-STORE EVENTS!",
             "heading_size": "h1"
           }
         },
         "text_MjzkHG": {
           "type": "text",
           "settings": {
-            "text": "<p>You're Invited!</p><p>You can now celebrate each season with us at our in-store events. Located in Nocatee Town Center in Ponte Vedra Beach, Florida, The Social Society is hosting weekly events for the community. From fall pumpkin painting to cocktail making courses, you can grab your friends for an unforgettable day of creativity and learning.</p>",
+            "text": "<p>You can now celebrate each season with us at our in-store events. Located in Nocatee Town Center in Ponte Vedra Beach, Florida, The Social Society is hosting weekly events for the community. From fall pumpkin painting to cocktail making courses, you can grab your friends for an unforgettable day of creativity and learning.</p>",
             "text_style": "body"
           }
         },
