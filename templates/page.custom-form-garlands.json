@@ -47,7 +47,8 @@
       "type": "custom-form-grab-and-go-garlands",
       "settings": {
         "subheading": "",
-        "heading": "Contact form",
+        "image": "shopify://shop_images/social-society_custom-form-garlands-image.jpg",
+        "heading": "",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
