@@ -1088,7 +1088,11 @@ svg.clips {
           flex-direction: column;
           justify-content: center;
           padding: 3px;
-          background: var(--color-deep-blue-rgb);
+
+          &.label-blue {
+            background: var(--color-deep-blue);
+            color: #FFF;
+          }
         }
       }      
     }
