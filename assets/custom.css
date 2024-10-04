@@ -1068,6 +1068,28 @@ svg.clips {
       --grid-desktop-vertical-spacing: 65px;
       --grid-mobile-horizontal-spacing: 30px;
       --grid-mobile-vertical-spacing: 45px;
+
+      .product-card-wrapper {
+        .label {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          text-transform: uppercase;
+          z-index: 1;
+          font-size: 13px;
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+          line-height: 1;
+          box-sizing: border-box;
+          text-align: center;
+          display: flex;
+          vertical-align: middle;
+          flex-direction: column;
+          justify-content: center;
+          padding: 3px;
+        }
+      }      
     }
   }
 }
