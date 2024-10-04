@@ -1092,11 +1092,11 @@ svg.clips {
           
           &.deep-blue {
            background: var(--color-deep-blue);
-            color: #D6F254;
+            color: var(--color-lime);
           }
           &.red {
            background: var(--color-red);
-            color: #FFF;
+            color: var(--color-pink);
           }
         }
       }      
