@@ -56,7 +56,7 @@
     {% if tag contains 'label-color:' %}
       {% assign label_color = tag | downcase %}
     {% endif %}
-      <div class="label {{ label_color }}">
+      <div class="label {{ label_color | split: ':' | last }}">
         {{ label | split: ':' | last }}
       </div>
   {% endfor %}
