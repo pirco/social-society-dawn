@@ -1088,9 +1088,12 @@ svg.clips {
           flex-direction: column;
           justify-content: center;
           padding: 3px;
+          font-family: ABCROMCompressed-Heavy, sans-serif;
+          
+          &.deep-blue {
            background: var(--color-deep-blue);
             color: #FFF;
-          font-family: ABCROMCompressed-Heavy, sans-serif;
+          }
         }
       }      
     }
