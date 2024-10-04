@@ -1105,10 +1105,10 @@ svg.clips {
 }
 
 @media screen and (max-width: 749px) {
-  .product-card-wrapper .label {
-    margin-top: 0em;
-    margin-left: 0em;
-  }
+    .product-card-wrapper .label {
+        margin-top: -1em;
+        margin-right: -1em;
+    }
 }
 
 .collection-interjection:is(.color-violet) .text {
