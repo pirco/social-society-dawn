@@ -25,7 +25,7 @@
         "content_HiYGt6"
       ],
       "custom_css": [
-        ".section-hero .section-hero--content .titles {max-width: 900px !important;}"
+        ".section-hero .section-hero--content .titles {max-width: 790px !important;}"
       ],
       "settings": {
         "color": "teal"
