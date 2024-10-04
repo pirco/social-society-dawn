@@ -1,0 +1,113 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "hero_gVrRz7": {
+      "type": "hero",
+      "blocks": {
+        "content_HiYGt6": {
+          "type": "content",
+          "settings": {
+            "subtitle": "<p>The Balloon hotline is open....</p>",
+            "headline": "<p>CREATE YOUR OWN HELIUM FILLED BUNDLE</p>",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_HiYGt6"
+      ],
+      "custom_css": [
+        ".section-hero .section-hero--content .titles {max-width: 900px !important;}"
+      ],
+      "settings": {
+        "color": "teal"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "content_width": "medium",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_form_helium_bundles_JH8d3x": {
+      "type": "custom-form-helium-bundles",
+      "settings": {
+        "subheading": "",
+        "image": "shopify://shop_images/social_society-custom_form-helium_bundles-image.jpg",
+        "heading": "",
+        "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_7LmjMq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LMMteC": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping and Payment",
+            "heading_size": "h1"
+          }
+        },
+        "text_NbMgcW": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_NkmxUp": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LMMteC",
+        "text_NbMgcW",
+        "button_NkmxUp"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".rich-text.content-container {background-color: #fcfaf5;}"
+      ],
+      "settings": {
+        "content_width": "medium",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "hero_gVrRz7",
+    "main",
+    "custom_form_helium_bundles_JH8d3x",
+    "rich_text_7LmjMq"
+  ]
+}
