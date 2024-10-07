@@ -60,14 +60,14 @@
         "heading_yYtiKf": {
           "type": "heading",
           "settings": {
-            "heading": "CREATE YOUR OWN BUNDLE",
+            "heading": "Create your own helium bundle",
             "heading_size": "h1"
           }
         },
         "text_NzEFLt": {
           "type": "text",
           "settings": {
-            "text": "<p>The Balloon Hotline is open... Get in touch with our Balloon specialist to create your very own custom Helium Balloon bundle!</p>",
+            "text": "<p>Get in touch with our party pros to create your own helium bundle. There are so many reasons to celebrate and there's no better way than with helium filled balloons!</p>",
             "text_style": "body"
           }
         },
@@ -87,7 +87,7 @@
         "button_r4Bjfi"
       ],
       "settings": {
-        "image": "shopify://shop_images/social_society-custom_form-helium_bundles-image-collection-teaser.jpg",
+        "image": "shopify://shop_images/BTM_0839_d4915841-6bf4-4f0b-a640-04ae06ec848a.jpg",
         "height": "medium",
         "desktop_image_width": "large",
         "layout": "image_first",
