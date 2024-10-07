@@ -66,6 +66,7 @@
         },
         "slide_XTHJJn": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/737A9286_d2da2a65-f1fe-4281-a8e7-6b49006be644.jpg",
             "heading": "",
