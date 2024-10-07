@@ -49,7 +49,7 @@
         "slide_R3y8Xg": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/social-society_custom-form-garlands-image.jpg",
+            "image": "shopify://shop_images/BTM_9454.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -63,10 +63,86 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_wJmmeR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_5109_15339d5b-a7d2-4a06-a0fa-2d8993237016.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_iCcDWQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1722.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_4HBfyW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_1105_72b170ec-52af-4d18-ae6a-94931a931eef.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_AtK449": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_1701.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_R3y8Xg"
+        "slide_R3y8Xg",
+        "slide_wJmmeR",
+        "slide_iCcDWQ",
+        "slide_4HBfyW",
+        "slide_AtK449"
       ],
       "settings": {
         "subheading": "",
