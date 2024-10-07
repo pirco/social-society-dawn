@@ -16,7 +16,7 @@
           "type": "content",
           "settings": {
             "subtitle": "<p>The Balloon hotline is open....</p>",
-            "headline": "<p>CREATE YOUR OWN GRAB&#8209;AND&#8209;GO GARLANDS</p>",
+            "headline": "<p>CREATE YOUR OWN GRAB‑AND‑GO GARLANDS</p>",
             "description": ""
           }
         }
@@ -63,30 +63,10 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_XTHJJn": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/737A9286_d2da2a65-f1fe-4281-a8e7-6b49006be644.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_R3y8Xg",
-        "slide_XTHJJn"
+        "slide_R3y8Xg"
       ],
       "settings": {
         "subheading": "",
