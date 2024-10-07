@@ -220,9 +220,10 @@
       </div>
       <div class="grid__item custom-form--image">
 
-        <!--img src="{{ section.settings.image | image_url: width: 900 }}"-->
+        {% comment %}
+        start slideshow
+        {% endcomment %}
 
-        
         {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
         {{ 'component-slider.css' | asset_url | stylesheet_tag }}
         {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
@@ -497,11 +498,6 @@
       "type": "inline_richtext",
       "id": "subheading",
       "label": "Sub-Heading"
-    },
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Image"
     },
     {
       "type": "inline_richtext",
