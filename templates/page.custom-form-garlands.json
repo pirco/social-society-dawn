@@ -54,14 +54,6 @@
             "color_scheme": "scheme-1"
           }
         },
-        "slide_MqDRFy": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/bundle_f-cancer_e6b9bba9-d5d4-4ebd-9943-18dacdf97377.jpg",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1"
-          }
-        },
         "slide_XTHJJn": {
           "type": "slide",
           "settings": {
@@ -73,7 +65,6 @@
       },
       "block_order": [
         "slide_R3y8Xg",
-        "slide_MqDRFy",
         "slide_XTHJJn"
       ],
       "settings": {
