@@ -9,6 +9,32 @@
 */
 {
   "sections": {
+    "hero_9GdrFf": {
+      "type": "hero",
+      "blocks": {
+        "image_iEhUG3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pool.jpg"
+          }
+        },
+        "content_UmDmRi": {
+          "type": "content",
+          "settings": {
+            "subtitle": "<p>This Month's</p>",
+            "headline": "<p>SOCIALLY SERI</p>",
+            "description": "<p>Socially Seri is a custom designed collection of supplies brought to you by the creative team at The Social Society! Knowing their customers needs + loves, you’ll find cocktail napkins, party cups, trucker hats and pickleball paddles with super fun designs to purchase in the Socially Seri Collection.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_iEhUG3",
+        "content_UmDmRi"
+      ],
+      "settings": {
+        "color": "violet"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "blocks": {
@@ -71,6 +97,7 @@
         "color_scheme_ReRpaD",
         "color_scheme_Xr77Yr"
       ],
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -79,56 +106,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "blocks": {
-        "interjection_W8CPnq": {
-          "type": "interjection",
-          "settings": {
-            "color_scheme": "scheme-5",
-            "text_first": true,
-            "image": "shopify://shop_images/BTM_0839.jpg",
-            "preheading": "",
-            "heading": "<p>BE KIND</p><p>HAVE FUN</p><p>CELEBRATE EVERY DAY</p>",
-            "icon": "shopify://shop_images/Group_41487.png"
-          }
-        },
-        "interjection_ETpP8j": {
-          "type": "interjection",
-          "settings": {
-            "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
-            "text_first": false,
-            "image": "shopify://shop_images/BTM_0921.jpg",
-            "preheading": "<p>The day you were born!</p>",
-            "heading": "<p>CELEBRATE YOUR SPECIAL DAY WITH US</p>",
-            "icon": "shopify://shop_images/SocialSociety_BrandIcons_Cheers-CMYK_1.png"
-          }
-        },
-        "interjection_tXQ7mJ": {
-          "type": "interjection",
-          "settings": {
-            "color_scheme": "scheme-baf667b2-e410-4c52-8737-8d80dc8a1f13",
-            "text_first": false,
-            "image": "shopify://shop_images/IMG_5256.jpg",
-            "preheading": "<p>If you're not celebrating....</p>",
-            "heading": "<p>YOU ARE NOT LIVING.</p>",
-            "icon": "shopify://shop_images/Group_41487_34085a96-f556-4331-8cb5-22e2d79dfaec.png"
-          }
-        },
-        "interjection_Gcaxz4": {
-          "type": "interjection",
-          "settings": {
-            "color_scheme": "",
-            "text_first": false,
-            "preheading": "",
-            "heading": ""
-          }
-        }
-      },
-      "block_order": [
-        "interjection_W8CPnq",
-        "interjection_ETpP8j",
-        "interjection_tXQ7mJ",
-        "interjection_Gcaxz4"
-      ],
       "settings": {
         "products_per_page": 24,
         "columns_desktop": 4,
@@ -143,6 +120,55 @@
         "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_4htXjL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yaUpkc": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Social Society",
+            "heading_size": "h0"
+          }
+        },
+        "text_Hy8wNj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Located in Nocatee Town Center in Ponte Vedra Beach, Florida, The Social Society is your one-stop shop for the supplies you need to throw a fabulous party! Find modern tableware and decor; a balloon bar for helium bouquets; grab-and-go garlands; and a variety of unique, thoughtful gifts for hosts and everyday entertaining.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_8kwx6g": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "newsletter_link": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yaUpkc",
+        "text_Hy8wNj",
+        "button_8kwx6g"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/social_society-custom_form-helium_bundles-image-collection-teaser.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-baf667b2-e410-4c52-8737-8d80dc8a1f13",
+        "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -183,8 +209,10 @@
     }
   },
   "order": [
+    "hero_9GdrFf",
     "banner",
     "product-grid",
+    "image_with_text_4htXjL",
     "newsletter_WLUYTe"
   ]
 }

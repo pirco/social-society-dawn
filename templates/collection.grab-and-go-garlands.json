@@ -51,6 +51,54 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_6VcxaU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xqApCB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Custom Grab and Go Garlands",
+            "heading_size": "h1"
+          }
+        },
+        "text_64hyqC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Balloon Hotline is open... Get in touch with our Balloon specialist to create your very own custom Grab and Go Garland!</p>",
+            "text_style": "body"
+          }
+        },
+        "button_FQV7DR": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET IN TOUCH",
+            "button_link": "shopify://pages/custom-form-grab-and-go-garlands",
+            "button_style_secondary": false,
+            "newsletter_link": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xqApCB",
+        "text_64hyqC",
+        "button_FQV7DR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/social-society_custom-form-garlands-image-opt.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
+        "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "newsletter_WLUYTe": {
       "type": "newsletter",
       "blocks": {
@@ -64,7 +112,7 @@
         "paragraph_FtFCgp": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new products and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new products and exclusive offers.</p>"
           }
         },
         "email_form_AXPxHK": {
@@ -89,6 +137,7 @@
   "order": [
     "banner",
     "product-grid",
+    "image_with_text_6VcxaU",
     "newsletter_WLUYTe"
   ]
 }

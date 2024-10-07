@@ -732,7 +732,7 @@ main {
         flex: 1;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         margin-top: 3.9vh;
         max-width: 770px;
 
@@ -1068,8 +1068,47 @@ svg.clips {
       --grid-desktop-vertical-spacing: 65px;
       --grid-mobile-horizontal-spacing: 30px;
       --grid-mobile-vertical-spacing: 45px;
+
+      .product-card-wrapper {
+        .label {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          text-transform: uppercase;
+          z-index: 1;
+          font-size: 16px;
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+          line-height: 1;
+          box-sizing: border-box;
+          text-align: center;
+          display: flex;
+          vertical-align: middle;
+          flex-direction: column;
+          justify-content: center;
+          padding: 3px;
+          font-family: ABCROMCompressed-Heavy, sans-serif;
+          
+          &.deep-blue {
+           background: var(--color-deep-blue);
+            color: var(--color-lime);
+          }
+          &.red {
+           background: var(--color-red);
+            color: var(--color-pink);
+          }
+        }
+      }      
     }
   }
+}
+
+@media screen and (max-width: 749px) {
+    .product-card-wrapper .label {
+        margin-top: -1em;
+        margin-right: -1em;
+    }
 }
 
 .collection-interjection:is(.color-violet) .text {
@@ -1371,8 +1410,14 @@ svg.clips {
       }
 
       .contact__fields input:focus+label.field__label,
+      .contact-form input[type="text"]:focus+label.field__label,
       .contact-form input[type="tel"]:focus+label.field__label,
-      .contact-form textarea:focus+label.field__label {
+      .contact-form input[type="date"]:focus+label.field__label,
+      .contact-form textarea:focus+label.field__label,
+      .custom-form input[type="text"]:focus+label.field__label,
+      .custom-form input[type="tel"]:focus+label.field__label,
+      .custom-form input[type="date"]:focus+label.field__label,
+      .custom-form textarea:focus+label.field__label {
         font-size: 1.1rem;
         top: 0.39em;
       }
@@ -1421,6 +1466,15 @@ svg.clips {
       }
     }
   }
+
+  .custom-balloons {
+    .grid {
+      vertical-align: top; 
+      .contact-form {
+        padding-top: 6px; 
+      }
+    }
+  }
 }
 
 @media (max-width: 749px) {
@@ -1444,6 +1498,9 @@ svg.clips {
   .section-contact {
     .contact-form {
       padding-right: 3rem;
+    }
+    .custom-form {
+      padding-right: 0rem;
     }
   }
 }

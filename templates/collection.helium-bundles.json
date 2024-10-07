@@ -54,6 +54,54 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_j879LD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yYtiKf": {
+          "type": "heading",
+          "settings": {
+            "heading": "CREATE YOUR OWN BUNDLE",
+            "heading_size": "h1"
+          }
+        },
+        "text_NzEFLt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Balloon Hotline is open... Get in touch with our Balloon specialist to create your very own custom Helium Balloon bundle!</p>",
+            "text_style": "body"
+          }
+        },
+        "button_r4Bjfi": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET CREATIVE NOW",
+            "button_link": "shopify://pages/custom-form-helium-bundle",
+            "button_style_secondary": false,
+            "newsletter_link": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yYtiKf",
+        "text_NzEFLt",
+        "button_r4Bjfi"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/social_society-custom_form-helium_bundles-image-collection-teaser.jpg",
+        "height": "medium",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-baf667b2-e410-4c52-8737-8d80dc8a1f13",
+        "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "newsletter_WLUYTe": {
       "type": "newsletter",
       "blocks": {
@@ -67,7 +115,7 @@
         "paragraph_FtFCgp": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new products and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new products and exclusive offers.</p>"
           }
         },
         "email_form_AXPxHK": {
@@ -92,6 +140,7 @@
   "order": [
     "banner",
     "product-grid",
+    "image_with_text_j879LD",
     "newsletter_WLUYTe"
   ]
 }
