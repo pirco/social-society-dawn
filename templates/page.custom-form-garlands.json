@@ -50,54 +50,24 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/social-society_custom-form-garlands-image.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
+            "color_scheme": "scheme-1"
           }
         },
         "slide_MqDRFy": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/bundle_f-cancer_e6b9bba9-d5d4-4ebd-9943-18dacdf97377.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
+            "color_scheme": "scheme-1"
           }
         },
         "slide_XTHJJn": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/737A9286_d2da2a65-f1fe-4281-a8e7-6b49006be644.jpg",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
+            "color_scheme": "scheme-1"
           }
         }
       },
@@ -110,7 +80,7 @@
         "subheading": "",
         "image": "shopify://shop_images/social-society_custom-form-garlands-image.jpg",
         "heading": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6",
         "padding_top": 36,
         "padding_bottom": 36,
         "layout": "full_bleed",
