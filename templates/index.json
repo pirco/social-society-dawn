@@ -117,7 +117,7 @@
       "settings": {
         "image": "shopify://shop_images/BTM_1349.jpg",
         "heading": "<h1>NEW! BALLOON BUNDLES</h1>",
-        "subheading": "<p>Grab one of our helium filled bundles to celebrate any occasion. Pick-Up Only: From our storefront at 300 Pine Lake Drive Suite E104 Ponte Vedra, FL 32081. </p>",
+        "subheading": "<p>Grab one of our helium-filled bundles to celebrate any occasion. Pick-up only from our storefront at 300 Pine Lake Dr., Ste. E104 in Ponte Vedra, FL 32081.</p>",
         "url": "shopify://collections/helium-bundles",
         "button_text": "Shop Now!"
       }
@@ -172,14 +172,14 @@
         "heading_BYdaNx": {
           "type": "heading",
           "settings": {
-            "heading": "YOU'RE CORDIALLY INVITED TO OUR IN-STORE EVENTS!",
+            "heading": "Join us for seasonal fun at The Social Society!",
             "heading_size": "h1"
           }
         },
         "text_MjzkHG": {
           "type": "text",
           "settings": {
-            "text": "<p>You can now celebrate each season with us at our in-store events. Located in Nocatee Town Center in Ponte Vedra Beach, Florida, The Social Society is hosting weekly events for the community. From fall pumpkin painting to cocktail making courses, you can grab your friends for an unforgettable day of creativity and learning.</p>",
+            "text": "<p>Discover festive seasonal events at our Ponte Vedra Beach store in Nocatee Town Center. From fall pumpkin painting to cocktail-making classes, there's something for everyone. Gather your friends and let’s make memories together.</p>",
             "text_style": "body"
           }
         },
