@@ -35,12 +35,18 @@
                   {%- assign limit_items = total_items | minus: 2 -%}
                   {%- assign midpoint = limit_items | divided_by: 2 | ceil -%}
 
+                  <!-- total_items: {{ total_items }}> -->
+                  <!-- limit_items: {{ limit_items }}> -->
+                  <!-- midpoint: {{ midpoint }}> -->
+
                   {% for i in (1..2) %}
                     <ul
                       class="mega-menu__list {% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
                       role="list"
                     >
                       {%- for childlink in link.links limit: limit_items -%}
+                        <!-- forloop: {{ forloop.index }} -->
+
                         {% if i == 1 and forloop.index <= midpoint %}
                           {% assign print = true %}
                         {% elsif i == 2 and forloop.index > midpoint %}
