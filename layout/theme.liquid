@@ -22,6 +22,10 @@
       {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
 
+    {% if handle contains ‘terms-of-service’ %}
+    <meta name=’robots’ content=’noindex’>
+    {% endif %}
+
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
