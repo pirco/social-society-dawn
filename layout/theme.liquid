@@ -21,7 +21,8 @@
       {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
       {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
-
+<!-- page.handle: {{ page.handle }} -->
+    
     {% if page.handle contains 'terms-of-service' %}
     <meta name=’robots’ content=’noindex’>
     {% endif %}
