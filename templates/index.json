@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_Necbeg": {
@@ -15,15 +15,15 @@
         "image_y3DRXL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/bundle_f-cancer_e6b9bba9-d5d4-4ebd-9943-18dacdf97377.jpg"
+            "image": "shopify://shop_images/SOCIALSOCIETYINTERIOR_PRODUCTS-00236.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Join Us in Celebrating</p>",
-            "headline": "<h1>BREAST CANCER AWARENESS MONTH</h1>",
-            "description": "<p>This October, 100% of proceeds from every sale of our F Cancer Balloon Bundle will be donated directly to the <a href=\"https://www.v.org/research-overview/special-funds/clea-shearer-breast-cancer-research-fund/\" target=\"_blank\" title=\"https://www.v.org/research-overview/special-funds/clea-shearer-breast-cancer-research-fund/\">Clea Shearer Breast Cancer Research Fund</a> at the V Foundation, which supports cutting-edge research; raises awareness for early detection; and advocates for accessible screening services for all women. Together, we can make a difference!</p><p><a href=\"/products/f-cancer\" title=\"F Cancer\">SHOP NOW</a></p>"
+            "subtitle": "<p>It isOfficially Time for</p>",
+            "headline": "<h1> OUR END OF SUMMER SALE!</h1>",
+            "description": "<p>Shop 'til you drop! Snag your summer favorites at a discount, whil supplies last.</p><p><a href=\"https://thesocialsociety.com/search?q=sunnylife&options%5Bprefix%5D=last\" title=\"https://thesocialsociety.com/search?q=sunnylife&options%5Bprefix%5D=last\">SHOP NOW</a></p>"
           }
         }
       },
@@ -32,13 +32,13 @@
         "content_wBFytM"
       ],
       "settings": {
-        "color": "pink"
+        "color": "teal"
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "It's Spooky Season!",
+        "title": "Halloween Must Haves",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -50,7 +50,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
+        "color_scheme": "scheme-5",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -69,56 +69,35 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "double-digit-celebration-bundle"
+            "product": "holiday-garland"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "duuuuval-go-jags"
+            "product": "rainbow-garland"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "the-signature-collection"
-          }
-        },
-        "product_FUTTQr": {
-          "type": "product",
-          "settings": {
-            "product": "the-classic-collection"
-          }
-        },
-        "product_hWKkd8": {
-          "type": "product",
-          "settings": {
-            "product": "gender-reveal-balloon"
-          }
-        },
-        "product_irkhwH": {
-          "type": "product",
-          "settings": {
-            "product": "bundle-of-happy"
+            "product": "school-grab-and-go-garland"
           }
         }
       },
       "block_order": [
         "product_Kk8jeW",
         "product_PX6LyV",
-        "product_tPaRHa",
-        "product_FUTTQr",
-        "product_hWKkd8",
-        "product_irkhwH"
+        "product_tPaRHa"
       ],
       "custom_css": [
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/BTM_1349.jpg",
-        "heading": "<h1>NEW! BALLOON BUNDLES</h1>",
-        "subheading": "<p>Grab one of our helium-filled bundles to celebrate any occasion. Pick-up only from our storefront at 300 Pine Lake Dr., Ste. E104 in Ponte Vedra, FL 32081.</p>",
-        "url": "shopify://collections/helium-bundles",
+        "image": "shopify://shop_images/BTM_9501_80002f8c-e9fd-4920-8669-7fd63ba34e29.jpg",
+        "heading": "<h1>NEW! BALLOON GALRANDS</h1>",
+        "subheading": "<p>Visit us in store to design one of our air-filled balloon garlands, perfect for celebrating any occasion or holiday. Pick-up only from our storefront at 300 Pine Lake Dr., Ste. E104 in Ponte Vedra, FL 32081.</p>",
+        "url": "shopify://collections/grab-and-go-garlands",
         "button_text": "Shop Now!"
       }
     },
@@ -172,7 +151,7 @@
         "heading_BYdaNx": {
           "type": "heading",
           "settings": {
-            "heading": "Join us for seasonal fun at The Social Society!",
+            "heading": "sign up now for our In-store events!",
             "heading_size": "h1"
           }
         },
