@@ -104,12 +104,6 @@
     "collections_7dJhJC": {
       "type": "collections",
       "blocks": {
-        "collection_XpmTee": {
-          "type": "collection",
-          "settings": {
-            "collection": "beach-vibes"
-          }
-        },
         "collection_Ubbc9G": {
           "type": "collection",
           "settings": {
@@ -133,14 +127,20 @@
           "settings": {
             "collection": "gifts"
           }
+        },
+        "collection_XpmTee": {
+          "type": "collection",
+          "settings": {
+            "collection": "holidays"
+          }
         }
       },
       "block_order": [
-        "collection_XpmTee",
         "collection_Ubbc9G",
         "collection_hbFYWi",
         "collection_nT9pcz",
-        "collection_h6qtNj"
+        "collection_h6qtNj",
+        "collection_XpmTee"
       ],
       "settings": {
       }
