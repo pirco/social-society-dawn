@@ -31,6 +31,9 @@
         "image_y3DRXL",
         "content_wBFytM"
       ],
+      "custom_css": [
+        "h1 {font-size: calc(4vw + 4vh + 1.23vmin); line-height:calc(4vw + 4vh + 1.23vmin) }"
+      ],
       "settings": {
         "color": "teal"
       }
