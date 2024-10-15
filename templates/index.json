@@ -32,7 +32,7 @@
         "content_wBFytM"
       ],
       "custom_css": [
-        "h1 {font-size: calc(4vw + 4vh + 1.23vmin); line-height:calc(4vw + 4vh + 1.23vmin) }"
+        "h1 {font-size: calc(4vw + 4vh + 1.23vmin); line-height: calc(4vw + 4vh + 1.23vmin);margin: .33em auto 0.13em;}"
       ],
       "settings": {
         "color": "teal"
