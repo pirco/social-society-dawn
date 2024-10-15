@@ -32,7 +32,8 @@
         "content_wBFytM"
       ],
       "custom_css": [
-        "h1 {font-size: calc(4vw + 4vh + 1.23vmin); line-height: calc(4vw + 4vh + 1.23vmin);margin: .33em auto 0.13em;}"
+        "h1 {font-size: calc(4vw + 4vh + 1.23vmin); line-height: calc(4vw + 4vh + 1.23vmin); margin: 0.33em auto 0.13em;}",
+        ".section-hero .section-hero--content .titles {margin-top: 6.9vh; }"
       ],
       "settings": {
         "color": "teal"
