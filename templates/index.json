@@ -33,7 +33,7 @@
       ],
       "custom_css": [
         "h1 {font-size: calc(4vw + 4vh + 1.23vmin); line-height: calc(4vw + 4vh + 1.23vmin); margin: 0.33em auto 0.13em;}",
-        ".section-hero .section-hero--content .titles {margin-top: 6.9vh; }"
+        ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
         "color": "teal"
@@ -99,7 +99,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/BTM_9501_80002f8c-e9fd-4920-8669-7fd63ba34e29.jpg",
-        "heading": "<h1>NEW! BALLOON GALRANDS</h1>",
+        "heading": "<h1>NEW! BALLOON GARLANDS</h1>",
         "subheading": "<p>Visit us in store to design one of our air-filled balloon garlands, perfect for celebrating any occasion or holiday. Pick-up only from our storefront at 300 Pine Lake Dr., Ste. E104 in Ponte Vedra, FL 32081.</p>",
         "url": "shopify://collections/grab-and-go-garlands",
         "button_text": "Shop Now!"
