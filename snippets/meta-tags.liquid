@@ -27,7 +27,8 @@
   {%- else -%}
   <meta property="og:image" content="https://cdn.shopify.com/s/files/1/0684/2875/9265/files/ss_logo.png?v=1729338922">
 {%- endif -%}
-
+  <meta property="og:image" content="https://cdn.shopify.com/s/files/1/0684/2875/9265/files/ss_logo.png?v=1729338922">
+  
 {%- if request.page_type == 'product' -%}
   <meta property="og:price:amount" content="{{ product.price | money_without_currency | strip_html }}">
   <meta property="og:price:currency" content="{{ cart.currency.iso_code }}">
