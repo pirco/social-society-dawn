@@ -15,15 +15,15 @@
         "image_y3DRXL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/SOCIALSOCIETYINTERIOR_PRODUCTS-00236.jpg"
+            "image": "shopify://shop_images/IMG_0252.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>It isOfficially Time for</p>",
-            "headline": "<h1>OUR END OF SUMMER SALE!</h1>",
-            "description": "<p>Shop 'til you drop! Snag your summer favorites at a discount, while supplies last.</p><p><a href=\"https://thesocialsociety.com/search?q=sunnylife&options%5Bprefix%5D=last\" title=\"https://thesocialsociety.com/search?q=sunnylife&options%5Bprefix%5D=last\">SHOP NOW</a></p>"
+            "subtitle": "<p>It's Time To Get Spooky...</p>",
+            "headline": "<h1>HALLOWEEN SALE</h1>",
+            "description": "<p>Shop our Halloween Collection on sale now and let's PARTY this Thursday!</p><p><a href=\"https://thesocialsociety.com/collections/halloween\" title=\"https://thesocialsociety.com/collections/halloween\">SHOP NOW</a></p>"
           }
         }
       },
