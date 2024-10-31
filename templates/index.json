@@ -73,35 +73,56 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "holiday-garland"
+            "product": "christmas-honeycomb-cups-8ct"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "rainbow-garland"
+            "product": "18in_medium_vintage_gold_holiball"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "school-grab-and-go-garland"
+            "product": "32_inch_woody_wagon_with_tree"
+          }
+        },
+        "product_6EfVaf": {
+          "type": "product",
+          "settings": {
+            "product": "candy-cane-stripe-honeycomb-garland"
+          }
+        },
+        "product_GtTH7z": {
+          "type": "product",
+          "settings": {
+            "product": "sleigh_la_vie_cocktail_napkins"
+          }
+        },
+        "product_dTcyYF": {
+          "type": "product",
+          "settings": {
+            "product": "striped_ornament_plates"
           }
         }
       },
       "block_order": [
         "product_Kk8jeW",
         "product_PX6LyV",
-        "product_tPaRHa"
+        "product_tPaRHa",
+        "product_6EfVaf",
+        "product_GtTH7z",
+        "product_dTcyYF"
       ],
       "custom_css": [
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/BTM_9501_80002f8c-e9fd-4920-8669-7fd63ba34e29.jpg",
-        "heading": "<h1>NEW! BALLOON GARLANDS</h1>",
-        "subheading": "<p>Visit us in store to design one of our air-filled balloon garlands, perfect for celebrating any occasion or holiday. Pick-up only from our storefront at 300 Pine Lake Dr., Ste. E104 in Ponte Vedra, FL 32081.</p>",
-        "url": "shopify://collections/grab-and-go-garlands",
+        "image": "shopify://shop_images/IMG_5682_1.jpg",
+        "heading": "<h1>THE HOLIDAYS ARE UPON US</h1>",
+        "subheading": "<p>The most magical time of year is quickly approaching and it's time to stock up on gifts, entertaining essentials, and everything else you need to make this season special. Visit us in stoer</p>",
+        "url": "shopify://collections/holidays",
         "button_text": "Shop Now!"
       }
     },
