@@ -15,15 +15,15 @@
         "image_y3DRXL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_0643.jpg"
+            "image": "shopify://shop_images/DSC_0522_copy.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Election Day Ready!</p>",
-            "headline": "<h1>STARS, STRIPES, & CIVIC RIGHTS</h1>",
-            "description": "<p>Shop our Americana Collection and celebrate in style.</p><p><a href=\"/collections/americana\" title=\"Americana\">SHOP NOW</a></p>"
+            "subtitle": "<p>The Holiday Season is Upon Us!</p>",
+            "headline": "<h1>PARTY, SHOP, & BE MERRY!</h1>",
+            "description": "<p>FREE gift wrap in-store with purchases over $50</p><p><a href=\"/collections/gifts\" title=\"Gifts\">SHOP GIFTS</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "blue"
+        "color": "red"
       }
     },
     "featured_collection": {
