@@ -54,11 +54,14 @@
         "text_M8EU8b",
         "button_6ha93w"
       ],
+      "custom_css": [
+        ".rich-text {margin-bottom: 6vh; }"
+      ],
       "settings": {
         "content_width": "medium",
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
