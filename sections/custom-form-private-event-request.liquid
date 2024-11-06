@@ -75,7 +75,7 @@
         -%}
         {%- form 'contact', id: 'ContactForm', class: contact_form_class -%}
           {%- if form.posted_successfully? -%}
-            <p class="picaresk form-status form-status-list form__message" tabindex="-1" autofocus style="font-size: 125%;">
+            <p class="picaresk form-status form-status-list form__message" tabindex="-1" autofocus style="font-size: 125%; box-shadow: none; border: 0">
               
               {{ 'templates.contact.form.post_success' | t }}
             </p>
