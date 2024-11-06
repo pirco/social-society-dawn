@@ -43,6 +43,17 @@
         "padding_bottom": 28
       }
     },
+    "custom_form_private_event_request_paRkWk": {
+      "type": "custom-form-private-event-request",
+      "settings": {
+        "subheading": "",
+        "image": "shopify://shop_images/BTM_1622.jpg",
+        "heading": "Contact form",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_form_grab_and_go_garlands_h3J3tN": {
       "type": "custom-form-grab-and-go-garlands",
       "blocks": {
@@ -144,6 +155,7 @@
         "slide_4HBfyW",
         "slide_AtK449"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "heading": "",
@@ -213,6 +225,7 @@
   "order": [
     "hero_gVrRz7",
     "main",
+    "custom_form_private_event_request_paRkWk",
     "custom_form_grab_and_go_garlands_h3J3tN",
     "rich_text_7LmjMq"
   ]
