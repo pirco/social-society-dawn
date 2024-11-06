@@ -79,8 +79,6 @@
                     {{ 'newsletter.label' | t }}
                   </label>
                   
-<div class="mc-field-group "><input type="checkbox" name="customer[tags]" id="mce-MMERGE60" value="Local"><label for="mce-MMERGE60" class="visually-hidden">Local</label></div>
-                  
                   <button
                     type="submit"
                     class="newsletter-form__button field__button"
@@ -91,6 +89,9 @@
                     {% render 'icon-arrow' %}
                   </button>
                 </div>
+
+<div class="mc-field-group "><input type="checkbox" name="customer[tags]" id="mce-MMERGE60" value="Local"><label for="mce-MMERGE60">I'm a local</label></div>
+                  
                 {%- if form.errors -%}
                   <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">
                     {%- render 'icon-error' -%}
