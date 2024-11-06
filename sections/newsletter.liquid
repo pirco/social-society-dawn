@@ -101,15 +101,14 @@
                 {%- endif -%}
               </div>
               {%- if form.posted_successfully? -%}
-                <h3
+                <p
                   class="newsletter-form__message newsletter-form__message--success form__message"
                   id="Newsletter-success--{{ section.id }}"
                   tabindex="-1"
-                  autofocus
+                  autofocus style="text-align: center;"
                 >
-                  {% render 'icon-success' -%}
                   {{- 'newsletter.success' | t }}
-                </h3>
+                </p>
               {%- endif -%}
             {% endform %}
           </div>
