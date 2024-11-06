@@ -173,14 +173,24 @@
                 class="field__input"
                 type="text"
                 id="ContactForm-number"
-                name="contact[{{ 'templates.contact.form.number' | t }}]"
+                name="contact[numberOfPeople]"
                 value="{% if form.number %}{{ form.number }}{% elsif customer %}{{ customer.number }}{% endif %}"
-                placeholder="{{ 'templates.contact.form.number' | t }}"
+                placeholder="Number of attendees"
                 aria-required="true"
                 required="required"
               >
-              <label class="field__label" for="ContactForm-number">{{ 'templates.contact.form.number' | t }}</label>
+              <label class="field__label" for="ContactForm-number">Number of attendees (minimum 12, Maximum 18)</label>
             </div>
+              <div class="field" style="margin-bottom: 0;">
+                <input
+                  type="text"
+                  id="ContactForm-teme"
+                  class="field__input"
+                  name="contact[Scheme]"
+                  placeholder="Theme"
+                >
+                <label class="field__label" for="ContactForm-scheme">Theme</label>
+              </div>
           </div>
 
           
