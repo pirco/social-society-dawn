@@ -15,8 +15,8 @@
         "content_HiYGt6": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>The Balloon hotline is open....</p>",
-            "headline": "<p>CREATE YOUR OWN GRAB‑AND‑GO GARLAND</p>",
+            "subtitle": "<p>Plan your Party</p>",
+            "headline": "<p>PRIVATE EVENTS</p>",
             "description": ""
           }
         }
@@ -48,7 +48,7 @@
       "settings": {
         "subheading": "",
         "image": "shopify://shop_images/BTM_1622.jpg",
-        "heading": "Contact form",
+        "heading": "",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
