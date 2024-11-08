@@ -105,7 +105,8 @@
     </div>
 
     <modal-dialog id="PopupModal-event-rsvp" class="event-rsvp">
-      {% form 'contact', return_to: '/pages/thank-you' %}
+      {% form 'contact', return_to: '/pages/thank-you-rsvp' %}
+        <div class="event-title">{{ article.title }}</div>
         {{ form.errors | default_errors }}
         <input type="hidden" name="contact[event_title]" value="{{ article.title }}">
         <input type="hidden" name="contact[event_date]" value="{{ date }}">
