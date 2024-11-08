@@ -13,7 +13,7 @@
   }
 </style>
 
-{% if blog.handle == 'in-store-events' %}
+{% if blog.handle == 'private-events' %}
   {% assign events_blog = true %}
 {% endif %}
 
@@ -105,17 +105,7 @@
     </div>
 
     <modal-dialog id="PopupModal-event-rsvp" class="event-rsvp">
-      {% form 'contact', return_to: '/pages/thank-you-rsvp' %}
-        <style>
-          .event-title {     font-family: ABCROMCompressed-Heavy;
-            font-size: 40px;
-            line-height: 40px;
-            color: var(--color-red);
-            margin-bottom: 20px;
-            white-space: break-spaces;
-            max-width: 400px; }
-        </style>
-        <div class="event-title">{{ article.title }}</div>
+      {% form 'contact', return_to: '/pages/thank-you' %}
         {{ form.errors | default_errors }}
         <input type="hidden" name="contact[event_title]" value="{{ article.title }}">
         <input type="hidden" name="contact[event_date]" value="{{ date }}">
@@ -462,7 +452,7 @@
 
 {% schema %}
 {
-  "name": "Events article",
+  "name": "Private events article",
   "tag": "section",
   "class": "section",
   "settings": [

@@ -15,8 +15,8 @@
         "content_HiYGt6": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>The Balloon hotline is open....</p>",
-            "headline": "<p>CREATE YOUR OWN GRAB‑AND‑GO GARLAND</p>",
+            "subtitle": "<p>Party With Us</p>",
+            "headline": "<p>PRIVATE EVENTS</p>",
             "description": ""
           }
         }
@@ -41,6 +41,40 @@
         "content_width": "medium",
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "rich_text_khzzaw": {
+      "type": "rich-text",
+      "blocks": {
+        "text_ndHjWy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Host a private crafting event with us! Gather your crew for a fun, hands-on experience creating seasonal crafts. Perfect for parties, team-building or a memorable night out, we’ll customize your private event and bring your vision to life. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_ndHjWy"
+      ],
+      "settings": {
+        "content_width": "medium",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_form_private_event_request_paRkWk": {
+      "type": "custom-form-private-event-request",
+      "settings": {
+        "subheading": "",
+        "image": "shopify://shop_images/BTM_1622.jpg",
+        "heading": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "custom_form_grab_and_go_garlands_h3J3tN": {
@@ -144,6 +178,7 @@
         "slide_4HBfyW",
         "slide_AtK449"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "heading": "",
@@ -213,6 +248,8 @@
   "order": [
     "hero_gVrRz7",
     "main",
+    "rich_text_khzzaw",
+    "custom_form_private_event_request_paRkWk",
     "custom_form_grab_and_go_garlands_h3J3tN",
     "rich_text_7LmjMq"
   ]

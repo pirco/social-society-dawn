@@ -10,7 +10,7 @@
 {
   "sections": {
     "main": {
-      "type": "events-article",
+      "type": "private-events-article",
       "blocks": {
         "featured_image": {
           "type": "featured_image",

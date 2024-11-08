@@ -10,7 +10,7 @@
 {
   "sections": {
     "main": {
-      "type": "events-blog",
+      "type": "private-events-blog",
       "settings": {
         "layout": "grid",
         "show_image": true,
@@ -21,34 +21,46 @@
         "padding_bottom": 92
       }
     },
-    "newsletter_gaAUaY": {
-      "type": "newsletter",
+    "rich_text_BD7B4m": {
+      "type": "rich-text",
       "blocks": {
-        "heading_q6cpGd": {
+        "heading_PBBmRn": {
           "type": "heading",
           "settings": {
-            "heading": "JOIN THE PARTY!",
+            "heading": "READY TO CREATE?",
             "heading_size": "h0"
           }
         },
-        "paragraph_3YBRiT": {
-          "type": "paragraph",
+        "text_M8EU8b": {
+          "type": "text",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+            "text": "<p>Contact us to book your seasonal crafting event today!</p>"
           }
         },
-        "email_form_fHcafy": {
-          "type": "email_form",
+        "button_6ha93w": {
+          "type": "button",
           "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify://pages/private-event-request",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_q6cpGd",
-        "paragraph_3YBRiT",
-        "email_form_fHcafy"
+        "heading_PBBmRn",
+        "text_M8EU8b",
+        "button_6ha93w"
+      ],
+      "custom_css": [
+        ".rich-text {margin-bottom: 6vh;}"
       ],
       "settings": {
+        "content_width": "medium",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
         "full_width": true,
         "padding_top": 40,
@@ -58,6 +70,6 @@
   },
   "order": [
     "main",
-    "newsletter_gaAUaY"
+    "rich_text_BD7B4m"
   ]
 }

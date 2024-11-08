@@ -1670,7 +1670,8 @@ svg.clips {
   }
 }
 
-.blog-in-store-events {
+.blog-in-store-events, 
+.blog-private-events {
   .event-hero {
     margin-bottom: 50px;
 
