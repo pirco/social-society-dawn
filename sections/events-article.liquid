@@ -106,6 +106,15 @@
 
     <modal-dialog id="PopupModal-event-rsvp" class="event-rsvp">
       {% form 'contact', return_to: '/pages/thank-you-rsvp' %}
+        <style>
+          .event-title {     font-family: ABCROMCompressed-Heavy;
+            font-size: 40px;
+            line-height: 40px;
+            color: var(--color-red);
+            margin-bottom: 20px;
+            white-space: break-spaces;
+            max-width: 400px; }
+        </style>
         <div class="event-title">{{ article.title }}</div>
         {{ form.errors | default_errors }}
         <input type="hidden" name="contact[event_title]" value="{{ article.title }}">
