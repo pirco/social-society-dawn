@@ -34,9 +34,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "content_width": "medium",
         "padding_top": 28,
@@ -70,7 +68,7 @@
       "type": "custom-form-private-event-request",
       "settings": {
         "subheading": "",
-        "image": "shopify://shop_images/BTM_1622.jpg",
+        "image": "shopify://shop_images/IMG_0243.jpg",
         "heading": "",
         "color_scheme": "",
         "padding_top": 36,
