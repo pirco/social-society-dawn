@@ -73,29 +73,24 @@ header-drawer {
       text-decoration: none;
     }
 
-    >li:nth-child(1) {
+    > li:nth-child(1) {
       --bg-color: var(--color-primary);
     }
 
-    >li:nth-child(2) {
+    > li:nth-child(2) {
       --bg-color: var(--color-blue);
     }
 
-    >li:nth-child(3) {
+    > li:nth-child(3) {
       --bg-color: var(--color-pink);
     }
 
-    >li:nth-child(4) {
+    > li:nth-child(4) {
       --bg-color: var(--color-lime);
     }
 
-    >li:nth-child(5) {
+    > li:nth-child(5) {
       --bg-color: var(--color-teal);
-    }
-
-    >li details[open]>.header__menu-item,
-    >li:hover .header__menu-item {
-      background-color: var(--bg-color);
     }
   }
 
@@ -108,7 +103,7 @@ header-drawer {
     text-decoration: none !important;
     padding: 14px 22px 14px 2px;
 
-    >svg {
+    > svg {
       display: none;
     }
   }
@@ -118,11 +113,10 @@ header-drawer {
   display: flex;
   align-items: center;
 
-  .list-menu-secondary {
-    margin-top: 0;
-    margin-bottom: 0;
-    list-style: none;
-    padding-left: 0;
+  ul.header__submenu {
+    a {
+      padding-left: 22px;
+    }
   }
 
   .header__search {
@@ -262,12 +256,12 @@ body.overflow-hidden {
       text-decoration: none;
     }
 
-    >li {
+    > li {
       padding: 0 30px;
       transition: padding .3s;
       width: 100% !important;
 
-      >a {
+      > a {
         text-transform: uppercase;
         font-weight: bold;
       }
@@ -290,7 +284,7 @@ body.overflow-hidden {
     padding-top: 20px;
     background-color: var(--bg-color);
 
-    >li {
+    > li {
       max-height: 100%;
       min-width: 220px;
 
@@ -334,14 +328,14 @@ footer {
     }
 
     .footer-block--menu {
-      >ul {
+      > ul {
         display: flex;
         flex-direction: column;
 
-        >li {
+        > li {
           margin-bottom: 1rem;
 
-          >a,
+          > a,
           .footer-sub-title {
             font-family: 'Picaresk', sans-serif;
             font-size: 14px;
@@ -349,9 +343,9 @@ footer {
             padding-bottom: 0;
           }
 
-          >ul {
-            >li {
-              >a {
+          > ul {
+            > li {
+              > a {
                 font-size: 14px;
                 line-height: 1.5;
                 letter-spacing: 1.5px;
@@ -394,7 +388,7 @@ footer {
 }
 
 @media screen and (min-width: 750px) {
-  footer .footer__blocks-wrapper .footer-block--menu>ul>li {
+  footer .footer__blocks-wrapper .footer-block--menu > ul > li {
     margin-bottom: 3rem;
   }
 }
@@ -534,11 +528,11 @@ footer {
       }
 
       .footer-block--menu {
-        >ul {
+        > ul {
           flex-direction: row;
           justify-content: space-between;
 
-          >li:first-child {
+          > li:first-child {
             .list-menu__item {
               justify-content: flex-start;
             }
@@ -549,7 +543,7 @@ footer {
           }
 
 
-          >li:last-child {
+          > li:last-child {
             .list-menu__item {
               justify-content: flex-end;
             }
@@ -572,6 +566,7 @@ main {
     font-weight: 600;
     color: var(--color-dark);
   }
+
   button a {
     color: #FFF;
     text-decoration: none;
@@ -847,7 +842,7 @@ svg.clips {
 }
 
 .banner__buttons .button {
-  color: #FFF!important;
+  color: #FFF !important;
 }
 
 .section:not(.section-featured-collection) .product-grid button,
@@ -891,29 +886,29 @@ svg.clips {
   .heading {
     text-align: center;
 
-    >* {
+    > * {
       font-size: 40px;
       margin-bottom: 0;
     }
 
-    >h1 {
+    > h1 {
       font-size: 60px;
       margin-bottom: 0;
     }
 
-    >h2 {
+    > h2 {
       font-size: 48px;
     }
 
-    >h3 {
+    > h3 {
       font-size: 40px;
     }
 
-    >h4 {
+    > h4 {
       font-size: 36px;
     }
 
-    >h5 {
+    > h5 {
       font-size: 32px;
     }
   }
@@ -1089,26 +1084,27 @@ svg.clips {
           justify-content: center;
           padding: 3px;
           font-family: ABCROMCompressed-Heavy, sans-serif;
-          
+
           &.deep-blue {
-           background: var(--color-deep-blue);
+            background: var(--color-deep-blue);
             color: var(--color-lime);
           }
+
           &.red {
-           background: var(--color-red);
+            background: var(--color-red);
             color: var(--color-pink);
           }
         }
-      }      
+      }
     }
   }
 }
 
 @media screen and (max-width: 749px) {
-    .product-card-wrapper .label {
-        margin-top: -1em;
-        margin-right: -1em;
-    }
+  .product-card-wrapper .label {
+    margin-top: -1em;
+    margin-right: -1em;
+  }
 }
 
 .collection-interjection:is(.color-violet) .text {
@@ -1409,15 +1405,15 @@ svg.clips {
         display: block;
       }
 
-      .contact__fields input:focus+label.field__label,
-      .contact-form input[type="text"]:focus+label.field__label,
-      .contact-form input[type="tel"]:focus+label.field__label,
-      .contact-form input[type="date"]:focus+label.field__label,
-      .contact-form textarea:focus+label.field__label,
-      .custom-form input[type="text"]:focus+label.field__label,
-      .custom-form input[type="tel"]:focus+label.field__label,
-      .custom-form input[type="date"]:focus+label.field__label,
-      .custom-form textarea:focus+label.field__label {
+      .contact__fields input:focus + label.field__label,
+      .contact-form input[type="text"]:focus + label.field__label,
+      .contact-form input[type="tel"]:focus + label.field__label,
+      .contact-form input[type="date"]:focus + label.field__label,
+      .contact-form textarea:focus + label.field__label,
+      .custom-form input[type="text"]:focus + label.field__label,
+      .custom-form input[type="tel"]:focus + label.field__label,
+      .custom-form input[type="date"]:focus + label.field__label,
+      .custom-form textarea:focus + label.field__label {
         font-size: 1.1rem;
         top: 0.39em;
       }
@@ -1469,9 +1465,10 @@ svg.clips {
 
   .custom-balloons {
     .grid {
-      vertical-align: top; 
+      vertical-align: top;
+
       .contact-form {
-        padding-top: 6px; 
+        padding-top: 6px;
       }
     }
   }
@@ -1499,6 +1496,7 @@ svg.clips {
     .contact-form {
       padding-right: 3rem;
     }
+
     .custom-form {
       padding-right: 0rem;
     }
@@ -1618,11 +1616,11 @@ svg.clips {
     .article-card {
       flex-direction: row;
 
-      >.card__inner {
+      > .card__inner {
         min-height: 450px;
       }
 
-      >.card__content {
+      > .card__content {
         padding: 20px;
 
         .card__heading {
@@ -1670,7 +1668,7 @@ svg.clips {
   }
 }
 
-.blog-in-store-events, 
+.blog-in-store-events,
 .blog-private-events {
   .event-hero {
     margin-bottom: 50px;

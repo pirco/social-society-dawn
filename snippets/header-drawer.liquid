@@ -183,27 +183,62 @@
                   {%- endif -%}
                 </li>
               {%- endfor -%}
-            </ul>
 
-            <ul class="list-menu-secondary list-menu" role="list">
               {%- for link in section.settings.menu_secondary.links -%}
                 <li>
-                  <a
-                    id="HeaderMenu-{{ link.handle }}"
-                    href="{{ link.url }}"
-                    class="menu-drawer__menu-item list-menu__item link link--text focus-inset"
-                    {% if link.current %}
-                      aria-current="page"
-                    {% endif %}
-                  >
-                    <span
-                      {%- if link.current %}
-                        class="header__active-menu-item"
+                  {%- if link.links != blank -%}
+                    <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
+                      <summary
+                        id="HeaderDrawer-{{ link.handle }}"
+                        class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}"
+                      >
+                        {{ link.title | escape }}
+                        {% render 'icon-arrow' %}
+                        {% render 'icon-caret' %}
+                      </summary>
+                      <div
+                        id="link-{{ link.handle | escape }}"
+                        class="menu-drawer__submenu has-submenu gradient motion-reduce"
+                        tabindex="-1"
+                      >
+                        <div class="menu-drawer__inner-submenu">
+                          <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
+                            {% render 'icon-arrow' %}
+                            {{ link.title | escape }}
+                          </button>
+                          <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                            {%- assign total_items = link.links.size -%}
+                            {%- assign limit_items = total_items -%}
+                            {%- for childlink in link.links limit: limit_items -%}
+                              <li>
+                                <a
+                                  id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
+                                  href="{{ childlink.url }}"
+                                  class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"
+                                  {% if childlink.current %}
+                                    aria-current="page"
+                                  {% endif %}
+                                >
+                                  {{ childlink.title | escape }}
+                                </a>
+                              </li>
+                            {%- endfor -%}
+                          </ul>
+                        </div>
+                      </div>
+                    </details>
+                  {%- else -%}
+                    <a
+                      id="HeaderDrawer-{{ link.handle }}"
+                      href="{{ link.url }}"
+                      class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
+                      {% if link.current %}
+                        aria-current="page"
                       {% endif %}
                     >
-                      {{- link.title | escape -}}
-                    </span>
-                  </a>
+                      {{ link.title | escape }}
+                    </a>
+                  {%- endif -%}
                 </li>
               {%- endfor -%}
             </ul>
