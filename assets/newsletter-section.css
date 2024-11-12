@@ -50,6 +50,7 @@
 }
 
 .local-check { position: relative; text-align: left; }
+.local-check label { margin-left: 2.2em; }
 
 .local-check input {
   position: absolute;
