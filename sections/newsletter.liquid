@@ -91,7 +91,12 @@
                   </button>
                 </div>
 
-                <div class="local-check"><input type="checkbox" name="contact[tags]" id="mce-MMERGE60" value="Locals Only,newsletter"><label for="mce-MMERGE60">I'm a local</label><span class="custom-checkmark"></span></div>
+                <div class="local-check">
+                  <input type="checkbox" name="contact[tags]" id="mce-MMERGE60" value="Locals Only,newsletter">
+                  <label for="mce-MMERGE60">I'm a local
+                    <span class="custom-checkmark"></span>
+                  </label>
+                </div>
                   {% endunless  %}
                 {%- if form.errors -%}
                   <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">
