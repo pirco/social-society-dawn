@@ -49,6 +49,7 @@
   }
 }
 
+.local-check { position: relative; }
 .local-check input {
   position: absolute;
   opacity: 0;
