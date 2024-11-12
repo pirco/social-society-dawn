@@ -67,12 +67,13 @@
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  background-color: #FFF;
+  border: 2px solid #2e159b;
 }
 
 /* On mouse-over, add a grey background color */
 .local-check label:hover input ~ .custom-checkmark {
-  background-color: #FFFFFF;
+  background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
