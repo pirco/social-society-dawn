@@ -49,7 +49,7 @@
   }
 }
 
-.local-check { position: relative; text-align: left; }
+.local-check { position: relative; text-align: left; margin-top: 0.6em }
 .local-check label { margin-left: 2.2em; }
 
 .local-check label input {
