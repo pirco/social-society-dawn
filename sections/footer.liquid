@@ -390,8 +390,14 @@
         >
           SIGN UP
         </button>
-        <div class="mc-field-group "><input type="checkbox" name="contact[tags]" id="mce-MMERGE60" value="Locals Only,newsletter"><label for="mce-MMERGE60">I'm a local</label></div>
 
+                <div class="local-check">
+                  <label for="mce-MMERGE60">I'm a local
+                  <input type="checkbox" name="contact[tags]" id="mce-MMERGE60" value="Locals Only,newsletter">
+                    <span class="custom-checkmark"></span>
+                  </label>
+                </div>
+        
         {%- if form.errors -%}
           <small class="newsletter-form__message form__message" id="ContactFooter-error">
             {%- render 'icon-error' -%}
