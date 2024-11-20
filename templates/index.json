@@ -15,15 +15,15 @@
         "image_y3DRXL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC_0522_copy.jpg"
+            "image": "shopify://shop_images/DSC_6814.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>The Holiday Season is Upon Us!</p>",
-            "headline": "<h1>PARTY, SHOP, & BE MERRY!</h1>",
-            "description": "<p>FREE gift wrap in-store with purchases over $50</p><p><a href=\"/collections/gifts\" title=\"Gifts\">SHOP GIFTS</a></p>"
+            "subtitle": "<p>Gobble Gobble</p>",
+            "headline": "<h1>IT'S TURKEY TIME!</h1>",
+            "description": "<p>SHOP NOW THROUGH THE END OF THE WEEKEND TO GET YOUR THANKSGIVING TABLE SET OR YOUR HOSTESS GIFTS READY TO GO.</p><p><a href=\"https://thesocialsociety.com/collections/thanksgiving\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/thanksgiving\">SHOP THANKSGIVING</a></p>"
           }
         }
       },
