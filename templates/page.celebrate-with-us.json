@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -26,14 +26,14 @@
           "settings": {
             "left_background": "#ffbfe1",
             "left_text_color": "#f5420d",
-            "left_headline": "SPOOK-TACULAR CELEBRATIONS",
-            "left_image": "shopify:\/\/shop_images\/IMG_2793.jpg",
+            "left_headline": "GOBBLE GOBBLE",
+            "left_image": "shopify://shop_images/DSC_6828_copy.jpg",
             "left_image_aspect": "landscape",
-            "left_subtitle": "Trick or Treat!",
+            "left_subtitle": "Gosh We Are Grateful!",
             "right_background": "#f5420d",
             "right_text_color": "#000000",
             "right_icon": "cup",
-            "right_content": "<p><strong>Halloween Fun<\/strong><\/p><p>Plan a boo-tiful bash with hauntingly hip centerpieces, spine-tingling tableware and enough creepy-cute favors to satisfy every ghoul and goblin.<\/p><p><a href=\"\/collections\/halloween\">SHOP HALLOWEEN<\/a><\/p>"
+            "right_content": "<p><strong>THANKSGIVING TABLESCAPES</strong></p><p>We just love  working with our customers to create stylish tablescapes to host their family and friends. For those who are not hosting this year, we adore the gifts you have been choosing to gift to your hostess.</p><p>SHOP <a href=\"https://thesocialsociety.com/collections/thanksgiving\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/thanksgiving\">THANKSGIVING</a> & <a href=\"https://thesocialsociety.com/collections/gifts\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/gifts\">GIFTS</a> HERE</p>"
           }
         },
         "section_gRddeb": {
@@ -42,13 +42,13 @@
             "left_background": "#2e159b",
             "left_text_color": "#d6f254",
             "left_headline": "BALLOONS BABY!",
-            "left_image": "shopify:\/\/shop_images\/IMG_0661.jpg",
+            "left_image": "shopify://shop_images/IMG_0661.jpg",
             "left_image_aspect": "landscape",
             "left_subtitle": "Learn More",
             "right_background": "#d6f254",
             "right_text_color": "#141715",
             "right_icon": "bow",
-            "right_content": "<p>We are so excited to offer helium-filled balloon bundles and grab-and- go garlands for pick up at our shop, located in Nocatee Town Center at 300 Pine Lake Drive.<\/p><p>Browse all of the balloons that we offer by <a href=\"https:\/\/thesocialsociety.com\/pages\/balloons\" target=\"_blank\" title=\"https:\/\/thesocialsociety.com\/pages\/balloons\">clicking here,<\/a> or come on into our shop and we'll help you create the perfect balloon assortment in person!<\/p>"
+            "right_content": "<p>We are so excited to offer helium-filled balloon bundles and grab-and- go garlands for pick up at our shop, located in Nocatee Town Center at 300 Pine Lake Drive.</p><p>Browse all of the balloons that we offer by <a href=\"https://thesocialsociety.com/pages/balloons\" target=\"_blank\" title=\"https://thesocialsociety.com/pages/balloons\">clicking here,</a> or come on into our shop and we'll help you create the perfect balloon assortment in person!</p>"
           }
         },
         "section_fcgkFH": {
@@ -58,13 +58,13 @@
             "left_background": "#141417",
             "left_text_color": "#bfa3de",
             "left_headline": "CUSTOM PARTY BOXES",
-            "left_image": "shopify:\/\/shop_images\/IMG_7757-R.jpg",
+            "left_image": "shopify://shop_images/IMG_7757-R.jpg",
             "left_image_aspect": "landscape",
             "left_subtitle": "We've got you covered!",
             "right_background": "#bfa3de",
             "right_text_color": "#141417",
             "right_icon": "hat",
-            "right_content": "<h2>Our Expert Stylists are Here to Help!<\/h2><p>Create a <em><strong>custom party in a box<\/strong><\/em> for your next event. Our team of  stylists will design, source, curate and ship everything you need for your next celebration. Details like themed paper plates, creative napkins, tailored color palettes and unique decor will not go unnoticed. <a href=\"https:\/\/www.littlemisspartyplanner.com\/blog\/what-is-a-custom-party-in-a-box\" target=\"_blank\" title=\"https:\/\/www.littlemisspartyplanner.com\/blog\/what-is-a-custom-party-in-a-box\">Click here to learn more<\/a> and join the party!<\/p><p><a href=\"\/pages\/party-in-a-box\" title=\"Party in a Box\">REQUEST A QUOTE <\/a><\/p>"
+            "right_content": "<h2>Our Expert Stylists are Here to Help!</h2><p>Create a <em><strong>custom party in a box</strong></em> for your next event. Our team of  stylists will design, source, curate and ship everything you need for your next celebration. Details like themed paper plates, creative napkins, tailored color palettes and unique decor will not go unnoticed. <a href=\"https://www.littlemisspartyplanner.com/blog/what-is-a-custom-party-in-a-box\" target=\"_blank\" title=\"https://www.littlemisspartyplanner.com/blog/what-is-a-custom-party-in-a-box\">Click here to learn more</a> and join the party!</p><p><a href=\"/pages/party-in-a-box\" title=\"Party in a Box\">REQUEST A QUOTE </a></p>"
           }
         },
         "section_jtUBrK": {
@@ -73,13 +73,13 @@
             "left_background": "#c91325",
             "left_text_color": "#a6c4eb",
             "left_headline": "OUR STORE",
-            "left_image": "shopify:\/\/shop_images\/737A8761.jpg",
+            "left_image": "shopify://shop_images/737A8761.jpg",
             "left_image_aspect": "landscape",
             "left_subtitle": "Now Open!",
             "right_background": "#a6c4eb",
             "right_text_color": "#141417",
             "right_icon": "palm",
-            "right_content": "<h2>JOIN THE PARTY!<\/h2><p>We are open and SO excited to welcome you into our colorful, joyful, super-fun SHOP! <\/p><p>From floor to ceiling, our shelves brim with unique tableware, one-of-a-kind favors, and whimsical accents that will transform your home into a festive wonderland. And our gifts? You'll be tempted to keep them for yourself! Let your imagination run wild – we have the perfect pieces to reflect your personal style. Hope to see you in person soon!<\/p>"
+            "right_content": "<h2>JOIN THE PARTY!</h2><p>We are open and SO excited to welcome you into our colorful, joyful, super-fun SHOP! </p><p>From floor to ceiling, our shelves brim with unique tableware, one-of-a-kind favors, and whimsical accents that will transform your home into a festive wonderland. And our gifts? You'll be tempted to keep them for yourself! Let your imagination run wild – we have the perfect pieces to reflect your personal style. Hope to see you in person soon!</p>"
           }
         }
       },
@@ -89,20 +89,19 @@
         "section_fcgkFH",
         "section_jtUBrK"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "172044015753b1f47a": {
       "type": "apps",
       "blocks": {
         "instafeed_app_block_PaEtGd": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
             "alignment": "center",
             "background_color": "",
-            "html_area": "<style>\n#insta-feed h2 {\n  margin-top: 30px;\n  display: block;\n  font-family: \"Picaresk\";\n  text-transform: uppercase;\n  font-size: 16px;\n  font-weight: normal;\n  letter-spacing: 0.03em;\n}\n.custom-insta-block {\n  display: block;\n}\n<\/style>"
+            "html_area": "<style>\n#insta-feed h2 {\n  margin-top: 30px;\n  display: block;\n  font-family: \"Picaresk\";\n  text-transform: uppercase;\n  font-size: 16px;\n  font-weight: normal;\n  letter-spacing: 0.03em;\n}\n.custom-insta-block {\n  display: block;\n}\n</style>"
           }
         }
       },
@@ -118,13 +117,13 @@
       "type": "apps_instafeed",
       "blocks": {
         "instafeed_app_block_9nptQp": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
             "alignment": "center",
             "background_color": "",
-            "html_area": "<script>\ndocument.addEventListener('instafeedAppLoaded', function() {\n    const fullTitle = document.querySelector('#insta-feed h2');\n    const link = document.createElement('a');\n    link.href = 'https:\/\/www.instagram.com\/shopthesocialsociety\/';\n    link.style.color = \"#000\";\n    link.target = \"_blank\";\n    link.innerHTML = fullTitle.innerHTML;\n\n    fullTitle.innerHTML = '';\n    fullTitle.appendChild(link);\n});\n<\/script>"
+            "html_area": "<script>\ndocument.addEventListener('instafeedAppLoaded', function() {\n    const fullTitle = document.querySelector('#insta-feed h2');\n    const link = document.createElement('a');\n    link.href = 'https://www.instagram.com/shopthesocialsociety/';\n    link.style.color = \"#000\";\n    link.target = \"_blank\";\n    link.innerHTML = fullTitle.innerHTML;\n\n    fullTitle.innerHTML = '';\n    fullTitle.appendChild(link);\n});\n</script>"
           }
         }
       },
