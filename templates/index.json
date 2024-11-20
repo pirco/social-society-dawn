@@ -97,7 +97,7 @@
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "sleigh_la_vie_cocktail_napkins"
+            "product": "christmas_peppermint_candy_large_napkins"
           }
         },
         "product_dTcyYF": {
@@ -167,8 +167,7 @@
         "collection_nT9pcz",
         "collection_h6qtNj"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "image_with_text_yRzPPG": {
       "type": "image-with-text",
@@ -254,8 +253,7 @@
         },
         "email_form_WrMiFF": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
