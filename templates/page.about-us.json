@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -74,11 +74,11 @@
             "left_headline": "OUR STORE",
             "left_image": "shopify://shop_images/737A9286_d2da2a65-f1fe-4281-a8e7-6b49006be644.jpg",
             "left_image_aspect": "landscape",
-            "left_subtitle": "We're Open!",
+            "left_subtitle": "Come Say Hi!",
             "right_background": "#a2e0e0",
             "right_text_color": "#000000",
             "right_icon": "hat",
-            "right_content": "<h2>The Social Society</h2><p>We are now officially OPEN! Be sure to sign up for our email list for exclusive offers, announcements, news, store events and so much more. We cannot wait to party with you!</p><p>Follow us <a href=\"https://www.instagram.com/shopthesocialsociety/\"><span style=\"text-decoration:underline\">@shopthesocialsociety</span></a> to stay up to date!</p><p>300 Pine Lake Dr., Ste. E104<br/>Ponte Vedra Beach, FL 32081</p>"
+            "right_content": "<h2>The Social Society</h2><p>Be sure to sign up for our email list for exclusive offers, announcements, news, store events and so much more. We cannot wait to party with you!</p><p>Follow us <a href=\"https://www.instagram.com/shopthesocialsociety/\"><span style=\"text-decoration:underline\">@shopthesocialsociety</span></a> to stay up to date!</p><p>300 Pine Lake Dr., Ste. E104<br/>Ponte Vedra Beach, FL 32081</p>"
           }
         }
       },
@@ -88,8 +88,7 @@
         "section_GJmxQU",
         "section_zBxyTp"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
