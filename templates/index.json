@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "red"
+        "color": "dark"
       }
     },
     "featured_collection": {
@@ -54,7 +54,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
+        "color_scheme": "scheme-356e8cfa-ab1f-4b3d-9881-362ba91759a9",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -132,19 +132,19 @@
         "collection_XjgcqD": {
           "type": "collection",
           "settings": {
-            "collection": "thanksgiving"
+            "collection": "christmas"
           }
         },
         "collection_cHzMAm": {
           "type": "collection",
           "settings": {
-            "collection": "football"
+            "collection": "birthday"
           }
         },
         "collection_XpmTee": {
           "type": "collection",
           "settings": {
-            "collection": "holidays"
+            "collection": "gifts"
           }
         },
         "collection_nT9pcz": {
@@ -156,7 +156,7 @@
         "collection_h6qtNj": {
           "type": "collection",
           "settings": {
-            "collection": "gifts"
+            "collection": "home-decor-1"
           }
         }
       },
