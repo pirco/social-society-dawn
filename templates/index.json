@@ -12,23 +12,23 @@
     "hero_Necbeg": {
       "type": "hero",
       "blocks": {
-        "image_y3DRXL": {
+        "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC_6814.jpg"
+            "image": "shopify://shop_images/IMG_0827.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Gobble Gobble</p>",
-            "headline": "<h1>IT'S TURKEY TIME!</h1>",
-            "description": "<p>SHOP NOW THROUGH THE END OF THE WEEKEND TO GET YOUR THANKSGIVING TABLE SET OR YOUR HOSTESS GIFTS READY TO GO.</p><p><a href=\"https://thesocialsociety.com/collections/thanksgiving\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/thanksgiving\">SHOP THANKSGIVING</a></p>"
+            "subtitle": "<p>Ho Ho Ho</p>",
+            "headline": "<h1>IT'S BLACK FRIDAY!</h1>",
+            "description": "<p>JOIN US FOR OUR BLACK FRIDAY SALE. TAKE 15% OFF YOUR PURCHASE AND RECEIVE A FREE TOTE FOR PURCHASES OVER $75!</p><p>(offer not valid on items already on sale or balloons)</p><p><a href=\"https://thesocialsociety.com/collections/gifts\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/gifts\">SHOP ALL GIFTS NOW</a></p>"
           }
         }
       },
       "block_order": [
-        "image_y3DRXL",
+        "image_YjEcKn",
         "content_wBFytM"
       ],
       "custom_css": [
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "green"
+        "color": "red"
       }
     },
     "featured_collection": {
