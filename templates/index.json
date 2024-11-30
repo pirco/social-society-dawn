@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC_6704_copy.jpg"
+            "image": "shopify://shop_images/DSC_5008.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>It is Small Business</p>",
-            "headline": "<h1>SATURDAY!</h1>",
-            "description": "<p>We are so grateful for our community and the support that we have received since opening. Take 15% off your order today and receive a FREE Pickleball Paddle with purchases over $75!</p><p><a href=\"https://thesocialsociety.com/collections/socially-seri\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/socially-seri\">SHOP NOW</a><br/><em>enter HOLIDAY15 at check out.</em></p>"
+            "subtitle": "<p>Ho Ho Ho </p>",
+            "headline": "<h1>IT'S PARTY TIME!</h1>",
+            "description": "<p>We've officially entered that time of year for celebratory cheer. So many parties, so little time. Let The Social Society help you with all your entertaining needs so you can be a guest at your own party and host with ease this holiday season.</p><p>Shop <a href=\"https://thesocialsociety.com/collections/christmas\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/christmas\">Christmas here</a> and <a href=\"https://thesocialsociety.com/collections/hanukkah\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/hanukkah\">Hanukkah here</a>!</p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "deep-blue"
+        "color": "red"
       }
     },
     "featured_collection": {
@@ -54,7 +54,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-356e8cfa-ab1f-4b3d-9881-362ba91759a9",
+        "color_scheme": "scheme-2ebb493e-a3a2-4910-b4da-e3d9a19027e8",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
