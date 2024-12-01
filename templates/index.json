@@ -135,10 +135,10 @@
             "collection": "christmas"
           }
         },
-        "collection_cHzMAm": {
+        "collection_nT9pcz": {
           "type": "collection",
           "settings": {
-            "collection": "birthday"
+            "collection": "hanukkah"
           }
         },
         "collection_XpmTee": {
@@ -147,10 +147,10 @@
             "collection": "gifts"
           }
         },
-        "collection_nT9pcz": {
+        "collection_cHzMAm": {
           "type": "collection",
           "settings": {
-            "collection": "balloons"
+            "collection": "birthday"
           }
         },
         "collection_h6qtNj": {
@@ -162,9 +162,9 @@
       },
       "block_order": [
         "collection_XjgcqD",
-        "collection_cHzMAm",
-        "collection_XpmTee",
         "collection_nT9pcz",
+        "collection_XpmTee",
+        "collection_cHzMAm",
         "collection_h6qtNj"
       ],
       "settings": {}
