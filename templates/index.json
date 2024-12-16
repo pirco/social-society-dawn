@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC_5008.jpg"
+            "image": "shopify://shop_images/IMG_1256.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Ho Ho Ho </p>",
-            "headline": "<h1>IT'S PARTY TIME!</h1>",
-            "description": "<p>We've officially entered that time of year for celebratory cheer. So many parties, so little time. Let The Social Society help you with all your entertaining needs so you can be a guest at your own party and host with ease this holiday season.<br/><a href=\"https://thesocialsociety.com/collections/christmas\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/christmas\">SHOP NOW!</a></p>"
+            "subtitle": "<p>It's Time to Get</p>",
+            "headline": "<h1>HOLLY JOLLY</h1>",
+            "description": "<p>Gifts, tableware, events, and more! These are only a few things that we have in store.</p><p>We're here to spread joy, so come on by! Shop around, get free wrap, don't be shy.</p><p>We love to party, our merchandise slays. It's your last few days to shop for the holidays!<br/><a href=\"https://thesocialsociety.com/collections/christmas\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/christmas\">SHOP NOW!</a></p>"
           }
         }
       },
@@ -36,25 +36,25 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "red"
+        "color": "pink"
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Our Favorite Gifts",
+        "title": "Gifts Under $20",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "home-decor-1",
+        "collection": "gifts",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-2ebb493e-a3a2-4910-b4da-e3d9a19027e8",
+        "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
