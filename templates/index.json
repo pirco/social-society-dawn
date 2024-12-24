@@ -15,7 +15,7 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_4553.jpg"
+            "image": "shopify://shop_images/IMG_3032.jpg"
           }
         },
         "content_wBFytM": {
@@ -79,41 +79,41 @@
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "menorah_small_plates"
+            "product": "34_inch_anagram_black_number_5"
+          }
+        },
+        "product_chPWxj": {
+          "type": "product",
+          "settings": {
+            "product": "3x6_foil_fringe_curtain_metallic_silver"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "hanukkah_napkins"
+            "product": "gold-stripe-star-plates-8ct"
           }
         },
         "product_6EfVaf": {
           "type": "product",
           "settings": {
-            "product": "latkes_and_lights_candle"
+            "product": "silver-iridescent-tinsel-fringe-garland"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "gold-dinner-plates"
-          }
-        },
-        "product_dTcyYF": {
-          "type": "product",
-          "settings": {
-            "product": "gold_signature_cups"
+            "product": "4_inch_mini_gold_star_sparkler_wands"
           }
         }
       },
       "block_order": [
         "product_Kk8jeW",
         "product_PX6LyV",
+        "product_chPWxj",
         "product_tPaRHa",
         "product_6EfVaf",
-        "product_GtTH7z",
-        "product_dTcyYF"
+        "product_GtTH7z"
       ],
       "custom_css": [
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
@@ -132,7 +132,7 @@
         "collection_XjgcqD": {
           "type": "collection",
           "settings": {
-            "collection": "christmas"
+            "collection": "new-years-eve"
           }
         },
         "collection_nT9pcz": {
@@ -202,15 +202,15 @@
         "button_KcLKFH"
       ],
       "settings": {
-        "image": "shopify://shop_images/DSC_0054.jpg",
+        "image": "shopify://shop_images/DSC08495.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2ebb493e-a3a2-4910-b4da-e3d9a19027e8",
-        "color_scheme": "scheme-2ebb493e-a3a2-4910-b4da-e3d9a19027e8",
+        "section_color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
+        "color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
