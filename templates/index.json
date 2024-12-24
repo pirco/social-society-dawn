@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_1256.jpg"
+            "image": "shopify://shop_images/IMG_4553.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>It's Time to Get</p>",
-            "headline": "<h1>HOLLY JOLLY</h1>",
-            "description": "<p>Gifts, tableware, events, and more! These are only a few things that we have in store.</p><p>We're here to spread joy, so come on by! Shop around, get free wrap, don't be shy.</p><p>We love to party, our merchandise slays. It's your last few days to shop for the holidays!<br/><a href=\"https://thesocialsociety.com/collections/christmas\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/christmas\">SHOP NOW!</a></p>"
+            "subtitle": "<p>Ring In The New Year</p>",
+            "headline": "<h1>IN STYLE</h1>",
+            "description": "<p>Come by to shop for your New Year's Eve decor! We have jumbo \"2025\" number balloons, custom garlands, star plates, banners and more.</p><p><a href=\"/collections/new-years-eve\" title=\"New Years Eve\">SHOP NOW</a></p>"
           }
         }
       },
@@ -36,25 +36,25 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "pink"
+        "color": "violet"
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Gifts Under $20",
+        "title": "Shop Hanukkah",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "gifts",
+        "collection": "hanukkah",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272",
+        "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -73,7 +73,7 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "star_of_david_hanukkah_plates"
+            "product": "34-anagram-black-number-2"
           }
         },
         "product_PX6LyV": {
@@ -119,10 +119,10 @@
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_2095.jpg",
-        "heading": "<h1>LIGHT IT UP</h1>",
-        "subheading": "<p>The most magical time of year is here and at The Social Society we celebrate ALL. This year, Hanukkah is LATE and overlaps with Christmas AND New Years!  We have your entertaining supplies, a unique variety of gifts to buy and Seri's Latke recipe can be found <a href=\"https://flamingomag.com/2024/11/06/seri-kertzner-latkes/?fbclid=IwY2xjawG4b3xleHRuA2FlbQIxMQABHUy-Q8BglFhdqph0XutaFIKH5a1Vf5VxKTMlouCJfTxQBFkXXrdC2wPT7A_aem_vHTCn2KUSSXUOXqj92efjA\" target=\"_blank\" title=\"https://flamingomag.com/2024/11/06/seri-kertzner-latkes/?fbclid=IwY2xjawG4b3xleHRuA2FlbQIxMQABHUy-Q8BglFhdqph0XutaFIKH5a1Vf5VxKTMlouCJfTxQBFkXXrdC2wPT7A_aem_vHTCn2KUSSXUOXqj92efjA\">here</a>.</p>",
-        "url": "shopify://collections/hanukkah",
+        "image": "shopify://shop_images/IMG_4553.jpg",
+        "heading": "<h1>HELLO 2025</h1>",
+        "subheading": "<p>Let's end 2024 on a high note as we welcome in 2025! Fresh beginnings deserve a celebration and we have exactly what you need to throw the ultimate NYE bash.</p>",
+        "url": "shopify://collections/new-years-eve",
         "button_text": "Shop Now!"
       }
     },
