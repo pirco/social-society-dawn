@@ -23,7 +23,7 @@
           "settings": {
             "subtitle": "<p>Let's Play...</p>",
             "headline": "<h1>FAMILY GAME NIGHT!</h1>",
-            "description": "<p>Gathering with friends, family or your networking group for game night is a great way to get cozy on any winter day or night. Whether you tackle a puzzle or play your favorite board game, we've got the party supplies and tableware that you need to host.</p><p><a href=\"/collections/new-years-eve\" title=\"New Years Eve\">SHOP NOW</a></p>"
+            "description": "<p>Gathering with friends, family or your networking group to play games is a great way to get cozy on any winter day or night. Whether you tackle a puzzle or play your favorite board game, we've got the party supplies and tableware that you need to host.</p><p><a href=\"/collections/new-years-eve\" title=\"New Years Eve\">SHOP NOW</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "green"
+        "color": "red"
       }
     },
     "featured_collection": {
@@ -54,7 +54,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
+        "color_scheme": "scheme-5",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -129,43 +129,43 @@
     "collections_7dJhJC": {
       "type": "collections",
       "blocks": {
-        "collection_XjgcqD": {
+        "collection_h6qtNj": {
           "type": "collection",
           "settings": {
-            "collection": "new-years-eve"
-          }
-        },
-        "collection_nT9pcz": {
-          "type": "collection",
-          "settings": {
-            "collection": "hanukkah"
-          }
-        },
-        "collection_XpmTee": {
-          "type": "collection",
-          "settings": {
-            "collection": "gifts"
+            "collection": "lunar-new-year"
           }
         },
         "collection_cHzMAm": {
           "type": "collection",
           "settings": {
-            "collection": "birthday"
+            "collection": "valentines-day"
           }
         },
-        "collection_h6qtNj": {
+        "collection_XpmTee": {
           "type": "collection",
           "settings": {
-            "collection": "home-decor-1"
+            "collection": "football"
+          }
+        },
+        "collection_XjgcqD": {
+          "type": "collection",
+          "settings": {
+            "collection": "anniversary"
+          }
+        },
+        "collection_nT9pcz": {
+          "type": "collection",
+          "settings": {
+            "collection": "baby"
           }
         }
       },
       "block_order": [
-        "collection_XjgcqD",
-        "collection_nT9pcz",
-        "collection_XpmTee",
+        "collection_h6qtNj",
         "collection_cHzMAm",
-        "collection_h6qtNj"
+        "collection_XpmTee",
+        "collection_XjgcqD",
+        "collection_nT9pcz"
       ],
       "settings": {}
     },
@@ -202,15 +202,15 @@
         "button_KcLKFH"
       ],
       "settings": {
-        "image": "shopify://shop_images/DSC08495.jpg",
+        "image": "shopify://shop_images/IMG_9167.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
-        "color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
