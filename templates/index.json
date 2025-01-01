@@ -54,7 +54,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -202,7 +202,7 @@
         "button_KcLKFH"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_9167.jpg",
+        "image": "shopify://shop_images/IMG_2147.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -262,7 +262,7 @@
         "email_form_WrMiFF"
       ],
       "settings": {
-        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
+        "color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
