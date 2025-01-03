@@ -24,16 +24,16 @@
         "section_JwKYtY": {
           "type": "section",
           "settings": {
-            "left_background": "#000000",
-            "left_text_color": "#bfa3de",
-            "left_headline": "NEW YEAR, LET'S CHEER",
-            "left_image": "shopify://shop_images/IMG_1769.jpg",
+            "left_background": "#f5420d",
+            "left_text_color": "#ffbfe1",
+            "left_headline": "LOVE IS IN THE AIR",
+            "left_image": "shopify://shop_images/BTM_0308.jpg",
             "left_image_aspect": "landscape",
-            "left_subtitle": "Make it Sparkle",
-            "right_background": "#bfa3de",
-            "right_text_color": "#000000",
+            "left_subtitle": "xoxo, The Social Society",
+            "right_background": "#ffbfe1",
+            "right_text_color": "#141417",
             "right_icon": "cup",
-            "right_content": "<p><strong>NEW YEARS EVE PARTY PEOPLE</strong></p><p>New Years Eve is a time to celebrate all that we have to be thankful for and a fresh start ahead of us. Pick up essential party supplies at The Social Society for your New Years Eve celebration. Plates, cups, napkins, banners, balloons and more. We'll make sure your evening sparkles.</p><p>SHOP <a href=\"https://thesocialsociety.com/collections/new-years-eve\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/new-years-eve\">NYE</a> HERE</p>"
+            "right_content": "<p><strong>VALENTINE'S DAY IS COMING UP</strong></p><p>There is no better way to say \"I Love You\" than with a special gift or a festive celebration. Whether it's the love for your soulmate, gal pal, mother, or child, finding a way to show that love is what Valentine's Day is all about. From specialty balloons to cards to thoughtful gifts, we have everything you need to make this February 14th a day filled with LOVE.</p><p>SHOP <a href=\"/collections/valentines-day\" title=\"Valentine's Day\">VALENTINE'S DAY</a> HERE</p>"
           }
         },
         "section_gRddeb": {
@@ -101,6 +101,7 @@
             "title_color": "",
             "alignment": "center",
             "background_color": "",
+            "feed_id": "",
             "html_area": "<style>\n#insta-feed h2 {\n  margin-top: 30px;\n  display: block;\n  font-family: \"Picaresk\";\n  text-transform: uppercase;\n  font-size: 16px;\n  font-weight: normal;\n  letter-spacing: 0.03em;\n}\n.custom-insta-block {\n  display: block;\n}\n</style>"
           }
         }
@@ -123,6 +124,7 @@
             "title_color": "",
             "alignment": "center",
             "background_color": "",
+            "feed_id": "",
             "html_area": "<script>\ndocument.addEventListener('instafeedAppLoaded', function() {\n    const fullTitle = document.querySelector('#insta-feed h2');\n    const link = document.createElement('a');\n    link.href = 'https://www.instagram.com/shopthesocialsociety/';\n    link.style.color = \"#000\";\n    link.target = \"_blank\";\n    link.innerHTML = fullTitle.innerHTML;\n\n    fullTitle.innerHTML = '';\n    fullTitle.appendChild(link);\n});\n</script>"
           }
         }
