@@ -24,13 +24,13 @@
         "section_AKDDwg": {
           "type": "section",
           "settings": {
-            "left_background": "#2e159b",
-            "left_text_color": "#d6f254",
-            "left_headline": "WELCOME TO THE PARTY!",
-            "left_image": "shopify://shop_images/BTM_1310.jpg",
+            "left_background": "#c91325",
+            "left_text_color": "#a6c4eb",
+            "left_headline": "ALL ABOUT US",
+            "left_image": "shopify://shop_images/BTM_0558.jpg",
             "left_image_aspect": "landscape",
-            "left_subtitle": "We're so glad you're here...",
-            "right_background": "#d6f254",
+            "left_subtitle": "Welcome to The Social Society!",
+            "right_background": "#a6c4eb",
             "right_text_color": "#141417",
             "right_icon": "cup",
             "right_content": "<h2>Party Perfection, All Under One Roof!</h2><p>Looking to throw an unforgettable bash? The Social Society has you covered! We're your one-stop shop for everything party-related, from trendy tableware and decor to delightful grab-and-go garlands and festive balloon bouquets.</p><p>Find unique gifts for any host or occasion, perfect for everyday entertaining or special celebrations. </p><p>Learn more about the story behind The Social Society <a href=\"https://www.littlemisspartyplanner.com/blog/the-social-society\" title=\"https://www.littlemisspartyplanner.com/blog/the-social-society\">here</a>.</p>"
@@ -39,13 +39,13 @@
         "section_kwiLCU": {
           "type": "section",
           "settings": {
-            "left_background": "#f5420d",
-            "left_text_color": "#ffbfe1",
-            "left_headline": "WHO'S THAT GIRL?",
+            "left_background": "#121212",
+            "left_text_color": "#bfa3de",
+            "left_headline": "MEET OUR FOUNDER",
             "left_image": "shopify://shop_images/SOCIALSOCIETYPARTY-00004.jpg",
             "left_image_aspect": "landscape",
             "left_subtitle": "Seri Kertzner",
-            "right_background": "#ffbfe1",
+            "right_background": "#bfa3de",
             "right_text_color": "#000000",
             "right_icon": "palm",
             "right_content": "<p>My name is Seri Kertzner. My love for entertaining grew from the laughter and warmth of Friday night family dinners. After a successful career in corporate fashion, I traded the runway for the party scene, launching <a href=\"https://www.littlemisspartyplanner.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">Little Miss Party Planner</span></a> and delivering custom “parties in a box” to doorsteps nationwide. After rebranding as <a href=\"https://www.rev-newyork.com/\" target=\"_blank\" title=\"https://www.rev-newyork.com/\"><strong>REV New York</strong></a>— which I continue to run — I produce events and custom-designs for brands like Hallmark Media, L'Oréal Paris, Neutrogena and Essie. The Social Society is my first brick-and-mortar boutique. Filled with one-of-a-kind partyware that’ll be the talk of your next group chat, we feature thoughtfully curated party supplies to elevate your celebrations.</p>"
@@ -54,13 +54,13 @@
         "section_GJmxQU": {
           "type": "section",
           "settings": {
-            "left_background": "#121212",
-            "left_text_color": "#bfa3de",
+            "left_background": "#f5420d",
+            "left_text_color": "#ffbfe1",
             "left_headline": "CUSTOM PARTY BOXES",
             "left_image": "shopify://shop_images/IMG_7757-R.jpg",
             "left_image_aspect": "portrait",
             "left_subtitle": "We've got you covered!",
-            "right_background": "#bfa3de",
+            "right_background": "#ffbfe1",
             "right_text_color": "#000000",
             "right_icon": "bow",
             "right_content": "<h2>Our Expert Stylists are Here to Help!</h2><p>Create a <em><strong>custom party in a box</strong></em> for your next event. Our team of stylists will design, source, curate and ship everything you need for your next celebration. Details like themed paper plates, creative napkins, tailored color palettes and unique decor will not go unnoticed. <a href=\"https://www.littlemisspartyplanner.com/blog/what-is-a-custom-party-in-a-box\" target=\"_blank\" title=\"https://www.littlemisspartyplanner.com/blog/what-is-a-custom-party-in-a-box\">Click here to learn more</a> and join the party!</p><p><a href=\"https://thesocialsociety.com/pages/party-in-a-box\" title=\"Party in a Box\">REQUEST A QUOTE</a></p>"
@@ -71,14 +71,14 @@
           "settings": {
             "left_background": "#085e21",
             "left_text_color": "#a2e0e0",
-            "left_headline": "OUR STORE",
+            "left_headline": "COME ON IN",
             "left_image": "shopify://shop_images/737A9286_d2da2a65-f1fe-4281-a8e7-6b49006be644.jpg",
             "left_image_aspect": "landscape",
-            "left_subtitle": "Come Say Hi!",
+            "left_subtitle": "Shop With us!",
             "right_background": "#a2e0e0",
             "right_text_color": "#000000",
             "right_icon": "hat",
-            "right_content": "<h2>The Social Society</h2><p>Be sure to sign up for our email list for exclusive offers, announcements, news, store events and so much more. We cannot wait to party with you!</p><p>Follow us <a href=\"https://www.instagram.com/shopthesocialsociety/\"><span style=\"text-decoration:underline\">@shopthesocialsociety</span></a> to stay up to date!</p><p>300 Pine Lake Dr., Ste. E104<br/>Ponte Vedra Beach, FL 32081</p>"
+            "right_content": "<h2>The Social Society</h2><p>Be sure to sign up for our email list for exclusive offers, announcements, news, store events and so much more. </p><p>Follow us <a href=\"https://www.instagram.com/shopthesocialsociety/\"><span style=\"text-decoration:underline\">@shopthesocialsociety</span></a> to stay up to date!</p><p>300 Pine Lake Dr., Ste. E104<br/>Ponte Vedra Beach, FL 32081</p><p><strong>Store Hours: </strong></p><p>Monday: Closed<br/>Tuesday - Friday: 11am-6pm <br/>Saturday: 10am-5pm<br/>Sunday: 12pm-4pm</p>"
           }
         }
       },
