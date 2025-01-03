@@ -36,6 +36,21 @@
             "right_content": "<p><strong>VALENTINE'S DAY IS COMING UP</strong></p><p>There is no better way to say \"I Love You\" than with a special gift or a festive celebration. Whether it's the love for your soulmate, gal pal, mother, or child, finding a way to show that love is what Valentine's Day is all about. From specialty balloons to cards to thoughtful gifts, we have everything you need to make this February 14th a day filled with LOVE.</p><p>SHOP <a href=\"/collections/valentines-day\" title=\"Valentine's Day\">VALENTINE'S DAY</a> HERE</p>"
           }
         },
+        "section_jtUBrK": {
+          "type": "section",
+          "settings": {
+            "left_background": "#141417",
+            "left_text_color": "#bfa3de",
+            "left_headline": "IN STORE EVENTS",
+            "left_image": "shopify://shop_images/Screenshot_2025-01-03_at_11.00.45_AM.png",
+            "left_image_aspect": "landscape",
+            "left_subtitle": "Party With Us",
+            "right_background": "#bfa3de",
+            "right_text_color": "#141417",
+            "right_icon": "palm",
+            "right_content": "<h2>JOIN THE PARTY!</h2><p>Our community has been LOVING our in-store events. From thoughtful holiday crafts to learning professional calligraphy, our event attendees have had a blast by getting creative at The Social Society. We are constantly adding new events to our schedule and the tickets sell out quickly! Take a look at the most current events and sign up for our Locals Only Newsletter to stay in the loop.</p><p></p><p>ALL <a href=\"https://thesocialsociety.com/blogs/in-store-events\" title=\"https://thesocialsociety.com/blogs/in-store-events\">IN-STORE EVENTS</a> LISTED HERE</p>"
+          }
+        },
         "section_gRddeb": {
           "type": "section",
           "settings": {
@@ -53,41 +68,25 @@
         },
         "section_fcgkFH": {
           "type": "section",
-          "disabled": true,
           "settings": {
-            "left_background": "#141417",
-            "left_text_color": "#bfa3de",
-            "left_headline": "CUSTOM PARTY BOXES",
-            "left_image": "shopify://shop_images/IMG_7757-R.jpg",
+            "left_background": "#085e21",
+            "left_text_color": "#a2e0e0",
+            "left_headline": "GET INSPIRED",
+            "left_image": "shopify://shop_images/BTM_1186-large.jpg",
             "left_image_aspect": "landscape",
-            "left_subtitle": "We've got you covered!",
-            "right_background": "#bfa3de",
+            "left_subtitle": "Celebrate Every Day",
+            "right_background": "#a2e0e0",
             "right_text_color": "#141417",
             "right_icon": "hat",
-            "right_content": "<h2>Our Expert Stylists are Here to Help!</h2><p>Create a <em><strong>custom party in a box</strong></em> for your next event. Our team of  stylists will design, source, curate and ship everything you need for your next celebration. Details like themed paper plates, creative napkins, tailored color palettes and unique decor will not go unnoticed. <a href=\"https://www.littlemisspartyplanner.com/blog/what-is-a-custom-party-in-a-box\" target=\"_blank\" title=\"https://www.littlemisspartyplanner.com/blog/what-is-a-custom-party-in-a-box\">Click here to learn more</a> and join the party!</p><p><a href=\"/pages/party-in-a-box\" title=\"Party in a Box\">REQUEST A QUOTE </a></p>"
-          }
-        },
-        "section_jtUBrK": {
-          "type": "section",
-          "settings": {
-            "left_background": "#c91325",
-            "left_text_color": "#a6c4eb",
-            "left_headline": "IN STORE EVENTS",
-            "left_image": "shopify://shop_images/Screenshot_2025-01-03_at_11.00.45_AM.png",
-            "left_image_aspect": "landscape",
-            "left_subtitle": "Party With Us",
-            "right_background": "#a6c4eb",
-            "right_text_color": "#141417",
-            "right_icon": "palm",
-            "right_content": "<h2>JOIN THE PARTY!</h2><p>Our community has been LOVING our in-store events. From thoughtful holiday crafts to learning professional calligraphy, our event attendees have had a blast by getting creative at The Social Society. We are constantly adding new events to our schedule and the tickets sell out quickly! Take a look at the most current events and sign up for our Locals Only Newsletter to stay in the loop.</p><p></p><p>ALL <a href=\"https://thesocialsociety.com/blogs/in-store-events\" title=\"https://thesocialsociety.com/blogs/in-store-events\">IN-STORE EVENTS</a> LISTED HERE</p>"
+            "right_content": "<h2>The Social Society Blog</h2><p>Our team of event experts has been planning parties for over 15 years. We are constantly sharing out daily creative ideas on entertaining, style, celebrations and more. Search for our posts on specific holidays & themes or simply catch up on our recent musings. </p><p></p><p>READ <a href=\"https://thesocialsociety.com/blogs/party-like-us\" title=\"https://thesocialsociety.com/blogs/party-like-us\">THE BLOG</a> HERE</p>"
           }
         }
       },
       "block_order": [
         "section_JwKYtY",
+        "section_jtUBrK",
         "section_gRddeb",
-        "section_fcgkFH",
-        "section_jtUBrK"
+        "section_fcgkFH"
       ],
       "settings": {}
     },
