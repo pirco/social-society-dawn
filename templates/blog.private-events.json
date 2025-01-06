@@ -66,10 +66,56 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_3ngqfU": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4wrkFC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/socialsociety_privateEvents.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FERCRG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/socialsociety_privateEvents2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4wrkFC",
+        "column_FERCRG"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_BD7B4m"
+    "rich_text_BD7B4m",
+    "multicolumn_3ngqfU"
   ]
 }
