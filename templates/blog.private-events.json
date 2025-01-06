@@ -96,7 +96,7 @@
         "column_FERCRG"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.multicolumn-card__image-wrapper {margin-left: 0rem; margin-right: 0rem; }}"
+        "@media screen and (min-width: 750px) {.multicolumn-list {column-gap: 0;}}"
       ],
       "settings": {
         "title": "",
