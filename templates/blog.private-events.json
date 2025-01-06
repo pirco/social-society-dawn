@@ -109,10 +109,11 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
+        "page_full_width": true,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 80
+        "padding_bottom": 32
       }
     }
   },
