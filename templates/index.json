@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC_0092_copy.jpg"
+            "image": "shopify://shop_images/BTM_0276.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Let's Play...</p>",
-            "headline": "<h1>FAMILY GAME NIGHT!</h1>",
-            "description": "<p>Gathering with friends, family or your networking group to play games is a great way to get cozy on any winter day or night. Whether you tackle a puzzle or play your favorite board game, we've got the party supplies and tableware that you need to host.</p><p><a href=\"/collections/game-time\" target=\"_blank\" title=\"Play Time\">SHOP NOW</a></p>"
+            "subtitle": "<p>Valentine's Day Is On The Way!</p>",
+            "headline": "<h1>CHEERS TO LOVE</h1>",
+            "description": "<p>Roses are red, violets are blue, we have decor & gifts, just for you! Shop for all the ones you love adn show them just how much you care this Valentine's Day. </p><p><a href=\"/collections/valentines-day\" target=\"_blank\" title=\"Valentine's Day\">SHOP NOW</a></p>"
           }
         }
       },
@@ -36,25 +36,25 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "red"
+        "color": "pink"
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "NEW SEMESTER, NEW SUPPLIES",
+        "title": "We're Here For the Snacks & Drinks",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "back-to-school",
+        "collection": "superbowl",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272",
+        "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -73,37 +73,37 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "16_inch_happy_birthday_rose_gold"
+            "product": "tomato-red-dinner-plates-8ct"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "29-happy-birthday-tiered-cake-balloon"
+            "product": "gold-fringe-party-cups-8pk"
           }
         },
         "product_chPWxj": {
           "type": "product",
           "settings": {
-            "product": "happy_birthday_stars_dinner_plates"
+            "product": "tomato-red-large-napkins-16ct"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "50_jumbo_shaped_napkins"
+            "product": "20-starpoint-metallic-gold-air-filled-balloon"
           }
         },
         "product_6EfVaf": {
           "type": "product",
           "settings": {
-            "product": "happy-birthday-candle-set-13ct"
+            "product": "3x6_foil_fringe_curtain_metallic_red"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "small-happy-birthday-napkins"
+            "product": "4_inch_mini_gold_heart_sparkler_wands"
           }
         }
       },
@@ -119,10 +119,10 @@
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_1794.jpg",
-        "heading": "<h1>HAPPY 2025</h1>",
-        "subheading": "<p>It's a new year and a new you. Let us help relieve you of the stress of party planning. We'll help you with your party decor, tableware and balloons. We also host in-store events and private parties! Come in and meet with our party pros to start planning!</p>",
-        "url": "shopify://collections/birthday",
+        "image": "shopify://shop_images/IMG_8840.jpg",
+        "heading": "<h1>LUNAR NEW YEAR</h1>",
+        "subheading": "<p>2025: The Year of The Snake. It symbolizes growth and self-discovery, which is something to be celebrated. Shop our collection of tableware perfect for any fortune-filled gathering.</p>",
+        "url": "shopify://collections/lunar-new-year",
         "button_text": "JOIN THE PARTY!"
       }
     },
@@ -135,16 +135,16 @@
             "collection": "lunar-new-year"
           }
         },
+        "collection_XpmTee": {
+          "type": "collection",
+          "settings": {
+            "collection": "superbowl"
+          }
+        },
         "collection_cHzMAm": {
           "type": "collection",
           "settings": {
             "collection": "valentines-day"
-          }
-        },
-        "collection_XpmTee": {
-          "type": "collection",
-          "settings": {
-            "collection": "football"
           }
         },
         "collection_XjgcqD": {
@@ -162,8 +162,8 @@
       },
       "block_order": [
         "collection_h6qtNj",
-        "collection_cHzMAm",
         "collection_XpmTee",
+        "collection_cHzMAm",
         "collection_XjgcqD",
         "collection_nT9pcz"
       ],
