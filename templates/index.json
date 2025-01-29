@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BTM_0276.jpg"
+            "image": "shopify://shop_images/IMG_0297_copy.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Valentine's Day Is On The Way!</p>",
-            "headline": "<h1>CHEERS TO LOVE</h1>",
-            "description": "<p>Roses are red, violets are blue, we have decor & gifts, just for you! Shop for all the ones you love and show them just how much you care this Valentine's Day. </p><p><a href=\"/collections/valentines-day\" target=\"_blank\" title=\"Valentine's Day\">SHOP NOW</a></p>"
+            "subtitle": "<p>Let's Get Ready to Rumble</p>",
+            "headline": "<h1>GAME DAY NECESSITIES</h1>",
+            "description": "<p>The biggest watch party of the year is almost here. We have everything you need to host on game day- plates, table runners, cups, and napkins are all here to enhance your table full of epic snacks and drinks.</p><p><a href=\"/collections/football\" target=\"_blank\" title=\"Football\">SHOP NOW</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "pink"
+        "color": "green"
       }
     },
     "featured_collection": {

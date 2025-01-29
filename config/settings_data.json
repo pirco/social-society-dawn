@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "logo": "shopify://shop_images/logo.svg",
@@ -137,44 +137,39 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "12526071353035850722": {
         "type": "shopify://apps/back-in-stock-restock-alerts/blocks/app-embed/bfa6a8c4-24e2-411a-9396-e35031b33f34",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "4981902369724952902": {
         "type": "shopify://apps/vo-product-options/blocks/embed-block/430cbd7b-bd20-4c16-ba41-db6f4c645164",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15014643352720781508": {
         "type": "shopify://apps/wrapped/blocks/app-embed/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
         "disabled": false,
         "settings": {
-          "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
-          "gift_thumbnail_size": 75,
-          "extension_border_color": "#ffffff",
           "extension_background_primary_color": "#ffffff",
           "extension_background_secondary_color": "#f3f3f3",
-          "font_scale": 100,
-          "font_color": "#000000",
+          "extension_border_color": "#ffffff",
           "checkbox_radio_color": "rgba(0,0,0,0)",
+          "font_color": "#000000",
+          "font_scale": 100,
           "background_color": "#ffffff",
           "border_color": "#000000",
-          "border_radius": 0
+          "border_radius": 0,
+          "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
+          "gift_thumbnail_size": 75
         }
       },
       "16735461377607925125": {
         "type": "shopify://apps/rt-terms-and-conditions-box/blocks/app-embed/17661ca5-aeea-41b9-8091-d8f7233e8b22",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
