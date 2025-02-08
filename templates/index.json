@@ -73,37 +73,37 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "tomato-red-dinner-plates-8ct"
+            "product": "red-heart-balloon"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "gold-fringe-party-cups-8pk"
+            "product": "18-birthday-gold-rainbow-balloons"
           }
         },
         "product_chPWxj": {
           "type": "product",
           "settings": {
-            "product": "tomato-red-large-napkins-16ct"
+            "product": "welcomeback_balloon"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "20-starpoint-metallic-gold-air-filled-balloon"
-          }
-        },
-        "product_6EfVaf": {
-          "type": "product",
-          "settings": {
-            "product": "3x6_foil_fringe_curtain_metallic_red"
+            "product": "20_inch_disco_ball_4d_holographic"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "4_inch_mini_gold_heart_sparkler_wands"
+            "product": "17_inch_cube_get_well_feel_better"
+          }
+        },
+        "product_6EfVaf": {
+          "type": "product",
+          "settings": {
+            "product": "25_inch_go_change_the_world_globe"
           }
         }
       },
@@ -112,8 +112,8 @@
         "product_PX6LyV",
         "product_chPWxj",
         "product_tPaRHa",
-        "product_6EfVaf",
-        "product_GtTH7z"
+        "product_GtTH7z",
+        "product_6EfVaf"
       ],
       "custom_css": [
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
