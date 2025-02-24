@@ -119,7 +119,7 @@
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/BTM_0923_039123fd-7e63-4e76-9fe9-025618e2ecaf.jpg",
+        "image": "shopify://shop_images/IMG_1784.jpg",
         "heading": "<h1>BALLOONS BABY!</h1>",
         "subheading": "<p>The Social Society has the most fabulous balloon assortments from themed bundles to milestone birthday numbers. Get in touch to build your next balloon bundle with style and ease.</p>",
         "url": "shopify://collections/balloons",
@@ -129,22 +129,22 @@
     "collections_7dJhJC": {
       "type": "collections",
       "blocks": {
-        "collection_h6qtNj": {
-          "type": "collection",
-          "settings": {
-            "collection": "going-to-the-chapel"
-          }
-        },
         "collection_XpmTee": {
           "type": "collection",
           "settings": {
-            "collection": "football"
+            "collection": "st-patricks-day"
           }
         },
         "collection_cHzMAm": {
           "type": "collection",
           "settings": {
-            "collection": "valentines-day"
+            "collection": "mardi-gras"
+          }
+        },
+        "collection_h6qtNj": {
+          "type": "collection",
+          "settings": {
+            "collection": "going-to-the-chapel"
           }
         },
         "collection_XjgcqD": {
@@ -161,9 +161,9 @@
         }
       },
       "block_order": [
-        "collection_h6qtNj",
         "collection_XpmTee",
         "collection_cHzMAm",
+        "collection_h6qtNj",
         "collection_XjgcqD",
         "collection_nT9pcz"
       ],
@@ -202,7 +202,7 @@
         "button_KcLKFH"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_2147.jpg",
+        "image": "shopify://shop_images/IMG_4606-2.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
