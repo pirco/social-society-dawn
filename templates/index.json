@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_4420.jpg"
+            "image": "shopify://shop_images/IMG_6769.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Celebration at its Finest</p>",
-            "headline": "<h1>MARDI GRAS</h1>",
-            "description": "<p><em>Laissez les bons temps rouler</em> or \"Let the good times roll,\" is the official slogan of Mardi Gras! Now THAT sounds like a holiday we can get behind! <br/><a href=\"/collections/mardi-gras\" target=\"_blank\" title=\"Mardi Gras\">SHOP NOW</a></p>"
+            "subtitle": "<p>Will You Be Our Lucky Charm?</p>",
+            "headline": "<h1>ST. PATRICK'S DAY</h1>",
+            "description": "<p>We're always looking for that pot of gold at the end of the rainbow and celebrating until we get there! Shop our collection of St. Patrick's Day supplies so you can party in style.<br/><a href=\"/collections/st-patricks-day\" target=\"_blank\" title=\"St. Patrick's Day\">SHOP NOW</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "green"
+        "color": "teal"
       }
     },
     "featured_collection": {
@@ -54,7 +54,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6",
+        "color_scheme": "scheme-2ebb493e-a3a2-4910-b4da-e3d9a19027e8",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
