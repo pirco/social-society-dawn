@@ -70,60 +70,60 @@
     "product_compilation_9BKDzm": {
       "type": "product-compilation",
       "blocks": {
-        "product_Kk8jeW": {
-          "type": "product",
-          "settings": {
-            "product": "red-heart-balloon"
-          }
-        },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "18-birthday-gold-rainbow-balloons"
-          }
-        },
-        "product_chPWxj": {
-          "type": "product",
-          "settings": {
-            "product": "welcomeback_balloon"
-          }
-        },
-        "product_tPaRHa": {
-          "type": "product",
-          "settings": {
-            "product": "20_inch_disco_ball_4d_holographic"
+            "product": "fun_starts_now_party_cups"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "17_inch_cube_get_well_feel_better"
+            "product": "blue_striped_tablecloth"
+          }
+        },
+        "product_Kk8jeW": {
+          "type": "product",
+          "settings": {
+            "product": "garden_party_melamine_serving_platter"
+          }
+        },
+        "product_tPaRHa": {
+          "type": "product",
+          "settings": {
+            "product": "beach-hook-pillow"
+          }
+        },
+        "product_chPWxj": {
+          "type": "product",
+          "settings": {
+            "product": "luxe-tube-pool-ring"
           }
         },
         "product_6EfVaf": {
           "type": "product",
           "settings": {
-            "product": "25_inch_go_change_the_world_globe"
+            "product": "party_animal_stainless_steel_tumbler"
           }
         }
       },
       "block_order": [
-        "product_Kk8jeW",
         "product_PX6LyV",
-        "product_chPWxj",
-        "product_tPaRHa",
         "product_GtTH7z",
+        "product_Kk8jeW",
+        "product_tPaRHa",
+        "product_chPWxj",
         "product_6EfVaf"
       ],
       "custom_css": [
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_1859.jpg",
-        "heading": "<h1>BALLOONS BABY!</h1>",
-        "subheading": "<p>The Social Society has the most fabulous balloon assortments from themed bundles to milestone birthday numbers. Get in touch to build your next balloon bundle with style and ease.</p>",
-        "url": "shopify://collections/balloons",
-        "button_text": "UP UP and AWAY!"
+        "image": "shopify://shop_images/IMG_7612.jpg",
+        "heading": "<h1>LET'S GET OUTSIDE!</h1>",
+        "subheading": "<p>Spring is here, which means it's time to host outside! Because you know what's better than throwing a party? Throwing a party in the sun!</p>",
+        "url": "shopify://collections/outdoor-entertaining",
+        "button_text": "Outdoor Entertaining"
       }
     },
     "collections_7dJhJC": {
