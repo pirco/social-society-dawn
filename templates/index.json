@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_4708_3deaaa53-5674-4aea-ab45-f57b05716e3e.jpg"
+            "image": "shopify://shop_images/passover.png"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Spring into Celebration!</p>",
-            "headline": "<h1>Fresh Party Supplies for Every Occasion</h1>",
-            "description": "<p>Celebrate the season of renewal with our vibrant spring party supplies! From pastel decorations to floral tableware, we have everything you need to bring fresh energy and joy to your gatherings. <br/><a href=\"/collections/beach-vibes\" target=\"_blank\" title=\"Beach Vibes\">SHOP NOW</a></p>"
+            "subtitle": "<p>Setting Up For The Seder</p>",
+            "headline": "<h1>A PASSOVER TABLE YOU'LL NEVER FORGET</h1>",
+            "description": "<p>We're celebrating in style with a fabulous selection of spring tableware that will wow your guests.<br/><a href=\"/collections/passover\" target=\"_blank\" title=\"Passover\">SHOP NOW</a></p>"
           }
         }
       },
@@ -36,25 +36,25 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "pink"
+        "color": "deep-blue"
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Passover Prep",
+        "title": "Easter Festivities",
         "heading_size": "h1",
         "description": "",
         "show_description": true,
         "description_style": "body",
-        "collection": "passover",
+        "collection": "easter",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
+        "color_scheme": "scheme-5",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
