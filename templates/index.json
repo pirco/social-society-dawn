@@ -70,60 +70,60 @@
     "product_compilation_9BKDzm": {
       "type": "product-compilation",
       "blocks": {
+        "product_Kk8jeW": {
+          "type": "product",
+          "settings": {
+            "product": "derby-cups"
+          }
+        },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "fun_starts_now_party_cups"
+            "product": "horse-napkins-16ct"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "blue_striped_tablecloth"
+            "product": "lace-dinner0plates"
           }
         },
-        "product_Kk8jeW": {
+        "product_MFARKj": {
           "type": "product",
           "settings": {
-            "product": "garden_party_melamine_serving_platter"
+            "product": "white-lace-napkins"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "beach-hook-pillow"
+            "product": "32_inch_horse_black"
           }
         },
-        "product_chPWxj": {
+        "product_3KKNGf": {
           "type": "product",
           "settings": {
-            "product": "luxe-tube-pool-ring"
-          }
-        },
-        "product_6EfVaf": {
-          "type": "product",
-          "settings": {
-            "product": "party_animal_stainless_steel_tumbler"
+            "product": "gold_signature_cups"
           }
         }
       },
       "block_order": [
+        "product_Kk8jeW",
         "product_PX6LyV",
         "product_GtTH7z",
-        "product_Kk8jeW",
+        "product_MFARKj",
         "product_tPaRHa",
-        "product_chPWxj",
-        "product_6EfVaf"
+        "product_3KKNGf"
       ],
       "custom_css": [
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
         "image": "shopify://shop_images/IMG_7612.jpg",
-        "heading": "<h1>LET'S GET OUTSIDE!</h1>",
-        "subheading": "<p>Spring is here, which means it's time to host outside! Because you know what's better than throwing a party? Throwing a party in the sun!</p>",
-        "url": "shopify://collections/outdoor-entertaining",
-        "button_text": "Outdoor Entertaining"
+        "heading": "<h1>DERBY DAY</h1>",
+        "subheading": "<p>We're off to the races! The fashion, the cocktails, and most importantly, the parties. Celebrate in style with our derby themed supplies!</p>",
+        "url": "shopify://collections/kentucky-derby",
+        "button_text": "Derby Day"
       }
     },
     "collections_7dJhJC": {
