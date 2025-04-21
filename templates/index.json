@@ -129,6 +129,18 @@
     "collections_7dJhJC": {
       "type": "collections",
       "blocks": {
+        "collection_nT9pcz": {
+          "type": "collection",
+          "settings": {
+            "collection": "kentucky-derby"
+          }
+        },
+        "collection_XjgcqD": {
+          "type": "collection",
+          "settings": {
+            "collection": "cinco-de-mayo"
+          }
+        },
         "collection_XpmTee": {
           "type": "collection",
           "settings": {
@@ -146,26 +158,14 @@
           "settings": {
             "collection": "going-to-the-chapel"
           }
-        },
-        "collection_XjgcqD": {
-          "type": "collection",
-          "settings": {
-            "collection": "cinco-de-mayo"
-          }
-        },
-        "collection_nT9pcz": {
-          "type": "collection",
-          "settings": {
-            "collection": "kentucky-derby"
-          }
         }
       },
       "block_order": [
+        "collection_nT9pcz",
+        "collection_XjgcqD",
         "collection_XpmTee",
         "collection_cHzMAm",
-        "collection_h6qtNj",
-        "collection_XjgcqD",
-        "collection_nT9pcz"
+        "collection_h6qtNj"
       ],
       "settings": {}
     },
