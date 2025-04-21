@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_6388.jpg"
+            "image": "shopify://shop_images/IMG_5743.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Hippity Hoppity</p>",
-            "headline": "<h1>HERE COMES EASTER</h1>",
-            "description": "<p>Whether you're the head of the egg hunt committee or the mimosa bar manager, celebrating Easter is even more fun with all the right supplies!<br/><a href=\"/collections/easter\" target=\"_blank\" title=\"Easter\">SHOP NOW</a></p>"
+            "subtitle": "<p>Blame It On The Margaritas</p>",
+            "headline": "<h1>CINCO DE MAYO</h1>",
+            "description": "<p>We're always looking for an excuse to have a fiesta! We have all the colorful tableware perfect for your taco feast and a side of spicy cocktails. <br/><a href=\"/collections/cinco-de-mayo\" target=\"_blank\" title=\"Cinco de Mayo\">SHOP NOW</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "violet"
+        "color": "deep-blue"
       }
     },
     "featured_collection": {
