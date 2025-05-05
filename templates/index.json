@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_5743.jpg"
+            "image": "shopify://shop_images/IMG_5598.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Blame It On The Margaritas</p>",
-            "headline": "<h1>CINCO DE MAYO</h1>",
-            "description": "<p>We're always looking for an excuse to have a fiesta! We have all the colorful tableware perfect for your taco feast with a side of spicy cocktails. <br/><a href=\"/collections/cinco-de-mayo\" target=\"_blank\" title=\"Cinco de Mayo\">SHOP NOW</a></p>"
+            "subtitle": "<p>Last Minute Gifting</p>",
+            "headline": "<h1>MOTHER'S DAY IS ON THE WAY</h1>",
+            "description": "<p>Give Mom the gifts she deserves. From journals to shower steamers, candles to homewares, we've got something for every mom out there!<br/><a href=\"/collections/mothers-day\" target=\"_blank\" title=\"Mother's Day\">SHOP NOW</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "deep-blue"
+        "color": "teal"
       }
     },
     "featured_collection": {
