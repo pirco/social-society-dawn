@@ -152,23 +152,23 @@ document.addEventListener('DOMContentLoaded', () => {
   const formContainer = document.querySelector('#app-embed');
 
   const observer = new MutationObserver((mutationsList, observer) => {
-  const form = document.querySelector('form-embed');
-
-if (form) {
-  observer.disconnect();
-  const shadow = form.shadowRoot;
-
-  const sheet = new CSSStyleSheet();
-  sheet.insertRule(`
-    input, button[aria-expanded], textarea {
-      border-radius: 0px !important;
+    const form = document.querySelector('form-embed');
+  
+    if (form) {
+      observer.disconnect();
+      const shadow = form.shadowRoot;
+    
+      const sheet = new CSSStyleSheet();
+      sheet.insertRule(`
+        input, button[aria-expanded], textarea {
+          border-radius: 0px !important;
+        }
+      `);
+    
+      shadow.adoptedStyleSheets.push(sheet);
+      formContainer.classList.add('loaded');
     }
-  `);
-
-  shadow.adoptedStyleSheets.push(sheet);
-  formContainer.classList.add('loaded');
-}
-});
-
-observer.observe(document.body, { childList: true, subtree: true });
+  });
+  
+  observer.observe(document.body, { childList: true, subtree: true });
 });
