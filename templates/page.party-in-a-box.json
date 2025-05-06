@@ -118,8 +118,7 @@
         "forms_inline_khnxw8"
       ],
       "custom_css": [
-        "._formFieldset_1ll8d_67 button[type=\"submit\"] {border-radius: 50% !important;}",
-        "._formContainer_stahb_30 > form > div > * {font-family: \"Figtree\", sans-serif !important;}"
+        "._formFieldset_1ll8d_67 button[type=\"submit\"] {border-radius: 50% !important;}"
       ],
       "settings": {
         "include_margins": true
@@ -127,6 +126,9 @@
     },
     "custom_liquid_qpfcQh": {
       "type": "custom-liquid",
+      "custom_css": [
+        "form-embed {/* Replace with your font stack */ --forms-heading-font: 'Figtree', sans-serif; --forms-body-font: 'Figtree', sans-serif; border-radius: 0!important; }"
+      ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<!-- Put this in your <head> or just above your embed code -->\n<style>\n  form-embed {\n    /* Replace with your font stack */\n    --forms-heading-font: 'Figtree', sans-serif;\n    --forms-body-font: 'Figtree', sans-serif;\n    border-radius: 0!important;\n  }\n</style>\n<script src=\"https://cdn.shopify.com/shopifycloud/forms/v2.0/form.js\"></script>\n<!-- Use your form’s real ID here -->\n<form-embed data-form-id=\"135733\"></form-embed>",
