@@ -1,20 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "content_width": "medium",
         "padding_top": 28,
@@ -27,15 +25,15 @@
         "image_MCVYwW": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_7783.jpg"
+            "image": "shopify://shop_images/IMG_7783.jpg"
           }
         },
         "content_cdi8dC": {
           "type": "content",
           "settings": {
             "subtitle": "",
-            "headline": "<p>PARTY IN A BOX<\/p>",
-            "description": "<p>Create a custom party in box for your next event. Our team of expert stylists will design, source, curate and ship everything you need for your next celebration. Details like custom menus, thoughtful favor bags, thoughtful color palettes and unique decor will not go unnoticed. Please fill out the form below to give us more details about your party.<\/p>"
+            "headline": "<p>PARTY IN A BOX</p>",
+            "description": "<p>Create a custom party in box for your next event. Our team of expert stylists will design, source, curate and ship everything you need for your next celebration. Details like custom menus, thoughtful favor bags, thoughtful color palettes and unique decor will not go unnoticed. Please fill out the form below to give us more details about your party.</p>"
           }
         }
       },
@@ -63,7 +61,7 @@
         "text_NbMgcW": {
           "type": "text",
           "settings": {
-            "text": "<p>Create a custom party in box for your next event. Our team of expert stylists will design, source, curate and ship everything you need for your next celebration. Details like custom menus, thoughtful favor bags, thoughtful color palettes and unique decor will not go unnoticed. Please fill out the form below to give us more details about your party.<\/p>"
+            "text": "<p>Create a custom party in box for your next event. Our team of expert stylists will design, source, curate and ship everything you need for your next celebration. Details like custom menus, thoughtful favor bags, thoughtful color palettes and unique decor will not go unnoticed. Please fill out the form below to give us more details about your party.</p>"
           }
         },
         "button_NkmxUp": {
@@ -99,7 +97,7 @@
       "type": "apps",
       "blocks": {
         "forms_inline_khnxw8": {
-          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
             "form_id": "135733",
             "text_color": "#202020",
@@ -120,10 +118,21 @@
         "forms_inline_khnxw8"
       ],
       "custom_css": [
-        "._formFieldset_1ll8d_67 button[type=\"submit\"] {border-radius: 50%!important;}"
+        "._formFieldset_1ll8d_67 button[type=\"submit\"] {border-radius: 50% !important;}",
+        "._formContainer_stahb_30 > form > div > * {font-family: \"Figtree\", sans-serif !important;}"
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "custom_liquid_qpfcQh": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!-- Put this in your <head> or just above your embed code -->\n<style>\n  form-embed {\n    /* Replace with your font stack */\n    --forms-heading-font: 'Figtree', sans-serif;\n    --forms-body-font: 'Figtree', sans-serif;\n    border-radius: 0!important;\n  }\n</style>\n<script src=\"https://cdn.shopify.com/shopifycloud/forms/v2.0/form.js\"></script>\n<!-- Use your form’s real ID here -->\n<form-embed data-form-id=\"135733\"></form-embed>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -131,6 +140,7 @@
     "main",
     "hero_d3KhmV",
     "rich_text_7LmjMq",
-    "1720517278771de6d8"
+    "1720517278771de6d8",
+    "custom_liquid_qpfcQh"
   ]
 }
