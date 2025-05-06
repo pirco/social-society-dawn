@@ -48,6 +48,117 @@
         "color": "violet"
       }
     },
+    "multicolumn_cmfegg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_L8gpBi": {
+          "type": "column",
+          "settings": {
+            "title": "PRICING STARTS AT $200",
+            "text": "<p>Glampsite for 2:  $200<br/>Glampsite for 3:  $250<br/>Glampsite for 4:  $300<br/>Glampsite for 5:  $350<br/>Glampsite for 6:  $400<br/>Glampsite for 7:  $450<br/>Glampsite for 8:  $500</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ebk4eh": {
+          "type": "column",
+          "settings": {
+            "title": "GLAMPSITES INCLUDE",
+            "text": "<p>Tent<br/>Mattress<br/>Sheet<br/>Blanket<br/>Tray<br/>Pillows</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3QqUNJ": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_L8gpBi",
+        "column_ebk4eh",
+        "column_3QqUNJ"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "page_full_width": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_qikUNm": {
+      "type": "multirow",
+      "blocks": {
+        "row_gxEF9G": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Glampsite for 2:  $200<br/>Glampsite for 3:  $250<br/>Glampsite for 4:  $300<br/>Glampsite for 5:  $350<br/>Glampsite for 6:  $400<br/>Glampsite for 7:  $450<br/>Glampsite for 8:  $500</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_8czPFY": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_RAEWrp": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_gxEF9G",
+        "row_8czPFY",
+        "row_RAEWrp"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_7LmjMq": {
       "type": "rich-text",
       "blocks": {
@@ -138,6 +249,8 @@
   "order": [
     "main",
     "hero_d3KhmV",
+    "multicolumn_cmfegg",
+    "multirow_qikUNm",
     "rich_text_7LmjMq",
     "custom_liquid_WEU3aq",
     "1720517278771de6d8"
