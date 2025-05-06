@@ -55,7 +55,7 @@
           "type": "column",
           "settings": {
             "title": "PRICING STARTS AT $200",
-            "text": "<p>Glampsite for 2:  $200<br/>Glampsite for 3:  $250<br/>Glampsite for 4:  $300<br/>Glampsite for 5:  $350<br/>Glampsite for 6:  $400<br/>Glampsite for 7:  $450<br/>Glampsite for 8:  $500</p>",
+            "text": "<p>Glampsite for 2:  $200<br/>Glampsite for 3:  $250<br/>Glampsite for 4:  $300<br/>Glampsite for 5:  $350<br/>Glampsite for 6:  $400<br/>Glampsite for 7:  $450<br/>Glampsite for 8:  $500</p><p><em> </em></p><p><em>Includes delivery in Ponte Vedra Beach, full set up, breakdown & haul away the following day.</em></p>",
             "link_label": "",
             "link": ""
           }
@@ -63,7 +63,7 @@
         "column_ebk4eh": {
           "type": "column",
           "settings": {
-            "title": "GLAMPSITES INCLUDE",
+            "title": "GLAMPSITES INCLUDE:",
             "text": "<p>Tent<br/>Mattress<br/>Sheet<br/>Blanket<br/>Tray<br/>Pillows</p>",
             "link_label": "",
             "link": ""
@@ -72,8 +72,8 @@
         "column_3QqUNJ": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "ADD-ON OPTIONS:",
+            "text": "<p>Balloon toppers for each teepee<br/>Balloon Garland<br/>Themed tableware<br/>Themed decor and balloons<br/>  Activity </p>",
             "link_label": "",
             "link": ""
           }
@@ -86,75 +86,19 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
+        "title": "",
+        "heading_size": "h0",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
         "page_full_width": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_qikUNm": {
-      "type": "multirow",
-      "blocks": {
-        "row_gxEF9G": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Glampsite for 2:  $200<br/>Glampsite for 3:  $250<br/>Glampsite for 4:  $300<br/>Glampsite for 5:  $350<br/>Glampsite for 6:  $400<br/>Glampsite for 7:  $450<br/>Glampsite for 8:  $500</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_8czPFY": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_RAEWrp": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_gxEF9G",
-        "row_8czPFY",
-        "row_RAEWrp"
-      ],
-      "name": "t:sections.multirow.presets.name",
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -172,7 +116,7 @@
         "text_NbMgcW": {
           "type": "text",
           "settings": {
-            "text": "<p>Create a custom party in box for your next event. Our team of expert stylists will design, source, curate and ship everything you need for your next celebration. Details like custom menus, thoughtful favor bags, thoughtful color palettes and unique decor will not go unnoticed. Please fill out the form below to give us more details about your party.</p>"
+            "text": "<p>We require a $150 deposit at time of booking.</p>"
           }
         },
         "button_NkmxUp": {
@@ -250,7 +194,6 @@
     "main",
     "hero_d3KhmV",
     "multicolumn_cmfegg",
-    "multirow_qikUNm",
     "rich_text_7LmjMq",
     "custom_liquid_WEU3aq",
     "1720517278771de6d8"
