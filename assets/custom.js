@@ -149,10 +149,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  const formContainer = document.querySelector('.form-container');
+  const formContainer = document.querySelector('#app-embed');
 
   const observer = new MutationObserver((mutationsList, observer) => {
-  const form = document.querySelector('#app-embed');
+  const form = document.querySelector('form-embed');
 
 if (form) {
   observer.disconnect();
