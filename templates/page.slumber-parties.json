@@ -25,7 +25,7 @@
         "image_MCVYwW": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_7783.jpg"
+            "image": "shopify://shop_images/IMG_4592.jpg"
           }
         },
         "content_cdi8dC": {
@@ -82,7 +82,6 @@
         "text_NbMgcW",
         "button_NkmxUp"
       ],
-      "disabled": true,
       "settings": {
         "content_width": "medium",
         "desktop_content_position": "center",
