@@ -64,7 +64,7 @@
         "column_ebk4eh": {
           "type": "column",
           "settings": {
-            "title": "GLAMPSITES INCLUDE:",
+            "title": "<strong>GLAMPSITES INCLUDE:</strong>",
             "text": "<p>Tent<br/>Mattress<br/>Sheet<br/>Blanket<br/>Tray<br/>Pillows</p>",
             "sub_text": "",
             "link_label": "",
@@ -74,7 +74,7 @@
         "column_3QqUNJ": {
           "type": "column",
           "settings": {
-            "title": "ADD-ON OPTIONS:",
+            "title": "<strong>ADD-ON OPTIONS:</strong>",
             "text": "<p>Balloon toppers for each teepee<br/>Balloon Garland<br/>Themed tableware<br/>Themed decor and balloons<br/>  Activity </p>",
             "sub_text": "",
             "link_label": "",
@@ -86,6 +86,9 @@
         "column_L8gpBi",
         "column_ebk4eh",
         "column_3QqUNJ"
+      ],
+      "custom_css": [
+        "h3 strong {font-size: 1.2em;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
