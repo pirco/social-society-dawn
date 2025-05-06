@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-
+/* trying to customize Forms App embed but doesn't seem to work: https://community.shopify.com/c/shopify-apps/using-the-forms-app-impossible-to-style-forms-to-match-rest-of/m-p/2634018/highlight/true */
 document.addEventListener('DOMContentLoaded', () => {
   const formContainer = document.querySelector('#app-embed');
 
