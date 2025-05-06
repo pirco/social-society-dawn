@@ -119,21 +119,10 @@
       ],
       "custom_css": [
         "._formFieldset_1ll8d_67 button[type=\"submit\"] {border-radius: 50% !important;}",
-        "#ATTZDSWRWSFdDQXBaM__forms_inline_khnxw8 {font-family: \"Figtree\";}"
+        "#ATTZDSWRWSFdDQXBaM__forms_inline_khnxw8 > * {font-family: \"Figtree\";}"
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "custom_liquid_qpfcQh": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<!-- Put this in your <head> or just above your embed code -->\n<style>\n  #ATTZDSWRWSFdDQXBaM__forms_inline_khnxw8 {\n    /* Replace with your font stack */\n    --forms-heading-font: 'Figtree', sans-serif;\n    --forms-body-font: 'Figtree', sans-serif;\n    border-radius: 0!important;\n  }\n</style>\n<script src=\"https://cdn.shopify.com/shopifycloud/forms/v2.0/form.js\"></script>\n<!-- Use your form’s real ID here -->\n<form-embed data-form-id=\"135733\"></form-embed>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
@@ -141,7 +130,6 @@
     "main",
     "hero_d3KhmV",
     "rich_text_7LmjMq",
-    "1720517278771de6d8",
-    "custom_liquid_qpfcQh"
+    "1720517278771de6d8"
   ]
 }
