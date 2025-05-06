@@ -54,7 +54,7 @@
         "column_L8gpBi": {
           "type": "column",
           "settings": {
-            "title": "PRICING STARTS AT $200",
+            "title": "<strong>PRICING STARTS AT $200</strong>",
             "text": "<p>Glampsite for 2:  $200<br/>Glampsite for 3:  $250<br/>Glampsite for 4:  $300<br/>Glampsite for 5:  $350<br/>Glampsite for 6:  $400<br/>Glampsite for 7:  $450<br/>Glampsite for 8:  $500</p><p></p>",
             "sub_text": "<p><em>Includes delivery in Ponte Vedra Beach, full set up, breakdown & haul away the following day.</em></p>",
             "link_label": "",
@@ -66,7 +66,7 @@
           "settings": {
             "title": "GLAMPSITES INCLUDE:",
             "text": "<p>Tent<br/>Mattress<br/>Sheet<br/>Blanket<br/>Tray<br/>Pillows</p>",
-            "sub_text": "<p>Smaller text</p>",
+            "sub_text": "",
             "link_label": "",
             "link": ""
           }
@@ -76,7 +76,7 @@
           "settings": {
             "title": "ADD-ON OPTIONS:",
             "text": "<p>Balloon toppers for each teepee<br/>Balloon Garland<br/>Themed tableware<br/>Themed decor and balloons<br/>  Activity </p>",
-            "sub_text": "<p>Smaller text</p>",
+            "sub_text": "",
             "link_label": "",
             "link": ""
           }
