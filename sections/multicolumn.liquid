@@ -125,6 +125,17 @@
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
+
+                <h4>Raw HTML debug:</h4>
+  <pre style="white-space: pre-wrap; background: #f8f8f8; padding: 1em;">
+    {{ block.settings.text | escape }}
+  </pre>
+  <h4>Rendered output:</h4>
+  <div class="rte">
+    {{ block.settings.text }}
+  </div>
+
+                  
                   <div class="rte">{{ block.settings.text | newline_to_br }}</div>
                 {%- endif -%}
                 {%- if block.settings.sub_text != blank -%}
