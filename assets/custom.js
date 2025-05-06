@@ -146,29 +146,3 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
-
-/* trying to customize Forms App embed but doesn't seem to work: https://community.shopify.com/c/shopify-apps/using-the-forms-app-impossible-to-style-forms-to-match-rest-of/m-p/2634018/highlight/true */
-document.addEventListener('DOMContentLoaded', () => {
-  const formContainer = document.querySelector('#app-embed');
-
-  const observer = new MutationObserver((mutationsList, observer) => {
-    const form = document.querySelector('form-embed');
-  
-    if (form) {
-      observer.disconnect();
-      const shadow = form.shadowRoot;
-    
-      const sheet = new CSSStyleSheet();
-      sheet.insertRule(`
-        input, button[aria-expanded], textarea {
-          border-radius: 0px !important;
-        }
-      `);
-    
-      shadow.adoptedStyleSheets.push(sheet);
-      formContainer.classList.add('loaded');
-    }
-  });
-  
-  observer.observe(document.body, { childList: true, subtree: true });
-});
