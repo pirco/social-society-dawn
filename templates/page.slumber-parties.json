@@ -91,7 +91,7 @@
       ],
       "custom_css": [
         "h3 strong {font-size: 1.2em;}",
-        ".multicolumn-list p {margin: 0.6em 0 1em; }"
+        ".multicolumn-list p {margin: 0.6em 0 1em;line-height: 1.5;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
