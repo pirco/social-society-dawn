@@ -118,11 +118,21 @@
         "forms_inline_khnxw8"
       ],
       "custom_css": [
-        "._formFieldset_1ll8d_67 button[type=\"submit\"] {border-radius: 50% !important;}",
-        "#ATTZDSWRWSFdDQXBaM__forms_inline_khnxw8 > * {font-family: \"Figtree\";}"
+        "._formFieldset_1ll8d_67 button[type=\"submit\"] {border-radius: 50% !important;}"
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "custom_liquid_WEU3aq": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script>\n  window.formStyles || (window.formStyles = new Map);\n  formStyles.set('custom-font-rules', `\n    h2 {\n      font-family: \"Figtree\", sans-serif !important;\n    }\n  `);\n</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -130,6 +140,7 @@
     "main",
     "hero_d3KhmV",
     "rich_text_7LmjMq",
-    "1720517278771de6d8"
+    "1720517278771de6d8",
+    "custom_liquid_WEU3aq"
   ]
 }
