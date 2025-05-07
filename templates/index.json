@@ -15,13 +15,13 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_4971.jpg"
+            "image": "shopify://shop_images/IMG_5579.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>The Future Is Bright</p>",
+            "subtitle": "<p>Go Get 'Em, Tiger</p>",
             "headline": "<h1>CONGRATS GRADS</h1>",
             "description": "<p>Graduation season is upon us! Show your grad how proud you are with custom balloons, specialty party decor, and gifts to usher them into this new season of life.<br/><a href=\"/collections/graduation-1\" target=\"_blank\" title=\"Graduation\">SHOP NOW</a></p>"
           }
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "deep-blue"
+        "color": "violet"
       }
     },
     "featured_collection": {
