@@ -129,22 +129,22 @@
     "collections_7dJhJC": {
       "type": "collections",
       "blocks": {
+        "collection_XpmTee": {
+          "type": "collection",
+          "settings": {
+            "collection": "mothers-day"
+          }
+        },
         "collection_nT9pcz": {
           "type": "collection",
           "settings": {
-            "collection": "kentucky-derby"
+            "collection": "americana"
           }
         },
         "collection_XjgcqD": {
           "type": "collection",
           "settings": {
-            "collection": "cinco-de-mayo"
-          }
-        },
-        "collection_XpmTee": {
-          "type": "collection",
-          "settings": {
-            "collection": "mothers-day"
+            "collection": "beach-vibes"
           }
         },
         "collection_cHzMAm": {
@@ -161,9 +161,9 @@
         }
       },
       "block_order": [
+        "collection_XpmTee",
         "collection_nT9pcz",
         "collection_XjgcqD",
-        "collection_XpmTee",
         "collection_cHzMAm",
         "collection_h6qtNj"
       ],
