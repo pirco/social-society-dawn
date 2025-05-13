@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_5598.jpg"
+            "image": "shopify://shop_images/IMG_5579.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Last Minute Gifting</p>",
-            "headline": "<h1>MOTHER'S DAY IS ON THE WAY</h1>",
-            "description": "<p>Give Mom the gifts she deserves. From journals to shower steamers, candles to homewares, we've got something for every mom out there!<br/><a href=\"/collections/mothers-day\" target=\"_blank\" title=\"Mother's Day\">SHOP NOW</a></p>"
+            "subtitle": "<p>Go Get 'Em, Tiger</p>",
+            "headline": "<h1>CONGRATS GRADS</h1>",
+            "description": "<p>Graduation season is upon us! Show your grad how proud you are with custom balloons, specialty party decor, and gifts to usher them into this new season of life.<br/><a href=\"/collections/graduation-1\" target=\"_blank\" title=\"Graduation\">SHOP NOW</a></p>"
           }
         }
       },
@@ -36,25 +36,25 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "teal"
+        "color": "violet"
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Gifts For Mom",
+        "title": "Summer Essentials",
         "heading_size": "h1",
         "description": "",
         "show_description": true,
         "description_style": "body",
-        "collection": "for-mama",
+        "collection": "outdoor-entertaining",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -70,81 +70,81 @@
     "product_compilation_9BKDzm": {
       "type": "product-compilation",
       "blocks": {
-        "product_3KKNGf": {
-          "type": "product",
-          "settings": {
-            "product": "101_essays_that_will_change_the_way_you_think"
-          }
-        },
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "wild-flower-seeds-vase"
+            "product": "merica-die-cut-napkins"
           }
         },
-        "product_PX6LyV": {
+        "product_3KKNGf": {
           "type": "product",
           "settings": {
-            "product": "you_got_this_candle"
+            "product": "heart_shape_flag_hook_pillow"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "zen_af_shower_steamer"
+            "product": "merica-dinner-plates"
           }
         },
         "product_MFARKj": {
           "type": "product",
           "settings": {
-            "product": "betty_basket_jelly_bag_berry_pink"
+            "product": "19_inch_star_dark_blue"
+          }
+        },
+        "product_PX6LyV": {
+          "type": "product",
+          "settings": {
+            "product": "39_inch_3d_star_burst_all_in_one_metallic_red"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "fine-notepad"
+            "product": "19_inch_star_white"
           }
         }
       },
       "block_order": [
-        "product_3KKNGf",
         "product_Kk8jeW",
-        "product_PX6LyV",
+        "product_3KKNGf",
         "product_GtTH7z",
         "product_MFARKj",
+        "product_PX6LyV",
         "product_tPaRHa"
       ],
       "custom_css": [
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_8834.jpg",
-        "heading": "<h1>TEACHER APPRECIATION WEEK</h1>",
-        "subheading": "<p>Monday, May 5th through Friday, May 9th is Teacher Appreciation Week! Our teachers do so much for our kids, the schools and the community. Show them how much you appreciate their hard work with a special gift.</p>",
-        "url": "shopify://collections/gifts",
-        "button_text": "Gifts For Your Teachers"
+        "image": "shopify://shop_images/IMG_5524.jpg",
+        "heading": "<h1>MEMORIAL DAY CELEBRATIONS</h1>",
+        "subheading": "<p>Memorial Day Weekend is approaching fast, and we're here to help you celebrate in style. Fire up that BBQ, set the table, and get BLUE, WHITE, AND REaDy TO PARTY!</p>",
+        "url": "shopify://collections/americana",
+        "button_text": "Shop Americana"
       }
     },
     "collections_7dJhJC": {
       "type": "collections",
       "blocks": {
+        "collection_XpmTee": {
+          "type": "collection",
+          "settings": {
+            "collection": "mothers-day"
+          }
+        },
         "collection_nT9pcz": {
           "type": "collection",
           "settings": {
-            "collection": "kentucky-derby"
+            "collection": "americana"
           }
         },
         "collection_XjgcqD": {
           "type": "collection",
           "settings": {
-            "collection": "cinco-de-mayo"
-          }
-        },
-        "collection_XpmTee": {
-          "type": "collection",
-          "settings": {
-            "collection": "mothers-day"
+            "collection": "beach-vibes"
           }
         },
         "collection_cHzMAm": {
@@ -161,9 +161,9 @@
         }
       },
       "block_order": [
+        "collection_XpmTee",
         "collection_nT9pcz",
         "collection_XjgcqD",
-        "collection_XpmTee",
         "collection_cHzMAm",
         "collection_h6qtNj"
       ],

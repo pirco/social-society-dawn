@@ -24,16 +24,16 @@
         "section_JwKYtY": {
           "type": "section",
           "settings": {
-            "left_background": "#a2e0e0",
-            "left_text_color": "#085e21",
-            "left_headline": "HOP INTO EASTER FUN",
-            "left_image": "shopify://shop_images/IMG_8313.jpg",
+            "left_background": "#f5420d",
+            "left_text_color": "#ffbfe1",
+            "left_headline": "BALLOON BAR SERVICES",
+            "left_image": "shopify://shop_images/IMG_5560.jpg",
             "left_image_aspect": "landscape",
-            "left_subtitle": "Shop Egg-citing Party-ware!",
-            "right_background": "#085e21",
-            "right_text_color": "#a2e0e0",
+            "left_subtitle": "Customizable For Every Occasion",
+            "right_background": "#ffbfe1",
+            "right_text_color": "#f5420d",
             "right_icon": "cup",
-            "right_content": "<p><strong>EASTER PARTY SUPPLIES AND HOSTESS GIFTS</strong><br/><br/>Transform your home into a springtime wonderland with our adorable Easter decorations, pastel tableware, and festive party favors. From bunny-themed plates, egg shaped napkins to a variety of Easter basket goodies, our collection has everything to bring your Easter vision to life. Don’t forget the balloons and banners to add the perfect finishing touch!</p><p>SHOP <a href=\"/collections/easter\" target=\"_blank\" title=\"Easter\">EASTER</a> HERE</p>"
+            "right_content": "<p><strong>HELIUM BUNDLES, GARLANDS, AND MORE</strong><br/><br/>Whether you're celebrating a birthday, a graduation, an engagement, or a retirement, we can create a beautiful collection of custom balloons for your special occasion. Work with our team of trained event specialists to customize your order in store, online, or over the phone.</p><p><a href=\"/pages/balloons\" title=\"Balloons\">LEARN MORE HERE</a></p>"
           }
         },
         "section_jtUBrK": {
@@ -98,7 +98,14 @@
           "settings": {
             "title": "",
             "title_color": "",
+            "title_size_v2": 0,
             "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
             "background_color": "",
             "feed_id": "",
             "html_area": "<style>\n#insta-feed h2 {\n  margin-top: 30px;\n  display: block;\n  font-family: \"Picaresk\";\n  text-transform: uppercase;\n  font-size: 16px;\n  font-weight: normal;\n  letter-spacing: 0.03em;\n}\n.custom-insta-block {\n  display: block;\n}\n</style>"
@@ -121,7 +128,14 @@
           "settings": {
             "title": "",
             "title_color": "",
+            "title_size_v2": 0,
             "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
             "background_color": "",
             "feed_id": "",
             "html_area": "<script>\ndocument.addEventListener('instafeedAppLoaded', function() {\n    const fullTitle = document.querySelector('#insta-feed h2');\n    const link = document.createElement('a');\n    link.href = 'https://www.instagram.com/shopthesocialsociety/';\n    link.style.color = \"#000\";\n    link.target = \"_blank\";\n    link.innerHTML = fullTitle.innerHTML;\n\n    fullTitle.innerHTML = '';\n    fullTitle.appendChild(link);\n});\n</script>"
