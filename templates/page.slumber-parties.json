@@ -25,15 +25,15 @@
         "image_MCVYwW": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_7783.jpg"
+            "image": "shopify://shop_images/IMG_4592.jpg"
           }
         },
         "content_cdi8dC": {
           "type": "content",
           "settings": {
-            "subtitle": "",
-            "headline": "<p>PARTY IN A BOX</p>",
-            "description": "<p>Create a custom party in box for your next event. Our team of expert stylists will design, source, curate and ship everything you need for your next celebration. Details like custom menus, thoughtful favor bags, thoughtful color palettes and unique decor will not go unnoticed. Please fill out the form below to give us more details about your party.</p>"
+            "subtitle": "<p>Locals Only</p>",
+            "headline": "<p>SLUMBER PARTIES</p>",
+            "description": "<p>Slumber party teepees and parties custom designed, delivered and set up. Just add your squad.</p>"
           }
         }
       },
@@ -48,20 +48,77 @@
         "color": "violet"
       }
     },
+    "multicolumn_cmfegg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_L8gpBi": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>PRICING STARTS AT $200</strong>",
+            "text": "<p>Glampsite for 2:  $200<br/>Glampsite for 3:  $250<br/>Glampsite for 4:  $300<br/>Glampsite for 5:  $350<br/>Glampsite for 6:  $400<br/>Glampsite for 7:  $450<br/>Glampsite for 8:  $500</p><p>We require a $150 deposit at time of booking.</p><p></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ebk4eh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TSS_slumber_party_img1.jpg",
+            "title": "<strong>GLAMPSITES INCLUDE:</strong>",
+            "text": "<p>Tent<br/>Mattress<br/>Sheet<br/>Blanket<br/>Tray<br/>Pillows</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3QqUNJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TSS_sluber_addons2.jpg",
+            "title": "<strong>ADD-ON OPTIONS:</strong>",
+            "text": "<p>Balloon toppers for each teepee<br/>Balloon Garland<br/>Themed tableware<br/>Themed decor and balloons<br/>  Activity </p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_L8gpBi",
+        "column_ebk4eh",
+        "column_3QqUNJ"
+      ],
+      "custom_css": [
+        "h3 strong {font-size: 1.39em;}",
+        ".multicolumn-list p {margin: 0.6em 0 1em; line-height: 1.5;}",
+        "slider-component li > div {background-color: #e5dbf1;}",
+        "slider-component li:first-child > div {display: flex; flex-direction: column; align-items: center; height: 100%; padding: 2.5rem 3.9rem; border: 1px solid #333; border-radius: 12px; background-color: #fee7f3;}",
+        "slider-component li:first-child > div > div {margin: auto;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
+        "page_full_width": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_7LmjMq": {
       "type": "rich-text",
       "blocks": {
-        "heading_LMMteC": {
-          "type": "heading",
-          "settings": {
-            "heading": "LITTLE MISS PARTY IN A BOX",
-            "heading_size": "h1"
-          }
-        },
         "text_NbMgcW": {
           "type": "text",
           "settings": {
-            "text": "<p>Create a custom party in box for your next event. Our team of expert stylists will design, source, curate and ship everything you need for your next celebration. Details like custom menus, thoughtful favor bags, thoughtful color palettes and unique decor will not go unnoticed. Please fill out the form below to give us more details about your party.</p>"
+            "text": ""
           }
         },
         "button_NkmxUp": {
@@ -78,7 +135,6 @@
         }
       },
       "block_order": [
-        "heading_LMMteC",
         "text_NbMgcW",
         "button_NkmxUp"
       ],
@@ -93,13 +149,24 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_WEU3aq": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script>\ndocument.addEventListener('DOMContentLoaded', () => {\n  const formContainer = document.querySelector('#app-embed');\n\n  const observer = new MutationObserver((mutationsList, observer) => {\n  const form = document.querySelector('form-embed');\n\nif (form) {\n  observer.disconnect();\n  const shadow = form.shadowRoot;\n\n  const sheet = new CSSStyleSheet();\n  sheet.insertRule(`\n    input, button[aria-expanded], textarea {\n      border-radius: 0px !important;\n    } \n  `);\n\nsheet.insertRule(`\n        fieldset > *, div[data-testid] > div:first-child, ._formHeader_1nihh_19 > * {\n          font-family: 'Figtree', sans-serif !important;\n        }\n      `);\n\n  sheet.insertRule(`\n        fieldset > *, div[data-testid] {\n          font-size: 16px!important;\n        }\n      `);\n   \nshadow.adoptedStyleSheets.push(sheet);\n  formContainer.classList.add('loaded');\n}\n});\n\nobserver.observe(document.body, { childList: true, subtree: true });\n});\n</script>",
+        "color_scheme": "scheme-b11a9078-1eab-432c-bc3b-661732673918",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
     "1720517278771de6d8": {
       "type": "apps",
       "blocks": {
         "forms_inline_khnxw8": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "form_id": "135733",
+            "form_id": "453969",
             "text_color": "#202020",
             "button_background_color": "#f5420d",
             "button_label_color": "#ffffff",
@@ -118,7 +185,7 @@
         "forms_inline_khnxw8"
       ],
       "custom_css": [
-        "._formFieldset_1ll8d_67 button[type=\"submit\"] {border-radius: 50%!important;}"
+        "._formFieldset_1ll8d_67 button[type=\"submit\"] {border-radius: 50% !important;}"
       ],
       "settings": {
         "include_margins": true
@@ -128,7 +195,9 @@
   "order": [
     "main",
     "hero_d3KhmV",
+    "multicolumn_cmfegg",
     "rich_text_7LmjMq",
+    "custom_liquid_WEU3aq",
     "1720517278771de6d8"
   ]
 }
