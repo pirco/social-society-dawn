@@ -82,37 +82,36 @@
             "product": "merica-dinner-plates"
           }
         },
-        "product_3KKNGf": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "4_inch_mini_gold_star_sparkler_wands"
-          }
-        },
         "product_MFARKj": {
           "type": "product",
           "settings": {
-            "product": "19_inch_star_dark_blue"
+            "product": "18in_stars_and_stripes"
+          }
+        },
+        "product_3KKNGf": {
+          "type": "product",
+          "settings": {
+            "product": "4_inch_mini_gold_star_sparkler_wands"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "39_inch_3d_star_burst_all_in_one_metallic_red"
+            "product": "red_star_table_runner"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "19_inch_star_white"
+            "product": "bored_in_the_usa_travel_guide_books"
           }
         }
       },
       "block_order": [
         "product_Kk8jeW",
         "product_GtTH7z",
-        "product_3KKNGf",
         "product_MFARKj",
+        "product_3KKNGf",
         "product_PX6LyV",
         "product_tPaRHa"
       ],
