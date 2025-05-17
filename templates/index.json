@@ -76,16 +76,17 @@
             "product": "merica-die-cut-napkins"
           }
         },
-        "product_3KKNGf": {
-          "type": "product",
-          "settings": {
-            "product": "heart_shape_flag_hook_pillow"
-          }
-        },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
             "product": "merica-dinner-plates"
+          }
+        },
+        "product_3KKNGf": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "4_inch_mini_gold_star_sparkler_wands"
           }
         },
         "product_MFARKj": {
@@ -109,8 +110,8 @@
       },
       "block_order": [
         "product_Kk8jeW",
-        "product_3KKNGf",
         "product_GtTH7z",
+        "product_3KKNGf",
         "product_MFARKj",
         "product_PX6LyV",
         "product_tPaRHa"
