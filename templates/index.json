@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_5579.jpg"
+            "image": "shopify://shop_images/IMG_5554_1.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Go Get 'Em, Tiger</p>",
-            "headline": "<h1>CONGRATS GRADS</h1>",
-            "description": "<p>Graduation season is upon us! Show your grad how proud you are with custom balloons, specialty party decor, and gifts to usher them into this new season of life.<br/><a href=\"/collections/graduation-1\" target=\"_blank\" title=\"Graduation\">SHOP NOW</a></p>"
+            "subtitle": "<p>Making Memories For</p>",
+            "headline": "<h1>MEMORIAL DAY</h1>",
+            "description": "<p>Kick off the summer celebrations with Americana Staples. Whether you're hosting the neighborhood BBQ or simply having a picnic with your family, we have everything you need to host for the holiday.<br/><a href=\"/collections/americana\" target=\"_blank\" title=\"Americana\">SHOP NOW</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "violet"
+        "color": "blue"
       }
     },
     "featured_collection": {
