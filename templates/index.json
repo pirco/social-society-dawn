@@ -73,37 +73,37 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "merica-die-cut-napkins"
+            "product": "emerald_green_dinner_plates"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "merica-dinner-plates"
+            "product": "multi-block-color-table-candles-4ct"
           }
         },
         "product_MFARKj": {
           "type": "product",
           "settings": {
-            "product": "18in_stars_and_stripes"
-          }
-        },
-        "product_3KKNGf": {
-          "type": "product",
-          "settings": {
-            "product": "4_inch_mini_gold_star_sparkler_wands"
+            "product": "disco_ball_paper_plates"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "red_star_table_runner"
+            "product": "birthday-fringe-small-napkins-16ct"
+          }
+        },
+        "product_3KKNGf": {
+          "type": "product",
+          "settings": {
+            "product": "silver-stripe-cups-8pk"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "bored_in_the_usa_travel_guide_books"
+            "product": "emerald-green-small-napkins-16ct"
           }
         }
       },
@@ -111,8 +111,8 @@
         "product_Kk8jeW",
         "product_GtTH7z",
         "product_MFARKj",
-        "product_3KKNGf",
         "product_PX6LyV",
+        "product_3KKNGf",
         "product_tPaRHa"
       ],
       "custom_css": [
@@ -120,10 +120,10 @@
       ],
       "settings": {
         "image": "shopify://shop_images/IMG_5563_6bca5c07-c47d-4c4f-b173-648aeb1cca67.jpg",
-        "heading": "<h1>MEMORIAL DAY CELEBRATIONS</h1>",
-        "subheading": "<p>Memorial Day Weekend is approaching fast, and we're here to help you celebrate in style. Fire up that BBQ, set the table, and get BLUE, WHITE, AND REaDy TO PARTY!</p>",
-        "url": "shopify://collections/americana",
-        "button_text": "Shop Americana"
+        "heading": "<h1>SHOW STOPPING TABLEWARE</h1>",
+        "subheading": "<p>Our team is always on the lookout for the cutest tableware and party supplies, and these are some of our recent staff-chosen favorites!</p>",
+        "url": "shopify://collections/tableware",
+        "button_text": "Shop Tableware"
       }
     },
     "collections_7dJhJC": {
