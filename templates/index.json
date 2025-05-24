@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_5554_1.jpg"
+            "image": "shopify://shop_images/IMG_4633.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Making Memories For</p>",
-            "headline": "<h1>MEMORIAL DAY</h1>",
-            "description": "<p>Kick off the summer celebrations with Americana Staples. Whether you're hosting the neighborhood BBQ or simply having a picnic with your family, we have everything you need to host for the holiday.<br/><a href=\"/collections/americana\" target=\"_blank\" title=\"Americana\">SHOP NOW</a></p>"
+            "subtitle": "<p>Locals Only</p>",
+            "headline": "<h1>SLUMBER PARTIES</h1>",
+            "description": "<p><strong>Delivered, Designed & Ready for Magic</strong></p><p>Turn your next sleepover into an unforgettable experience with our custom-designed slumber party teepee setups! We handle it all – from design to delivery and setup – so all you have to do is bring the squad and let the memories begin.<br/><a href=\"/pages/slumber-parties\" target=\"_blank\" title=\"Slumber Parties\">LEARN MORE</a></p>"
           }
         }
       },
@@ -36,26 +36,26 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "blue"
+        "color": "pink"
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Summer Essentials",
+        "title": "Socially Seri",
         "heading_size": "h1",
         "description": "",
         "show_description": true,
         "description_style": "body",
-        "collection": "beach-vibes",
+        "collection": "socially-seri",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
-        "image_ratio": "adapt",
+        "color_scheme": "scheme-a8b5c022-f7c5-4cdc-b352-1cf9aa5363a6",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
