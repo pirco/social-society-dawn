@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_4633.jpg"
+            "image": "shopify://shop_images/IMG_4843.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Locals Only</p>",
-            "headline": "<h1>SLUMBER PARTIES</h1>",
-            "description": "<p><strong>Delivered, Designed & Ready for Magic</strong></p><p>Turn your next sleepover into an unforgettable experience with our custom-designed slumber party teepee setups! We handle it all – from design to delivery and setup – so all you have to do is bring the squad and let the memories begin.<br/><a href=\"/pages/slumber-parties\" target=\"_blank\" title=\"Slumber Parties\">LEARN MORE</a></p>"
+            "subtitle": "<p>Make This Father's Day</p>",
+            "headline": "<h1>OUT OF THIS WORLD!</h1>",
+            "description": "<p>This Father’s Day, blast off into celebration with our <em>Best Dad in the Galaxy</em> collection — a stellar assortment of space-themed balloons, cosmic tableware, and tons of thoughtful gifts + cards.<br/>✨ Limited quantities — grab your galaxy gear before it’s gone!<br/><br/><a href=\"/collections/fathers-day\" target=\"_blank\" title=\"Father's Day\">SHOP FOR DAD NOW</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "pink"
+        "color": "deep-blue"
       }
     },
     "featured_collection": {
