@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_4843.jpg"
+            "image": "shopify://shop_images/IMG_8611.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Make This Father's Day</p>",
-            "headline": "<h1>OUT OF THIS WORLD!</h1>",
-            "description": "<p>This Father’s Day, blast off into celebration with our <em>Best Dad in the Galaxy</em> collection — a stellar assortment of space-themed balloons, cosmic tableware, and tons of thoughtful gifts + cards.<br/>✨ Limited quantities — grab your galaxy gear before it’s gone!<br/><br/><a href=\"/collections/fathers-day\" target=\"_blank\" title=\"Father's Day\">SHOP FOR DAD NOW</a></p>"
+            "subtitle": "<p>Fore the love of golf!</p>",
+            "headline": "<p>Tee Up the Perfect Party!</p>",
+            "description": "<p>Hit a hole-in-one with your party planning! Whether you're celebrating a hosting a golf-themed birthday bash, or throwing a PGA tour watch party, our Golf Collection has everything you need to make it a major win.<br/><a href=\"https://thesocialsociety.com/collections/golf\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/golf\">Let’s Par-Tee!</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "deep-blue"
+        "color": "green"
       }
     },
     "featured_collection": {
@@ -54,7 +54,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-de1833d4-075b-4153-885c-1cf99445bdac",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -217,55 +217,6 @@
         "padding_bottom": 0
       }
     },
-    "image_with_text_LyGVne": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_F6Vrnj": {
-          "type": "heading",
-          "settings": {
-            "heading": "JUST ADD YOUR SQUAD",
-            "heading_size": "h1"
-          }
-        },
-        "text_V9jdjp": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Turn your next sleepover into an unforgettable experience with our custom-designed slumber party teepee setups! We handle it all – from design to delivery and setup – so all you have to do is bring the squad and let the memories begin.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_d3wAjj": {
-          "type": "button",
-          "settings": {
-            "button_label": "SLUMBER PARTIES",
-            "button_link": "shopify://pages/slumber-parties",
-            "button_style_secondary": false,
-            "newsletter_link": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_F6Vrnj",
-        "text_V9jdjp",
-        "button_d3wAjj"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/IMG_4650.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-5",
-        "color_scheme": "scheme-5",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_blog_wJMPY8": {
       "type": "featured-blog",
       "settings": {
@@ -324,7 +275,6 @@
     "product_compilation_9BKDzm",
     "collections_7dJhJC",
     "image_with_text_yRzPPG",
-    "image_with_text_LyGVne",
     "featured_blog_wJMPY8",
     "newsletter_i96ARq"
   ]
