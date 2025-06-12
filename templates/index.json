@@ -217,6 +217,55 @@
         "padding_bottom": 0
       }
     },
+    "image_with_text_LyGVne": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_F6Vrnj": {
+          "type": "heading",
+          "settings": {
+            "heading": "JUST ADD YOUR SQUAD",
+            "heading_size": "h1"
+          }
+        },
+        "text_V9jdjp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Turn your next sleepover into an unforgettable experience with our custom-designed slumber party teepee setups! We handle it all – from design to delivery and setup – so all you have to do is bring the squad and let the memories begin.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_d3wAjj": {
+          "type": "button",
+          "settings": {
+            "button_label": "SLUMBER PARTIES",
+            "button_link": "shopify://pages/slumber-parties",
+            "button_style_secondary": false,
+            "newsletter_link": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_F6Vrnj",
+        "text_V9jdjp",
+        "button_d3wAjj"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_4650.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_blog_wJMPY8": {
       "type": "featured-blog",
       "settings": {
@@ -275,6 +324,7 @@
     "product_compilation_9BKDzm",
     "collections_7dJhJC",
     "image_with_text_yRzPPG",
+    "image_with_text_LyGVne",
     "featured_blog_wJMPY8",
     "newsletter_i96ARq"
   ]
