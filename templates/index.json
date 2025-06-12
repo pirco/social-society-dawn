@@ -67,6 +67,54 @@
         "padding_bottom": 48
       }
     },
+    "image_with_text_4dK6AV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eMGYA4": {
+          "type": "heading",
+          "settings": {
+            "heading": "just add your squad",
+            "heading_size": "h1"
+          }
+        },
+        "text_DDdyhh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Turn your next sleepover into an unforgettable experience with our custom-designed slumber party teepee setups! We handle it all – from design to delivery and setup – so all you have to do is bring the squad and let the memories begin.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_DtegBJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "slumber parties",
+            "button_link": "shopify://pages/slumber-parties",
+            "button_style_secondary": false,
+            "newsletter_link": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_eMGYA4",
+        "text_DDdyhh",
+        "button_DtegBJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_4650.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-e343538e-d2ea-442b-b8a4-884c1abfee7d",
+        "color_scheme": "scheme-e343538e-d2ea-442b-b8a4-884c1abfee7d",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product_compilation_9BKDzm": {
       "type": "product-compilation",
       "blocks": {
@@ -217,55 +265,6 @@
         "padding_bottom": 0
       }
     },
-    "image_with_text_4dK6AV": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_eMGYA4": {
-          "type": "heading",
-          "settings": {
-            "heading": "just add your squad",
-            "heading_size": "h1"
-          }
-        },
-        "text_DDdyhh": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Turn your next sleepover into an unforgettable experience with our custom-designed slumber party teepee setups! We handle it all – from design to delivery and setup – so all you have to do is bring the squad and let the memories begin.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_DtegBJ": {
-          "type": "button",
-          "settings": {
-            "button_label": "slumber parties",
-            "button_link": "shopify://pages/slumber-parties",
-            "button_style_secondary": false,
-            "newsletter_link": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_eMGYA4",
-        "text_DDdyhh",
-        "button_DtegBJ"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/IMG_4650.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-e343538e-d2ea-442b-b8a4-884c1abfee7d",
-        "color_scheme": "scheme-e343538e-d2ea-442b-b8a4-884c1abfee7d",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_blog_wJMPY8": {
       "type": "featured-blog",
       "settings": {
@@ -321,10 +320,10 @@
   "order": [
     "hero_Necbeg",
     "featured_collection",
+    "image_with_text_4dK6AV",
     "product_compilation_9BKDzm",
     "collections_7dJhJC",
     "image_with_text_yRzPPG",
-    "image_with_text_4dK6AV",
     "featured_blog_wJMPY8",
     "newsletter_i96ARq"
   ]
