@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_8790_9a37b9b0-6e03-4d16-8e65-8af4d1d65d91.jpg"
+            "image": "shopify://shop_images/IMG_4581.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Fore the love of golf!</p>",
-            "headline": "<p>TEE UP THE PERFECT PARTY!</p>",
-            "description": "<p>Hit a hole-in-one with your party planning! Whether you're celebrating a hosting a golf-themed birthday bash, or throwing a PGA tour watch party, our Golf Collection has everything you need to make it a major win.<br/><a href=\"https://thesocialsociety.com/collections/golf\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/golf\">Let’s Par-Tee!</a></p>"
+            "subtitle": "<p>Summer Break Closure</p>",
+            "headline": "<p><strong>JUNE 30 - JULY 7</strong></p>",
+            "description": "<p>We are CLOSED for a summer break from June 30th to July 7th. Thanks for allowing our staff to take a well deserved break over the holiday weekend! Be sure to pick up all 4th of July orders by June 29th.<br/><a href=\"/collections/outdoor-entertaining\" target=\"_blank\" title=\"Outdoor Entertaining\">Shop Summer Staples</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "green"
+        "color": "pink"
       }
     },
     "featured_collection": {
