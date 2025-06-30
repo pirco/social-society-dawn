@@ -169,7 +169,7 @@
       "settings": {
         "image": "shopify://shop_images/IMG_5563_6bca5c07-c47d-4c4f-b173-648aeb1cca67.jpg",
         "heading": "<h1>SHOW STOPPING TABLEWARE</h1>",
-        "subheading": "<p><em>VIPs who made it this far get 10% off — use code: 🌸 SUMMERSECRET 🌸 at checkout!</em></p><p>Our team is always on the lookout for the cutest tableware and party supplies, and these are some of our recent staff-chosen favorites!</p>",
+        "subheading": "<p><em>VIPs who made it this far get 10% off <br/>Use code: 🌸 SUMMERSECRET 🌸 at checkout!</em></p><p>Our team is always on the lookout for the cutest tableware and party supplies, and these are some of our recent staff-chosen favorites!</p>",
         "url": "shopify://collections/tableware",
         "button_text": "Shop Tableware"
       }
