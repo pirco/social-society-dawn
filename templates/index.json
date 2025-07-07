@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "pink"
+        "color": "green"
       }
     },
     "featured_collection": {
@@ -54,7 +54,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
+        "color_scheme": "scheme-5",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
