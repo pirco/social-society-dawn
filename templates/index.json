@@ -121,37 +121,37 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "emerald_green_dinner_plates"
+            "product": "berry-red-dinner-plates"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "multi-block-color-table-candles-4ct"
+            "product": "multicolour-party-hats"
           }
         },
         "product_MFARKj": {
           "type": "product",
           "settings": {
-            "product": "disco_ball_paper_plates"
+            "product": "happy-birthday-acrylic-cake-topper"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "birthday-fringe-small-napkins-16ct"
+            "product": "race-car-party-cups-8pk"
           }
         },
         "product_3KKNGf": {
           "type": "product",
           "settings": {
-            "product": "silver-stripe-cups-8pk"
+            "product": "race-car-balloon"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "emerald-green-small-napkins-16ct"
+            "product": "black-striped-tablecloth"
           }
         }
       },
@@ -167,7 +167,7 @@
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_5563_6bca5c07-c47d-4c4f-b173-648aeb1cca67.jpg",
+        "image": "shopify://shop_images/DSC_0634.jpg",
         "heading": "<h1>SHOW STOPPING TABLEWARE</h1>",
         "subheading": "<p>Our team is always on the lookout for the cutest tableware and party supplies, and these are some of our recent staff-chosen favorites!</p>",
         "url": "shopify://collections/tableware",
