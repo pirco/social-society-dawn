@@ -121,53 +121,53 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "betty-basket-jelly-bag-yellow"
-          }
-        },
-        "product_GtTH7z": {
-          "type": "product",
-          "settings": {
-            "product": "multicolour-party-hats"
+            "product": "ceramic_vase_orange_juice"
           }
         },
         "product_MFARKj": {
           "type": "product",
           "settings": {
-            "product": "happy-birthday-acrylic-cake-topper"
+            "product": "large_cream_compostable_plates"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "race-car-party-cups-8pk"
+            "product": "lemon-napkins-16ct"
           }
         },
         "product_3KKNGf": {
           "type": "product",
           "settings": {
-            "product": "race-car-balloon"
+            "product": "party_people_only_frosted_cups_16oz_-_10pk"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "black-striped-tablecloth"
+            "product": "luxe-tube-pool-ring"
+          }
+        },
+        "product_GtTH7z": {
+          "type": "product",
+          "settings": {
+            "product": "socially-seri-apres-surf-trucker-hat"
           }
         }
       },
       "block_order": [
         "product_Kk8jeW",
-        "product_GtTH7z",
         "product_MFARKj",
         "product_PX6LyV",
         "product_3KKNGf",
-        "product_tPaRHa"
+        "product_tPaRHa",
+        "product_GtTH7z"
       ],
       "custom_css": [
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/DSC_0634.jpg",
+        "image": "shopify://shop_images/IMG_4713.jpg",
         "heading": "<h1>FINISH SUMMER IN STYLE</h1>",
         "subheading": "<p>With only so much time left to celebrate the season of sun, shop for your favorites to make the most of the final days of summer!</p>",
         "url": "shopify://collections/outdoor-entertaining",
