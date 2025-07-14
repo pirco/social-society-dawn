@@ -121,7 +121,7 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "berry-red-dinner-plates"
+            "product": "betty-basket-jelly-bag-yellow"
           }
         },
         "product_GtTH7z": {
@@ -168,10 +168,10 @@
       ],
       "settings": {
         "image": "shopify://shop_images/DSC_0634.jpg",
-        "heading": "<h1>SHOW STOPPING TABLEWARE</h1>",
-        "subheading": "<p>Our team is always on the lookout for the cutest tableware and party supplies, and these are some of our recent staff-chosen favorites!</p>",
-        "url": "shopify://collections/tableware",
-        "button_text": "Shop Tableware"
+        "heading": "<h1>FINISH SUMMER IN STYLE</h1>",
+        "subheading": "<p>With only so much time left to celebrate the season of sun, shop for your favorites to make the most of the final days of summer!</p>",
+        "url": "shopify://collections/outdoor-entertaining",
+        "button_text": "Shop Outdoor Entertaining"
       }
     },
     "collections_7dJhJC": {
