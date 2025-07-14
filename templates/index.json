@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_5643.jpg"
+            "image": "shopify://shop_images/IMG_5926_copy.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>While Supplies Last...</p>",
-            "headline": "<p><strong>SUMMER SALE!</strong></p>",
-            "description": "<p>Soak up the sunshine and stock up on all your summer essentials—this is your chance to load up on FUN while the deals are hot.</p><p>Your discount will be applied automatically at checkout, so go ahead… fill your cart and enjoy the effortless <em>Summer Savings</em>!</p><h2><a href=\"https://thesocialsociety.com/collections/shop-the-sale\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/shop-the-sale\">Shop the Sale Now</a></h2>"
+            "subtitle": "<p>Fun in the Sun</p>",
+            "headline": "<p><strong>BEACH DAY ESSENTIALS</strong></p>",
+            "description": "<p>Every beach day need a perfect beach bag, filled with all the goodies you need to enjoy the sun. From hats to sunscreen to koozies and more, we have everything you need to make the most of summer while it lasts!</p><h2><a href=\"https://thesocialsociety.com/search?q=beach&options%5Bprefix%5D=last\" target=\"_blank\" title=\"https://thesocialsociety.com/search?q=beach&options%5Bprefix%5D=last\">Shop For The Beach</a></h2>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "green"
+        "color": "teal"
       }
     },
     "featured_collection": {
