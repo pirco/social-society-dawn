@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_5926_copy.jpg"
+            "image": "shopify://shop_images/Screenshot_2025-07-25_at_10.29.47_PM.png"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Fun in the Sun</p>",
-            "headline": "<p><strong>BEACH DAY ESSENTIALS</strong></p>",
-            "description": "<p>Every beach day need a perfect beach bag, filled with all the goodies you need to enjoy the sun. From hats to sunscreen to koozies and more, we have everything you need to make the most of summer while it lasts!</p><h2><a href=\"https://thesocialsociety.com/search?q=beach&options%5Bprefix%5D=last\" target=\"_blank\" title=\"https://thesocialsociety.com/search?q=beach&options%5Bprefix%5D=last\">Shop For The Beach</a></h2>"
+            "subtitle": "<p>Elevate Your Tablescape</p>",
+            "headline": "<p><strong>DINNER PARTY DREAMS</strong></p>",
+            "description": "<p>Wow your guests with an ecelctic mix of bright tableware at your next dinner party! Any color palette, any theme, we've got you covered. Mix and match items from different collections for a show stopping event!</p><h2><a href=\"/collections/tableware\" title=\"Tableware\">Shop Tableware</a></h2>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "teal"
+        "color": "deep-blue"
       }
     },
     "featured_collection": {
