@@ -55,7 +55,7 @@
           "type": "column",
           "settings": {
             "title": "<strong>PRICING STARTS AT $200</strong>",
-            "text": "<p>Glampsite for 2:  $200<br/>Glampsite for 3:  $250<br/>Glampsite for 4:  $300<br/>Glampsite for 5:  $350<br/>Glampsite for 6:  $400<br/>Glampsite for 7:  $450<br/>Glampsite for 8:  $500</p><p>We require a $150 deposit at time of booking.</p><p></p>",
+            "text": "<p>Glampsite for 2:  $200<br/>Glampsite for 3:  $250<br/>Glampsite for 4:  $300<br/>Glampsite for 5:  $350<br/>Glampsite for 6:  $400<br/>Glampsite for 7:  $450<br/>Glampsite for 8:  $500</p><p></p>",
             "link_label": "",
             "link": ""
           }
