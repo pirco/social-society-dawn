@@ -21,9 +21,9 @@
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>It's That Time of Year</p>",
-            "headline": "<p><strong>BACK TO SCHOOL</strong></p>",
-            "description": "<p>Each school year comes with a fresh start and the promise of so many celebrations ahead! Let's kick off this new season in style with party supplies that scream \"school is back, baby!\"</p><h2><a href=\"/collections/back-to-school\" title=\"Back to School\">Shop Back to School</a></h2>"
+            "subtitle": "<p>End Of Summer Celebrations</p>",
+            "headline": "<p><strong>LABOR DAY PARTYING</strong></p>",
+            "description": "<p>Red, White, and Blue, baby! Let's kick off fall in style with a Labor Day Party that screams Americana. Shop games, tableware, and decor to make this year's Labor Day a memorable one.</p><h2><a href=\"/collections/americana\" title=\"Americana\">Shop Labor Day</a></h2>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "red"
+        "color": "blue"
       }
     },
     "featured_collection": {
