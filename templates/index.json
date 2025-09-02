@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_0382.webp"
+            "image": "shopify://shop_images/5898631168783045902.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>End Of Summer Celebrations</p>",
-            "headline": "<p><strong>LABOR DAY PARTYING</strong></p>",
-            "description": "<p>Red, White, and Blue, baby! Let's kick off fall in style with a Labor Day Party that screams Americana. Shop games, tableware, and decor to make this year's Labor Day a memorable one.</p><h2><a href=\"/collections/americana\" title=\"Americana\">Shop Labor Day</a></h2>"
+            "subtitle": "<p>Touchdowns & Tailgates</p>",
+            "headline": "<p>FALL IN LOVE WITH GAME DAY</p>",
+            "description": "<p>Football kicks off this week! Who says game day can’t be festive?! From team hats to football cups, your fall watch party just got a stylish upgrade.</p><h2><a href=\"/collections/football\" title=\"Football\">Shop Football</a></h2>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "blue"
+        "color": "pink"
       }
     },
     "featured_collection": {
