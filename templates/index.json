@@ -121,37 +121,37 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "disco-pumpkin-plate"
+            "product": "25_inch_orange_maple_leaf"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "floral-halloween-skulls-spiders-dinner-napkins"
+            "product": "turkey_place_cards"
           }
         },
         "product_MFARKj": {
           "type": "product",
           "settings": {
-            "product": "candy_corn_shaped_paper_plate"
+            "product": "earthy-small-reusable-bamboo-plates"
           }
         },
         "product_3KKNGf": {
           "type": "product",
           "settings": {
-            "product": "elegant_halloween_guest_towels"
+            "product": "harvest_fest_stir_sticks"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "its_halloween_plates"
+            "product": "silver-dipped-stick-candles-2ct"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "boo_la_la_cocktail_napkins"
+            "product": "le_gobble_cocktail_napkins"
           }
         }
       },
@@ -167,11 +167,11 @@
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_2803.jpg",
-        "heading": "<h1>HAUNTINGLY CHIC</h1>",
-        "subheading": "<p>We know, we know... it's still summer! But that doesn't mean we're not thinking ahead to fall. Halloween is the next big event on our minds, and we've got everything you need for a spooky celebration!</p>",
-        "url": "shopify://collections/halloween",
-        "button_text": "Shop Halloween"
+        "image": "shopify://shop_images/IMG_0626.jpg",
+        "heading": "<h1>FALL CELEBRATIONS</h1>",
+        "subheading": "<p>Harvest florals, gilded accents, and whimsical touches! Our Thanksgiving collection has everything to make your holiday spread feel both cozy and curated. </p>",
+        "url": "shopify://collections/thanksgiving",
+        "button_text": "Shop Thanksgiving"
       }
     },
     "collections_7dJhJC": {
