@@ -177,22 +177,16 @@
     "collections_7dJhJC": {
       "type": "collections",
       "blocks": {
-        "collection_XpmTee": {
-          "type": "collection",
-          "settings": {
-            "collection": "baby"
-          }
-        },
         "collection_nT9pcz": {
           "type": "collection",
           "settings": {
-            "collection": "americana"
+            "collection": "halloween"
           }
         },
         "collection_XjgcqD": {
           "type": "collection",
           "settings": {
-            "collection": "beach-vibes"
+            "collection": "thanksgiving"
           }
         },
         "collection_cHzMAm": {
@@ -206,14 +200,20 @@
           "settings": {
             "collection": "going-to-the-chapel"
           }
+        },
+        "collection_XpmTee": {
+          "type": "collection",
+          "settings": {
+            "collection": "baby"
+          }
         }
       },
       "block_order": [
-        "collection_XpmTee",
         "collection_nT9pcz",
         "collection_XjgcqD",
         "collection_cHzMAm",
-        "collection_h6qtNj"
+        "collection_h6qtNj",
+        "collection_XpmTee"
       ],
       "settings": {}
     },
