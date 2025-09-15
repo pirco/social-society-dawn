@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TSS_TaySwift_Website-1-1_d00fc1c5-a3d3-4e47-9bf7-588ed87840b7.jpg"
+            "image": "shopify://shop_images/IMG_1534.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Join us for an Exclusive</p>",
-            "headline": "<p>SWIFT CELEBRATION</p>",
-            "description": "<p>Ponte Vedra's Top party stylists are teaming up to bring you an exclusive Taylor Swift Listening Party experience.</p><h2><a href=\"https://thesocialsociety.com/blogs/in-store-events/swiftie-strings-taylor-listening-party\" target=\"_blank\" title=\"https://thesocialsociety.com/blogs/in-store-events/swiftie-strings-taylor-listening-party\">JOIN THE PARTY</a></h2>"
+            "subtitle": "<p>Masters of Celebration</p>",
+            "headline": "<p>LIFE'S A PARTY</p>",
+            "description": "<p>Masters of celebration, unite! If you're celebrating a birthday, holiday, career milestone, wedding, new baby, housewarming, college acceptance... (the list goes on) we've got all the goods you need to make this party the best one yet.</p><h2><a href=\"/collections/tableware\" target=\"_blank\" title=\"Tableware\">Shop all Supplies</a></h2>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "pink"
+        "color": "violet"
       }
     },
     "featured_collection": {
@@ -54,7 +54,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -121,37 +121,37 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "25_inch_orange_maple_leaf"
+            "product": "black-striped-tablecloth"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "turkey_place_cards"
+            "product": "football-beverage-napkins"
           }
         },
         "product_MFARKj": {
           "type": "product",
           "settings": {
-            "product": "earthy-small-reusable-bamboo-plates"
+            "product": "football-cups-8ct"
           }
         },
         "product_3KKNGf": {
           "type": "product",
           "settings": {
-            "product": "harvest_fest_stir_sticks"
+            "product": "good-sport-small-football-plates"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "silver-dipped-stick-candles-2ct"
+            "product": "homesick-game-day-candle"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "le_gobble_cocktail_napkins"
+            "product": "sports-trivia-game"
           }
         }
       },
@@ -167,11 +167,11 @@
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_0626.jpg",
-        "heading": "<h1>FALL CELEBRATIONS</h1>",
-        "subheading": "<p>Harvest florals, gilded accents, and whimsical touches! Our Thanksgiving collection has everything to make your holiday spread feel both cozy and curated. </p>",
-        "url": "shopify://collections/thanksgiving",
-        "button_text": "Shop Thanksgiving"
+        "image": "shopify://shop_images/football-cover_d575cdb2-7950-4dda-9157-09d15834c80b.jpg",
+        "heading": "<h1>FOOTBALL IS BACK, BABY</h1>",
+        "subheading": "<p>No matter what team you're rooting for, you're going to need some supplies for game day watch parties or epic tailgates. From napkins for party snacks to celebratory balloons, we've got everything you need!</p>",
+        "url": "shopify://collections/football",
+        "button_text": "Shop Football"
       }
     },
     "collections_7dJhJC": {
