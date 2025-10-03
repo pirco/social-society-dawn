@@ -124,28 +124,28 @@
             "product": "black-striped-tablecloth"
           }
         },
-        "product_PX6LyV": {
-          "type": "product",
-          "settings": {
-            "product": "football-beverage-napkins"
-          }
-        },
         "product_MFARKj": {
           "type": "product",
           "settings": {
-            "product": "football-cups-8ct"
+            "product": "football_party_cups"
+          }
+        },
+        "product_PX6LyV": {
+          "type": "product",
+          "settings": {
+            "product": "tis_the_season_beverage_napkins"
+          }
+        },
+        "product_tPaRHa": {
+          "type": "product",
+          "settings": {
+            "product": "21-nfl-jacksonville-jaguars-football-helmet-balloon-black-gold"
           }
         },
         "product_3KKNGf": {
           "type": "product",
           "settings": {
             "product": "good-sport-small-football-plates"
-          }
-        },
-        "product_tPaRHa": {
-          "type": "product",
-          "settings": {
-            "product": "homesick-game-day-candle"
           }
         },
         "product_GtTH7z": {
@@ -157,10 +157,10 @@
       },
       "block_order": [
         "product_Kk8jeW",
-        "product_PX6LyV",
         "product_MFARKj",
-        "product_3KKNGf",
+        "product_PX6LyV",
         "product_tPaRHa",
+        "product_3KKNGf",
         "product_GtTH7z"
       ],
       "custom_css": [
