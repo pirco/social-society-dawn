@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_7636.jpg"
+            "image": "shopify://shop_images/IMG_7672_48e351b8-df28-4a0f-be5a-768286be4cf1.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Halloween Essentials You’ll Actually Love</p>",
-            "headline": "<p>BOO-TIFUL TABLES AHEAD</p>",
-            "description": "<p>Whether quiet glam or full-on spooky, mix & match statement pieces that make your table the centerpiece of the night. Create a hauntingly beautiful tablescape with seamless styles, from your plates to your party favors!</p><h2><a href=\"/collections/halloween\" target=\"_blank\" title=\"Halloween\">Shop Halloween</a></h2>"
+            "subtitle": "<p>Set the Table for a Spooky Good Time</p>",
+            "headline": "<p>HOSTING A HAUNTING?</p>",
+            "description": "<p>Gather your ghouls — it’s time for treats, laughs, and festive tables full of charm 👻🍂 Shop our Halloween collection and create a setup worth haunting!</p><h2><a href=\"/collections/halloween\" target=\"_blank\" title=\"Halloween\">Shop Halloween</a></h2>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "pink"
+        "color": "dark"
       }
     },
     "featured_collection": {
