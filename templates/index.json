@@ -130,6 +130,12 @@
             "product": "gold-foil-frost-cups-merry-bright"
           }
         },
+        "product_3KKNGf": {
+          "type": "product",
+          "settings": {
+            "product": "hot-toddy-christmas-cocktail-napkins"
+          }
+        },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
@@ -142,12 +148,6 @@
             "product": "elf_son_of_a_nutcracker_banner"
           }
         },
-        "product_3KKNGf": {
-          "type": "product",
-          "settings": {
-            "product": "hot-toddy-christmas-cocktail-napkins"
-          }
-        },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
@@ -158,9 +158,9 @@
       "block_order": [
         "product_Kk8jeW",
         "product_MFARKj",
+        "product_3KKNGf",
         "product_PX6LyV",
         "product_tPaRHa",
-        "product_3KKNGf",
         "product_GtTH7z"
       ],
       "custom_css": [
