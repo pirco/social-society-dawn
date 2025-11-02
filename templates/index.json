@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_7672_48e351b8-df28-4a0f-be5a-768286be4cf1.jpg"
+            "image": "shopify://shop_images/IMG_7732.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Set the Table for a Spooky Good Time</p>",
-            "headline": "<p>HOSTING A HAUNTING?</p>",
-            "description": "<p>Gather your ghouls — it’s time for treats, laughs, and festive tables full of charm 👻🍂 Shop our Halloween collection and create a setup worth haunting!</p><h2><a href=\"/collections/halloween\" target=\"_blank\" title=\"Halloween\">Shop Halloween</a></h2>"
+            "subtitle": "<p>Host with Heart</p>",
+            "headline": "<p>Cozy & Inviting</p>",
+            "description": "<p>Set the table in style this Thanksgiving — shop plates, napkins, cups, and all the festive finishing touches that make guests feel at home.</p><h2><a href=\"/collections/thanksgiving\" target=\"_blank\" title=\"Thanksgiving\">Shop Thanksgiving Now</a></h2>"
           }
         }
       },
@@ -36,25 +36,25 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "dark"
+        "color": "green"
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Our Spooky Favorites",
+        "title": "Festive & Elegant",
         "heading_size": "h1",
         "description": "",
         "show_description": true,
         "description_style": "body",
-        "collection": "halloween",
+        "collection": "hanukkah",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
+        "color_scheme": "scheme-36c0b6f9-97c4-4191-9452-d9f968c66272",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -168,7 +168,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/football-cover_d575cdb2-7950-4dda-9157-09d15834c80b.jpg",
-        "heading": "<h1>FOOTBALL IS BACK, BABY</h1>",
+        "heading": "<h1>FOOTBALL IS OUR FAVE</h1>",
         "subheading": "<p>No matter what team you're rooting for, you're going to need some supplies for game day watch parties or epic tailgates. From napkins for party snacks to celebratory balloons, we've got everything you need!</p>",
         "url": "shopify://collections/football",
         "button_text": "Shop Football"
@@ -180,7 +180,7 @@
         "collection_nT9pcz": {
           "type": "collection",
           "settings": {
-            "collection": "halloween"
+            "collection": "helium-bundles"
           }
         },
         "collection_XjgcqD": {
