@@ -186,25 +186,25 @@
         "collection_XjgcqD": {
           "type": "collection",
           "settings": {
-            "collection": "thanksgiving"
+            "collection": "gifts"
           }
         },
         "collection_cHzMAm": {
           "type": "collection",
           "settings": {
-            "collection": "hostess-gifts"
+            "collection": "milestone-birthdays"
           }
         },
         "collection_h6qtNj": {
           "type": "collection",
           "settings": {
-            "collection": "going-to-the-chapel"
+            "collection": "stocking-stuffers"
           }
         },
         "collection_XpmTee": {
           "type": "collection",
           "settings": {
-            "collection": "birthday"
+            "collection": "baby"
           }
         }
       },
