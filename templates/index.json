@@ -121,37 +121,37 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "black-striped-tablecloth"
+            "product": "32_inch_santa_packaged"
           }
         },
         "product_MFARKj": {
           "type": "product",
           "settings": {
-            "product": "football_party_cups"
+            "product": "gold-foil-frost-cups-merry-bright"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "tis_the_season_beverage_napkins"
+            "product": "18-medium-silver-holiball"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "21-nfl-jacksonville-jaguars-football-helmet-balloon-black-gold"
+            "product": "elf_son_of_a_nutcracker_banner"
           }
         },
         "product_3KKNGf": {
           "type": "product",
           "settings": {
-            "product": "football-field-plates"
+            "product": "hot-toddy-christmas-cocktail-napkins"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "sports-trivia-game"
+            "product": "holiday-gift-tags"
           }
         }
       },
@@ -167,11 +167,11 @@
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/football-cover_d575cdb2-7950-4dda-9157-09d15834c80b.jpg",
-        "heading": "<h1>FOOTBALL IS OUR FAVE</h1>",
-        "subheading": "<p>No matter what team you're rooting for, you're going to need some supplies for game day watch parties or epic tailgates. From napkins for party snacks to celebratory balloons, we've got everything you need!</p>",
-        "url": "shopify://collections/football",
-        "button_text": "Shop Football"
+        "image": "shopify://shop_images/IMG_8079.jpg",
+        "heading": "<h1>JINGLE BELLS</h1>",
+        "subheading": "<p>No matter how you celebrate the season, you’re going to need some festive supplies for all your holiday gatherings! From merry napkins for cookie swaps to cheerful balloons and plates for parties, we’ve got everything you need to make it <em>the most wonderful time of the year!</em></p>",
+        "url": "shopify://collections/christmas",
+        "button_text": "Shop Christmas now"
       }
     },
     "collections_7dJhJC": {
