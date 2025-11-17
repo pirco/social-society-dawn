@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_7705.jpg"
+            "image": "shopify://shop_images/IMG_8025.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Host with Heart</p>",
-            "headline": "<p>Cozy & Inviting</p>",
-            "description": "<p>Set the table in style this Thanksgiving — shop plates, napkins, cups, and all the festive finishing touches that make guests feel at home.</p><h2><a href=\"/collections/thanksgiving\" target=\"_blank\" title=\"Thanksgiving\">Shop Thanksgiving Now</a></h2>"
+            "subtitle": "<p>You're Invited</p>",
+            "headline": "<p>To Sip & Shop</p>",
+            "description": "<p>What are you wearing to Thanksgiving dinner? Note sure?  We got you! This Thursday November 20, we are hosting our favorite boutique <a href=\"https://shopfigandwillow.com/\" target=\"_blank\" title=\"https://shopfigandwillow.com/\">Fig & Willow</a> for a Sip & Shop from 4-7pm.  </p><h3><a href=\"https://thesocialsociety.com/blogs/in-store-events/sip-shop-with-fig-willow\" target=\"_blank\" title=\"https://thesocialsociety.com/blogs/in-store-events/sip-shop-with-fig-willow\">RSVP NOW!</a></h3>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "green"
+        "color": "violet"
       }
     },
     "featured_collection": {
