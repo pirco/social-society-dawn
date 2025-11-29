@@ -177,6 +177,12 @@
     "collections_7dJhJC": {
       "type": "collections",
       "blocks": {
+        "collection_h6qtNj": {
+          "type": "collection",
+          "settings": {
+            "collection": "stocking-stuffers"
+          }
+        },
         "collection_nT9pcz": {
           "type": "collection",
           "settings": {
@@ -195,12 +201,6 @@
             "collection": "milestone-birthdays"
           }
         },
-        "collection_h6qtNj": {
-          "type": "collection",
-          "settings": {
-            "collection": "stocking-stuffers"
-          }
-        },
         "collection_XpmTee": {
           "type": "collection",
           "settings": {
@@ -209,10 +209,10 @@
         }
       },
       "block_order": [
+        "collection_h6qtNj",
         "collection_nT9pcz",
         "collection_XjgcqD",
         "collection_cHzMAm",
-        "collection_h6qtNj",
         "collection_XpmTee"
       ],
       "settings": {}
