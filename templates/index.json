@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_8039_d752b9a3-e81b-4fd5-8677-ddae9d241ec4.jpg"
+            "image": "shopify://shop_images/IMG_7760.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Deck the Halls</p>",
-            "headline": "<p>In Style</p>",
-            "description": "<p>Hosting this year? Let us help you create a table that impresses! Explore festive plates, napkins, garlands, and décor that make every meal feel special. Your holiday hosting just got a whole lot easier—and a whole lot prettier.</p><p><a href=\"https://thesocialsociety.com/collections/christmas\" target=\"_blank\" title=\"https://thesocialsociety.com/collections/christmas\">Shop the Holiday Collection</a></p>"
+            "subtitle": "<p>Happy Hanukkah!</p>",
+            "headline": "<p>CELEBR-8</p>",
+            "description": "<p>Celebrate eight nights of light, love, and tradition with beautiful Hanukkah party supplies, décor, and gifts—perfect for gatherings big and small.</p><p><a href=\"/collections/hanukkah\" target=\"_blank\" title=\"Hanukkah\">Shop the Hanukkah Collection</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "red"
+        "color": "blue"
       }
     },
     "featured_collection": {
