@@ -42,12 +42,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Let's Get Merry",
+        "title": "Love is in the Air",
         "heading_size": "h1",
         "description": "",
         "show_description": true,
         "description_style": "body",
-        "collection": "christmas",
+        "collection": "valentines-day",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -121,37 +121,37 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "happy-new-year-nye-scallop-paper-plates"
+            "product": "race-car-balloon"
           }
         },
         "product_MFARKj": {
           "type": "product",
           "settings": {
-            "product": "look-like-cocktails-frosted-cup"
+            "product": "gold-glitter-happy-birthday-banner"
           }
         },
         "product_3KKNGf": {
           "type": "product",
           "settings": {
-            "product": "hny_napkins"
+            "product": "happy_birthday_stars_large_napkins"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "black-white-stripe-bow-cups"
+            "product": "black-striped-tablecloth"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "19_inch_star_satin_luxe_gold"
+            "product": "birthday-vibes-frosted-cup"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "gold-tinsel-fringe-garland-6ft"
+            "product": "hot-wheels™-black-small-plates"
           }
         }
       },
@@ -167,11 +167,11 @@
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_8192.jpg",
-        "heading": "<h1>Countdown in Style</h1>",
-        "subheading": "<p>Let the countdown begin! Celebrate with festive tableware, confetti-ready décor, and everything that makes New Year’s Eve sparkle. Start your year with joy, style, and a picture-perfect party.</p>",
-        "url": "shopify://collections/new-years-eve",
-        "button_text": "Shop before the Ball Drops"
+        "image": "shopify://shop_images/DSC_0629.jpg",
+        "heading": "<h1>Let's Party!</h1>",
+        "subheading": "<p>Big birthdays, little birthdays, and everything in between. Shop party supplies designed to make celebrating easy, colorful, and full of fun—because every birthday deserves a little extra magic.</p>",
+        "url": "shopify://collections/birthday",
+        "button_text": "Show Birthday Party Supplies Now"
       }
     },
     "collections_7dJhJC": {
