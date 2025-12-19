@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_7760_ca742a81-dba5-41f9-8d8f-0c56102bd6e0.jpg"
+            "image": "shopify://shop_images/IMG_8226.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Happy Hanukkah!</p>",
-            "headline": "<p>CELEBR-8</p>",
-            "description": "<p>Celebrate eight nights of light, love, and tradition with beautiful Hanukkah party supplies, décor, and gifts—perfect for gatherings big and small.</p><p><a href=\"/collections/hanukkah\" target=\"_blank\" title=\"Hanukkah\">Shop the Hanukkah Collection</a></p>"
+            "subtitle": "<p>Ring in the New Year in Style</p>",
+            "headline": "<p>And Celebrate!</p><p></p>",
+            "description": "<p>From statement tableware to sparkling décor, we’ve curated the must-haves to toast the New Year beautifully. Whether you’re hosting friends or celebrating at home, your table deserves to shine.</p><p><a href=\"/collections/new-years-eve\" target=\"_blank\" title=\"New Years Eve\">Shop New Years Eve Essentials</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "blue"
+        "color": "dark"
       }
     },
     "featured_collection": {
