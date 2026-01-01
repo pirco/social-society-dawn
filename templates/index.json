@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_8226.jpg"
+            "image": "shopify://shop_images/IMG_0722.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Ring in the New Year in Style</p>",
-            "headline": "<p>And Celebrate!</p><p></p>",
-            "description": "<p>From statement tableware to sparkling décor, we’ve curated the must-haves to toast the New Year beautifully. Whether you’re hosting friends or celebrating at home, your table deserves to shine.</p><p><a href=\"/collections/new-years-eve\" target=\"_blank\" title=\"New Years Eve\">Shop New Years Eve Essentials</a></p>"
+            "subtitle": "<p>Limited Edition Trucker Hats</p>",
+            "headline": "<p><strong>Wear on Repeat</strong></p><p></p>",
+            "description": "<p>Celebrate National Hat Day, This January 15th in true Social Society style. Our custom-designed trucker hats are the perfect everyday accessory—effortlessly cool, comfy, and made to rep your favorite small business wherever you go. Designed in-house with limited quantities available, these are the hats you’ll reach for on repeat.</p><p><a href=\"https://thesocialsociety.com/search?q=Trucker+hat&options%5Bprefix%5D=last\" target=\"_blank\" title=\"https://thesocialsociety.com/search?q=Trucker+hat&options%5Bprefix%5D=last\">Celebrate National Hat Day in Style</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "dark"
+        "color": "pink"
       }
     },
     "featured_collection": {
