@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_0722.jpg"
+            "image": "shopify://shop_images/IMG_8648.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Limited Edition Trucker Hats</p>",
-            "headline": "<p><strong>Wear on Repeat</strong></p><p></p>",
-            "description": "<p>Celebrate National Hat Day, This January 15th in true Social Society style. Our custom-designed trucker hats are the perfect everyday accessory—effortlessly cool, comfy, and made to rep your favorite small business wherever you go. Designed in-house with limited quantities available, these are the hats you’ll reach for on repeat.</p><p><a href=\"https://thesocialsociety.com/search?q=Trucker+hat&options%5Bprefix%5D=last\" target=\"_blank\" title=\"https://thesocialsociety.com/search?q=Trucker+hat&options%5Bprefix%5D=last\">Celebrate National Hat Day in Style</a></p>"
+            "subtitle": "<p>Duuuuuval</p>",
+            "headline": "<p>IT'S GAME TIME!</p>",
+            "description": "<p>Whether you’re hosting a watch party or repping teal from home, we’ve got everything you need to celebrate the Jags in playoff style. From Jaguars balloons to football-themed plates, cups, napkins, and party picks, your game day setup just got a major upgrade.</p><p><a href=\"/collections/football\" target=\"_blank\" title=\"Football\">SHOP JAGUAR & FOOTBALL SUPPLIES</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "pink"
+        "color": "green"
       }
     },
     "featured_collection": {
@@ -54,7 +54,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-356e8cfa-ab1f-4b3d-9881-362ba91759a9",
+        "color_scheme": "scheme-5",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -258,8 +258,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-e343538e-d2ea-442b-b8a4-884c1abfee7d",
-        "color_scheme": "scheme-e343538e-d2ea-442b-b8a4-884c1abfee7d",
+        "section_color_scheme": "scheme-356e8cfa-ab1f-4b3d-9881-362ba91759a9",
+        "color_scheme": "scheme-356e8cfa-ab1f-4b3d-9881-362ba91759a9",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
