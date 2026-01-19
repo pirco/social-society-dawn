@@ -73,21 +73,21 @@
         "heading_eMGYA4": {
           "type": "heading",
           "settings": {
-            "heading": "just add your squad",
+            "heading": "Celebrate the Grad",
             "heading_size": "h1"
           }
         },
         "text_DDdyhh": {
           "type": "text",
           "settings": {
-            "text": "<p>Turn your next sleepover into an unforgettable experience with our custom-designed slumber party teepee setups! We handle it all – from design to delivery and setup – so all you have to do is bring the squad and let the memories begin.</p>",
+            "text": "<p>Big milestones deserve big celebrations. We create eye-catching balloon moments, stock party supplies for every graduation style, and carry gifts they’ll actually love. Let’s make their day unforgettable. </p>",
             "text_style": "body"
           }
         },
         "button_DtegBJ": {
           "type": "button",
           "settings": {
-            "button_label": "slumber parties",
+            "button_label": "GRADUATION",
             "button_link": "shopify://pages/slumber-parties",
             "button_style_secondary": false,
             "newsletter_link": false
@@ -100,15 +100,15 @@
         "button_DtegBJ"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_4650_36aefa1d-03a1-45c4-bf85-6e4a4744d518.jpg",
+        "image": "shopify://shop_images/IMG_2503.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "scheme-3",
+        "section_color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
+        "color_scheme": "scheme-fc47b201-e5ce-46eb-809b-164ec8c2d8d6",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
