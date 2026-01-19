@@ -180,19 +180,19 @@
         "collection_h6qtNj": {
           "type": "collection",
           "settings": {
-            "collection": "stocking-stuffers"
+            "collection": "lunar-new-year"
           }
         },
         "collection_nT9pcz": {
           "type": "collection",
           "settings": {
-            "collection": "hanukkah"
+            "collection": "football"
           }
         },
         "collection_XjgcqD": {
           "type": "collection",
           "settings": {
-            "collection": "gifts"
+            "collection": "valentines-day"
           }
         },
         "collection_cHzMAm": {
@@ -258,8 +258,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-356e8cfa-ab1f-4b3d-9881-362ba91759a9",
-        "color_scheme": "scheme-356e8cfa-ab1f-4b3d-9881-362ba91759a9",
+        "section_color_scheme": "scheme-ae5b6179-5aa6-465f-b9f4-b4ca822ef228",
+        "color_scheme": "scheme-ae5b6179-5aa6-465f-b9f4-b4ca822ef228",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
