@@ -15,15 +15,15 @@
         "image_YjEcKn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_8648.jpg"
+            "image": "shopify://shop_images/IMG_1991.jpg"
           }
         },
         "content_wBFytM": {
           "type": "content",
           "settings": {
-            "subtitle": "<p>Duuuuuval</p>",
-            "headline": "<p>IT'S GAME TIME!</p>",
-            "description": "<p>Whether you’re hosting a watch party or repping teal from home, we’ve got everything you need to celebrate the Jags in playoff style. From Jaguars balloons to football-themed plates, cups, napkins, and party picks, your game day setup just got a major upgrade.</p><p><a href=\"/collections/football\" target=\"_blank\" title=\"Football\">SHOP JAGUAR & FOOTBALL SUPPLIES</a></p>"
+            "subtitle": "<p>Dream a little Dream</p>",
+            "headline": "<p>ELEVATED SLEEPOVERS</p>",
+            "description": "<p>Turn an ordinary sleepover into an unforgettable experience with our styled slumber parties—complete with cozy setups, themed décor, and zero stress for parents.</p><p><a href=\"https://thesocialsociety.com/pages/slumber-parties\" target=\"_blank\" title=\"https://thesocialsociety.com/pages/slumber-parties\">BOOK YOUR DREAM PARTY TODAY</a></p>"
           }
         }
       },
@@ -36,7 +36,7 @@
         ".section-hero .section-hero--content .titles {margin-top: 6.9vh;}"
       ],
       "settings": {
-        "color": "green"
+        "color": "violet"
       }
     },
     "featured_collection": {
