@@ -88,7 +88,7 @@
           "type": "button",
           "settings": {
             "button_label": "GRADUATION",
-            "button_link": "shopify://pages/slumber-parties",
+            "button_link": "shopify://collections/graduation-1",
             "button_style_secondary": false,
             "newsletter_link": false
           }
