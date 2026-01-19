@@ -121,37 +121,37 @@
         "product_Kk8jeW": {
           "type": "product",
           "settings": {
-            "product": "race-car-balloon"
+            "product": "partee-time-cocktail-napkins-copy"
           }
         },
         "product_MFARKj": {
           "type": "product",
           "settings": {
-            "product": "gold-glitter-happy-birthday-banner"
+            "product": "ultimate-golf-journal"
           }
         },
         "product_3KKNGf": {
           "type": "product",
           "settings": {
-            "product": "happy_birthday_stars_large_napkins"
+            "product": "golf-crossed-clubs-notecard-set"
           }
         },
         "product_PX6LyV": {
           "type": "product",
           "settings": {
-            "product": "black-striped-tablecloth"
+            "product": "golf_cart_cups"
           }
         },
         "product_tPaRHa": {
           "type": "product",
           "settings": {
-            "product": "birthday-vibes-frosted-cup"
+            "product": "wheres_my_caddy_beverage_napkins"
           }
         },
         "product_GtTH7z": {
           "type": "product",
           "settings": {
-            "product": "hot-wheels™-black-small-plates"
+            "product": "le_golf_small_plates"
           }
         }
       },
@@ -167,11 +167,11 @@
         ".subheading {max-width: 500px; margin: 0.6em auto 3em; line-height: 1.5;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/DSC_0629.jpg",
-        "heading": "<h1>Let's Party!</h1>",
-        "subheading": "<p>Big birthdays, little birthdays, and everything in between. Shop party supplies designed to make celebrating easy, colorful, and full of fun—because every birthday deserves a little extra magic.</p>",
-        "url": "shopify://collections/birthday",
-        "button_text": "Show Birthday Party Supplies Now"
+        "image": "shopify://shop_images/IMG_8790_be91df00-6fb8-4b83-958f-fc55da24692c.jpg",
+        "heading": "<h1>Fore the Love of Golf</h1>",
+        "subheading": "<p>Tee-rific gifts and accessories for golf lovers—perfect for the course, the clubhouse, or the 17th Stadium Course hole.</p>",
+        "url": "shopify://collections/golf",
+        "button_text": "Shop Golf Now"
       }
     },
     "collections_7dJhJC": {
